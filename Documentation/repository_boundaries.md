@@ -6,7 +6,7 @@ This split assigns ownership by operation. A citation to another data source doe
 
 FSA acquisition, annual/Q4 selection, spreadsheet parsing, eight-character OPEID normalization, verified source-OPEID recovery, loan harmonization, policy registries, and OPEID-grain QA/reproduction stay in FSAVolumeReports_Panel. Some approved source-ID repairs cite contemporaneous IPEDS evidence; those audited repairs and their evidence ledger remain intact upstream.
 
-The active FSA orchestrator no longer invokes IPEDS linkage, packages stale `Panels/ipeds` artifacts, or requires an IPEDS directory to certify FSA transformations. Historical frozen mixed releases keep their original bytes and old tagged snapshots. They are not newly labeled as FSA-only releases.
+FSA source certification covers the OPEID-grain panel. UNITID linkage, `Panels/ipeds` and combined outputs belong to the downstream project, with separate validation. Historical frozen mixed releases keep their original bytes and old tagged snapshots. They are not newly labeled as FSA-only releases.
 
 ## Downstream integration
 
