@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: markjayson13/FSAVolumeReports_Panel
-          ref: f67f8614500e175e74fb992ca356f94c1a243120
+          ref: 017701f3454a045d3495a412ef1c4e08a9f60889
           path: upstream-fsa
       - uses: actions/setup-python@v5
         with:

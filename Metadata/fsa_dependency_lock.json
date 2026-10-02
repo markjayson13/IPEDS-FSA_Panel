@@ -12,5 +12,5 @@
     "sha256": "15b950b69e632b699e920c2e04231870857c4a8134ea044f16dc40d0be02a3f1",
     "contract": "Upstream OPEID repair decisions retained unchanged; downstream consumes independently reviewed UNITID-only decisions from the same evidence ledger."
   },
-  "git_commit": "f67f8614500e175e74fb992ca356f94c1a243120"
+  "git_commit": "017701f3454a045d3495a412ef1c4e08a9f60889"
 }

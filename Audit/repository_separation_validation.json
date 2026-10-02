@@ -11,8 +11,9 @@
     "external_bundle_manifests_unchanged": true,
     "full_dataset_rebuild_performed": false
   },
-  "upstream_fsa_commit": "f67f8614500e175e74fb992ca356f94c1a243120",
   "source_bundle_size_bytes": 16215934002,
   "data_storage": "External bundle; ignored local Data link; no datasets committed",
-  "repository_boundary": "FSA and IPEDS source panelizers remain in their upstream repositories"
+  "repository_boundary": "FSA and IPEDS source panelizers remain in their upstream repositories",
+  "prepared_fsa_only_commit": "f67f8614500e175e74fb992ca356f94c1a243120",
+  "reviewed_upstream_helper_commit": "017701f3454a045d3495a412ef1c4e08a9f60889"
 }
