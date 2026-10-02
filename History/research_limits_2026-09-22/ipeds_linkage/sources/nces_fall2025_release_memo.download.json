@@ -1,0 +1,11 @@
+{
+  "url": "https://nces.ed.gov/ipeds/survey-components/release-memo?type=fall&year=2026",
+  "resolved_url": "https://nces.ed.gov/ipeds/survey-components/release-memo?type=fall&year=2026",
+  "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_fall2025_release_memo.html",
+  "retrieved_utc": "2026-09-23T02:26:54.407771+00:00",
+  "bytes": 85727,
+  "sha256": "fa139b3d0c44c2a1fea78b811bea53c170859e278dc0d8295a75a3c985ce9692",
+  "http_status": 200,
+  "last_modified": null,
+  "etag": null
+}

@@ -1,0 +1,6 @@
+# Preserve the reviewed metadata and original evidence bytes on every platform.
+Analysis/Decisions/** -text -whitespace
+Documentation/evidence/** -text -whitespace
+History/** -text -whitespace
+Metadata/*.json -text
+*.csv -text

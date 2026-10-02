@@ -1,0 +1,66 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+opeid8 keys with multiple UNITID 641 maximum 3 units in duplicated key rows 1299
+ year  UNITID                                  INSTNM    OPEID   opeid8 opeid6  unitid_count
+ 2011  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2011  448336 Arkansas State University-System Office 109000.0 00109000 001090             2
+ 2012  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2012  448336 Arkansas State University-System Office 109000.0 00109000 001090             2
+ 2013  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2013  448336 Arkansas State University-System Office 109000.0 00109000 001090             2
+ 2014  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2014  448336 Arkansas State University-System Office 109000.0 00109000 001090             2
+ 2015  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2015  448336 Arkansas State University-System Office 109000.0 00109000 001090             2
+ 2016  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2016  448336 Arkansas State University-System Office 109000.0 00109000 001090             2
+ 2017  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2017  448336 Arkansas State University-System Office 109000.0 00109000 001090             2
+ 2018  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2018  448336 Arkansas State University-System Office 109000.0 00109000 001090             2
+ 2019  106458   Arkansas State University-Main Campus 109000.0 00109000 001090             2
+ 2019  448336        Arkansas State University System 109000.0 00109000 001090             2
+opeid6 keys with multiple UNITID 9624 maximum 88 units in duplicated key rows 35568
+ year  UNITID                                           INSTNM    OPEID   opeid8 opeid6  unitid_count
+ 2004  101240                  GADSDEN STATE COMMUNITY COLLEGE 101700.0 00101700 001017             2
+ 2004  101347     GADSDEN STATE COMMUNITY COLLEGE-AYERS CAMPUS 101706.0 00101706 001017             2
+ 2005  100919   Lawson State Community College-Bessemer Campus 105901.0 00105901 001059             2
+ 2005  101569 Lawson State Community College-Birmingham Campus 105900.0 00105900 001059             2
+ 2006  100919   Lawson State Community College-Bessemer Campus 105901.0 00105901 001059             2
+ 2006  101569 Lawson State Community College-Birmingham Campus 105900.0 00105900 001059             2
+ 2017  101161                Coastal Alabama Community College 106000.0 00106000 001060             3
+ 2017  101499                Jefferson Davis Community College 106010.0 00106010 001060             3
+ 2017  101949               Alabama Southern Community College 106006.0 00106006 001060             3
+ 2018  101161                Coastal Alabama Community College 106000.0 00106000 001060             3
+ 2018  101499                Jefferson Davis Community College 106010.0 00106010 001060             3
+ 2018  101949               Alabama Southern Community College 106006.0 00106006 001060             3
+ 2004  104151     ARIZONA STATE UNIVERSITY AT THE TEMPE CAMPUS 108100.0 00108100 001081             3
+ 2004  407009      ARIZONA STATE UNIVERSITY AT THE WEST CAMPUS 108101.0 00108101 001081             3
+ 2004  420574                    ARIZONA STATE UNIVERSITY EAST 108102.0 00108102 001081             3
+ 2005  104151     Arizona State University at the Tempe Campus 108100.0 00108100 001081             3
+ 2005  407009      Arizona State University at the West Campus 108101.0 00108101 001081             3
+ 2005  420574                    Arizona State University East 108102.0 00108102 001081             3
+all time distinct UNITID perOPEID8 multiples 283 max 3
+UNITID multiple OPEID8 across time 896 max 4
+current originalkeys 150323 unmatched 43813 uniquelymatched 105998 ambiguous 512 mergeoutputrows 150851
+ambiguoussample   opeid8 opeid6  year  award_year_end award_year   UNITID
+00109000 001090  2011            2012  2011-2012 106458.0
+00109000 001090  2011            2012  2011-2012 448336.0
+00109000 001090  2012            2013  2012-2013 106458.0
+00109000 001090  2012            2013  2012-2013 448336.0
+00109000 001090  2014            2015  2014-2015 106458.0
+00109000 001090  2014            2015  2014-2015 448336.0
+00109000 001090  2015            2016  2015-2016 106458.0
+00109000 001090  2015            2016  2015-2016 448336.0
+full8_probe originalkeys 120717 unmatched 10595 uniquelymatched 109573 ambiguous 549 mergeoutputrows 121283
+ambiguoussample   opeid8  year   UNITID
+02332300  2004 191153.0
+02332300  2004 375009.0
+02098800  2005 105516.0
+02098800  2005 446701.0
+00322800  2005 210492.0
+00322800  2005 445975.0
+02098800  2006 105516.0
+02098800  2006 446701.0

@@ -1,0 +1,69 @@
+{
+  "read_only_review": true,
+  "staged_root": "/Volumes/CIRAGO/FSA-IPEDS_DS/.building-c9d8829b72484c8aaec52449d9ea5ff7",
+  "method": "Independent pandas one-to-one left join on UNITID and collection-year plus offset; exact Arrow-backed source series comparisons including Pell values/statuses and parent-child flags; all derived flags checked. Builder merge function not used.",
+  "checks": [
+    {
+      "file": "fsa_ipeds_panel_2004_2023.parquet",
+      "rows": 141711,
+      "schema_columns": 4046,
+      "independently_compared_columns": 40,
+      "matched": 108841,
+      "ipeds_only": 32870,
+      "passed": true,
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "file": "fsa_ipeds_aid_aligned_2004_2023.parquet",
+      "rows": 141711,
+      "schema_columns": 4046,
+      "independently_compared_columns": 40,
+      "matched": 108513,
+      "ipeds_only": 33198,
+      "passed": true,
+      "years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    }
+  ]
+}

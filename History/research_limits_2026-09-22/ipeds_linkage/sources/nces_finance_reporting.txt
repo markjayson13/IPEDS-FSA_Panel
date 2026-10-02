@@ -1,0 +1,147 @@
+Updated Finance Reporting Solutions for Jointly Audited Institutions
+Skip to main content
+About
+IPEDS
+About IPEDS
+Your primary source for information on U.S. colleges, universities, and technical and vocational institutions.
+Overview
+Learn More
+This Week in IPEDS (TWII)
+Survey Components
+Data Release Schedule
+Contact Us
+Use
+The Data
+Use The Data
+Access IPEDS data submitted to NCES through our data tools or download the data to conduct your own research and analysis.
+Overview
+SEARCH EXISTING DATA
+Data Explorer
+Publications and Products
+Download IPEDS Data
+Custom Data Files
+Compare Institutions
+Complete Data Files
+Access Database
+CREATE CUSTOM DATA ANALYSES
+Data Trends
+Statistical Tables
+Summary Tables
+Lookup an Institution
+Data Feedback Report
+Data Tools Shortcuts
+Report
+Your Data
+Report Your Data
+Report your institution’s data and access resources that will help with successful submission.
+Overview
+DATA REPORTING
+Answer the Current Survey
+Revise the Prior Year's Survey
+Request to Be an IPEDS Institution
+REPORTING RESOURCES
+Reporting Guides
+Reporting Tools
+COLLECTION INFORMATION
+Collection Schedule and Survey
+Materials
+Updates to the Data Collection
+About the Data Collection
+Find
+Your College
+Find Your College
+Narrow down your college from over 6,000 colleges, and explore resources to plan, prepare, and graduate from college.
+Overview
+EXPLORE COLLEGES
+Search for College
+Compare Colleges
+Map Your College
+College Stats
+GET FINANCING
+Apply for Federal Student Aid
+Loan Counseling
+College Affordability and Transparency Center
+ACCESS CAREER TOOLS
+Career Options
+Collaborate
+With NCES
+Collaborate With NCES
+Collaborate with NCES to learn more about IPEDS activities, outreach, R&D, and federal grants and fellowships
+Overview
+GET RECENT NEWS AND UPDATES
+National Postsecondary Education
+Cooperative (NPEC)
+Technical Review Panel
+Archived Research & Dissertation Grants
+NCES Data Institute
+PARTICIPATE IN IPEDS
+Trainings & Outreach
+IPEDS Knowledge
+Exchange (Listserv)
+Home
+Report Your Data
+Updated Finance Reporting Solutions for Jointly Audited Institutions
+Help Desk:
+1 (877) 994-7337
+Back to top
+Updated Finance Reporting Solutions for Jointly Audited Institutions
+Several institutions have experienced difficulty reporting audited data for individual institutions on the IPEDS Finance survey due to the fact that multiple institutions are covered under a single audit. For example, a state university system may be audited as a whole, maintaining a single set of financial records for the complete system; or several beauty schools may be owned by one entity and audited together as one company. In some instances, duplicate data were submitted for each school within a system or corporate entity on the Finance survey, making national, state, or system totals generated from the data overstated. Because of these issues, IPEDS allows for institutions to report some or all of their finance data together, referred to as parent/child reporting.
+There are many jointly audited individual institutions that operate under separate Program Participation Agreements (PPA) with the Department of Education. These institutions are required to provide individual Finance survey data submissions. Reporting separate revenue, expense, and scholarship data have not traditionally been a problem for these types of institutions, but reporting assets, liabilities and equity (or net assets) can make completion of the Finance survey difficult. Since the 2004 data collection, institutions have been able to submit joint reporting of certain data items, even if they operate under different OPEID numbers. Institutions using this type of reporting are referred to as having a
+partial
+parent/child relationship.
+There are also many individual institutions that have jointly audited financial statements and operate under the same PPA. It is recommended that these institutions that share a PPA also report data using the partial parent/child reporting option. Although it is discouraged, these jointly audited institutions may report
+all
+of their finance data together using the
+full
+parent/child reporting option if they meet certain criteria.
+Details on both types of parent/child reporting and the differences between them are explained below.
+Partial parent/child reporting relationships, by institution type:
+Public institutions using GASB 34/35 standards
+Before the GASB 34/35 standards, the format of the Finance survey did not require the reporting of assets, liabilities (other than in total), or net assets. Generally, institutions within a system have separate revenue and expense budgets and track their scholarships and fellowships separately, which simplified the process of reporting financial data to IPEDS. When the Statement of Net Assets data items (Part A) were added, the institutions that were audited together, such as state systems or community college districts with multiple campuses, experienced difficulty reporting separately.
+For institutions that can report full finance data, we strongly encourage continued reporting in this manner. For those that cannot report separate data on assets and debt (Parts A, D, and L), the system office or one institution within a system, such as the main campus, should be selected to report the Statement of Net Assets (Part A), Summary of Changes in Net Position (Part D), and Debt and Assets (Part L) for all of the institutions, combined. This institution will be the parent institution and the remaining institutions will be partial child institutions. Each institution, including the partial child institutions, should report its own revenues (Part B), expenses (Part C), and scholarships and fellowships (Part E). Partial child institutions can report their own endowment assets data (Part H) if they indicate that they have endowment assets in the Screening Questions; if an institution reports their own endowment assets these should not be included in the parent institution’s reporting of endowment assets. When data are reported in this way, it should be noted in the context box of the General Information page for each institution in the group.
+Private, not-for-profit institutions and public institutions using FASB standards
+FASB institutions have been using the current format of the IPEDS Finance survey for several years. It has been noted however, that duplicate data have been reported for different institutions that may be related by a common system or other organizational mechanism. They share an audited Statement of Financial Position and cannot reasonably distribute the assets, liabilities and net assets to individual institutions.
+For institutions that can report full finance data, we strongly encourage continued reporting in this manner. For those institutions that cannot report full data, the Statement of Financial Position data (Part A) and Changes in Net Assets (Part B) should be reported by one institution, typically the system office or a main campus, for all of the institutions in the group combined. This will be the parent institution and the remaining institutions will be the partial child institutions. All institutions, including the partial child institutions, will report their own scholarships and fellowships (Part C), revenues (Part D), and expenses (Part E). Partial child institutions can report their own endowment assets data (Part H) if they indicate that they have endowment assets in the Screening Questions; if an institution reports their own endowment assets these should not be included in the parent institution’s reporting of endowment assets. When data are reported using a partial parent/child relationship, it should be noted in the context box of the General Information page for each institution in the group.
+Private, for-profit institutions
+The private for-profit institutions have been using the current format of the IPEDS Finance survey for several years. It has been noted however, that duplicate data have been reported for different institutions that may be related by a common system or corporate office. They share an audited Balance Sheet and cannot reasonably distribute the assets, liabilities and equity to individual institutions.
+For institutions that can report full finance data, we strongly encourage continued reporting in this manner. For those institutions that cannot report full data, the Balance Sheet data (Part A), Changes in Equity (Part B), and  Income Tax Expenses (Part F) should be reported by one institution, typically the system office or a main campus, for all of the institutions in the group combined. This will be the parent institution and the remaining institutions will be the partial child institutions. All institutions, including the partial child institutions, will report their own scholarships and fellowships (Part C), revenues (Part D), and expenses (Part E).
+Full parent/child reporting relationships:
+Aside from being able to report as partial parent/child institutions, jointly audited institutions that share a Program Participation Agreement (PPA) have also been allowed to report as
+full
+parent/child institutions for the finance survey. This situation applies only to institutions where the main campus or system office has the PPA and the branch campuses operate under the PPA of the main campus/office. When institutions set up a full parent/child relationship, the parent institution (typically the main campus) reports all of the finance data for all of the institutions combined and provides an allocation factor to indicate how the finances are distributed to each campus.
+The allocation factors are used to distribute reported data from the parent institution to each child institution to create derived variables for the IPEDS Data Feedback Reports (DFRs). The reason that full parent/child reporting is discouraged is because when the allocation factors are applied to distribute data for each revenue and expenditure reporting category, the resulting data tend to not accurately represent the finances of the individual institutions. It is preferred that if institutions do not have the separate data on revenues, expenditures, and scholarships and fellowships from their general purpose financial statements necessary to report as
+partial
+child institutions, that they use the expected allocation factors to create base estimates for each of the reporting categories and then adjust those estimates using more detailed data from the student financial aid office and human resources to report more accurate campus level data
+Differences in reporting by type of parent/child relationship:
+Please refer to the table below for the Finance survey requirements by reporting relationship type (exact wording and order may differ based on reporting standards and institution type):
+Finance survey requirements comparison by parent/child reporting relationship type
+Individual Institution
+(No parent/child relationship)
+Partial Child Institution
+Full Parent Institution
+(Full child institutions do not report any data)
+Screening/General Info (reporting standards, audit options, fiscal year dates, endowment indicator).
+Screening/General Info (reporting standards, audit options, fiscal year dates, endowment indicator).
+Screening/General Info (reporting standards, audit options, fiscal year dates, endowment indicator).
+Allocation factors for the parent and all child institutions.
+Revenues (and investment returns)
+Revenues (and investment returns)
+Revenues (and investment returns) for the parent and child institutions, combined.
+The allocation factors will be used to create derived variables for each parent and child institution including the distribution of core revenues by source for the DFRs.
+Expenses
+Expenses
+Expenses for the parent and child institutions, combined.
+The allocation factors will be used to create derived variables for each parent and child institution including the core expenses per FTE enrollment, by function for the DFRs.
+Scholarships & Fellowships (student grant aid)
+Scholarships & Fellowships (student grant aid)
+Scholarships & Fellowships (student grant aid) for the parent and child institutions,
+                        combined.
+Endowment (if applicable)
+Endowment (if applicable)
+Endowment (if applicable) for the parent and child institutions, combined.
+Financial Position/Assets/Equity (net assets, liabilities, changes in assets/equity, property, income tax expenses, etc.)
+Financial Position/Assets/Equity will be reported by the parent institution.
+Financial Position/Assets/Equity (net assets, liabilities, changes in assets/equity, property, income tax expenses, etc.) for the parent and child institutions, combined.
+Items shaded in gray are reported by degree-granting institutions only. Unless otherwise noted, data for the DFRs will be exactly as reported by the institution.
+For further guidance on parent/child reporting relationships please contact the IPEDS Help Desk at 1-877-225-2568.
+If your institution would like to set up a parent/child reporting relationship you must call the IPEDS Help Desk to determine which, if any, relationship reporting type is appropriate.

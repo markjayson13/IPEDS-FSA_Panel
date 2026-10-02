@@ -1,0 +1,40 @@
+{
+  "master_rows": 157160,
+  "master_columns": 665,
+  "fsa_reporting_ids_including_one_placeholder": 8743,
+  "annual_identity_eligible_fsa_rows": 141359,
+  "assigned_administrative_rows_excluded_from_institution_view": 146,
+  "unitid_year_rows": 141038,
+  "unique_unitids": 7797,
+  "unitid_year_rows_with_any_usable_family": 141020,
+  "unitid_year_rows_only_blocked_families": 18,
+  "unitid_year_rows_any_blocked_family": 171,
+  "strict_sensitivity_rows": 92566,
+  "descriptor_review_keys": 10277,
+  "acceptance_checks": 313,
+  "source_measure_cells_conserved": 4627373,
+  "unitid_conservation_checks": 3047,
+  "resolution_status_counts": {
+    "official_site_and_directory_agree": 135395,
+    "no_annual_site_match": 13898,
+    "unique_annual_directory_only": 5473,
+    "multiple_official_site_unitids": 1646,
+    "official_site_alias_annual_unitid_verified": 637,
+    "directory_crosswalk_identity_conflict": 62,
+    "multiple_nonadministrative_directory_unitids": 41,
+    "crosswalk_site_parse_incomplete": 6,
+    "fsa_ipeds_geography_identity_conflict": 1,
+    "noninstitutional_source_placeholder": 1
+  },
+  "identity_ineligible_by_geography": {
+    "foreign_explicit": 10490,
+    "us_states_dc": 5131,
+    "territories_and_freely_associated_states": 179,
+    "unknown": 1
+  },
+  "master_sha256": "975a82f20ee7bfff47dccf5a622d499b0ee20f432fa41f366a09154ec711670e",
+  "release_manifest_sha256": "547d26b6729897d0a4d67b330c1b20a2e4f45df3b14d358d3a74014d69602345",
+  "unitid_panel_sha256": "93d675fde748d6c480c7eb9050dccec49a88892154a60ed21e016539ba9983ba",
+  "bridge_sha256": "9e5657438017106d55c248d17d2268e74adaffbb1d68c1b33ed0b0f34d8cbfc6",
+  "all_code_snapshot_source_and_artifact_checks_passed": true
+}

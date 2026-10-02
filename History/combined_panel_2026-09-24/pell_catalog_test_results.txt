@@ -1,0 +1,13 @@
+test_absent_reported_total_never_uses_average_or_ftft_total (test_fsa_ipeds_pell_validation.PellValidationTests.test_absent_reported_total_never_uses_average_or_ftft_total) ... ok
+test_bridge_candidates_are_evidence_without_volume_reassignment (test_fsa_ipeds_pell_validation.PellValidationTests.test_bridge_candidates_are_evidence_without_volume_reassignment) ... ok
+test_common_samples_do_not_reward_missing_matches (test_fsa_ipeds_pell_validation.PellValidationTests.test_common_samples_do_not_reward_missing_matches) ... ok
+test_legacy_count_is_separate_and_does_not_change_primary_benchmark (test_fsa_ipeds_pell_validation.PellValidationTests.test_legacy_count_is_separate_and_does_not_change_primary_benchmark) ... ok
+test_other_measure_catalog_records_scope_without_new_totals (test_fsa_ipeds_pell_validation.PellValidationTests.test_other_measure_catalog_records_scope_without_new_totals) ... ok
+test_parent_child_and_imputation_are_sensitivity_screens (test_fsa_ipeds_pell_validation.PellValidationTests.test_parent_child_and_imputation_are_sensitivity_screens) ... ok
+test_wrong_population_dictionary_fails (test_fsa_ipeds_pell_validation.PellValidationTests.test_wrong_population_dictionary_fails) ... ok
+test_zero_denominators_suppression_and_negative_sentinels (test_fsa_ipeds_pell_validation.PellValidationTests.test_zero_denominators_suppression_and_negative_sentinels) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.901s
+
+OK

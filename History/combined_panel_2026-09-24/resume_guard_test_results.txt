@@ -1,0 +1,14 @@
+test_collection_alignment_preserves_unmatched_and_blocked (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_collection_alignment_preserves_unmatched_and_blocked) ... ok
+test_exact_comparison_rejects_type_null_and_small_numeric_changes (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_exact_comparison_rejects_type_null_and_small_numeric_changes) ... ok
+test_export_checkpoint_rejects_changed_data_or_source (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_export_checkpoint_rejects_changed_data_or_source) ... ok
+test_export_checkpoint_requires_all_artifact_records_and_passed_checks (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_export_checkpoint_requires_all_artifact_records_and_passed_checks) ... ok
+test_keys_reject_null_duplicate_fraction_nonpositive (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_keys_reject_null_duplicate_fraction_nonpositive) ... ok
+test_prior_alignment_uses_previous_award_year_only (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_prior_alignment_uses_previous_award_year_only) ... ok
+test_promotion_preserves_destination_finder_metadata (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_promotion_preserves_destination_finder_metadata) ... ok
+test_promotion_refuses_real_collisions_before_moving_any_file (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_promotion_refuses_real_collisions_before_moving_any_file) ... ok
+test_source_column_name_collisions_are_separate (test_fsa_ipeds_combined_panel.CombinedPanelTests.test_source_column_name_collisions_are_separate) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.044s
+
+OK

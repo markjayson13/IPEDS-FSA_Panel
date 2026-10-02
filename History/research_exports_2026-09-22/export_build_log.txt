@@ -1,0 +1,35 @@
+Reading frozen panel and building export metadata
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+Writing labeled Parquet
+Writing and checking all CSV cells
+Writing and checking labeled Stata 118
+Writing and checking Excel 1999-2000
+Writing and checking Excel 2000-2001
+Writing and checking Excel 2001-2002
+Writing and checking Excel 2002-2003
+Writing and checking Excel 2003-2004
+Writing and checking Excel 2004-2005
+Writing and checking Excel 2005-2006
+Writing and checking Excel 2006-2007
+Writing and checking Excel 2007-2008
+Writing and checking Excel 2008-2009
+Writing and checking Excel 2009-2010
+Writing and checking Excel 2010-2011
+Writing and checking Excel 2011-2012
+Writing and checking Excel 2012-2013
+Writing and checking Excel 2013-2014
+Writing and checking Excel 2014-2015
+Writing and checking Excel 2015-2016
+Writing and checking Excel 2016-2017
+Writing and checking Excel 2017-2018
+Writing and checking Excel 2018-2019
+Writing and checking Excel 2019-2020
+Writing and checking Excel 2020-2021
+Writing and checking Excel 2021-2022
+Writing and checking Excel 2022-2023
+Writing and checking Excel 2023-2024
+Writing and checking Excel 2024-2025
+Validated export package: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/2026-09-22-v2/Exports/unitid

@@ -1,0 +1,15 @@
+{
+  "completed_utc": "2026-09-24T21:29:34.054885+00:00",
+  "reason": "Finder .DS_Store existed in both staging and destination; data build had passed and manifest was complete before publication was refused.",
+  "all_prior_artifact_hashes_verified": true,
+  "verified_prior_artifact_count": 214,
+  "data_files_modified": false,
+  "destination_finder_metadata_preserved": true,
+  "reproduction_builder_before_sha256": "a5912664b8b43c383e0ef10c9f8298135283a9f9e98c9e4e6cb1e46ea469c7da",
+  "reproduction_builder_after_sha256": "58cd3bc539e31807be02e03fccf6a896d0eadfaee8fae7a4d491fbf5d1a26089",
+  "reproduction_builder_changes": [
+    "Preserve destination Finder metadata during final publication.",
+    "Include categorical export implementation in future resume fingerprints."
+  ],
+  "source_builder_guard_tests_passed": 9
+}

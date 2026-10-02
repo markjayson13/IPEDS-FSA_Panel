@@ -1,0 +1,15 @@
+{
+  "audit_stage": "interim pre-geography-guard bridge; name/state candidates not automatically rejected",
+  "bridge_path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/2026-09-22-v2/Panels/ipeds/fsa_ipeds_bridge.parquet",
+  "bridge_sha256": "7394e3cd93998c2dc0af26c56b359816fc326374f9aa99c8b7368dda73134b7f",
+  "source_panel_sha256": "975a82f20ee7bfff47dccf5a622d499b0ee20f432fa41f366a09154ec711670e",
+  "reviewed_csv_sha256": "342925fb7ab3903977f4a84a66c144afe325796650639d6be374e92fae0c4dfc",
+  "definition": "institution-eligible rows with differing nonblank US/DC/territory/freely-associated-state codes; ratios use school_compare_key and SequenceMatcher",
+  "state_difference_rows": 359,
+  "state_difference_opeids": 113,
+  "state_and_low_similarity_rows": 91,
+  "state_and_low_similarity_opeids": 39,
+  "low_similarity_threshold": 0.5,
+  "confirmed_additional_false_assignments_from_this_screen": 0,
+  "important_limit": "Rows grouped by same descriptor pair and key; years column is number of source observations, not necessarily a consecutive interval between first and last."
+}

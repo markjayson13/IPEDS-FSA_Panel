@@ -1,0 +1,21 @@
+{
+  "path": "/Volumes/CIRAGO/FSA-IPEDS_DS/.building-c9d8829b72484c8aaec52449d9ea5ff7/Panels/fsa_ipeds_panel_2004_2023.parquet",
+  "rows": 141711,
+  "string_columns": 1131,
+  "exceptions": [
+    {
+      "unitid": 457448,
+      "year": 2017,
+      "column": "ipeds__MISSION",
+      "length": 508,
+      "utf16_units": 508,
+      "original_json": "\"The Tenaj Salon Institute\\u2019s mission is to provide the highest level of education in the arts and sciences of Cosmetology through classroom and clinical application.\\n\\u001f\\nWe are committed to successful graduation with the knowledge and skills needed to obtain gainful employment in the beauty industry.\\n\\u001f\\nThe Tenaj Salon Institute maintains educational systems and programs that are updated constantly with the newest professional techniques to keep the student\\u2019s interests \\u001efirst and our education quality high.\"",
+      "control": true
+    }
+  ],
+  "max_codepoints": 1995,
+  "literal_ooxml_sequence_cells": 0,
+  "utf16_overlength_cells": 0,
+  "source_scan_complete": true,
+  "source_text_escaping_cells": 1
+}

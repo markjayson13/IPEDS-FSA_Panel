@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "fresh_runtime": "ResearchBuild/combined-replay-runtime",
+  "replay_output": "ResearchBuild/combined-replay-verification",
+  "bootstrap_command": "FSA_RUNTIME=<isolated-runtime> bash /Volumes/CIRAGO/FSA-IPEDS_DS/reproduce.sh <new-output> --formats parquet",
+  "tested_platform": "macOS arm64",
+  "formats_regenerated": [
+    "parquet"
+  ],
+  "runtime": {
+    "python": "3.13.0",
+    "pandas": "2.2.3",
+    "pyarrow": "21.0.0"
+  },
+  "checks_passed": 160,
+  "all_reference_values_nulls_types_exact": true,
+  "reference_institution_year_cells_checked": 1146725412,
+  "panels": [
+    {
+      "file": "fsa_ipeds_aid_aligned_2004_2023.parquet",
+      "reference_sha256": "9a9ea47113ee91328465a888692b8b512341e68a8be10bd66117b7f316751c15",
+      "replay_sha256": "9a9ea47113ee91328465a888692b8b512341e68a8be10bd66117b7f316751c15",
+      "byte_identical": true
+    },
+    {
+      "file": "fsa_ipeds_panel_2004_2023.parquet",
+      "reference_sha256": "e52b2376931e3e8a2baf43189cb05f105df7650f51e58c39523669a72bf08ebf",
+      "replay_sha256": "e52b2376931e3e8a2baf43189cb05f105df7650f51e58c39523669a72bf08ebf",
+      "byte_identical": true
+    }
+  ],
+  "original_source_checks": {
+    "ipeds_original_unchanged": true,
+    "fsa_original_unchanged": true
+  },
+  "format_validation_scope": "Both canonical panels rebuilt from frozen inputs in a fresh pinned environment; all 60 delivered annual CSV/Stata/Excel files were separately read-back validated in the source build."
+}

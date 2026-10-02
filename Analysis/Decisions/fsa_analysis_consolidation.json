@@ -1,0 +1,5126 @@
+{
+  "schema_version": "fsa-analysis-consolidation-audit-v1",
+  "source_panel": "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/ResearchBuild/2026-09-22-v2/Panels/ipeds/unitid_research/fsa_unitid_award_year_panel.parquet",
+  "source_sha256": "93d675fde748d6c480c7eb9050dccec49a88892154a60ed21e016539ba9983ba",
+  "rows": 141038,
+  "source_measures": 134,
+  "native_to_harmonized": [
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__subsidized_recipients",
+        "loan_direct_harmonized__subsidized_recipient_count_sum"
+      ],
+      "candidate_target": "loan_direct_harmonized__subsidized_recipient_count_sum",
+      "allow": false,
+      "decision": "retain_native_recipient_population_and_harmonized_count_sum",
+      "point_evidence": {
+        "left_nonmissing": 75424,
+        "right_nonmissing": 85523,
+        "overlap": 75424,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 10099,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__subsidized_recipients__status",
+        "target_status": "loan_direct_harmonized__subsidized_recipient_count_sum__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 52322
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 73724
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1700
+          },
+          {
+            "source_status": "source_symbol",
+            "target_status": "no_observed_components",
+            "rows": 1938
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 1254
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 10099
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__subsidized_recipients__lower_bound",
+          "target": "loan_direct_harmonized__subsidized_unique_recipient_lower_bound",
+          "left_nonmissing": 75424,
+          "right_nonmissing": 85523,
+          "overlap": 75424,
+          "conflicts": 0,
+          "left_only": 0,
+          "right_only": 10099,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2010,
+            2011
+          ],
+          "conflict_examples": []
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__subsidized_recipients__upper_bound",
+          "target": "loan_direct_harmonized__subsidized_unique_recipient_upper_bound",
+          "left_nonmissing": 75424,
+          "right_nonmissing": 85523,
+          "overlap": 75424,
+          "conflicts": 0,
+          "left_only": 0,
+          "right_only": 10099,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2010,
+            2011
+          ],
+          "conflict_examples": []
+        }
+      },
+      "conditions": [
+        "Native source-reported category recipients and sums of undergraduate/graduate recipient records have different population semantics; retain native recipients and status even though all observed numeric values also appear in harmonized series."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__subsidized_loans_originated_n",
+        "loan_direct_harmonized__subsidized_loans_originated_n"
+      ],
+      "candidate_target": "loan_direct_harmonized__subsidized_loans_originated_n",
+      "allow": true,
+      "decision": "canonical_harmonized_coverage_extension",
+      "point_evidence": {
+        "left_nonmissing": 75424,
+        "right_nonmissing": 85523,
+        "overlap": 75424,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 10099,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__subsidized_loans_originated_n__status",
+        "target_status": "loan_direct_harmonized__subsidized_loans_originated_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 52322
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 73724
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1700
+          },
+          {
+            "source_status": "source_symbol",
+            "target_status": "no_observed_components",
+            "rows": 1938
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 1254
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 10099
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__subsidized_loans_originated_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__subsidized_loans_originated_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__subsidized_loans_originated_amt",
+        "loan_direct_harmonized__subsidized_loans_originated_amt"
+      ],
+      "candidate_target": "loan_direct_harmonized__subsidized_loans_originated_amt",
+      "allow": true,
+      "decision": "canonical_harmonized_coverage_extension",
+      "point_evidence": {
+        "left_nonmissing": 75424,
+        "right_nonmissing": 85523,
+        "overlap": 75424,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 10099,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__subsidized_loans_originated_amt__status",
+        "target_status": "loan_direct_harmonized__subsidized_loans_originated_amt__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 52322
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 73724
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1700
+          },
+          {
+            "source_status": "source_symbol",
+            "target_status": "no_observed_components",
+            "rows": 1938
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 1254
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 10099
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__subsidized_loans_originated_amt__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__subsidized_loans_originated_amt__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__subsidized_disbursements_n",
+        "loan_direct_harmonized__subsidized_disbursements_n"
+      ],
+      "candidate_target": "loan_direct_harmonized__subsidized_disbursements_n",
+      "allow": true,
+      "decision": "canonical_harmonized_coverage_extension",
+      "point_evidence": {
+        "left_nonmissing": 75424,
+        "right_nonmissing": 85523,
+        "overlap": 75424,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 10099,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__subsidized_disbursements_n__status",
+        "target_status": "loan_direct_harmonized__subsidized_disbursements_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 52322
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 73724
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1700
+          },
+          {
+            "source_status": "source_symbol",
+            "target_status": "no_observed_components",
+            "rows": 1938
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 1254
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 10099
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__subsidized_disbursements_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__subsidized_disbursements_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__subsidized_disbursements",
+        "loan_direct_harmonized__subsidized_disbursements"
+      ],
+      "candidate_target": "loan_direct_harmonized__subsidized_disbursements",
+      "allow": true,
+      "decision": "canonical_harmonized_coverage_extension",
+      "point_evidence": {
+        "left_nonmissing": 75424,
+        "right_nonmissing": 85523,
+        "overlap": 75424,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 10099,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__subsidized_disbursements__status",
+        "target_status": "loan_direct_harmonized__subsidized_disbursements__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 52322
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 73724
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1700
+          },
+          {
+            "source_status": "source_symbol",
+            "target_status": "no_observed_components",
+            "rows": 1938
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 1254
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 10099
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__subsidized_disbursements__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__subsidized_disbursements__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__unsubsidized_recipients",
+        "loan_direct_harmonized__unsubsidized_recipient_count_sum"
+      ],
+      "candidate_target": "loan_direct_harmonized__unsubsidized_recipient_count_sum",
+      "allow": false,
+      "decision": "retain_native_recipient_population_and_harmonized_count_sum",
+      "point_evidence": {
+        "left_nonmissing": 16070,
+        "right_nonmissing": 63560,
+        "overlap": 16070,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 47490,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__unsubsidized_recipients__status",
+        "target_status": "loan_direct_harmonized__unsubsidized_recipient_count_sum__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 44417
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 15627
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 443
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 9159
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 47490
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 23792
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 109
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__unsubsidized_recipients__lower_bound",
+          "target": "loan_direct_harmonized__unsubsidized_unique_recipient_lower_bound",
+          "left_nonmissing": 16070,
+          "right_nonmissing": 87352,
+          "overlap": 16070,
+          "conflicts": 0,
+          "left_only": 0,
+          "right_only": 71282,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": []
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__unsubsidized_recipients__upper_bound",
+          "target": "loan_direct_harmonized__unsubsidized_unique_recipient_upper_bound",
+          "left_nonmissing": 16070,
+          "right_nonmissing": 63560,
+          "overlap": 16070,
+          "conflicts": 0,
+          "left_only": 0,
+          "right_only": 47490,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": []
+        }
+      },
+      "conditions": [
+        "Native source-reported category recipients and sums of undergraduate/graduate recipient records have different population semantics; retain native recipients and status even though all observed numeric values also appear in harmonized series."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__unsubsidized_loans_originated_n",
+        "loan_direct_harmonized__unsubsidized_loans_originated_n"
+      ],
+      "candidate_target": "loan_direct_harmonized__unsubsidized_loans_originated_n",
+      "allow": true,
+      "decision": "canonical_harmonized_coverage_extension",
+      "point_evidence": {
+        "left_nonmissing": 16070,
+        "right_nonmissing": 63560,
+        "overlap": 16070,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 47490,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__unsubsidized_loans_originated_n__status",
+        "target_status": "loan_direct_harmonized__unsubsidized_loans_originated_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 44417
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 15627
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 443
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 9159
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 47490
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 23792
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 109
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__unsubsidized_loans_originated_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__unsubsidized_loans_originated_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__unsubsidized_loans_originated_amt",
+        "loan_direct_harmonized__unsubsidized_loans_originated_amt"
+      ],
+      "candidate_target": "loan_direct_harmonized__unsubsidized_loans_originated_amt",
+      "allow": true,
+      "decision": "canonical_harmonized_coverage_extension",
+      "point_evidence": {
+        "left_nonmissing": 16070,
+        "right_nonmissing": 63560,
+        "overlap": 16070,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 47490,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__unsubsidized_loans_originated_amt__status",
+        "target_status": "loan_direct_harmonized__unsubsidized_loans_originated_amt__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 44417
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 15627
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 443
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 9159
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 47490
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 23792
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 109
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__unsubsidized_loans_originated_amt__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__unsubsidized_loans_originated_amt__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__unsubsidized_disbursements_n",
+        "loan_direct_harmonized__unsubsidized_disbursements_n"
+      ],
+      "candidate_target": "loan_direct_harmonized__unsubsidized_disbursements_n",
+      "allow": true,
+      "decision": "canonical_harmonized_coverage_extension",
+      "point_evidence": {
+        "left_nonmissing": 16070,
+        "right_nonmissing": 63560,
+        "overlap": 16070,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 47490,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__unsubsidized_disbursements_n__status",
+        "target_status": "loan_direct_harmonized__unsubsidized_disbursements_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 44417
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 15627
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 443
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 9159
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 47490
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 23792
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 109
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__unsubsidized_disbursements_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__unsubsidized_disbursements_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__unsubsidized_disbursements",
+        "loan_direct_harmonized__unsubsidized_disbursements"
+      ],
+      "candidate_target": "loan_direct_harmonized__unsubsidized_disbursements",
+      "allow": true,
+      "decision": "canonical_harmonized_coverage_extension",
+      "point_evidence": {
+        "left_nonmissing": 16070,
+        "right_nonmissing": 63560,
+        "overlap": 16070,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 47490,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__unsubsidized_disbursements__status",
+        "target_status": "loan_direct_harmonized__unsubsidized_disbursements__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 44417
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 15627
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 443
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 9159
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 47490
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 23792
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 109
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__unsubsidized_disbursements__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__unsubsidized_disbursements__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__plus_recipients",
+        "loan_direct_harmonized__plus_recipient_count_sum"
+      ],
+      "candidate_target": "loan_direct_harmonized__plus_recipient_count_sum",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 7623,
+        "right_nonmissing": 60717,
+        "overlap": 7623,
+        "conflicts": 26,
+        "left_only": 0,
+        "right_only": 53094,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 110644,
+            "award_year_start": 2005,
+            "loan_direct__plus_recipients": 1453,
+            "loan_direct_harmonized__plus_recipient_count_sum": 1454
+          },
+          {
+            "unitid": 122612,
+            "award_year_start": 2005,
+            "loan_direct__plus_recipients": 961,
+            "loan_direct_harmonized__plus_recipient_count_sum": 962
+          },
+          {
+            "unitid": 131520,
+            "award_year_start": 2005,
+            "loan_direct__plus_recipients": 1751,
+            "loan_direct_harmonized__plus_recipient_count_sum": 1764
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__plus_recipients__status",
+        "target_status": "loan_direct_harmonized__plus_recipient_count_sum__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 30668
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 844
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 4960
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 183
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1636
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 22908
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 53094
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 20525
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 6219
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__plus_recipients__lower_bound",
+          "target": "loan_direct_harmonized__plus_unique_recipient_lower_bound",
+          "left_nonmissing": 7623,
+          "right_nonmissing": 81242,
+          "overlap": 7623,
+          "conflicts": 3,
+          "left_only": 0,
+          "right_only": 73619,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [
+            {
+              "unitid": 167093,
+              "award_year_start": 2005,
+              "loan_direct__plus_recipients__lower_bound": 0.0,
+              "loan_direct_harmonized__plus_unique_recipient_lower_bound": 1
+            },
+            {
+              "unitid": 190682,
+              "award_year_start": 2005,
+              "loan_direct__plus_recipients__lower_bound": 0.0,
+              "loan_direct_harmonized__plus_unique_recipient_lower_bound": 24
+            },
+            {
+              "unitid": 228653,
+              "award_year_start": 2005,
+              "loan_direct__plus_recipients__lower_bound": 3.0,
+              "loan_direct_harmonized__plus_unique_recipient_lower_bound": 8
+            }
+          ]
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__plus_recipients__upper_bound",
+          "target": "loan_direct_harmonized__plus_unique_recipient_upper_bound",
+          "left_nonmissing": 7623,
+          "right_nonmissing": 60717,
+          "overlap": 7623,
+          "conflicts": 26,
+          "left_only": 0,
+          "right_only": 53094,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [
+            {
+              "unitid": 110644,
+              "award_year_start": 2005,
+              "loan_direct__plus_recipients__upper_bound": 1453.0,
+              "loan_direct_harmonized__plus_unique_recipient_upper_bound": 1454
+            },
+            {
+              "unitid": 122612,
+              "award_year_start": 2005,
+              "loan_direct__plus_recipients__upper_bound": 961.0,
+              "loan_direct_harmonized__plus_unique_recipient_upper_bound": 962
+            },
+            {
+              "unitid": 131520,
+              "award_year_start": 2005,
+              "loan_direct__plus_recipients__upper_bound": 1751.0,
+              "loan_direct_harmonized__plus_unique_recipient_upper_bound": 1764
+            }
+          ]
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__plus_loans_originated_n",
+        "loan_direct_harmonized__plus_loans_originated_n"
+      ],
+      "candidate_target": "loan_direct_harmonized__plus_loans_originated_n",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 7623,
+        "right_nonmissing": 60717,
+        "overlap": 7623,
+        "conflicts": 26,
+        "left_only": 0,
+        "right_only": 53094,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 110644,
+            "award_year_start": 2005,
+            "loan_direct__plus_loans_originated_n": 1545,
+            "loan_direct_harmonized__plus_loans_originated_n": 1546
+          },
+          {
+            "unitid": 122612,
+            "award_year_start": 2005,
+            "loan_direct__plus_loans_originated_n": 1001,
+            "loan_direct_harmonized__plus_loans_originated_n": 1002
+          },
+          {
+            "unitid": 131520,
+            "award_year_start": 2005,
+            "loan_direct__plus_loans_originated_n": 1764,
+            "loan_direct_harmonized__plus_loans_originated_n": 1777
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__plus_loans_originated_n__status",
+        "target_status": "loan_direct_harmonized__plus_loans_originated_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 30668
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 844
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 4960
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 183
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1636
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 22908
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 53094
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 20525
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 6219
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__plus_loans_originated_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__plus_loans_originated_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__plus_loans_originated_amt",
+        "loan_direct_harmonized__plus_loans_originated_amt"
+      ],
+      "candidate_target": "loan_direct_harmonized__plus_loans_originated_amt",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 7623,
+        "right_nonmissing": 60717,
+        "overlap": 7623,
+        "conflicts": 26,
+        "left_only": 0,
+        "right_only": 53094,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 110644,
+            "award_year_start": 2005,
+            "loan_direct__plus_loans_originated_amt": 15972506.0,
+            "loan_direct_harmonized__plus_loans_originated_amt": 15981996.0
+          },
+          {
+            "unitid": 122612,
+            "award_year_start": 2005,
+            "loan_direct__plus_loans_originated_amt": 17563363.0,
+            "loan_direct_harmonized__plus_loans_originated_amt": 17573363.0
+          },
+          {
+            "unitid": 131520,
+            "award_year_start": 2005,
+            "loan_direct__plus_loans_originated_amt": 29048321.0,
+            "loan_direct_harmonized__plus_loans_originated_amt": 29228183.0
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__plus_loans_originated_amt__status",
+        "target_status": "loan_direct_harmonized__plus_loans_originated_amt__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 30668
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 844
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 4960
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 183
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1636
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 22908
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 53094
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 20525
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 6219
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__plus_loans_originated_amt__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__plus_loans_originated_amt__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__plus_disbursements_n",
+        "loan_direct_harmonized__plus_disbursements_n"
+      ],
+      "candidate_target": "loan_direct_harmonized__plus_disbursements_n",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 7623,
+        "right_nonmissing": 60717,
+        "overlap": 7623,
+        "conflicts": 26,
+        "left_only": 0,
+        "right_only": 53094,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 110644,
+            "award_year_start": 2005,
+            "loan_direct__plus_disbursements_n": 4243,
+            "loan_direct_harmonized__plus_disbursements_n": 4246
+          },
+          {
+            "unitid": 122612,
+            "award_year_start": 2005,
+            "loan_direct__plus_disbursements_n": 1921,
+            "loan_direct_harmonized__plus_disbursements_n": 1922
+          },
+          {
+            "unitid": 131520,
+            "award_year_start": 2005,
+            "loan_direct__plus_disbursements_n": 3432,
+            "loan_direct_harmonized__plus_disbursements_n": 3450
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__plus_disbursements_n__status",
+        "target_status": "loan_direct_harmonized__plus_disbursements_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 30668
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 844
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 4960
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 183
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1636
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 22908
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 53094
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 20525
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 6219
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__plus_disbursements_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__plus_disbursements_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_direct__plus_disbursements",
+        "loan_direct_harmonized__plus_disbursements"
+      ],
+      "candidate_target": "loan_direct_harmonized__plus_disbursements",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 7623,
+        "right_nonmissing": 60717,
+        "overlap": 7623,
+        "conflicts": 26,
+        "left_only": 0,
+        "right_only": 53094,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 110644,
+            "award_year_start": 2005,
+            "loan_direct__plus_disbursements": 15170856.0,
+            "loan_direct_harmonized__plus_disbursements": 15180346.0
+          },
+          {
+            "unitid": 122612,
+            "award_year_start": 2005,
+            "loan_direct__plus_disbursements": 16876965.0,
+            "loan_direct_harmonized__plus_disbursements": 16886965.0
+          },
+          {
+            "unitid": 131520,
+            "award_year_start": 2005,
+            "loan_direct__plus_disbursements": 27728870.0,
+            "loan_direct_harmonized__plus_disbursements": 27908732.0
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_direct__plus_disbursements__status",
+        "target_status": "loan_direct_harmonized__plus_disbursements__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 30668
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 1
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 844
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 4960
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 183
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1636
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 22908
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 53094
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "incomplete_component_sum",
+            "rows": 20525
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "no_observed_components",
+            "rows": 6219
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_direct__plus_disbursements__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_direct__plus_disbursements__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__subsidized_recipients",
+        "loan_ffel_harmonized__subsidized_recipient_count_sum"
+      ],
+      "candidate_target": "loan_ffel_harmonized__subsidized_recipient_count_sum",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__subsidized_recipients__status",
+        "target_status": "loan_ffel_harmonized__subsidized_recipient_count_sum__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41691
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1218
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__subsidized_recipients__lower_bound",
+          "target": "loan_ffel_harmonized__subsidized_unique_recipient_lower_bound",
+          "left_nonmissing": 42909,
+          "right_nonmissing": 42909,
+          "overlap": 42909,
+          "conflicts": 0,
+          "left_only": 0,
+          "right_only": 0,
+          "exact_values_and_missingness_equal": true,
+          "right_only_award_year_starts": [],
+          "conflict_examples": []
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__subsidized_recipients__upper_bound",
+          "target": "loan_ffel_harmonized__subsidized_unique_recipient_upper_bound",
+          "left_nonmissing": 42909,
+          "right_nonmissing": 42909,
+          "overlap": 42909,
+          "conflicts": 0,
+          "left_only": 0,
+          "right_only": 0,
+          "exact_values_and_missingness_equal": true,
+          "right_only_award_year_starts": [],
+          "conflict_examples": []
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__subsidized_loans_originated_n",
+        "loan_ffel_harmonized__subsidized_loans_originated_n"
+      ],
+      "candidate_target": "loan_ffel_harmonized__subsidized_loans_originated_n",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__subsidized_loans_originated_n__status",
+        "target_status": "loan_ffel_harmonized__subsidized_loans_originated_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41691
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1218
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__subsidized_loans_originated_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__subsidized_loans_originated_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__subsidized_loans_originated_amt",
+        "loan_ffel_harmonized__subsidized_loans_originated_amt"
+      ],
+      "candidate_target": "loan_ffel_harmonized__subsidized_loans_originated_amt",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__subsidized_loans_originated_amt__status",
+        "target_status": "loan_ffel_harmonized__subsidized_loans_originated_amt__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41691
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1218
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__subsidized_loans_originated_amt__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__subsidized_loans_originated_amt__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__subsidized_disbursements_n",
+        "loan_ffel_harmonized__subsidized_disbursements_n"
+      ],
+      "candidate_target": "loan_ffel_harmonized__subsidized_disbursements_n",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__subsidized_disbursements_n__status",
+        "target_status": "loan_ffel_harmonized__subsidized_disbursements_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41691
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1218
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__subsidized_disbursements_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__subsidized_disbursements_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__subsidized_disbursements",
+        "loan_ffel_harmonized__subsidized_disbursements"
+      ],
+      "candidate_target": "loan_ffel_harmonized__subsidized_disbursements",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__subsidized_disbursements__status",
+        "target_status": "loan_ffel_harmonized__subsidized_disbursements__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41691
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1218
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__subsidized_disbursements__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__subsidized_disbursements__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__unsubsidized_recipients",
+        "loan_ffel_harmonized__unsubsidized_recipient_count_sum"
+      ],
+      "candidate_target": "loan_ffel_harmonized__unsubsidized_recipient_count_sum",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__unsubsidized_recipients__status",
+        "target_status": "loan_ffel_harmonized__unsubsidized_recipient_count_sum__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41072
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1837
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__unsubsidized_recipients__lower_bound",
+          "target": "loan_ffel_harmonized__unsubsidized_unique_recipient_lower_bound",
+          "left_nonmissing": 42909,
+          "right_nonmissing": 42909,
+          "overlap": 42909,
+          "conflicts": 0,
+          "left_only": 0,
+          "right_only": 0,
+          "exact_values_and_missingness_equal": true,
+          "right_only_award_year_starts": [],
+          "conflict_examples": []
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__unsubsidized_recipients__upper_bound",
+          "target": "loan_ffel_harmonized__unsubsidized_unique_recipient_upper_bound",
+          "left_nonmissing": 42909,
+          "right_nonmissing": 42909,
+          "overlap": 42909,
+          "conflicts": 0,
+          "left_only": 0,
+          "right_only": 0,
+          "exact_values_and_missingness_equal": true,
+          "right_only_award_year_starts": [],
+          "conflict_examples": []
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__unsubsidized_loans_originated_n",
+        "loan_ffel_harmonized__unsubsidized_loans_originated_n"
+      ],
+      "candidate_target": "loan_ffel_harmonized__unsubsidized_loans_originated_n",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__unsubsidized_loans_originated_n__status",
+        "target_status": "loan_ffel_harmonized__unsubsidized_loans_originated_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41072
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1837
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__unsubsidized_loans_originated_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__unsubsidized_loans_originated_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__unsubsidized_loans_originated_amt",
+        "loan_ffel_harmonized__unsubsidized_loans_originated_amt"
+      ],
+      "candidate_target": "loan_ffel_harmonized__unsubsidized_loans_originated_amt",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__unsubsidized_loans_originated_amt__status",
+        "target_status": "loan_ffel_harmonized__unsubsidized_loans_originated_amt__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41072
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1837
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__unsubsidized_loans_originated_amt__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__unsubsidized_loans_originated_amt__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__unsubsidized_disbursements_n",
+        "loan_ffel_harmonized__unsubsidized_disbursements_n"
+      ],
+      "candidate_target": "loan_ffel_harmonized__unsubsidized_disbursements_n",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__unsubsidized_disbursements_n__status",
+        "target_status": "loan_ffel_harmonized__unsubsidized_disbursements_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41072
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1837
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__unsubsidized_disbursements_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__unsubsidized_disbursements_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__unsubsidized_disbursements",
+        "loan_ffel_harmonized__unsubsidized_disbursements"
+      ],
+      "candidate_target": "loan_ffel_harmonized__unsubsidized_disbursements",
+      "allow": true,
+      "decision": "exact_point_duplicate_with_distinct_provenance",
+      "point_evidence": {
+        "left_nonmissing": 42909,
+        "right_nonmissing": 42909,
+        "overlap": 42909,
+        "conflicts": 0,
+        "left_only": 0,
+        "right_only": 0,
+        "exact_values_and_missingness_equal": true,
+        "right_only_award_year_starts": [],
+        "conflict_examples": []
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__unsubsidized_disbursements__status",
+        "target_status": "loan_ffel_harmonized__unsubsidized_disbursements__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 17565
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 41072
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 1837
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__unsubsidized_disbursements__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__unsubsidized_disbursements__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Preserve native source column, status, bounds, and raw token in full master/keyed detail.",
+        "Keep harmonized status and label recipient_count_sum as overlapping recipient records, never unique borrowers."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__plus_recipients",
+        "loan_ffel_harmonized__plus_recipient_count_sum"
+      ],
+      "candidate_target": "loan_ffel_harmonized__plus_recipient_count_sum",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 27061,
+        "right_nonmissing": 42909,
+        "overlap": 27061,
+        "conflicts": 318,
+        "left_only": 0,
+        "right_only": 15848,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 104151,
+            "award_year_start": 2005,
+            "loan_ffel__plus_recipients": 2704,
+            "loan_ffel_harmonized__plus_recipient_count_sum": 2706
+          },
+          {
+            "unitid": 106102,
+            "award_year_start": 2005,
+            "loan_ffel__plus_recipients": 511,
+            "loan_ffel_harmonized__plus_recipient_count_sum": 512
+          },
+          {
+            "unitid": 107044,
+            "award_year_start": 2005,
+            "loan_ffel__plus_recipients": 611,
+            "loan_ffel_harmonized__plus_recipient_count_sum": 618
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__plus_recipients__status",
+        "target_status": "loan_ffel_harmonized__plus_recipient_count_sum__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 11223
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 3292
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 18255
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 670
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 4844
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 6342
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 15848
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__plus_recipients__lower_bound",
+          "target": "loan_ffel_harmonized__plus_unique_recipient_lower_bound",
+          "left_nonmissing": 27061,
+          "right_nonmissing": 42909,
+          "overlap": 27061,
+          "conflicts": 101,
+          "left_only": 0,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [
+            {
+              "unitid": 108870,
+              "award_year_start": 2005,
+              "loan_ffel__plus_recipients__lower_bound": 0.0,
+              "loan_ffel_harmonized__plus_unique_recipient_lower_bound": 1
+            },
+            {
+              "unitid": 110307,
+              "award_year_start": 2005,
+              "loan_ffel__plus_recipients__lower_bound": 0.0,
+              "loan_ffel_harmonized__plus_unique_recipient_lower_bound": 5
+            },
+            {
+              "unitid": 110699,
+              "award_year_start": 2005,
+              "loan_ffel__plus_recipients__lower_bound": 0.0,
+              "loan_ffel_harmonized__plus_unique_recipient_lower_bound": 75
+            }
+          ]
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__plus_recipients__upper_bound",
+          "target": "loan_ffel_harmonized__plus_unique_recipient_upper_bound",
+          "left_nonmissing": 27061,
+          "right_nonmissing": 42909,
+          "overlap": 27061,
+          "conflicts": 318,
+          "left_only": 0,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [
+            {
+              "unitid": 104151,
+              "award_year_start": 2005,
+              "loan_ffel__plus_recipients__upper_bound": 2704.0,
+              "loan_ffel_harmonized__plus_unique_recipient_upper_bound": 2706
+            },
+            {
+              "unitid": 106102,
+              "award_year_start": 2005,
+              "loan_ffel__plus_recipients__upper_bound": 511.0,
+              "loan_ffel_harmonized__plus_unique_recipient_upper_bound": 512
+            },
+            {
+              "unitid": 107044,
+              "award_year_start": 2005,
+              "loan_ffel__plus_recipients__upper_bound": 611.0,
+              "loan_ffel_harmonized__plus_unique_recipient_upper_bound": 618
+            }
+          ]
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__plus_loans_originated_n",
+        "loan_ffel_harmonized__plus_loans_originated_n"
+      ],
+      "candidate_target": "loan_ffel_harmonized__plus_loans_originated_n",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 27061,
+        "right_nonmissing": 42909,
+        "overlap": 27061,
+        "conflicts": 318,
+        "left_only": 0,
+        "right_only": 15848,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 104151,
+            "award_year_start": 2005,
+            "loan_ffel__plus_loans_originated_n": 2884,
+            "loan_ffel_harmonized__plus_loans_originated_n": 2886
+          },
+          {
+            "unitid": 106102,
+            "award_year_start": 2005,
+            "loan_ffel__plus_loans_originated_n": 564,
+            "loan_ffel_harmonized__plus_loans_originated_n": 565
+          },
+          {
+            "unitid": 107044,
+            "award_year_start": 2005,
+            "loan_ffel__plus_loans_originated_n": 690,
+            "loan_ffel_harmonized__plus_loans_originated_n": 698
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__plus_loans_originated_n__status",
+        "target_status": "loan_ffel_harmonized__plus_loans_originated_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 11223
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 3292
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 18255
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 670
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 4844
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 6342
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 15848
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__plus_loans_originated_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__plus_loans_originated_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__plus_loans_originated_amt",
+        "loan_ffel_harmonized__plus_loans_originated_amt"
+      ],
+      "candidate_target": "loan_ffel_harmonized__plus_loans_originated_amt",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 27061,
+        "right_nonmissing": 42909,
+        "overlap": 27061,
+        "conflicts": 318,
+        "left_only": 0,
+        "right_only": 15848,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 104151,
+            "award_year_start": 2005,
+            "loan_ffel__plus_loans_originated_amt": 36854839.0,
+            "loan_ffel_harmonized__plus_loans_originated_amt": 36876666.0
+          },
+          {
+            "unitid": 106102,
+            "award_year_start": 2005,
+            "loan_ffel__plus_loans_originated_amt": 4445408.0,
+            "loan_ffel_harmonized__plus_loans_originated_amt": 4449921.0
+          },
+          {
+            "unitid": 107044,
+            "award_year_start": 2005,
+            "loan_ffel__plus_loans_originated_amt": 6365003.0,
+            "loan_ffel_harmonized__plus_loans_originated_amt": 6398753.0
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__plus_loans_originated_amt__status",
+        "target_status": "loan_ffel_harmonized__plus_loans_originated_amt__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 11223
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 3292
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 18255
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 670
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 4844
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 6342
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 15848
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__plus_loans_originated_amt__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__plus_loans_originated_amt__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__plus_disbursements_n",
+        "loan_ffel_harmonized__plus_disbursements_n"
+      ],
+      "candidate_target": "loan_ffel_harmonized__plus_disbursements_n",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 27061,
+        "right_nonmissing": 42909,
+        "overlap": 27061,
+        "conflicts": 318,
+        "left_only": 0,
+        "right_only": 15848,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 104151,
+            "award_year_start": 2005,
+            "loan_ffel__plus_disbursements_n": 5246,
+            "loan_ffel_harmonized__plus_disbursements_n": 5248
+          },
+          {
+            "unitid": 106102,
+            "award_year_start": 2005,
+            "loan_ffel__plus_disbursements_n": 891,
+            "loan_ffel_harmonized__plus_disbursements_n": 893
+          },
+          {
+            "unitid": 107044,
+            "award_year_start": 2005,
+            "loan_ffel__plus_disbursements_n": 1240,
+            "loan_ffel_harmonized__plus_disbursements_n": 1248
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__plus_disbursements_n__status",
+        "target_status": "loan_ffel_harmonized__plus_disbursements_n__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 11223
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 3292
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 18255
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 670
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 4844
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 6342
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 15848
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__plus_disbursements_n__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__plus_disbursements_n__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": false,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    },
+    {
+      "kind": "native_to_harmonized",
+      "source_columns": [
+        "loan_ffel__plus_disbursements",
+        "loan_ffel_harmonized__plus_disbursements"
+      ],
+      "candidate_target": "loan_ffel_harmonized__plus_disbursements",
+      "allow": false,
+      "decision": "keep_distinct_parent_component_and_total_plus",
+      "point_evidence": {
+        "left_nonmissing": 27061,
+        "right_nonmissing": 42909,
+        "overlap": 27061,
+        "conflicts": 318,
+        "left_only": 0,
+        "right_only": 15848,
+        "exact_values_and_missingness_equal": false,
+        "right_only_award_year_starts": [
+          2006,
+          2007,
+          2008,
+          2009
+        ],
+        "conflict_examples": [
+          {
+            "unitid": 104151,
+            "award_year_start": 2005,
+            "loan_ffel__plus_disbursements": 34353059.0,
+            "loan_ffel_harmonized__plus_disbursements": 34374886.0
+          },
+          {
+            "unitid": 106102,
+            "award_year_start": 2005,
+            "loan_ffel__plus_disbursements": 3618480.0,
+            "loan_ffel_harmonized__plus_disbursements": 3622993.0
+          },
+          {
+            "unitid": 107044,
+            "award_year_start": 2005,
+            "loan_ffel__plus_disbursements": 6151699.0,
+            "loan_ffel_harmonized__plus_disbursements": 6185449.0
+          }
+        ]
+      },
+      "status_evidence": {
+        "source_status": "loan_ffel__plus_disbursements__status",
+        "target_status": "loan_ffel_harmonized__plus_disbursements__status",
+        "raw_status_codes_equivalent": false,
+        "cross_tab": [
+          {
+            "source_status": "absent_source_record",
+            "target_status": "absent_source_record",
+            "rows": 11223
+          },
+          {
+            "source_status": "ambiguous_family_multiple_records",
+            "target_status": "ambiguous_family_multiple_records",
+            "rows": 14
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_component_sum",
+            "rows": 3292
+          },
+          {
+            "source_status": "observed",
+            "target_status": "complete_source_reported",
+            "rows": 18255
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_component_sum",
+            "rows": 670
+          },
+          {
+            "source_status": "observed_zero",
+            "target_status": "complete_source_reported",
+            "rows": 4844
+          },
+          {
+            "source_status": "report_not_available",
+            "target_status": "report_not_available",
+            "rows": 80550
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "absent_source_record",
+            "rows": 6342
+          },
+          {
+            "source_status": "unavailable_in_schema",
+            "target_status": "complete_component_sum",
+            "rows": 15848
+          }
+        ]
+      },
+      "bound_evidence": {
+        "lower_bound_variable": {
+          "source": "loan_ffel__plus_disbursements__lower_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        },
+        "upper_bound_variable": {
+          "source": "loan_ffel__plus_disbursements__upper_bound",
+          "target": null,
+          "native_bound_equals_native_point_on_all_rows": true,
+          "native_bound_nonmissing_without_point": 0,
+          "preservation_rule": "Retain original bound in keyed full master/detail; target has no like-for-like bound column."
+        }
+      },
+      "conditions": [
+        "Generic PLUS is a parent component through2005; harmonized PLUS includes Graduate PLUS from2005."
+      ]
+    }
+  ],
+  "parent_plus_aliases": [
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_direct__plus_recipients",
+        "loan_direct__parent_plus_recipients"
+      ],
+      "candidate_target": "loan_direct__parent_plus_recipients",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_direct__plus_recipients"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_direct__parent_plus_recipients"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_direct__plus_recipients",
+            "loan_direct__parent_plus_recipients"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_direct__plus_recipients__lower_bound",
+            "loan_direct__parent_plus_recipients__lower_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_direct__plus_recipients__upper_bound",
+            "loan_direct__parent_plus_recipients__upper_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 79415
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_direct__plus_loans_originated_n",
+        "loan_direct__parent_plus_loans_originated_n"
+      ],
+      "candidate_target": "loan_direct__parent_plus_loans_originated_n",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_direct__plus_loans_originated_n"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_direct__parent_plus_loans_originated_n"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_direct__plus_loans_originated_n",
+            "loan_direct__parent_plus_loans_originated_n"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_direct__plus_loans_originated_n__lower_bound",
+            "loan_direct__parent_plus_loans_originated_n__lower_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_direct__plus_loans_originated_n__upper_bound",
+            "loan_direct__parent_plus_loans_originated_n__upper_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 79415
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_direct__plus_loans_originated_amt",
+        "loan_direct__parent_plus_loans_originated_amt"
+      ],
+      "candidate_target": "loan_direct__parent_plus_loans_originated_amt",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_direct__plus_loans_originated_amt"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_direct__parent_plus_loans_originated_amt"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_direct__plus_loans_originated_amt",
+            "loan_direct__parent_plus_loans_originated_amt"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_direct__plus_loans_originated_amt__lower_bound",
+            "loan_direct__parent_plus_loans_originated_amt__lower_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_direct__plus_loans_originated_amt__upper_bound",
+            "loan_direct__parent_plus_loans_originated_amt__upper_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 79415
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_direct__plus_disbursements_n",
+        "loan_direct__parent_plus_disbursements_n"
+      ],
+      "candidate_target": "loan_direct__parent_plus_disbursements_n",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_direct__plus_disbursements_n"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_direct__parent_plus_disbursements_n"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_direct__plus_disbursements_n",
+            "loan_direct__parent_plus_disbursements_n"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_direct__plus_disbursements_n__lower_bound",
+            "loan_direct__parent_plus_disbursements_n__lower_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_direct__plus_disbursements_n__upper_bound",
+            "loan_direct__parent_plus_disbursements_n__upper_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 79415
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_direct__plus_disbursements",
+        "loan_direct__parent_plus_disbursements"
+      ],
+      "candidate_target": "loan_direct__parent_plus_disbursements",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_direct__plus_disbursements"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_direct__parent_plus_disbursements"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_direct__plus_disbursements",
+            "loan_direct__parent_plus_disbursements"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_direct__plus_disbursements__lower_bound",
+            "loan_direct__parent_plus_disbursements__lower_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_direct__plus_disbursements__upper_bound",
+            "loan_direct__parent_plus_disbursements__upper_bound"
+          ],
+          "left_nonmissing": 7623,
+          "right_nonmissing": 71792,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 7623,
+          "right_only": 71792,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 79415
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_ffel__plus_recipients",
+        "loan_ffel__parent_plus_recipients"
+      ],
+      "candidate_target": "loan_ffel__parent_plus_recipients",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_ffel__plus_recipients"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_ffel__parent_plus_recipients"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_ffel__plus_recipients",
+            "loan_ffel__parent_plus_recipients"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_ffel__plus_recipients__lower_bound",
+            "loan_ffel__parent_plus_recipients__lower_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_ffel__plus_recipients__upper_bound",
+            "loan_ffel__parent_plus_recipients__upper_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 42909
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_ffel__plus_loans_originated_n",
+        "loan_ffel__parent_plus_loans_originated_n"
+      ],
+      "candidate_target": "loan_ffel__parent_plus_loans_originated_n",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_ffel__plus_loans_originated_n"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_ffel__parent_plus_loans_originated_n"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_ffel__plus_loans_originated_n",
+            "loan_ffel__parent_plus_loans_originated_n"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_ffel__plus_loans_originated_n__lower_bound",
+            "loan_ffel__parent_plus_loans_originated_n__lower_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_ffel__plus_loans_originated_n__upper_bound",
+            "loan_ffel__parent_plus_loans_originated_n__upper_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 42909
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_ffel__plus_loans_originated_amt",
+        "loan_ffel__parent_plus_loans_originated_amt"
+      ],
+      "candidate_target": "loan_ffel__parent_plus_loans_originated_amt",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_ffel__plus_loans_originated_amt"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_ffel__parent_plus_loans_originated_amt"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_ffel__plus_loans_originated_amt",
+            "loan_ffel__parent_plus_loans_originated_amt"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_ffel__plus_loans_originated_amt__lower_bound",
+            "loan_ffel__parent_plus_loans_originated_amt__lower_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_ffel__plus_loans_originated_amt__upper_bound",
+            "loan_ffel__parent_plus_loans_originated_amt__upper_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 42909
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_ffel__plus_disbursements_n",
+        "loan_ffel__parent_plus_disbursements_n"
+      ],
+      "candidate_target": "loan_ffel__parent_plus_disbursements_n",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_ffel__plus_disbursements_n"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_ffel__parent_plus_disbursements_n"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_ffel__plus_disbursements_n",
+            "loan_ffel__parent_plus_disbursements_n"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_ffel__plus_disbursements_n__lower_bound",
+            "loan_ffel__parent_plus_disbursements_n__lower_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_ffel__plus_disbursements_n__upper_bound",
+            "loan_ffel__parent_plus_disbursements_n__upper_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 42909
+    },
+    {
+      "kind": "year_partitioned_source_alias",
+      "source_columns": [
+        "loan_ffel__plus_disbursements",
+        "loan_ffel__parent_plus_disbursements"
+      ],
+      "candidate_target": "loan_ffel__parent_plus_disbursements",
+      "allow": true,
+      "decision": "unify_parent_plus_across_header_change",
+      "year_rules": [
+        {
+          "award_year_start_min": 1999,
+          "award_year_start_max": 2005,
+          "source": "loan_ffel__plus_disbursements"
+        },
+        {
+          "award_year_start_min": 2006,
+          "award_year_start_max": 2024,
+          "source": "loan_ffel__parent_plus_disbursements"
+        }
+      ],
+      "companion_rules": {
+        "status": "Use the same year-selected source status; do not choose status by nonmissingness.",
+        "lower_bound": "Use same year selection.",
+        "upper_bound": "Use same year selection.",
+        "raw_token": "Use same year selection in detail; preserve original source metadata."
+      },
+      "evidence": [
+        {
+          "suffix": "",
+          "source_columns": [
+            "loan_ffel__plus_disbursements",
+            "loan_ffel__parent_plus_disbursements"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__lower_bound",
+          "source_columns": [
+            "loan_ffel__plus_disbursements__lower_bound",
+            "loan_ffel__parent_plus_disbursements__lower_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        },
+        {
+          "suffix": "__upper_bound",
+          "source_columns": [
+            "loan_ffel__plus_disbursements__upper_bound",
+            "loan_ffel__parent_plus_disbursements__upper_bound"
+          ],
+          "left_nonmissing": 27061,
+          "right_nonmissing": 15848,
+          "overlap": 0,
+          "conflicts": 0,
+          "left_only": 27061,
+          "right_only": 15848,
+          "exact_values_and_missingness_equal": false,
+          "right_only_award_year_starts": [
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "conflict_examples": [],
+          "generic_nonmissing_after2005": 0,
+          "parent_nonmissing_before2006": 0
+        }
+      ],
+      "semantic_evidence": [
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Documentation/loan_harmonization.md:13-22",
+        "/Users/markjaysonfarol13/Projects/Research/Higher Ed research/Data/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_loan_harmonization.py:72-78"
+      ],
+      "observed_canonical_rows": 42909
+    }
+  ],
+  "family_metadata": [
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__ipeds_year",
+        "campus__ipeds_year",
+        "loan_direct__ipeds_year",
+        "loan_ffel__ipeds_year"
+      ],
+      "candidate_target": "ipeds_year",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__ipeds_anchor",
+        "campus__ipeds_anchor",
+        "loan_direct__ipeds_anchor",
+        "loan_ffel__ipeds_anchor"
+      ],
+      "candidate_target": "ipeds_anchor",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__ipeds_finance_scope",
+        "campus__ipeds_finance_scope",
+        "loan_direct__ipeds_finance_scope",
+        "loan_ffel__ipeds_finance_scope"
+      ],
+      "candidate_target": "ipeds_finance_scope",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__ipeds_student_aid_scope",
+        "campus__ipeds_student_aid_scope",
+        "loan_direct__ipeds_student_aid_scope",
+        "loan_ffel__ipeds_student_aid_scope"
+      ],
+      "candidate_target": "ipeds_student_aid_scope",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__ipeds_fall_enrollment_scope",
+        "campus__ipeds_fall_enrollment_scope",
+        "loan_direct__ipeds_fall_enrollment_scope",
+        "loan_ffel__ipeds_fall_enrollment_scope"
+      ],
+      "candidate_target": "ipeds_fall_enrollment_scope",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__ipeds_completions_scope",
+        "campus__ipeds_completions_scope",
+        "loan_direct__ipeds_completions_scope",
+        "loan_ffel__ipeds_completions_scope"
+      ],
+      "candidate_target": "ipeds_completions_scope",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__ipeds_twelve_month_enrollment_scope",
+        "campus__ipeds_twelve_month_enrollment_scope",
+        "loan_direct__ipeds_twelve_month_enrollment_scope",
+        "loan_ffel__ipeds_twelve_month_enrollment_scope"
+      ],
+      "candidate_target": "ipeds_twelve_month_enrollment_scope",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__ipeds_component_scope_review_required",
+        "campus__ipeds_component_scope_review_required",
+        "loan_direct__ipeds_component_scope_review_required",
+        "loan_ffel__ipeds_component_scope_review_required"
+      ],
+      "candidate_target": "ipeds_component_scope_review_required",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__idx_sfa",
+        "campus__idx_sfa",
+        "loan_direct__idx_sfa",
+        "loan_ffel__idx_sfa"
+      ],
+      "candidate_target": "idx_sfa",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 135578,
+      "all_missing_rows": 5460,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__idx_f",
+        "campus__idx_f",
+        "loan_direct__idx_f",
+        "loan_ffel__idx_f"
+      ],
+      "candidate_target": "idx_f",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 135117,
+      "all_missing_rows": 5921,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__idx_ef",
+        "campus__idx_ef",
+        "loan_direct__idx_ef",
+        "loan_ffel__idx_ef"
+      ],
+      "candidate_target": "idx_ef",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 135578,
+      "all_missing_rows": 5460,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__idx_c",
+        "campus__idx_c",
+        "loan_direct__idx_c",
+        "loan_ffel__idx_c"
+      ],
+      "candidate_target": "idx_c",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 135578,
+      "all_missing_rows": 5460,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__idx_e12",
+        "campus__idx_e12",
+        "loan_direct__idx_e12",
+        "loan_ffel__idx_e12"
+      ],
+      "candidate_target": "idx_e12",
+      "allow": true,
+      "decision": "coalesce_same_institution_year_metadata",
+      "union_nonmissing_rows": 97173,
+      "all_missing_rows": 43865,
+      "conflict_rows": 0,
+      "conflict_examples": [],
+      "preconditions": [
+        "Fail if any non-null values conflict.",
+        "Family ipeds_year and ipeds_anchor must agree before merging scope.",
+        "Null remains null when every source is unknown.",
+        "No aid amounts or family record eligibility are changed.",
+        "For IDX references preserve -2 sentinel and unknown null; never allocate aid using parent reference."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__school",
+        "campus__school",
+        "loan_direct__school",
+        "loan_ffel__school"
+      ],
+      "candidate_target": "fsa_school",
+      "allow": false,
+      "decision": "retain_family_specific_values",
+      "union_nonmissing_rows": 141020,
+      "all_missing_rows": 18,
+      "conflict_rows": 82708,
+      "conflict_examples": [
+        {
+          "unitid": 100654,
+          "award_year_start": 2002,
+          "grant__school": "ALABAMA AGRICULTURAL & MECHANICAL UNIVERSITY",
+          "campus__school": "Alabama Agricultural & Mechanical University",
+          "loan_direct__school": null,
+          "loan_ffel__school": "ALABAMA AGRICULTURAL & MECHANICAL UNIVERSITY"
+        },
+        {
+          "unitid": 100654,
+          "award_year_start": 2003,
+          "grant__school": "ALABAMA AGRICULTURAL & MECHANICAL UNIVERSITY",
+          "campus__school": "Alabama Agricultural & Mechanical University",
+          "loan_direct__school": null,
+          "loan_ffel__school": "ALABAMA AGRICULTURAL & MECHANICAL UNIVERSITY"
+        },
+        {
+          "unitid": 100654,
+          "award_year_start": 2004,
+          "grant__school": "ALABAMA AGRICULTURAL & MECHANICAL UNIVERSITY",
+          "campus__school": "Alabama Agricultural & Mechanical University",
+          "loan_direct__school": null,
+          "loan_ffel__school": "ALABAMA AGRICULTURAL & MECHANICAL UNIVERSITY"
+        }
+      ],
+      "preconditions": [
+        "Do not coalesce by first non-null value; conflicting values represent source reporting identity differences."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__state",
+        "campus__state",
+        "loan_direct__state",
+        "loan_ffel__state"
+      ],
+      "candidate_target": "fsa_state",
+      "allow": false,
+      "decision": "retain_family_specific_values",
+      "union_nonmissing_rows": 141017,
+      "all_missing_rows": 21,
+      "conflict_rows": 148,
+      "conflict_examples": [
+        {
+          "unitid": 102845,
+          "award_year_start": 2013,
+          "grant__state": "WA",
+          "campus__state": "AK",
+          "loan_direct__state": "WA",
+          "loan_ffel__state": null
+        },
+        {
+          "unitid": 102845,
+          "award_year_start": 2020,
+          "grant__state": "AK",
+          "campus__state": "WA",
+          "loan_direct__state": "AK",
+          "loan_ffel__state": null
+        },
+        {
+          "unitid": 104531,
+          "award_year_start": 2000,
+          "grant__state": "IL",
+          "campus__state": null,
+          "loan_direct__state": null,
+          "loan_ffel__state": "AZ"
+        }
+      ],
+      "preconditions": [
+        "Do not coalesce by first non-null value; conflicting values represent source reporting identity differences."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__school_type",
+        "campus__school_type",
+        "loan_direct__school_type",
+        "loan_ffel__school_type"
+      ],
+      "candidate_target": "fsa_school_type",
+      "allow": false,
+      "decision": "retain_family_specific_values",
+      "union_nonmissing_rows": 141020,
+      "all_missing_rows": 18,
+      "conflict_rows": 33364,
+      "conflict_examples": [
+        {
+          "unitid": 100690,
+          "award_year_start": 2001,
+          "grant__school_type": "Private",
+          "campus__school_type": "Private/Non-Profit",
+          "loan_direct__school_type": null,
+          "loan_ffel__school_type": "Private"
+        },
+        {
+          "unitid": 100690,
+          "award_year_start": 2002,
+          "grant__school_type": "Private",
+          "campus__school_type": "Private/Non-Profit",
+          "loan_direct__school_type": null,
+          "loan_ffel__school_type": "Private"
+        },
+        {
+          "unitid": 100690,
+          "award_year_start": 2003,
+          "grant__school_type": "Private",
+          "campus__school_type": "Private/Non-Profit",
+          "loan_direct__school_type": null,
+          "loan_ffel__school_type": "Private"
+        }
+      ],
+      "preconditions": [
+        "Do not coalesce by first non-null value; conflicting values represent source reporting identity differences."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__zip_code",
+        "campus__zip_code",
+        "loan_direct__zip_code",
+        "loan_ffel__zip_code"
+      ],
+      "candidate_target": "fsa_zip_code",
+      "allow": false,
+      "decision": "retain_family_specific_values",
+      "union_nonmissing_rows": 137387,
+      "all_missing_rows": 3651,
+      "conflict_rows": 6635,
+      "conflict_examples": [
+        {
+          "unitid": 100654,
+          "award_year_start": 2001,
+          "grant__zip_code": null,
+          "campus__zip_code": "35762",
+          "loan_direct__zip_code": null,
+          "loan_ffel__zip_code": "35762-1357"
+        },
+        {
+          "unitid": 100663,
+          "award_year_start": 2001,
+          "grant__zip_code": null,
+          "campus__zip_code": "35294",
+          "loan_direct__zip_code": "35294-1150",
+          "loan_ffel__zip_code": null
+        },
+        {
+          "unitid": 100690,
+          "award_year_start": 2001,
+          "grant__zip_code": null,
+          "campus__zip_code": "36117",
+          "loan_direct__zip_code": null,
+          "loan_ffel__zip_code": "36117-3553"
+        }
+      ],
+      "preconditions": [
+        "Do not coalesce by first non-null value; conflicting values represent source reporting identity differences."
+      ]
+    },
+    {
+      "kind": "family_metadata_coalesce",
+      "source_columns": [
+        "grant__opeid8",
+        "campus__opeid8",
+        "loan_direct__opeid8",
+        "loan_ffel__opeid8"
+      ],
+      "candidate_target": "fsa_opeid8",
+      "allow": false,
+      "decision": "retain_family_specific_values",
+      "union_nonmissing_rows": 141004,
+      "all_missing_rows": 34,
+      "conflict_rows": 78,
+      "conflict_examples": [
+        {
+          "unitid": 101107,
+          "award_year_start": 2003,
+          "grant__opeid8": "00898802",
+          "campus__opeid8": "00569800",
+          "loan_direct__opeid8": null,
+          "loan_ffel__opeid8": null
+        },
+        {
+          "unitid": 101347,
+          "award_year_start": 2003,
+          "grant__opeid8": "00101706",
+          "campus__opeid8": "00570500",
+          "loan_direct__opeid8": null,
+          "loan_ffel__opeid8": null
+        },
+        {
+          "unitid": 104531,
+          "award_year_start": 2000,
+          "grant__opeid8": "01072702",
+          "campus__opeid8": null,
+          "loan_direct__opeid8": null,
+          "loan_ffel__opeid8": "00832200"
+        }
+      ],
+      "preconditions": [
+        "Do not coalesce by first non-null value; conflicting values represent source reporting identity differences."
+      ]
+    }
+  ],
+  "remaining_measure_columns": [
+    "grant__pell_recipients",
+    "grant__pell_disbursements",
+    "grant__acg_recipients",
+    "grant__acg_disbursements",
+    "grant__smart_recipients",
+    "grant__smart_disbursements",
+    "grant__teach_recipients",
+    "grant__teach_disbursements",
+    "grant__iasg_recipients",
+    "grant__iasg_disbursements",
+    "campus__fws_recipients",
+    "campus__fws_federal_award",
+    "campus__fws_disbursements",
+    "campus__perkins_recipients",
+    "campus__perkins_federal_award",
+    "campus__perkins_disbursements_amt",
+    "campus__fseog_recipients",
+    "campus__fseog_federal_award",
+    "campus__fseog_disbursements",
+    "loan_direct__subsidized_recipients",
+    "loan_direct__unsubsidized_recipients",
+    "loan_direct__grad_plus_recipients",
+    "loan_direct__grad_plus_loans_originated_n",
+    "loan_direct__grad_plus_loans_originated_amt",
+    "loan_direct__grad_plus_disbursements_n",
+    "loan_direct__grad_plus_disbursements",
+    "loan_direct__parent_plus_recipients",
+    "loan_direct__parent_plus_loans_originated_n",
+    "loan_direct__parent_plus_loans_originated_amt",
+    "loan_direct__parent_plus_disbursements_n",
+    "loan_direct__parent_plus_disbursements",
+    "loan_direct__subsidized_undergraduate_recipients",
+    "loan_direct__subsidized_undergraduate_loans_originated_n",
+    "loan_direct__subsidized_undergraduate_loans_originated_amt",
+    "loan_direct__subsidized_undergraduate_disbursements_n",
+    "loan_direct__subsidized_undergraduate_disbursements",
+    "loan_direct__subsidized_graduate_recipients",
+    "loan_direct__subsidized_graduate_loans_originated_n",
+    "loan_direct__subsidized_graduate_loans_originated_amt",
+    "loan_direct__subsidized_graduate_disbursements_n",
+    "loan_direct__subsidized_graduate_disbursements",
+    "loan_direct__unsubsidized_undergraduate_recipients",
+    "loan_direct__unsubsidized_undergraduate_loans_originated_n",
+    "loan_direct__unsubsidized_undergraduate_loans_originated_amt",
+    "loan_direct__unsubsidized_undergraduate_disbursements_n",
+    "loan_direct__unsubsidized_undergraduate_disbursements",
+    "loan_direct__unsubsidized_graduate_recipients",
+    "loan_direct__unsubsidized_graduate_loans_originated_n",
+    "loan_direct__unsubsidized_graduate_loans_originated_amt",
+    "loan_direct__unsubsidized_graduate_disbursements_n",
+    "loan_direct__unsubsidized_graduate_disbursements",
+    "loan_ffel__grad_plus_recipients",
+    "loan_ffel__grad_plus_loans_originated_n",
+    "loan_ffel__grad_plus_loans_originated_amt",
+    "loan_ffel__grad_plus_disbursements_n",
+    "loan_ffel__grad_plus_disbursements",
+    "loan_ffel__parent_plus_recipients",
+    "loan_ffel__parent_plus_loans_originated_n",
+    "loan_ffel__parent_plus_loans_originated_amt",
+    "loan_ffel__parent_plus_disbursements_n",
+    "loan_ffel__parent_plus_disbursements",
+    "loan_direct_harmonized__subsidized_recipient_count_sum",
+    "loan_direct_harmonized__subsidized_loans_originated_n",
+    "loan_direct_harmonized__subsidized_loans_originated_amt",
+    "loan_direct_harmonized__subsidized_disbursements_n",
+    "loan_direct_harmonized__subsidized_disbursements",
+    "loan_direct_harmonized__unsubsidized_recipient_count_sum",
+    "loan_direct_harmonized__unsubsidized_loans_originated_n",
+    "loan_direct_harmonized__unsubsidized_loans_originated_amt",
+    "loan_direct_harmonized__unsubsidized_disbursements_n",
+    "loan_direct_harmonized__unsubsidized_disbursements",
+    "loan_direct_harmonized__plus_recipient_count_sum",
+    "loan_direct_harmonized__plus_loans_originated_n",
+    "loan_direct_harmonized__plus_loans_originated_amt",
+    "loan_direct_harmonized__plus_disbursements_n",
+    "loan_direct_harmonized__plus_disbursements",
+    "loan_ffel_harmonized__subsidized_recipient_count_sum",
+    "loan_ffel_harmonized__subsidized_loans_originated_n",
+    "loan_ffel_harmonized__subsidized_loans_originated_amt",
+    "loan_ffel_harmonized__subsidized_disbursements_n",
+    "loan_ffel_harmonized__subsidized_disbursements",
+    "loan_ffel_harmonized__unsubsidized_recipient_count_sum",
+    "loan_ffel_harmonized__unsubsidized_loans_originated_n",
+    "loan_ffel_harmonized__unsubsidized_loans_originated_amt",
+    "loan_ffel_harmonized__unsubsidized_disbursements_n",
+    "loan_ffel_harmonized__unsubsidized_disbursements",
+    "loan_ffel_harmonized__plus_recipient_count_sum",
+    "loan_ffel_harmonized__plus_loans_originated_n",
+    "loan_ffel_harmonized__plus_loans_originated_amt",
+    "loan_ffel_harmonized__plus_disbursements_n",
+    "loan_ffel_harmonized__plus_disbursements",
+    "loan__subsidized_recipient_count_sum",
+    "loan__subsidized_loans_originated_n",
+    "loan__subsidized_loans_originated_amt",
+    "loan__subsidized_disbursements_n",
+    "loan__subsidized_disbursements",
+    "loan__unsubsidized_recipient_count_sum",
+    "loan__unsubsidized_loans_originated_n",
+    "loan__unsubsidized_loans_originated_amt",
+    "loan__unsubsidized_disbursements_n",
+    "loan__unsubsidized_disbursements",
+    "loan__plus_recipient_count_sum",
+    "loan__plus_loans_originated_n",
+    "loan__plus_loans_originated_amt",
+    "loan__plus_disbursements_n",
+    "loan__plus_disbursements"
+  ],
+  "measure_count_after_approved_actions": 106,
+  "dropped_main_measure_columns_retained_in_full_master": [
+    "loan_direct__subsidized_loans_originated_n",
+    "loan_direct__subsidized_loans_originated_amt",
+    "loan_direct__subsidized_disbursements_n",
+    "loan_direct__subsidized_disbursements",
+    "loan_direct__unsubsidized_loans_originated_n",
+    "loan_direct__unsubsidized_loans_originated_amt",
+    "loan_direct__unsubsidized_disbursements_n",
+    "loan_direct__unsubsidized_disbursements",
+    "loan_ffel__subsidized_recipients",
+    "loan_ffel__subsidized_loans_originated_n",
+    "loan_ffel__subsidized_loans_originated_amt",
+    "loan_ffel__subsidized_disbursements_n",
+    "loan_ffel__subsidized_disbursements",
+    "loan_ffel__unsubsidized_recipients",
+    "loan_ffel__unsubsidized_loans_originated_n",
+    "loan_ffel__unsubsidized_loans_originated_amt",
+    "loan_ffel__unsubsidized_disbursements_n",
+    "loan_ffel__unsubsidized_disbursements",
+    "loan_direct__plus_recipients",
+    "loan_direct__plus_loans_originated_n",
+    "loan_direct__plus_loans_originated_amt",
+    "loan_direct__plus_disbursements_n",
+    "loan_direct__plus_disbursements",
+    "loan_ffel__plus_recipients",
+    "loan_ffel__plus_loans_originated_n",
+    "loan_ffel__plus_loans_originated_amt",
+    "loan_ffel__plus_disbursements_n",
+    "loan_ffel__plus_disbursements"
+  ],
+  "other_keep_distinct": [
+    "Federal award/allocation vs disbursements: different constructs.",
+    "Loan originations count vs disbursement count: different events.",
+    "Loan dollars vs recipient counts: different units.",
+    "Undergraduate vs graduate; Parent PLUS vs Graduate PLUS: different populations.",
+    "DL vs FFEL vs combined: separate channels and historically incomplete combined totals.",
+    "Family-specific source report/record status and identity resolution: distinct family observations."
+  ],
+  "summary": {
+    "exact_point_duplicate_pairs": 10,
+    "harmonized_coverage_extension_pairs": 8,
+    "rejected_plus_total_aliases": 10,
+    "retained_native_recipient_population_pairs": 2,
+    "parent_header_aliases": 10,
+    "coalescible_metadata_groups": 13
+  }
+}

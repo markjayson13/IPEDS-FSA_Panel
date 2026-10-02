@@ -1,0 +1,55 @@
+Building annual source metadata
+Merging and exporting 2004
+Merging and exporting 2005
+Merging and exporting 2006
+Traceback (most recent call last):
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 468, in <module>
+    build(args)
+    ~~~~~^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 370, in build
+    export_checks, masks = export_year(merged, year, out, codebook, labels, formats)
+                           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 171, in export_year
+    write_csv(frame, path)
+    ~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_portable_exports.py", line 68, in write_csv
+    frame.to_csv(path, index=False, na_rep=NULL_TOKEN,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 compression={"method": "gzip", "mtime": 0} if str(path).endswith(".gz") else None)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pandas/io/formats/csvs.py", line 270, in save
+    self._save()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pandas/io/formats/csvs.py", line 275, in _save
+    self._save_body()
+    ~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pandas/io/formats/csvs.py", line 313, in _save_body
+    self._save_chunk(start_i, end_i)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pandas/io/formats/csvs.py", line 324, in _save_chunk
+    libwriters.write_csv_rows(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        data,
+        ^^^^^
+    ...<3 lines>...
+        self.writer,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "writers.pyx", line 76, in pandas._libs.writers.write_csv_rows
+KeyboardInterrupt

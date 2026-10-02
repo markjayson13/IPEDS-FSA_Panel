@@ -1,0 +1,76 @@
+{
+  "release_id": "2004-2023-canonical-ipeds-labels",
+  "source": "External completed FSA-IPEDS_DS bundle, referenced by Data symlink or IPEDS_FSA_BUNDLE",
+  "dataset_years": [
+    2004,
+    2023
+  ],
+  "master_key": [
+    "unitid",
+    "year"
+  ],
+  "master_rows": 141711,
+  "master_columns": 4046,
+  "analysis_datasets": [
+    {
+      "title": "fsa_analysis",
+      "primary_key": [
+        "unitid",
+        "award_year_start"
+      ],
+      "rows": 141038,
+      "columns": 278
+    },
+    {
+      "title": "fsa_ipeds_analysis",
+      "primary_key": [
+        "unitid",
+        "year"
+      ],
+      "rows": 141711,
+      "columns": 2888
+    },
+    {
+      "title": "fsa_ipeds_aid_analysis",
+      "primary_key": [
+        "unitid",
+        "year"
+      ],
+      "rows": 141711,
+      "columns": 2888
+    }
+  ],
+  "manifest_and_evidence_hashes": [
+    {
+      "path": "build_manifest.json",
+      "bytes": 108789,
+      "sha256": "0ed777aa139d89c019f1ea0b923ed9e68b427f1113aa8e988d2e09887d2e037c"
+    },
+    {
+      "path": "Analysis/manifest.json",
+      "bytes": 19835,
+      "sha256": "51d7fdbb601fcb61e51296948f213f39e03494a7aedbb03128aa1ab7cb86815f"
+    },
+    {
+      "path": "Checks/canonical_ipeds_handoff/publication_validation.json",
+      "bytes": 3873,
+      "sha256": "61e02c03dc065a4abf0fbaf2637270ce97fffa248137b09583dfc2b51a139da8"
+    },
+    {
+      "path": "Metadata/annual_sfa_timing.csv",
+      "bytes": 6010,
+      "sha256": "3e0bcf3cca3258595c2d6364405edc8ff8b63860f0327e74720c47f240338bbc"
+    },
+    {
+      "path": "Inputs/fsa/source_unitid_manifest.json",
+      "bytes": 3246,
+      "sha256": "7cfdce6b017166e96e3f2c572123e5551fe26532440a48fc6904420b54f01f9c"
+    }
+  ],
+  "repository_migration_changes_data": false,
+  "upstream_ownership": {
+    "FSA": "FSAVolumeReports_Panel",
+    "IPEDS": "IPEDSDB_Panel"
+  },
+  "contains_data_files": false
+}

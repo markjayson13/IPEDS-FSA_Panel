@@ -1,0 +1,47 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+{
+  "passed": true,
+  "views": {
+    "fsa_ipeds_panel_2004_2023.parquet": {
+      "rows": 141711,
+      "columns": 4046,
+      "institutions": 10421,
+      "matched": 108841,
+      "usable": 108835
+    },
+    "fsa_ipeds_aid_aligned_2004_2023.parquet": {
+      "rows": 141711,
+      "columns": 4046,
+      "institutions": 10421,
+      "matched": 108513,
+      "usable": 108506
+    }
+  },
+  "annual_export_files": {
+    "csv": 20,
+    "stata": 20,
+    "excel": 20
+  },
+  "validation_checks": 180,
+  "metadata_variables": 4046,
+  "value_label_records": 1110,
+  "excel_numeric_text_exceptions": 22,
+  "excel_original_text_exceptions": 1,
+  "csv_loader_2017": {
+    "format": "csv",
+    "rows": 7153,
+    "columns": 4046,
+    "cells_checked": 28941038,
+    "all_values_passed": true,
+    "native_string_empty_null_equivalent": false,
+    "excel_binary_rounding_cells_cents_preserved": 0,
+    "excel_similarity_rounding_cells": 0
+  },
+  "artifacts": 215,
+  "artifact_bytes": 7931889678,
+  "source_and_reproduction_scripts_match_workspace": true,
+  "native_stata_excel_execution_tested": false
+}

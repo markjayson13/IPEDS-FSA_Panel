@@ -1,0 +1,52 @@
+Building annual source metadata
+Merging 2004
+Merging 2005
+Merging 2006
+Merging 2007
+Merging 2008
+Merging 2009
+Merging 2010
+Merging 2011
+Merging 2012
+Merging 2013
+Merging 2014
+Merging 2015
+Merging 2016
+Merging 2017
+Merging 2018
+Merging 2019
+Merging 2020
+Merging 2021
+Merging 2022
+Merging 2023
+Verifying every canonical output cell against source inputs
+Exporting and checking annual CSV/Stata/Excel files with two workers
+Reused hash-verified export checkpoint 2004
+Reused hash-verified export checkpoint 2005
+Reused hash-verified export checkpoint 2006
+Reused hash-verified export checkpoint 2007
+Reused hash-verified export checkpoint 2008
+Reused hash-verified export checkpoint 2009
+Reused hash-verified export checkpoint 2010
+Reused hash-verified export checkpoint 2011
+Reused hash-verified export checkpoint 2012
+Reused hash-verified export checkpoint 2013
+Reused hash-verified export checkpoint 2014
+Reused hash-verified export checkpoint 2015
+Reused hash-verified export checkpoint 2016
+Reused hash-verified export checkpoint 2018
+Reused hash-verified export checkpoint 2019
+Reused hash-verified export checkpoint 2020
+Reused hash-verified export checkpoint 2021
+Completed and verified exports 2022
+Completed and verified exports 2017
+Completed and verified exports 2023
+Cross-checking Pell reporting periods and institution volumes
+Traceback (most recent call last):
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 621, in <module>
+    parser.add_argument('--output', type=Path, required=True)
+    ^^^^^^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 602, in build
+    raise ValueError('Frozen source changed during build: ' + item['relative_path'])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Output changed during build; refusing overwrite

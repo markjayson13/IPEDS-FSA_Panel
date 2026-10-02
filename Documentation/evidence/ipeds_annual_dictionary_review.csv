@@ -1,0 +1,835 @@
+year,kind,vintage_status,dictionary_filename,source_url,sha256,member,path,total_variables,reviewed_variables,opeid_present,opeflag_present,act_present,cyactive_present,sector_present,parent_child_fields_json,introduction
+1999,HD,selected_review_vintage,IC99_HD_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/IC99_HD_Dict.zip,ebd70999fb38f115994cc8c727595fd069c20e558cca6bc7a92ca5975ec2e9f3,ic99_hd.html,ResearchBuild/IPEDS/annual_documentation/IC99_HD_Dict.zip,53,10,True,True,True,True,True,"[""PRCH_IC"", ""IDX_IC""]",Data Dictionary
+2000,HD,selected_review_vintage,FA2000HD_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FA2000HD_Dict.zip,6fdc57a246bfeda3e17b23c837de6f19cbebdf9fc6818ac64ca71dd9a4ef93fc,fa2000hd.html,ResearchBuild/IPEDS/annual_documentation/FA2000HD_Dict.zip,103,20,True,True,True,True,True,"[""PRCH_C"", ""IDX_C"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]",Data Dictionary
+2001,HD,selected_review_vintage,FA2001HD_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FA2001HD_Dict.zip,8183db0d84566c0e64e1e381ebebaae44489d3c2508e0bfcdbdb294620f3e881,fa2001hd.html,ResearchBuild/IPEDS/annual_documentation/FA2001HD_Dict.zip,128,26,True,True,True,True,True,"[""PRCH_C"", ""IDX_C"", ""PRCH_SA"", ""IDX_SA"", ""PRCH_S"", ""IDX_S"", ""PRCH_EAP"", ""IDX_EAP"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]",Data Dictionary
+2002,HD,selected_review_vintage,HD2002_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2002_Dict.zip,b5be2b13a8f6cdf95747cf842b5341271cf6e766c237702f30e284a1f7be5e3b,hd2002.html,ResearchBuild/IPEDS/annual_documentation/HD2002_Dict.zip,132,27,True,True,True,True,True,"[""PRCH_C"", ""IDX_C"", ""PRCH_SA"", ""IDX_SA"", ""PRCH_S"", ""IDX_S"", ""PRCH_EAP"", ""IDX_EAP"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]",Data Dictionary
+2003,HD,selected_review_vintage,HD2003_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2003_Dict.zip,10fe9e99741093659ffed945afd479b89133d0836ea47f6f7235a2610f9fbf10,hd2003.html,ResearchBuild/IPEDS/annual_documentation/HD2003_Dict.zip,130,27,True,True,True,True,True,"[""PRCH_C"", ""IDX_C"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_SA"", ""IDX_SA"", ""PRCH_S"", ""IDX_S"", ""PRCH_EAP"", ""IDX_EAP"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]",Data Dictionary
+2004,FLAGS,selected_review_vintage,FLAGS2004_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2004_Dict.zip,7cd9004d57ac14203f915f513cf7403f0fc793312886df9a931679049509fa8d,flags2004.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2004_Dict.zip,98,21,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_SA"", ""IDX_SA"", ""PRCH_S"", ""IDX_S"", ""PRCH_EAP"", ""IDX_EAP"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]","File Documentation for the IPEDS  response status data for all survey components, 2004
+(Final/revised release)
+
+Filename | FLAGS2004
+  Provisional release: | March, 2006
+  Revised release: | April, 2020
+
+Overview | This file contains response status information for each survey component for every institution in the 2004 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting). Revised release identifies institutions that submitted revisions  for Completions 2003-04, Fall 2004 and 12-month 2003-04 enrollment,  Student Financial Aid 2003-04, Graduation Rates 2004,  Finance, Fiscal Year 2004 and Human Resources 2004. In 2004 Human resource data was collected as 3 separate surveys, Salaries, Fall Staff and Employees by Assigned Position 2004, so response and revision status reflect each survey . Also in 2004 Fall enrollment and 12-month enrollment were collected as one survey, so response and revision status are combined.
+
+Note | Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on provisional data. 
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2004,HD,selected_review_vintage,HD2004_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2004_Dict.zip,86d9df590dd1de0ac71d16c628f045e0a0fe7e637788b7019de35acc146ae464,hd2004.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2004_Dict.zip,45,13,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2004-05
+(Provisional/final release)
+
+Filename | HD2004
+ Provisional release: | March, 2006
+ Final release: | The variables in this data file were not part of the prior year revisions system so the provisional release is the final release
+
+Overview | This file contains directory information for every institution in the 2004-05 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions and the  financial aid office.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2004-05 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications.
+Note: | Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on provisional data.  These data were not available in the 2004-05 Prior year revision system, so the provisional version is the final version for 2004-05.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2005,FLAGS,selected_review_vintage,FLAGS2005_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2005_Dict.zip,74c257a3977b40e0e3e5288188ee78063443448274a9e2db566a15bf5d96ddba,flags2005.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2005_Dict.zip,72,13,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]","File Documentation for the IPEDS  response status data for all survey components, 2005
+(Final/revised release)
+
+Filename | FLAGS2005
+  Provisional release: |  May, 2007
+  Revised release: |  April, 2020
+
+Overview | This file contains response status information for each survey component for every institution in the 2005 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting). Revised release identifies institutions that submitted revisions  for Completions 2004-05, Fall 2005 and 2004-05 12-month enrollment, Human Resources, 2005,  Student Financial Aid 2004-05, Graduation Rates 2005,  and  Finance, Fiscal Year 2005.  In 2005, Fall enrollment and 12-month enrollment were collected as one survey, so response and revision status are combined.
+
+Note | Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on provisional data. 
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2005,HD,selected_review_vintage,HD2005_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2005_Dict.zip,09ed6d6ba59250a656453f212aeca776b57108b84aa8b153659bd62fb89008f4,hd2005.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2005_Dict.zip,54,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2005-06
+(Provisional/final release)
+
+Filename | HD2005
+ Provisional release: | May, 2007
+ Final release: | The variables in this data file were not part of the prior year revisions system so the provisional release is the final release
+
+Overview | This file contains directory information for every institution in the 2005-06 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions and the  financial aid office.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2006-07 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications.
+Note: | Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on provisional data.  These data were not available in the 2005-06 Prior year revision system, so the provisional version is the final version for 2005-06.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2006,FLAGS,selected_review_vintage,FLAGS2006_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2006_Dict.zip,6a1dab0e57b93aeb509ad187e24e1cb248997a02bd3d8e52d4bfbe5f5d57eee2,flags2006.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2006_Dict.zip,79,14,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]","File Documentation for the IPEDS  response status data for all survey components, 2006
+(Final/revised release)
+
+Filename | FLAGS2006
+  Provisional release: | June, 2008
+  Revised release: | May, 2018
+
+Overview | This file contains response status information for each survey component for every institution in the 2006 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting). Revised release identifies institutions that submitted revisions  for Completions, Fall and 12-month enrollment, Human Resources, 2006,  Student Financial Aid 2005-06, Graduation Rates 2006,  and  Finance, Fiscal Year 2006.  In 2006, Fall enrollment and 12-month enrollment were collected as one survey, so response and revision status are combined.
+
+Note | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2006,HD,selected_review_vintage,HD2006_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2006_Dict.zip,f481d2f29c0b057b86d8aee29a7bbce9cb00a091b978a33fc1455ec9b26f1938,hd2006.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2006_Dict.zip,55,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2006-07
+(Provisional/final release)
+
+Filename | HD2006
+ Provisional release: | June, 2008
+ Final release: | The variables in this data file were not part of the prior year revisions system so the provisional release is the final release
+
+Overview | This file contains directory information for every institution in the 2006-07 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions and the  financial aid office.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2006-07 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data.  These data were not available in the 2006-07 Prior year revision system, so the provisional version is the final version for 2006-07.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2007,FLAGS,selected_review_vintage,FLAGS2007_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2007_Dict.zip,c0b105b05cc3ff26ef7553e4be0ebd538ea54336f4fe11e04b2942d894bb20ac,flags2007.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2007_Dict.zip,79,16,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]","File Documentation for the IPEDS  response status data for all survey components, 2007
+(Final/revised release)
+
+Filename | FLAGS2007
+  Provisional release: | March, 2009
+  Revised release: | May, 2017
+
+Overview | This file contains response status information for each survey component for every institution in the 2007 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting). Revised release identifies institutions that submitted revisions  for Completions and 12-month enrollment 2006-07, Fall enrollment and Human Resources, 2007,  Student Financial Aid 2006-07, Graduation Rates 2007,  and  Finance, Fiscal Year 2007.
+
+Note | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2007,HD,selected_review_vintage,HD2007_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2007_Dict.zip,496f6fff5bedfaee8dd7c39b5efee7d4a85d20a460997f38017fc69c442a16ea,hd2007.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2007_Dict.zip,59,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2007-08
+(Provisional/final release)
+
+Filename | HD2007
+ Provisional release: | March, 2009
+ Final release: | The variables in this data file were not part of the prior year revisions system so the provisional release is the final release
+
+Overview | This file contains directory information for every institution in the 2007-08 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions and the  financial aid office.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2007-08 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data.  These data were not available in the 2007-08 Prior year revision system, so the provisional version is the final version for 2007-08.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2008,FLAGS,selected_review_vintage,FLAGS2008_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2008_Dict.zip,b2d46fa3e5a55aaadd69ab03da1958685319f01ff8d71ddf27fd82a82f45b064,flags2008.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2008_Dict.zip,91,16,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR""]","File Documentation for the IPEDS  response status data for all survey components, 2008
+(Final/revised release)
+
+Filename | FLAGS2008
+  Provisional release: | November 2009
+  Revised release: | April, 2016
+
+Overview | This file contains response status information for each survey component for every institution in the 2009 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).
+
+Note | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2008,HD,selected_review_vintage,HD2008_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2008_Dict.zip,a2e02ec8654e63f6b12476b2b39225b1a0d7e9616a01a8d57b83d2c856315a9b,hd2008.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2008_Dict.zip,59,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2008-09
+(Provisional release)
+
+Filename | HD2008
+ Provisional release: | September 2009
+
+Overview | This file contains directory information for every institution in the 2008-09 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions and the  financial aid office.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2008-09 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data.  These data were not available in the 2008-09 Prior year revision system, so the provisional version is the final version for 2008-09.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2009,FLAGS,selected_review_vintage,FLAGS2009_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2009_Dict.zip,be54a059aedeb71beadd695ceda5557ee574167cb71bbbc2338ed395f02602e9,flags2009.xls,ResearchBuild/IPEDS/annual_documentation/FLAGS2009_Dict.zip,96,19,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2""]","File Documentation for the IPEDS  response status data for all survey components, 2009 
+
+Filename | FLAGS2009
+
+Overview | This file contains response status information for each survey component for every institution in the 2009 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).
+
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2009,HD,selected_review_vintage,HD2009_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2009_Dict.zip,b2da7b5bb559f032a9c2a08e583ed2f6ab9ab2efbff84dacd86619a633891533,hd2009.html,ResearchBuild/IPEDS/annual_documentation/HD2009_Dict.zip,62,13,True,True,True,True,True,[],Data Dictionary
+2010,FLAGS,selected_review_vintage,FLAGS2010_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2010_Dict.zip,7da8a6bf33a24ea86744506dff5738ba62e73764159024bacbfa02cf33b1192d,flags2010.xls,ResearchBuild/IPEDS/annual_documentation/FLAGS2010_Dict.zip,87,19,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2""]","File Documentation for the IPEDS  response status data for all survey components, 2010 
+
+Filename | FLAGS2010
+   original release date: | October 17, 2011
+   second release: | April 17, 2012
+   third release: | January 9, 2013
+
+Overview | This file contains response status information for each survey component for every institution in the 2010 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).
+
+Note | The revised data file contains additional indicator variables identifying institutions who revised data on Institutional Characteristics, Completions, 12-month enrollment or Student Financial Aid. There were no changes made to the existing variables on the October release.
+
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2010,HD,selected_review_vintage,HD2010_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2010_Dict.zip,e5aae5fa45bb36b328fae3f4fdbd2b3ee43eca0b315688c9c910bd22f95dabbf,hd2010.xls,ResearchBuild/IPEDS/annual_documentation/HD2010_Dict.zip,66,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2010 
+
+Filename | HD2010
+
+Overview | This file contains directory information for every institution in the 2010 IPEDS universe.  Includes name, address, city, state and zipcode.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2010 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and carnegie classifications.
+
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2011,FLAGS,selected_review_vintage,FLAGS2011_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2011_Dict.zip,db58aacddfcc7ac4503b7b7ee53558b9bec261fec8b02d623a1b6eed69016f88,flags2011.xls,ResearchBuild/IPEDS/annual_documentation/FLAGS2011_Dict.zip,82,18,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2""]","File Documentation for the IPEDS  response status data for all survey components, 2011 
+
+Filename | FLAGS2011
+    Provisional release date: | December 2012
+    Revised release date (1): | June 2013
+    Revised release date (2): | December 2013
+
+Overview | This file contains response status information for each survey component for every institution in the 2011 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).
+
+Note | The revised data file contains additional indicator variables identifying institutions who revised data.  Revisions to Institutional Characteristics, Completions, 12-month enrollment and Student Financial Aid were released in June.  The second release included revisions to Human Resources, Fall enrollment, Finance and Graduation rates. There were no changes made to the existing variables on the October release.
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2011,HD,selected_review_vintage,HD2011_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2011_Dict.zip,44156b96da8644a071777c159c37e6f6efad6036ab0c1c103eae37153c296de4,hd2011.xls,ResearchBuild/IPEDS/annual_documentation/HD2011_Dict.zip,66,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2011 
+
+Filename | HD2011
+
+Overview | This file contains directory information for every institution in the 2011 IPEDS universe.  Includes name, address, city, state, zipcode and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2011 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and carnegie classifications.
+
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2012,FLAGS,selected_review_vintage,FLAGS2012_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2012_Dict.zip,dbe07bb0e1a51ba7fa2b3a2443bb48d2a9229f827d1404863fd2c17f9b0d8ae0,flags2012.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2012_Dict.zip,83,18,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2""]","File Documentation for the IPEDS  response status data for all survey components, 2012-13
+(Final/revised release 2)
+Filename | FLAGS2012
+  Provisonal release: | October 2013
+  Revised release (1) | August 2014
+  Revised release (2) | December 2014
+
+Overview | This file contains response status information for each survey component for every institution in the 2012-13 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).
+
+Notes | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+Data on revised releases do not change from the provisional release. Release 1 adds the revised status indicator variables to identify those institutions that revised Institutional Characeristics 2012-13, Completions 2011-12, 12-month Enrollment 2011-12 or Student Financial Aid and Net price 2011-12 components.  Release 2 adds the revised status indicator variables for Fall Enrollment 2013, Finance 2012-13, Graduation rates, 2012 and Human Resources, 2012-13.  In 2012-13, cost information collected on the Institutional Characteristic component was not open for revisions.
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2012,HD,selected_review_vintage,HD2012_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2012_Dict.zip,2201dfe4bb028a7e18ab964c44048c771bf66c3b6495e5dd435b1356db6df97b,hd2012.xls,ResearchBuild/IPEDS/annual_documentation/HD2012_Dict.zip,65,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2012-13
+(Provisional release)
+
+Filename | HD2012
+
+Overview | This file contains directory information for every institution in the 2012 IPEDS universe.  Includes name, address, city, state, zipcode and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2012 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variabe list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2013,FLAGS,selected_review_vintage,FLAGS2013_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2013_Dict.zip,288044930db633e820e240f5a1699633b14091b086c7a6640a9b37955756b8b4,flags2013.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2013_Dict.zip,84,19,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2""]","File Documentation for the IPEDS  response status data for all survey components, 2013-14
+(Final/revised release)
+Filename | FLAGS2013
+  Provisional release: | November 2014
+  Revised release (1): | August 2015
+  Final/revised release (2): | January 2016
+
+Overview | This file contains response status information for each survey component for every institution in the 2013-14 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  Revised release 1 identified institutions that submitted revisions for Institutional Characteristics (Admissions and test scores) 2013-14 and/or the Completions and 12-month enrollment 2012-13 components. The second and final revised release also identifies institutions that submitted revisions to any of the following survey components; 2012-13 Student Financial Aid, Graduation Rates, 2013, Fall Enrollment 2013,  Finance Fiscal Year 2013 and Human Resources 2013-14.  
+
+Note | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2013,HD,selected_review_vintage,HD2013_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2013_Dict.zip,313fafff0e439e0f13cde9066a9b9bf79903be7d1e610ee9b131e24629a0309f,hd2013.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2013_Dict.zip,68,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2013-14
+(Provisional release)
+
+Filename | HD2013
+
+
+Overview | This file contains directory information for every institution in the 2013 IPEDS universe.  Includes name, address, city, state, zipcode and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2013 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2014,FLAGS,selected_review_vintage,FLAGS2014_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2014_Dict.zip,75429491942d910221ebd67442592d7b2cc4a810479370803fa2240ab70125d9,flags2014.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2014_Dict.zip,96,21,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS  response status data for all survey components, 2014-15
+(Final/revised release)
+Filename | FLAGS2014
+  Provisional release: | December 2015
+  Revised release (1):
+ | August 2016
+  Revised release (2):
+ | January 2017
+
+Overview | This file contains response status information for each survey component for every institution in the 2014-15 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).   Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, Information on Veterans and service members and Undergraduate Disabilities)  2014-15 and/or the Completions and 12-month enrollment 2013-14 components. The second and final revised release  identifies institutions that submitted revisions to any of the following survey components; Admissions Fall 2014, Student Financial Aid 2013-14, Graduation Rates 2014, Fall Enrollment 2014,  Finance Fiscal Year 2014, Human Resources 2014-15, and Academic Libraries Fiscal Year 2014.
+
+Note | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2014,HD,selected_review_vintage,HD2014_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2014_Dict.zip,3daa3ae6aa8ca3d55a1acb757c6d262f85ed58569886ad0831b092c6d1416f32,hd2014.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2014_Dict.zip,69,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2014-15
+(Provisional release)
+
+Filename | HD2014
+
+
+Overview | This file contains directory information for every institution in the 2014 IPEDS universe.  Includes name, address, city, state, zipcode and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2014 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2015,FLAGS,selected_review_vintage,FLAGS2015_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2015_Dict.zip,bda9f1f3b3c471391ee841cfeeed159b74bc4b8dba48f31629d434e20b27467b,flags2015.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2015_Dict.zip,109,22,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS  response status data for all survey components, 2015-16
+(Final/revised release 3)
+Filename | FLAGS2015
+  Provisional release  | February 2017
+  Final/revised release (1) | November 2017
+  Final/revised release (2) | January 2018
+  Final/revised release (3) | August 2018
+
+Overview | This file contains response status information for all survey components for every institution in the 2015-16 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).   Fall survey components include Institutional Characteristics, 2015-16, Completions 2014-15 and 12-month Enrollment and Instructional Activity, 2014-15.  Winter survey components include Admissions, 2015-16, Student Financial Aid 2014-15, Graduation Rates 150 and Graduation Rates 200, August 31, 2015.  Outcome Measures survey component was collected in 2015-16, but has not yet been released.   Spring survey components include Fall Enrollment, 2015, Finance, Fiscal year 2015, Academic Libraries 2014-15, and Human Resources, 2015-16. Revised release 1 identified institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2015-16 and/or the Completions and 12-month enrollment 2014-15 components. Revised release 2 identifies institutions that submitted revisions for the Admissions 2015-16,  Student Financial 2014-15, Graduation Rates 150, August 31, 2015, Fall Enrollment, 2015, Finance, Fiscal year 2015, Academic Libraries 2014-15 and Human Resources, 2015-16.  Revised release 3 identifies institutions that submitted revisions for the final GR200 2015 and Outcome Measure 2015 components.
+
+Note | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2015,HD,selected_review_vintage,HD2015_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2015_Dict.zip,be4a34b449d3ecc3cc8b475bcc9fc3ee8c79f8b63f2a6f70c02401cec2c5cd9f,hd2015.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2015_Dict.zip,70,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2015-16
+(Provisional release)
+
+Filename | HD2015
+
+
+Overview | This file contains directory information for every institution in the 2015 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2015 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2016,FLAGS,selected_review_vintage,FLAGS2016_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2016_Dict.zip,e1a5c291dfacf00a0ed57c3dec3fc92036b17e64ad870ebbe38e0d2f49846bf1,flags2016.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2016_Dict.zip,104,23,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]",
+2016,HD,selected_review_vintage,HD2016_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2016_Dict.zip,5f862ed9c3955dd07967660fa7e0151b4c841e763c35e6f67580265b183af53b,hd2016.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2016_Dict.zip,72,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2016-17
+(Provisional release)
+
+Filename | HD2016
+
+
+Overview | This file contains directory information for every institution in the 2016 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2016 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2017,FLAGS,selected_review_vintage,FLAGS2017_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2017_Dict.zip,2a801f094019cf11c79d55a951e5db2e5486ad696ae732118c1df832fc883a05,flags2017.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2017_Dict.zip,104,23,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for all survey components, 2017-18
+(Revised release 2 )
+Filename | FLAGS2017
+  Provisional release: | January 2018
+  Revised release 1: | August 2019
+  Revised release 2: | October 2019
+
+Overview | This file contains response status information for all survey components for every institution in the 2017-18 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  Fall survey components  include Institutional Characteristic 2017-18, Completions 2016-17 and 12-month Enrollment and Instructional Activity, 2016-17.  
+
+Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2017-18 and/or the Completions and 12-month enrollment 2016-17 components.
+
+Revised release 2 identifies institutions that submitted revisions for Admissions 2017-18, Student Financial Aid 2016-17, Graduation Rates 150, Graduation Rates 200, August 31, 2017 and  Outcome Measures 2017, August 31, 2017, Fall Enrollment 2017, Finance Fiscal year 2017, Academic Libraries 2017, and/or Human Resources, 2017-18.
+
+Note | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2017,HD,selected_review_vintage,HD2017_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2017_Dict.zip,a08c0b600aa26a362016bb6cb85c30dcbb28f5a1f11ce29cb25e4d98bccf8a58,hd2017.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2017_Dict.zip,72,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2017-18
+(Provisional release)
+
+Filename | HD2017
+
+
+Overview | This file contains directory information for every institution in the 2017 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2017-18 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications.
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2018,FLAGS,selected_review_vintage,FLAGS2018_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2018_Dict.zip,c006ca7defae1f04b3e22b33b81dae7cbd62d663a960bfee75448f0af36bc0fd,flags2018.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2018_Dict.zip,104,23,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for all survey components, 2018-19
+(Revised release 3 )
+Filename | FLAGS2018
+  Provisional release: | November 2019
+  Revised release 1: | July 2020
+  Revised release 2: | September 2020
+  Revised release 3: | February 2021
+
+Overview | This file contains response status information fall survey components for every institution in the 2018-19 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  
+
+Provisional release includes information for all survey components: 
+  Institutional Characteristic 2018-19 
+  Completions 2017-18 
+  12-month Enrollment and Instructional Activity 2017-18. 
+  Admissions Fall 2018 
+  Graduation Rates 150, Graduation Rates 200 and Outcome Measures, August 31, 2018
+  Student Financial Aid 2017-18). 
+
+Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2018-19 and/or the Completions and 12-month enrollment 2017-18 components.
+
+Revised release 2 identifies institutions that submitted revisions for Admissions 2018-19, Student Financial Aid 2017-18, Graduation Rates 150, Graduation Rates 200, Outcome Measures, status date August 31, 2018.
+
+Revised release 3 identifies institutions that submitted revisions for Fall Enrollment, 2018,  Finance, Fiscal year 2018,  Human Resources, 2018-19, Academic Libraries, Fiscal year 2018
+
+
+
+Note | Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) Web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look Web tables based on provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2018,HD,selected_review_vintage,HD2018_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2018_Dict.zip,ebbe6873fbef78fd744adc935514af5d7cdfbf0d225bcc4ea1b5b982df53ac54,hd2018.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2018_Dict.zip,73,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2018-19
+(Provisional release 2)
+
+Filename | HD2018
+  Release 1 | October 2019
+  Release 2 | Novermber 2019
+
+Overview | This file contains directory information for every institution in the 2017 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2018-19 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications. 
+
+Release 2 includes the automatic comparison group and custom group identification variables for the 2019 IPEDS Data Feedback reports. 
+Note: | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) publications. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2019,FLAGS,selected_review_vintage,FLAGS2019_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2019_Dict.zip,33ecf5426fd1cb60e380cb3528c2d4ac4e03058b1406fb55345bf7b173e48864,flags2019.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2019_Dict.zip,107,25,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_ADM"", ""IDX_ADM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for the fall survey components, 2019-20
+(Revised release 3 )
+Filename | FLAGS2019
+  Provisional release 1 | July 2020
+  Provisional release 2 | September 2020
+  Provisional release 3 | February 2021
+  Revised release 1 | July 2021
+  Revised release 2 | October 2021
+  Revised release 3 | November 2021
+
+Overview | This file contains response status information for the fall survey components for every institution in the 2019-20 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  
+
+Provisional release 1 included information for the fall survey components:   Institutional Characteristic 2019-20,  Completions 2018-19 and  12-month Enrollment and Instructional Activity 2018-19
+
+Provisional release 2 added information from the winter survey components: Admissions Fall 2019, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2019 and Student Financial Aid 2018-19
+
+Provisional release 3 adds information from the spring survey components: Fall enrollment 2019-20, Human Resources 2019-20, Finance and Academic Libraries Fiscal Year 2019
+
+Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2019-20 and/or the Completions and 12-month enrollment 2018-19 components.
+
+Revised release 2 identifies institutions that submitted revisions for the winter survey components: Admissions Fall 2019, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2019 and Student Financial Aid 2018-19
+
+Revised release 3 identifies institutions that submitted revisions for the spring survey components:  Fall enrollment 2019-20, Human Resources 2019-20, Finance and Academic Libraries Fiscal Year 2019
+
+
+Note | Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) Web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match First Look Web tables based on provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2019,HD,selected_review_vintage,HD2019_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2019_Dict.zip,3200e733eed31ba315950c03cb68ff899d1418b5e182dcbca1a1b1d92893ccd7,hd2019.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2019_Dict.zip,73,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2019-20
+(Provisional  release 3)
+
+Filename | HD2019
+  Release 1 | July 2020
+  Release 2 | September 2020
+  Release 3 | February 2021
+
+Overview | This file contains directory information for every institution in the 2019 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2019-20 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications. 
+
+Release 2 includes the automatic comparison group and custom group identification variables for the 2020 IPEDS Data Feedback reports. 
+
+Release 3 includes updates to the hospital and institution size indicators based on data collected in the IPEDS spring 2020 collection.  Updates were made to the list of Historically Black Colleges and Universities, Tribal Colleges, and Land-Grant Universities.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2020,FLAGS,selected_review_vintage,FLAGS2020_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2020_Dict.zip,6845d2e2ce59a7c034e0b6ab5299bc4bdc073353fe25c2b4056ca4a4e1e16957,flags2020.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2020_Dict.zip,111,25,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_ADM"", ""IDX_ADM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for the fall, winter and spring survey components, 2020-21
+(Revised release 3 )
+
+Filename | FLAGS2020
+  Provisional release 1: | July 2021
+  Preliminary release 2: | August 2021
+  Provisional release 3: | October  2021
+  Provisional release 4: | November 2021
+  Revised release 1: | August 2022
+  Revised release 2: | October 2022
+  Revised release 3: | November 2022
+
+Overview | This file contains response status information for every institution in the 2020-21 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  
+
+Provisional release 1 included information from the provisional release for the fall survey components:   Institutional Characteristics 2020-21, Completions and 12-month enrollment 2019-20.
+Preliminary release 2 updated release 1 with the preliminary release of  the spring survey components: Fall enrollment 2020-21, Human Resources 2020-21, Finance and Academic Libraries Fiscal Year 2020. 
+Provisional release 3 updated release 2 with the provisional release of the winter survey components: Admissions Fall 2020, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2020 and Student Financial Aid 2019-20. 
+Provisional release 4 updated release 2  response status information from the preliminary release to the provisional release of  the spring survey components: Fall enrollment 2020-21, Human Resources 2020-21, Finance and Academic Libraries Fiscal Year 2020. 
+
+Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2020-21 and/or the Completions and 12-month enrollment 2019-20 components.
+Revised release 2 identifies institutions that submitted revisions for the winter survey components: Admissions Fall 2020, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2020 and Student Financial Aid 2019-20
+Revised release 3 identifies institutions that submitted revisions for the spring survey components: Fall enrollment 2020-21, Human Resources 2020-21, Finance and Academic Libraries Fiscal Year 2020.
+
+Note | Preliminary release data have been edited but are subject to further NCES quality control procedures. Imputed data for nonresponding institutions are not included. These data are used for First Look (Preliminary Data) Web Tables. Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) Web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match First Look Web tables based on provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2020,HD,selected_review_vintage,HD2020_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2020_Dict.zip,8e043194fe0e3f8874217b92c20e359572796dad67caaed857ad1ef3d2c88906,hd2020.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2020_Dict.zip,73,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2020-21
+(Provisional  release 3)
+
+Filename | HD2020
+   Release 1: | July 2021
+   Release 2: | October 2021
+   Release 3: | November 2021
+Overview | This file contains directory information for every institution in the 2020-21 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2020-21 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications. 
+
+Release 2 includes the automatic comparison group and custom group identification variables for the 2021 IPEDS Data Feedback reports; updates to the hospital and institution size indicators based on data collected in the IPEDS spring 2021 collection; updates to directory information, such as institution name and URL links. (These changes were very minimal after the first release).
+
+Release 3 includes corrections to the institution name for 4 institutions and an update to the variable description for the Medical variable.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2021,FLAGS,selected_review_vintage,FLAGS2021_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2021_Dict.zip,dbc89b5bbb517447cae5d2f869262b0d1daae3c9e4e4f815471c879c2e1dbc9d,flags2021.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2021_Dict.zip,111,25,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_ADM"", ""IDX_ADM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for all survey components, 2021-22
+(Revised release 3 )
+
+Filename | FLAGS2021
+  Provisional release 1: | August 2022
+  Provisional release 2: | October 2022
+  Provisional release 3: | December 2022
+  Revised release 1: | August 2023
+  Revised release 2: | November 2023
+  Revised release 3: | December 2023
+
+Overview | This file contains response status information for every institution in the 2021-22 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  
+
+Provisional release 1 includes information from the provisional release for the fall survey components:   Institutional Characteristics 2021-22, Completions and 12-month enrollment 2020-21.
+Provisional release 2 updates release 1 with the provisional release of the winter survey components: Admissions Fall 2021, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2021 and Student Financial Aid 2020-21.
+Provisional release 3 updates release 2  with the provisional release of  the spring survey components: Fall enrollment 2021-22, Human Resources 2021-22, Finance and Academic Libraries Fiscal year 2021. 
+Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2021-22 and/or the Completions and 12-month enrollment 2020-21 components.
+Revised release 2 identifies institutions that submitted revisions for Admissions Fall 2021, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2021 and Student Financial Aid 2020-21.
+Revised release 3 identifies institutions that submitted revisions for Fall enrollment 2021-22, Human Resources 2021-22, Finance and Academic Libraries Fiscal year 2021. 
+
+
+
+Note | Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) Web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. The final release data can be used when the most up to date data are required; however, these data may not match First Look Web tables based on provisional data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2021,HD,selected_review_vintage,HD2021_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2021_Dict.zip,ccb3ce2e5b80dcbbc74de38d668384dd4ae6c1df01914a1993002886b6809676,hd2021.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2021_Dict.zip,74,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2021-22
+(Release 2)
+
+Filename | HD2021
+
+Overview | This file contains directory information for every institution in the 2021-22 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It also includes variables derived from the 2021-22 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered and Carnegie classifications. 
+
+Release 2 include the automatic comparison group and custom group identification variables for the 2022 IPEDS Data Feedback reports; updates to the hospital and institution size indicators based on data collected in the IPEDS spring 2022 collection;
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2022,FLAGS,selected_review_vintage,FLAGS2022_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2022_Dict.zip,ddcb16beeead9f996a2cbf14ac4e37b2843d51dcfe3e76de1bd7a4a37898df21,flags2022.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2022_Dict.zip,114,25,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_ADM"", ""IDX_ADM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for the fall and winter survey components, 2022-23
+(Final/revised release 3)
+
+Filename | FLAGS2022
+  Provisional release 1: | September 2023
+  Provisional release 2: | December 2023
+  Provisional release 3: | January 2023
+  Final/revised release 1: | August 2024
+  Final/revised release 2: | September 2024
+  Final/revised release 3: | December 2024
+
+Overview | This file contains response status information for every institution in the 2022-23 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  
+
+Provisional release 1 includes information from the provisional release for the fall survey components:   Institutional Characteristics 2022-23, Completions and 12-month enrollment 2021-22.
+Provisional release 2 updates release 1 with the provisional release of the winter survey components: Admissions Fall 2022, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2022 and Student Financial Aid 2021-22.
+Provisional release 3 updates release 2  with the provisional release of  the spring survey components: Fall enrollment 2022-23, Human Resources 2023-23, Finance and Academic Libraries Fiscal year 2022. 
+Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2022-23 and/or the Completions and 12-month enrollment 2021-22 components.
+Revised release 2 identifies institutions that submitted revisions for Admissions Fall 2022, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2022 and Student Financial Aid 2021-22.
+Revised release 3 identifies institutions that submitted revisions for Fall enrollment 2022-23, Human Resources 2023-23, Finance and Academic Libraries Fiscal year 2022. 
+
+
+
+
+Note | IPEDS data, including provisional release data and final release data, adhere to rigorous quality control procedures established by NCES. Data are imputed for nonresponding institutions. Provisional release data are used for First Look  web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. While the final release data offer  the most up to date data, these data may not match tables from the First Look web tables based on provisional release data. 
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2022,HD,selected_review_vintage,HD2022_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2022_Dict.zip,8999be0ae98d4993af1af19b1710cd113349e2f3d001dae265c47c17588ea6fd,hd2022.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2022_Dict.zip,73,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2022-23
+
+Filename | HD2022
+
+Overview | This file contains directory information for every institution in the 2022-23 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, and institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It includes variables derived from the 2022-23 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered, Carnegie classifications and several geographical location variables including county, congressional districts, statistical areas and degree of urbanization. The automatic comparison group and custom group identification variables used for the 2023 IPEDS Data Feedback report are also available.
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2023,FLAGS,superseded_legacy_vintage,FLAGS2023_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2023_Dict.zip,25cb651535af1295e654d909031b1841e74d5abecd241e2cec7049119d28dd59,Flags2023_dict.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2023_Dict.zip,105,25,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_ADM"", ""IDX_ADM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for the fall and winter survey components, 2023-24
+(Final/revised release)
+
+Filename | FLAGS2023
+  Provisional release 1: | August 2024
+  Provisional release 2: | December 2024
+  Provisional release 3: | January 2025
+  Final/revised release 1: | September 2025
+
+Overview | This file contains response status information for every institution in the 2023-24 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  _x000A__x000A_Provisional release 1 includes information from the provisional release for the fall survey components:   Institutional Characteristics 2023-24, Completions and 12-month enrollment 2022-23._x000A_Provisional release 2 updates release 1 with the provisional release of the winter survey components: Admissions Fall 2023, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2023 and Student Financial Aid 2022-23._x000A_Provisional release 3 updates release 2  with the provisional release of  the spring survey components: Fall enrollment 2023-24, Human Resources 2023-24, Finance and Academic Libraries Fiscal year 2023. _x000A_Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2023-24 and/or the Completions and 12-month enrollment 2022-23 components._x000A__x000A__x000A_
+
+Note | IPEDS data, including provisional release data and final release data, adhere to rigorous quality control procedures established by NCES. Data are imputed for nonresponding institutions. Provisional release data are used for First Look  web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. While the final release data offer  the most up to date data, these data may not match tables from the First Look web tables based on provisional release data.
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2023,FLAGS,selected_review_vintage,FLAGS2023_Dict.zip,https://nces.ed.gov/ipeds/complete-data-files/FLAGS2023_Dict.zip,3b76f91d6ebf55d8abf32259e73915cbaaf3f553c8482776e30a642b425be75d,flags2023.xlsx,ResearchBuild/IPEDS/official_hd_v2/FLAGS2023_Dict.zip,114,25,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_ADM"", ""IDX_ADM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for the fall and winter survey components, 2023-24
+(Final/revised release 2)
+
+Filename | FLAGS2023
+  Provisional release 1: | August 2024
+  Provisional release 2: | December 2024
+  Provisional release 3: | January 2025
+  Final/revised release 1: | September 2025
+  Final/revised release 2: | December 2025
+  Final/revised release 3: | January 2026
+
+Overview | This file contains response status information for every institution in the 2023-24 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  
+
+Provisional release 1 includes information from the provisional release for the fall survey components:   Institutional Characteristics 2023-24, Completions and 12-month enrollment 2022-23.
+Provisional release 2 updates release 1 with the provisional release of the winter survey components: Admissions Fall 2023, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2023 and Student Financial Aid 2022-23.
+Provisional release 3 updates release 2  with the provisional release of  the spring survey components: Fall enrollment 2023-24, Human Resources 2023-24, Finance and Academic Libraries Fiscal year 2023. 
+Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2023-24 and/or the Completions and 12-month enrollment 2022-23 components.
+Revised release 2 identifies institutions that submitted revisions for Admissions Fall 2023, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2023 and Student Financial Aid 2022-23.
+Revised release 3 identifies institutions that submitted revisions for Fall enrollment 2023-24, Human Resources 2023-24, Finance and Academic Libraries Fiscal year 2023. 
+
+
+
+Note | IPEDS data, including provisional release data and final release data, adhere to rigorous quality control procedures established by NCES. Data are imputed for nonresponding institutions. Provisional release data are used for First Look  web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. While the final release data offer  the most up to date data, these data may not match tables from the First Look web tables based on provisional release data.
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2023,HD,superseded_legacy_vintage,HD2023_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2023_Dict.zip,131d8f2f56a71078ea453989384cce91985fa2a29a94f168a718dedc6a466e3b,HD2023_dict.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2023_Dict.zip,73,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2023-24
+(Release 4)
+Filename | HD2023
+   Release 1: | August 2024
+   Release 2: | September 2024
+   Release 3: | January 2025
+   Release 4: | September 2025
+
+Overview | This file contains directory information for every institution in the 2023-24 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, and institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It includes variables derived from the 2023-24 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered, Carnegie classifications and several geographical location variables including county, congressional districts, statistical areas and degree of urbanization._x000A_Release 2: The automatic comparison group and custom group identification variables that are used for the 2024 IPEDS Data Feedback report were added._x000A_Release 3.  Historically Black Colleges and University (HBCU) list was updated to include Morris Brown University in Georgia.  This institution was included in the HEGIS/IPEDS database through 2002.  The Institution lost Title IV status in 2003 and no longer responded to IPEDS.  It regained Title IV status in 2022-23 and was added back to IPEDS.  
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2023,HD,selected_review_vintage,HD2023_Dict.zip,https://nces.ed.gov/ipeds/complete-data-files/HD2023_Dict.zip,11ec52daa38e39fd78bc0f2c18e8232b3c92e1ac0fdef7bed3f06391424c79c5,hd2023.xlsx,ResearchBuild/IPEDS/official_hd_v2/HD2023_Dict.zip,73,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2023-24
+(Release 4)
+Filename | HD2023
+   Release 1: | August 2024
+   Release 2: | September 2024
+   Release 3: | January 2025
+   Release 4: | September 2025
+
+Overview | This file contains directory information for every institution in the 2023-24 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, and institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It includes variables derived from the 2023-24 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered, Carnegie classifications and several geographical location variables including county, congressional districts, statistical areas and degree of urbanization.
+Release 2: The automatic comparison group and custom group identification variables that are used for the 2024 IPEDS Data Feedback report were added.
+Release 3.  Historically Black Colleges and University (HBCU) list was updated to include Morris Brown University in Georgia.  This institution was included in the HEGIS/IPEDS database through 2002.  The Institution lost Title IV status in 2003 and no longer responded to IPEDS.  It regained Title IV status in 2022-23 and was added back to IPEDS.  
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2024,FLAGS,superseded_legacy_partial,FLAGS2024_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/FLAGS2024_Dict.zip,8d79e3b5cef1dcdc2d3ff291b8cfddc963958f8a59e98dc4ce4e349665bb81d9,Flags2024_dict.xlsx,ResearchBuild/IPEDS/annual_documentation/FLAGS2024_Dict.zip,16,5,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12""]","File Documentation for the IPEDS response status data for the fall and winter survey components, 2024-25
+(Provisional release)
+
+Filename | FLAGS2024
+  Provisional release 1: | September 2025
+
+
+Overview | This file contains response status information for every institution in the 2024-25 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  _x000A__x000A_Provisional release 1 includes information from the provisional release for the fall survey components:   Institutional Characteristics 2024-25, Completions and 12-month enrollment 2023-24._x000A__x000A__x000A__x000A_
+
+Note | IPEDS data, including provisional release data and final release data, adhere to rigorous quality control procedures established by NCES. Data are imputed for nonresponding institutions. Provisional release data are used for First Look  web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. While the final release data offer  the most up to date data, these data may not match tables from the First Look web tables based on provisional release data.
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2024,FLAGS,selected_review_vintage,FLAGS2024_Dict.zip,https://nces.ed.gov/ipeds/complete-data-files/FLAGS2024_Dict.zip,fa9c137c2c8046e01f247d5b33faa8fd67da15453648f6f69b14f344cba2151c,flags2024.xlsx,ResearchBuild/IPEDS/official_hd_v2/FLAGS2024_Dict.zip,118,27,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12"", ""PRCH_COS"", ""IDX_COS"", ""PRCH_SFA"", ""IDX_SFA"", ""PRCH_GR"", ""IDX_GR"", ""PRCH_GR2"", ""IDX_GR2"", ""PRCH_OM"", ""IDX_OM"", ""PRCH_ADM"", ""IDX_ADM"", ""PRCH_HR"", ""IDX_HR"", ""PRCH_EF"", ""IDX_EF"", ""PRCH_F"", ""IDX_F"", ""PRCHTP_F"", ""PRCH_AL"", ""IDX_AL""]","File Documentation for the IPEDS response status data for the fall and winter survey components, 2024-25
+(Provisional release 3)
+
+Filename | FLAGS2024
+  Provisional release 1: | September 2025
+  Provisional release 2: | December 2025
+  Provisional release 3: | January 2026
+  Final/revised release 1: | September 2026
+
+Overview | This file contains response status information for every institution in the 2024-25 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  
+
+Provisional release 1 includes information from the provisional release for the fall survey components:   Institutional Characteristics 2024-25, Completions and 12-month enrollment 2023-24.
+Provisional release 2 updates release 1 with the provisional release of the winter survey components: 
+Fall Enrollment 2024, Finance , Human Resources (HR), Academic Libraries (AL)
+Admissions Fall 2024, Cost 2024-25, Graduation Rates 150, Graduation Rates 200 and Outcome Measures, Status date: August 31, 2024 and Student Financial Aid 2023-24.
+Provisional release 3 updates release 2  with the provisional release of  the spring survey components: Fall enrollment 2024-25, Human Resources 2024-25, Finance and Academic Libraries Fiscal year 2024. 
+Revised release 1 identifies institutions that submitted revisions for Institutional Characteristics (Special learning opportunities, selected services, information on Veterans and service members and Undergraduate Disabilities)  2024-25 and/or the Completions and 12-month enrollment 2023-24 components.
+
+Note | IPEDS data, including provisional release data and final release data, adhere to rigorous quality control procedures established by NCES. Data are imputed for nonresponding institutions. Provisional release data are used for First Look  web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. While the final release data offer  the most up to date data, these data may not match tables from the First Look web tables based on provisional release data.
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2024,HD,superseded_legacy_vintage,HD2024_Dict.zip,https://nces.ed.gov/ipeds/datacenter/data/HD2024_Dict.zip,a68c38003a9e56b1b5f444377540d5120d86cecc35855f84f1393480b862487d,HD2024_dict.xlsx,ResearchBuild/IPEDS/annual_documentation/HD2024_Dict.zip,72,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2024-25
+(Release 1)
+Filename | HD2024
+   Release 1: | September 2025
+
+
+Overview | This file contains directory information for every institution in the 2024-25 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, and institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It includes variables derived from the 2024-25 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered, Carnegie classifications and several geographical location variables including county, congressional districts, statistical areas and degree of urbanization.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2024,HD,selected_review_vintage,HD2024_Dict.zip,https://nces.ed.gov/ipeds/complete-data-files/HD2024_Dict.zip,edf79545e900a987263f9e9a6a0420bcc55cb566a83754d87419ca0851cf521a,hd2024.xlsx,ResearchBuild/IPEDS/official_hd_v2/HD2024_Dict.zip,72,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2024-25
+(Release 1)
+Filename | HD2024
+   Release 1: | September 2025
+
+
+Overview | This file contains directory information for every institution in the 2024-25 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, and institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It includes variables derived from the 2024-25 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered, Carnegie classifications and several geographical location variables including county, congressional districts, statistical areas and degree of urbanization.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."
+2025,FLAGS,selected_review_vintage,FLAGS2025_Dict.zip,https://nces.ed.gov/ipeds/complete-data-files/FLAGS2025_Dict.zip,ee353b10ee4e0923ce37a974d266fbc51978b745bb94d1af6505577d7670d4b2,flags2025.xlsx,ResearchBuild/IPEDS/official_hd_v2/FLAGS2025_Dict.zip,19,5,False,False,False,False,False,"[""PRCH_C"", ""IDX_C"", ""PRCH_E12"", ""IDX_E12""]","File Documentation for the IPEDS response status data for the fall and winter survey components, 2025-26
+(Provisional release 1)
+
+Filename | FLAGS2025
+  Provisional release 1: | July 2026
+
+
+
+Overview | This file contains response status information for every institution in the 2025-26 IPEDS universe. This file will determine institutions that have responded; institutions that did not respond and have imputed data; and survey applicability.  It will also identify institutions whose data represents multiple campuses (parent/child reporting).  
+
+Provisional release 1 includes information from the provisional release for the fall survey components:   Institutional Characteristics 2025-26, Completions and 12-month enrollment 2024-25.
+
+
+Note | IPEDS data, including provisional release data and final release data, adhere to rigorous quality control procedures established by NCES. Data are imputed for nonresponding institutions. Provisional release data are used for First Look  web tables. Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year. While the final release data offer  the most up to date data, these data may not match tables from the First Look web tables based on provisional release data.
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable.
+Statistics | This worksheet lists the sum, mean, minimum and maximum values of all continuous variables in the data file. "
+2025,HD,selected_review_vintage,HD2025_Dict.zip,https://nces.ed.gov/ipeds/complete-data-files/HD2025_Dict.zip,dc454aa6fbc246f3d47d773cd02ebe3b5efcedacbd2f71c54ff39f5844215343,hd2025.xlsx,ResearchBuild/IPEDS/official_hd_v2/HD2025_Dict.zip,70,14,True,True,True,True,True,[],"File Documentation for the IPEDS Directory, 2025-26
+(Release 1)
+Filename | HD2025
+   Release 1: | July 2026
+
+
+Overview | This file contains directory information for every institution in the 2025-26 IPEDS universe.  Includes name, address, city, state, zip code and various URL links to the institution's home page, admissions, financial aid offices and  the net price calculator.  Identifies institutions as currently active, and institutions that participate in Title IV federal financial aid programs for which IPEDS is mandatory.  It includes variables derived from the 2025-26 Institutional Characteristics survey, such as control and level of institution, highest level and highest degree offered, Carnegie classifications and several geographical location variables including county, congressional districts, statistical areas and degree of urbanization.
+
+
+Contents of spreadsheet
+
+Varlist | Variable list: Lists all variables in the table. Includes the variable name, variable label and the Data type, format and maximum field width of each variable.  The data type describes a variable as either a numeric (N) or Alphanumeric (A) and the format of a variable defines a variable as either continuous (Cont) or categorical (Disc).
+Description | Long description or glossary definition of a variable. 
+Frequencies | This worksheet contains the code values for of all categorical variables in the data file. It also lists the frequency and percent distribution for each code value by variable."

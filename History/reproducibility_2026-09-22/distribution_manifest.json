@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "release_tag": "fsa-research-v2-2026-09-22",
+  "repository": "markjayson13/FSAVolumeReports_Panel",
+  "assets": [
+    {
+      "name": "fsa-research-v2-portable-data.zip",
+      "bytes": 183557295,
+      "sha256": "8670c10566612b28f543d65696c1cc6c603e85b128ed5c76724b9f648eb031ef",
+      "members": 249
+    },
+    {
+      "name": "fsa-research-v2-stata.zip",
+      "bytes": 164659230,
+      "sha256": "c59c1f6536d044c34f2590e9d78f24291d5d5ec9ff0b7b6d62322f4b3eacb7fc",
+      "members": 248
+    },
+    {
+      "name": "fsa-research-v2-excel.zip",
+      "bytes": 598882605,
+      "sha256": "dd78811cfe2539d81a53eb597ebaf8a56032290f8feb060b2b1f6c76ac600bcd",
+      "members": 273
+    },
+    {
+      "name": "fsa-research-v2-canonical.zip",
+      "bytes": 894538539,
+      "sha256": "f2c0dd278df1696b7ae495378f0b4c385d33be9497d76347a553d6f49c9a8f58",
+      "members": 299
+    },
+    {
+      "name": "fsa-research-v2-replication.zip",
+      "bytes": 220153332,
+      "sha256": "3490da843e8d6c4d5f6d7fff647618fa7d81c10d9e263533687826b75006556b",
+      "members": 373
+    }
+  ],
+  "source_release_manifest_sha256": "547d26b6729897d0a4d67b330c1b20a2e4f45df3b14d358d3a74014d69602345",
+  "export_manifest_sha256": "fd7b8cda8e9d0f9b67e7dbee197dfaedbd7e70650b5d39ecbf313f9546cad695",
+  "scope": "Frozen FSA research release and labeled exports, with original selected inputs and portable rebuild code.",
+  "historical_paths": "Absolute paths in original evidence are retained as provenance; input_manifest.json uses portable relative paths.",
+  "license_note": "No blanket project or third-party license is asserted. Original government sources and provenance are retained.",
+  "native_stata_excel_execution": false
+}

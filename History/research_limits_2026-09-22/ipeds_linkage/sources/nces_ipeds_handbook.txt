@@ -1,0 +1,197 @@
+NCES Handbook of Survey Methods - Integrated Postsecondary Education Data System (IPEDS)
+NCES Handbook of Survey Methods
+Technical Report
+Publications & Products
+|
+Staff
+Introduction
+Adult Literacy and Lifeskills Survey (ALL)
+Academic Libraries Survey (ALS)
+Baccalaureate and Beyond (B&B) Longitudinal Study
+Beginning Postsecondary Students (BPS) Longitudinal Study
+Beginning Teacher Longitudinal Study(BTLS)
+Common Core of Data (CCD)
+Current Population Survey (CPS)
+Early Childhood Longitudinal Study, Birth Cohort (ECLS-B)
+Early Childhood Longitudinal Study, Kindergarten Class of 1998‑99 (ECLS‑K)
+Early Childhood Longitudinal Study, Kindergarten Class of 2010–11 (ECLS‑K:2011)
+Educational Longitudinal Study of 2002 (ELS 2002)
+Quick Response Information System (FRSS/PEQIS)
+High School and Beyond (HS&B) Longitudinal Study
+High School Longitudinal Study of 2009 (HSLS:09)
+High School Transcript Studies (HSTS)
+International Adult Literacy Survey (IALS)
+Integrated Postsecondary Education Data System (IPEDS)
+Overview
+Uses of Data
+Key Concepts
+Survey Design
+Data Quality and Comparability
+Contact Information
+Methodology and Evaluation Reports
+IPEDS Website
+Download PDF
+Middle Grades Longitudinal Study of 2017– 18 (MGLS:2017)
+National Assessment of Adulty Literacy (NAAL)
+National Assessment of Educational Progress (NAEP)
+National Adult Literacy Survey (NALS)
+National Education Longitudinal Study of 1988 (NELS 88)
+National Household Education Survey Program (NHES)
+National Longitudinal Study of the High School Class of 1982 (NLS 72)
+National Postsecondary Student Aid Study (NPSAS)
+National Study of Postsecondary Faculty (NSOPF)
+National Teacher and Principal Survey (NTPS)
+Program for the International Assessment of Adult Competencies (PIAAC)
+Progress In International Reading Literacy Study (PIRLS)
+Program For International Student Assessment (PISA)
+Private School Universe Survey (PSS)
+School and Staffing Survey (SASS)
+SASS Principal Follow-Up Survey (PFS)
+SASS School Library Media Center Survey (SLS)
+SASS Teacher Follow-up Survey (TFS)
+Survey of Earned Doctorates (SED)
+Crime and Safety Surveys (SCS & SSOCS)
+Teaching and Learning International Survey (TALIS)
+Trends In International Mathematics and Science Study (TIMSS)
+Integrated Postsecondary Education Data System (IPEDS)
+1. Overview
+SURVEY OF THE UNIVERSE OF POSTSECONDARY INSTITUTIONS
+IPEDS collects data annually or biennially through these major components:
+Institutional Characteristics
+Completions
+12‑Month Enrollment
+Student Financial Aid
+Graduation Rates
+200% Graduation Rates
+Outcome Measures
+Admissions
+Fall Enrollment
+Finance
+Academic Libraries
+Human Resources
+The Integrated Postsecondary Education Data System (IPEDS)  is the National Center for Education Statistics’ (NCES) core postsecondary  education data collection program, designed to help NCES meet its mandate to  report full and complete statistics on the condition of postsecondary education  in the United States. IPEDS collects institution‑level data from providers of  postsecondary education in the United States (the 50 states and the District of  Columbia) and other jurisdictions, such as the U.S. Virgin Islands. IPEDS is a  single, comprehensive system that is built around a series of interrelated  survey components designed to collect institution‑level data in such areas as  enrollment, admissions, program completions, graduation rates and other outcome  measures, retention rates, student financial aid, tuition and fees, faculty,  staff, library data, and finances.
+Since 1993, completion of the IPEDS survey has been mandatory for all postsecondary institutions with a Program Participation Agreement (PPA) with the Office of Postsecondary Education (OPE), U.S. Department of Education: that is,  institutions that participate in or are eligible to participate in any federal  student financial assistance program authorized by Title IV of the Higher  Education Act of 1965, as amended (20 USC 1094[a] [17]). For institutions not  eligible to participate in Title IV programs, participation in IPEDS is  voluntary. For years prior to 1993, only national‑level estimates from a sample  of institutions are available for private less‑than‑2‑year institutions.
+In 1998, due to several externally mandated changes and additions to IPEDS, developments in technology for data collection and dissemination, emerging issues in postsecondary education, and new and increased expectations for IPEDS, a  redesign task force was charged with recommending changes for the system. The  primary recommendation was that IPEDS switch from paper forms to a solely web‑based reporting system. The IPEDS program was completely redesigned for the 2000‑01 survey  year, and data collection was converted from a paper‑based to a fully web‑based system. The web‑based survey instruments offer many features to improve the quality and timeliness of the data. IPEDS continues to be an annual survey, with data collection  occurring three times per year in the fall, winter, and spring.
+IPEDS replaced the Higher Education General Information Survey (HEGIS) in 1986. HEGIS collected data from 1966 to 1986 from a more limited universe of approximately 3,400  institutions accredited at the college level by an association recognized by the Secretary of the U.S. Department of Education. The transition to the IPEDS program expanded the universe to include
+all
+institutions whose primary purpose was the provision of postsecondary  education. In 2017‑18, a total of 6,642 Title IV institutions and 73 administrative  offices (central or system offices) in the United States and other U.S  jurisdictions participated in data collection.
+Of the 6,642 Title IV institutions, 2,902 were classified as 4‑year institutions, 1,932 were 2‑year institutions, and the remaining 1,808 were less‑than‑2‑year institutions.The U.S.
+Department of Educations Office for Civil Rights (OCR) has collaborated with NCES since 1976 on the collection of data from postsecondary institutions through compliance reports from postsecondary institutions mandated pursuant to Title VI of the Civil Rights Act of 1964, first through HEGIS and then through IPEDS.
+Top
+Purpose
+The purpose of IPEDS is to collect institution‑level data from providers of postsecondary education, primarily all Title IV‑eligible universities, colleges, and technical and vocational education providers in the United States and other jurisdictions.
+Scope
+All institutions in the U.S. and other U.S. jurisdictions that have a Program Participation Agreement (PPA) with the U.S. Department of Education to participate in Title IV federal student financial aid programs are required to report data to IPEDS, and are listed as separate entities in IPEDS. These entities are considered the “main campus” and can be identified by an 8‑digit OPE ID that starts with 0 and ends with 00; digits 2 through 6 are referred to as the “root.” The Postsecondary Education Participation System (PEPS) is the federal database which keeps track of PPAs, Title IV eligibility, and OPE ID assignments.
+In addition, the following can be separate reporting entities in IPEDS, and are referred to as “institutions”:
+Branch campuses and additional locations that conform to the IPEDS definition of branch campus and that share a PPA. These entities can be tied to the PPA holder through a shared “root” OPE ID.
+The IPEDS definition of a branch campus is “a campus or site of an educational institution that is not temporary, is located in a community beyond a reasonable commuting distance from its parent institution, and offers full programs of study, not just courses.”
+Online‑only divisions of Title IV institutions.
+Non‑traditional educational divisions (such as degree completion programs and other non‑standard ventures that are substantially different from the institution's main business).
+Large national systems report data on a state‑by‑state or location‑by‑location basis.
+There are about  6,760 Title IV institutions that report data to IPEDS. Postsecondary  institutions that do not participate in Title IV programs can submit data to  IPEDS on a voluntary basis. About 140 non‑title IV institutions participated in  the 2017‑18 data collection.
+On a yearly basis, Title IV  institutions may be required to complete a reporting map before submitting  IPEDS data. An institution’s IPEDS Reporting Map describes how the data from  the various additional locations that are listed on the institution’s PPA are  accounted for in the institution’s IPEDS reporting. If there are differences  between how the institution and additional locations are listed in IPEDS and  how they are listed on the PPA, the institution must explain what that means  for the institution’s IPEDS reporting. Screens are presented on which to do  this. The reporting relationships that can exist are:
+The main campus and each additional location on the PPA are listed separately in IPEDS, and report their own data.
+The main campus reports combined data for itself and any additional locations that are not listed separately in IPEDS.
+Additional locations that are not listed separately have the option of being made “campuses” in IPEDS; a small number of data items are reported for each of these locations, and they are searchable in College Navigator.
+Top
+Components
+The IPEDS program consists of several components that obtain  information on who provides postsecondary education (institutions), on who  participates in and completes the education (students), what programs are offered,  what programs are completed, and the human and financial resources involved in  the provision of postsecondary education. To avoid duplicate reporting and thus  enhance the analytic potential of the database, the various IPEDS data elements  and component surveys are interrelated. Survey components are tailored to each  institution using institutional characteristics. In general, the most extensive  data are collected from postsecondary institutions granting baccalaureate and  higher degrees; less extensive data are requested from other types of  institutions. This feature accommodates the varied operating characteristics,  program offerings, and reporting capabilities of postsecondary institutions  while yielding comparable statistics for all institutions.
+The IPEDS program currently collects information from  postsecondary institutions using a combination of survey components.  Participation in IPEDS is a requirement for institutions that participate in  Title IV federal student financial aid programs, such as Pell grants or  Stafford loans. Title IV institutions include institutions of all levels  (4‑year, 2‑year, less‑than‑2‑year) and all controls (public, private nonprofit,  and private for‑profit). Because of the requirements for participation in Title  IV federal financial aid programs, IPEDS focuses on the institutions designated  as Title IV participants. Institutions that do not participate in Title IV  programs may participate in the IPEDS data collection on a voluntary basis.
+IPEDS collects data three times per year—in the fall,  winter, and spring. The
+Institutional  Characteristics
+,
+Completions
+, and
+12‑month Enrollment
+surveys are  administered in the fall. The
+Student  Financial Aid, Graduation Rates, 200% Graduation Rates, Outcome Measures
+,  and
+Admissions
+components are  collected in the winter. The
+Fall
+Enrollment, Finance, Academic Libraries,
+and
+Human Resources
+components are  administered in the spring.
+Each of these components is described below; the  abbreviation for the survey component is also provided after the component  name.
+Institutional  Characteristics (IC).
+The core  of the IPEDS program is the annual Institutional Characteristics component that  is collected each fall; it is to be completed by all currently operating  postsecondary institutions in the United States and other jurisdictions. As the  control file for the entire IPEDS program, IC constitutes the sampling frame  for all other NCES surveys of postsecondary institutions. It also helps  determine the specific IPEDS screens that are shown to each institution. Additionally,  IC data are used to sort and analyze the data files of the other IPEDS  components.
+Most IC data are  collected for the academic year, which generally extends from September of one  calendar year to June of the following calendar year. Specific data elements  currently collected for each institution include the institution name, address,  telephone number, web address, control or affiliation, calendar system, levels  of degrees and awards offered, types of programs, and student services offered.  The IC component also collects information on tuition and required fees data  and other cost of attendance data which include room and board charges, books  and supplies, and other expenses for full‑time, first‑time students. These data  may be for the academic year or for the length of the program. These data are  released on NCES’s College Navigator website (available at
+https://nces.ed.gov/collegenavigator/
+). The College Navigator is designed to help prospective students and  their parents understand the differences among colleges and how much it costs  to attend college, as well as offer information on student financial aid,  programs and services offered, enrollments, graduation rates, and  accreditation, among other things.
+Completions (C).
+The Completions component collects data each  fall on recognized degree completions in postsecondary education programs by  level (associate’s, bachelor’s, master’s, and doctor’s) and on other formal  awards, both sub‑ and post‑baccalaureate. These data are collected by  race/ethnicity and gender of recipient and by fields of study, which are  identified by 6‑digit Classification of Instructional Programs (CIP) codes from  the NCES publication
+Classification of  Instructional Programs
+(
+https://nces.ed.gov/ipeds/cipcode/
+).
+The Completions  component also collects information on the availability of programs of study  that can be completed entirely through distance education by CIP code and award  level (beginning with the 2012‑13 data collection) and information on program  completers by age, race/ethnicity, and gender (also with the 2012‑13 data  collection). OCR provided support to collect Completions data from 1976‑2012.
+12‑Month Enrollment (E12).
+This component of the fall survey  administration collects 12‑month enrollment data for undergraduate and graduate  students. The data collection includes unduplicated headcounts and  instructional activity in contact or credit hours. Instructional activity is  used to compute a standardized, 12‑month, full‑time‑equivalent (FTE)  enrollment; institutions may also report an alternate FTE if they feel the  computed FTE does not accurately reflect their institution. The unduplicated  data include demographic information on race/ethnicity and gender. The  collection is based on the previous 12‑month reporting period, which is July 1  through June 30. Starting with the 2012‑13 data collection, E12 added an item  that separately collects information on the full‑time‑equivalent enrollment for  doctor’s‑ professional‑practice instructional activity.
+Student Financial Aid  (SFA).
+This winter collection component gathers  student financial aid data on several different student populations:  undergraduate students; a cohort of full‑time, first‑time,  degree/certificate‑seeking undergraduate students; and two subpopulations of  that cohort. The financial aid data collected on the subpopulations are used to  calculate the institution’s average net price of attendance, as well as average  net price of attendance by income category. Data are collected for the previous  aid year. The number of students receiving aid and total amount of aid received  are collected for different aid types; the average amount of aid received by  type of aid and percent of students receiving aid by type of aid are  calculated. For undergraduates, total grant or scholarship aid, Pell grants,  and federal loans are the aid types. For the cohort, aid types are federal  grants (Pell grants and other federal grants), state/local government grants or  scholarships, institutional grants or scholarships, and loans to students (total  loans, federal loans, other loans).   In  the 2014‑15 academic year (the 2015‑16 data collection), the component began  data collection on undergraduate and graduate students receiving military  service member and veteran benefits.
+Graduation Rates (GR).
+This winter component collects data on institutions’ initial cohort of  full‑time, first‑time, degree/certificate‑seeking undergraduate students; on  the number of those students completing within 150 percent of the normal time;  and on the number of students who transferred to other institutions. Four‑year  institutions report separately on their bachelor’s degree‑seeking students.  Data are reported by race/ethnicity and gender. These data allow institutions  to disclose and/or report information on the completion or graduation rates and  transfer‑out rates of their students as required by the Student‑Right‑to‑Know Act. Worksheets automatically calculate rates within the web system. In the  2017‑18 collection, four‑year institutions used 2011 as the cohort year, while  less‑than‑4‑year institutions used 2014 as the cohort year. For 4‑year  institutions operating on standard academic terms (semester, trimester,  quarter), students beginning in cohort year 2011 are those who were first‑time  students in the fall of the 2011‑12 academic year. For 4‑year institutions  operating on other than standard academic terms, students beginning in cohort  year 2011 are those who were first‑time students between September 1, 2011, and  August 31, 2012. Similarly, for less‑than‑4‑year institutions operating on  standard academic terms, students beginning in cohort year 2014 are those who  were first‑time students in the fall of the 2014‑15 academic year. For less‑than‑4‑year institutions operating on other than standard academic terms,  students beginning in cohort year 2014 are those who were first‑time students between September 1, 2014, and August 31, 2015.
+One hundred percent graduation rates data are also collected; 4‑year bachelor's degree program rates have been reported by 4‑year institutions since 1997, and 100% rates have been reported by less‑than‑4‑year institutions since 200809. Beginning in the 201617 collection year, data on cohort size, the number of completers within 150 percent of normal time to completion, and the number of cohort exclusions were collected from further disaggregation of the existing cohorts, which included the subcohort of students who received a Pell Grant and the subcohort of students who received a subsidized Stafford Loan but did not receive a Pell Grant.
+200% Graduation Rates  (GR200).
+This survey component was added to the spring collection in 200910 and is now collected in the winter. It is separate from the GR component so as not to confuse the two different cohorts that are being reported on. The GR200 asks institutions to report additional data on cohort students so that 200% graduation rates can be calculated. Graduation rates at 200 percent of normal time are calculated for full‑time, first-time bachelor degree‑seeking students at 4‑year institutions, and for all full‑time, first‑time degree/certificate‑seeking undergraduate students at less than 4‑year institutions. In 201617, for 4‑year institutions, the cohort consisted of those students who first started in the 200809 academic year, and for 2‑year and less‑than‑2‑year institutions, the cohort was those students starting in the 201213 academic year.
+Outcome Measures (OM).
+Starting in 201516, a new component, Outcome Measures, began to collect data from degree‑granting institutions on 4 degree/certificate‑seeking undergraduate student cohorts, specifically full‑ and part-time attendance levels for both first‑time students and non‑first‑time‑entering students. Academic reporting institutions reported on fall cohorts; program and hybrid reporters reported on full‑year cohorts. Data are not disaggregated by race/ethnicity or gender and no outcome measures data were collected from non‑degree‑granting institutions. For the winter 201718 collection, the cohorts consist of all entering students who began their studies between July 1, 2009, and June 30, 2010. Student completion status was collected as of August 31 at 4 years, 6 years, and 8 years after students entered the institution (e.g., 4‑year completion status was measured on August 31, 2013). At each status point, institutions reported the highest level of award students earned as of that status point. For example, if a student earned an associate's degree within 4 years and a bachelor's degree within 6 years, the student would be reported in the associate's degree group at the 4‑year status point and in the bachelor's degree group at the 6‑year status point.  For example, if a student earned an associate's degree within 4‑years and a bachelor's degree within 6 years, the student would be reported as receiving a bachelor's degree and 6‑years and not reported as receiving an associate's degree.
+For each of the 4 cohorts, the Outcome Measures component is used to collect a status update at 8 years after the cohort entered the institution using the following categories: received award; did not receive award, still enrolled at reporting institution; did not receive award, subsequently enrolled at another institution; and did not receive award, subsequent enrollment status unknown. A total of students who did not receive an award is calculated. The award information is collected for both the 6‑year and 8‑year timeframes and the first cohort that was reported on is the 2007 cohort. Beginning in the 201718 collection year, each of the 4 cohorts were disaggregated into the subcohort of students who received a Pell Grant, the subcohort of students who did not receive a Pell Grant, the subcohort of transfer‑in students, the subcohort of continuing students, and the subcohort of nondegree‑seeking undergraduates.
+Admissions (ADM).
+This annual component is required of all currently operating Title IV postsecondary institutions in the United States and other areas that enroll first‑time undergraduate students and do not have an open admissions policy. Eligibility for ADM is determined using a screening question in the Institutional Characteristics component and open admissions institutions will not see the component. Admissions data are collected in the winter for the current fall reporting period. Data are collected on admissions requirements, the number of applicants, admitted students, the number of admitted students that subsequently enrolled, and percentiles for ACT and SAT test scores. The number of applicants, admitted students, and enrolled students are disaggregated by gender; enrolled students are further disaggregated by part‑time and full‑time status. Prior to the 201415 data collection cycle, ADM was part of the Institutional Characteristics component. When ADM was part of the Institutional Characteristics component, institutions had the choice of reporting for the most current fall or the previous fall period. In 201415, it became part of the winter data collection.
+For the winter 201718 collection, data collected correspond to individuals applying to be admitted during the fall of the 201718 academic year (the fall 2017 reporting period). For institutions operating on a traditional academic year calendar system (semester, trimester, quarter, or 4‑1‑4 system), the fall 2017 reporting period is the term containing the institution's official fall reporting date, or October 15, 2017, if the official fall reporting date is after October 15. For institutions operating on a continuous enrollment or program‑based calendar system, the fall 2017 reporting period is August 1, 2017, through October 31, 2017.
+Fall Enrollment (EF).
+This spring component collects data on the number of full‑ and part‑time students enrolled in postsecondary institutions in the United States and its other jurisdictions, by level (undergraduate, graduate), race/ethnicity, and gender. The 201718 Fall Enrollment component collected student enrollment data for fall 2017. Data were collected on the race/ethnicity and gender of students, attendance status (full‑ or part‑time), and student level (undergraduate or graduate). The undergraduate students include degree‑seeking first‑time students, transfer‑in and continuing students and nondegree‑seeking undergraduates. Institutions were also required to report data by age, whereas reporting student state of residency was optional. In addition, data were collected on the number of students enrolled exclusively in distance education courses, in any distance education courses, or in no distance education courses. These data were reported by student level, undergraduate degree‑seeking status, and student residence location (i.e., in the same state or jurisdiction as the institution; in a different state or jurisdiction as the institution; outside the U.S.; or unknown). The Fall Enrollment component also collected retention rates and student‑to‑faculty ratios.
+Institutions  report: 1) students enrolled in courses creditable toward a degree or other formal award; 2) students enrolled in courses that are part of a vocational or occupational program, including those enrolled in off‑campus centers; and, 3) high school students taking regular college courses for credit. An item that asks for the total number of undergraduates in the entering class (including first‑time, transfer, and non‑degree students) was added in 2001 to provide context for the graduation rates cohort. Full‑ and part‑time, fall‑to‑fall retention rates for first‑time degree/certificate‑seeking students are also collected. For bachelor's degree‑offering institutions, only bachelor's students are included in the retention rate.
+Age‑related data are collected in odd‑numbered years by student level. Data on the state of residence of first‑time students, as well as data on the number of first‑time students who graduated from high school in the past 12 months, are collected in even‑numbered years (replacing the previously administered
+Residence of First‑Time Students
+survey). In even‑numbered years, four
+‑
+year-institutions are also required to complete enrollment data by level, race/ethnicity, and gender for selected fields of study: Education, Engineering, Law, Biological Sciences/Life Sciences, Mathematics, Physical Sciences, Dentistry, Medicine, and Business Management and Administrative Services. The specified fields and their codes are taken directly from CIP. In the 201213 data collection, EF began collecting information on the number of students enrolled in any distance education program and the number of students enrolled exclusively in distance education programs. OCR supported the collection of these data from 19762012.
+Academic Libraries (AL).
+This spring component collects information from degree‑granting institutions on library collections, expenditures, and services for the fiscal year. Institutions answer a screening question within the Institutional Characteristics component that determines the requirement to complete the AL component and the correct section to complete. The AL component consists of two sections: Section I is completed by institutions reporting total library expenditures greater than zero, and Section II is completed by institutions with total library expenditures greater than $100,000. Section II collects additional expenditures and interlibrary service information. Section I collects data on the library collections and circulation numbers including physical books, media, digital or electronic books (including government documents), digital or electronic databases, and digital or electronic media. Section II collects data on the number of branch and independent libraries as well as expenditures including library staff wages and fringe benefits, materials and service costs, operations and maintenance expenditures, and interlibrary services. As of the 201415 collection, institutions with no library expenditures are not required to respond to the AL component.
+Top
+Human Resources (HR).
+The administration of the Human Resources  component was moved to the spring in the 2012‑13 data collection (it had  previously been administered in the winter). The Human Resources component  collects data that were previously collected by three separate survey  components:
+Employees by Assigned  Position
+,
+Fall Staff
+, and
+Salaries
+. These were merged into the  single HR component beginning with the 2005‑06 survey year in order to simplify  reporting and ensure data consistency and accuracy; the survey instrument was  revised further starting with the 2012‑13 data collection.
+Beginning with the  winter 2001‑02 collection, the Employees by Assigned Position (EAP) survey  component, an annual collection proposed by the National Postsecondary Education  Cooperative focus group on faculty and staff, was instituted, to unify the Fall  Staff and Faculty Salaries data collections. The EAP survey component was  optional in the first year but became mandatory in 2002‑03.
+The Fall Staff data, now part of the HR survey component, was previously a separate collection. Institutions with 15 or more full‑time employees are required to report annually (prior to 201617, data was collected biennially, for odd‑numbered years). Between 1987 and 1991, the Fall Staff data were collected in cooperation with the U.S. Equal Employment Opportunity Commission (EEOC). Beginning in 1993, all schools formerly surveyed by EEOC reported through IPEDS Fall Staff. Prior to 2001, this collection also requested the number of persons donating (contributing) services or contracted for by the institution.
+The primary purpose of the Salaries portion of the HR survey component is to collect data on the salaries, tenure, and fringe benefits of full‑time instructional staff (referred to as instructional faculty prior to the 200506 survey year) by contract length, gender, and academic rank. Institutions are excluded from completing the Salaries section if all of their instructional staff (1) are employed on a part‑time basis, (2) are military personnel, (3) contribute their services (e.g., members of a religious order), or (4) teach preclinical or clinical medicine.
+Data are also collected on total salary outlays; total number of full‑time instructional non‑medical staff paid these outlays; and number of staff members with tenure, on tenure track, and not on tenure track. These data are collected by rank (professor, associate professor, assistant professor, instructor, lecturer, no academic rank), gender, and contract length. Fringe benefits data were collected through 201011.
+The current Human Resources survey component categorizes all staff on the institution's payroll as of November 1 of the collection year, by full‑ and part‑time status, by function or occupational category, and by faculty status and tenure status (if applicable). Institutions with medical schools are required to report their medical school data separately. The medical school questions of EAP are applicable to institutions with Doctor of Medicine (M.D.) and/or Doctor of Osteopathic Medicine (D.O.) programs only. Employees who are in health disciplines that are not considered part of the medical school are reported in the nonmedical school part of EAP.
+Data are also collected on the number of full‑time staff by contract length; number of other persons employed full time by primary occupational activity and salary class intervals; part‑time employees by primary occupational activity; tenure of full‑time faculty by academic rank; and new hires by primary occupational activity. Salary class interval data were collected through 201011.
+In the 201213 data collection cycle, the administration of the Human Resources component was moved to the spring and many changes were implemented. For example, the component adopted new occupational categories to align with the 2010 Standard Occupational Classification (SOC). For all degree‑granting universities, revisions were made to the definition of primarily instruction category so that instructional activity could be reported separately for for‑credit and not‑for‑credit courses or a combination of them. Revisions were also made to collect information on salary outlays for full time non‑instructional non‑medical staff by occupational category. For degree granting institutions with 15 or more full‑time staff, items were added to determine whether the institution had a tenure system; as well, the categories of non‑tenure‑track faculty were revised to include the following: Multi‑Year and indefinite contracts, Annual contract, Less than annual, and Without faculty status.
+The Salaries data  collection was changed from a biennial to an annual collection in 1990, and data  was not collected in 2000.
+Finance (F).
+This component, administered in the spring, collects summary data on each institution's financial status in the applicable fiscal year. The Finance component has different versions of the form based mainly on control of the institution: public, private nonprofit, and private forprofit. Non‑degree‑granting institutions also receive shorter versions of the form. The primary purposes of this annual component are to collect data to describe the financial condition of postsecondary education in the nation; to enable changes in postsecondary education finance to be monitored; and to promote research involving institutional financial resources and expenditures. The 201718 Finance component collected financial statistics, such as assets and liabilities, scholarship and fellowship sources, endowments, and institutional revenues and expenses, for the most recent fiscal year ending prior to October 2017 (fiscal year 2017).
+For public institutions that use Governmental Accounting Standards Board (GASB) reporting standards to prepare their financial statements, data are collected on their net positions, plant, property, and equipment, revenues and other additions, expenses by functional and natural classification, scholarships and fellowships, pension information, and endowment assets. Additionally, certain data are collected for the U.S. Bureau of the Census, including revenue data, expenditure data, and debts and assets.
+Private nonprofit institutions and public institutions that use Financial Accounting Standards Board (FASB) reporting standards to prepare their financial statements report data on their net assets, scholarships and fellowships, revenues and investment return, expenses by functional and natural classification, and endowment assets. A shortened version of the nonprofit form was developed for private for‑profit institutions for use from 199798 to 201314, and data were collected on balance sheet information, equity, scholarships and fellowships, revenues and investment return, income tax information, and expenses by functional and natural classification.
+A 2‑year phase‑in period began with the 200809 data collection in an effort to implement additional changes that better align the finance reporting of public and private institutions. Since the 201011 collection, all public and nonprofit institutions have used the newly‑aligned form for reporting expenses.  The data collection instrument for forprofit institutions was further aligned with the nonprofit instrument starting with the 201415 data collection. Private for‑profit institutions were required to report more detailed data beginning with 201415 data collection. This change was implemented to increase data comparability across institutional sectors. Beginning with the 201617 data collection, the detailed reporting of natural expense categories by public, nonprofit, and for‑profit institutions was eliminated, except for salaries and wages. This was an effort to reduce burden and promote higher quality data.
+Periodicity
+The IPEDS program replaced the HEGIS program in 1986. The  IPEDS survey is separated into 12 components, which correspond to three  seasonal reporting periods. The
+Institutional  Characteristics
+,
+Completions
+, and
+12‑month Enrollment
+surveys are  administered in the fall. The
+Student  Financial Aid, Graduation Rates, 200% Graduation Rates, Outcome Measures
+,  and
+Admissions
+components are  collected in the winter. The
+Fall
+Enrollment, Finance, Academic Libraries,
+and
+Human Resources
+components are  administered in the spring.
+Data Availability
+IPEDS data through Spring 2018 are publicly available at
+https://nces.ed.gov/ipeds/use-the-data
+.
+Top

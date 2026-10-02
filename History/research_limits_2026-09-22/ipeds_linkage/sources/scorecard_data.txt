@@ -1,0 +1,74 @@
+Data Home | College Scorecard
+An official website of the United States government
+Here's how you know
+icon-dot-gov
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+icon-https
+Secure .gov websites use HTTPS
+A
+lock
+(
+) or
+https://
+means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Skip to main content
+Home
+Search
+Compare
+Resources
+About the Data
+Download the Data
+Data Documentation
+API Documentation
+Change Log
+Technical Definitions
+Download the Data
+Download the data that appear on the College Scorecard, as well as supporting data on student completion, debt and repayment, earnings, and more.
+This data was
+last updated June 10, 2026
+.
+All Data Files
+Download (.zip, 470 MB)
+Institution-level data files for 1996-97 through 2025-26 containing aggregate data for each institution. Includes information on institutional characteristics, enrollment, student aid, costs, and student outcomes.
+Field of study-level data files for the pooled 2014-15, 2015-16 award years through the pooled 2018-19, 2019-20 award years containing data at the credential level and 4-digit CIP code combination for each institution. Includes information on cumulative debt at graduation and earnings one year after graduation.
+Crosswalk files for 2000-01 through 2022-23 that link the Department's OPEID with an IPEDS UNITID for each institution.
+Most Recent Institution-Level Data
+Download (.zip, 23 MB)
+Most Recent Data by Field of Study
+Download (.zip, 17 MB)
+Looking for Help?
+Visit
+StackExchange
+or email the help desk at
+scorecarddata@rti.org
+.
+For inquiries by members of the press, please contact
+press@ed.gov
+.
+Home
+Search
+Search Colleges
+Search Fields of Study
+Compare
+Compare Colleges
+Compare Fields of Study
+Resources
+About the Data
+Download the Data
+Data Documentation
+API Documentation
+Change Log
+Glossary
+Powered by
+College Scorecard Data
+3.6.1
+|
+Contact Us
+|
+Notices
+|
+Glossary
+U.S. Department of Education

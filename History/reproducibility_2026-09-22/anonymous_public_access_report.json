@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "release_tag": "fsa-research-v2-2026-09-22",
+  "verification_scope": "Anonymous HTTP access and small-file identity checks; no large archive downloads or complete bootstrap execution were performed by this review.",
+  "authentication": "Plain curl requests with no Authorization header, token, login, or gh authentication passed in the commands.",
+  "timestamp_source": "Response-body file modification times retained from the completed curl requests, expressed in UTC. These indicate when each body was saved, not an independently captured HTTP completion timestamp.",
+  "checks": [
+    {
+      "name": "tagged_bootstrap",
+      "url": "https://raw.githubusercontent.com/markjayson13/FSAVolumeReports_Panel/fsa-research-v2-2026-09-22/Scripts/bootstrap_reproduction.sh",
+      "http_status": 200,
+      "response_body_saved_at_utc": "2026-09-23T09:15:49.811995Z",
+      "response_sha256": "d5ab4cd7194ad3e06368587e73dbcf4d8cb0a30f402fceee31503cfee9e7cfd0",
+      "command": [
+        "curl",
+        "--fail",
+        "--location",
+        "--silent",
+        "--show-error",
+        "--output",
+        "/private/tmp/fsa-review-public-bootstrap.sh",
+        "--write-out",
+        "bootstrap HTTP %{http_code}\\n",
+        "https://raw.githubusercontent.com/markjayson13/FSAVolumeReports_Panel/fsa-research-v2-2026-09-22/Scripts/bootstrap_reproduction.sh"
+      ],
+      "workspace_reference": "Scripts/bootstrap_reproduction.sh",
+      "workspace_sha256": "d5ab4cd7194ad3e06368587e73dbcf4d8cb0a30f402fceee31503cfee9e7cfd0",
+      "byte_equal_to_workspace": true
+    },
+    {
+      "name": "download_manifest",
+      "url": "https://github.com/markjayson13/FSAVolumeReports_Panel/releases/download/fsa-research-v2-2026-09-22/download_manifest.json",
+      "http_status": 200,
+      "response_body_saved_at_utc": "2026-09-23T09:15:51.006808Z",
+      "response_sha256": "30b7d018cb5ab3e38070607cf515e11e59cc0b7e2c56fe0012a4ea819667f1d2",
+      "command": [
+        "curl",
+        "--fail",
+        "--location",
+        "--silent",
+        "--show-error",
+        "--output",
+        "/private/tmp/fsa-review-public-download-manifest.json",
+        "--write-out",
+        "manifest HTTP %{http_code}\\n",
+        "https://github.com/markjayson13/FSAVolumeReports_Panel/releases/download/fsa-research-v2-2026-09-22/download_manifest.json"
+      ],
+      "workspace_reference": "ResearchBuild/distribution-2026-09-22-v2/parts/download_manifest.json",
+      "workspace_sha256": "30b7d018cb5ab3e38070607cf515e11e59cc0b7e2c56fe0012a4ea819667f1d2",
+      "byte_equal_to_workspace": true
+    },
+    {
+      "name": "release_landing_page",
+      "url": "https://github.com/markjayson13/FSAVolumeReports_Panel/releases/tag/fsa-research-v2-2026-09-22",
+      "http_status": 200,
+      "response_body_saved_at_utc": "2026-09-23T09:15:52.291449Z",
+      "response_sha256": "479cc00186fc870ed3e7a8eacb2aabf143a077e945dfeb9e19d5d38992cecf31",
+      "command": [
+        "curl",
+        "--fail",
+        "--location",
+        "--silent",
+        "--show-error",
+        "--output",
+        "/private/tmp/fsa-review-public-release.html",
+        "--write-out",
+        "release HTTP %{http_code}\\n",
+        "https://github.com/markjayson13/FSAVolumeReports_Panel/releases/tag/fsa-research-v2-2026-09-22"
+      ]
+    }
+  ],
+  "manifest_pinned_sha256": "30b7d018cb5ab3e38070607cf515e11e59cc0b7e2c56fe0012a4ea819667f1d2",
+  "public_manifest_matches_bootstrap_pin": true,
+  "release_landing_page_commit_link": "179e2173a863ba751b7c339e8d4c7227db92f607",
+  "release_notes_review": {
+    "multipart_description_correct": true,
+    "whole_zip_archives": [
+      "fsa-research-v2-stata.zip"
+    ],
+    "numbered_piece_archive_count": 4,
+    "piece_size_mib": 16,
+    "data_download_files": 116,
+    "metadata_files": 3,
+    "total_release_assets_described": 119,
+    "describes_pinned_manifest_and_piece_and_full_archive_hash_verification": true,
+    "retains_research_limits_and_historical_provenance": true,
+    "distinguishes_completed_offline_rebuild_from_public_bootstrap_validation": true,
+    "claims_completed_public_bootstrap_validation": false
+  },
+  "blocking_findings": [],
+  "public_bootstrap_end_to_end_verified_by_this_report": false
+}

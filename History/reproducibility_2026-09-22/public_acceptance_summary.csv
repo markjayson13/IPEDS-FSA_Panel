@@ -1,0 +1,314 @@
+check,passed,details
+source_qaqc_summary_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/source_qc/source_qaqc_summary.csv
+source::selected_panel_files_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/download_qc/selected_panel_files.csv
+source::selected_files_exist,True,
+source::workbook_profiles_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/source_qc/workbook_profiles.csv
+source::selected_sheet_found_for_selected_files,True,
+source::selected_years_contiguous_within_family,True,
+dictionary_qaqc_summary_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/dictionary_qc/dictionary_qaqc_summary.csv
+dictionary_has_no_unmapped_actionable_headers,True,unmapped_actionable_rows=0
+panel_qaqc_summary_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/panel_qc/panel_qaqc_summary.csv
+no_duplicate_panel_keys,True,duplicate_keys=0
+descriptor_conflict_artifact_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/panel_qc/final_descriptor_conflicts.csv
+descriptor_conflicts_are_auditable,True,conflict_rows=125167
+descriptor_resolution_summary_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/panel_qc/final_descriptor_resolution_summary.csv
+descriptor_manual_review_artifact_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/panel_qc/final_descriptor_manual_review.csv
+descriptor_manual_review_rows_are_auditable,True,manual_review_rows=11278
+descriptor_manual_review_workbook_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/panel_qc/manual_review_package/final_descriptor_manual_review_workbook.xlsx
+priority_manual_review_workbook_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/panel_qc/manual_review_package/priority_manual_review_workbook.xlsx
+analysis_ready_final_panel_exists,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/final/fsa_volume_reports_panel_1999_2025.parquet
+analysis_ready_final_panel_has_unique_keys,True,rows=157160 duplicate_keys=0
+grants::year_coverage_matches_selected_files,True,"expected=['1999-2000', '2000-2001', '2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2007-2008', '2008-2009', '2009-2010', '2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017', '2017-2018', '2018-2019', '2019-2020', '2020-2021', '2021-2022', '2022-2023', '2023-2024', '2024-2025'] actual=['1999-2000', '2000-2001', '2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2007-2008', '2008-2009', '2009-2010', '2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017', '2017-2018', '2018-2019', '2019-2020', '2020-2021', '2021-2022', '2022-2023', '2023-2024', '2024-2025']"
+campus_based::year_coverage_matches_selected_files,True,"expected=['2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2007-2008', '2008-2009', '2009-2010', '2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017', '2017-2018', '2018-2019', '2019-2020', '2020-2021', '2021-2022', '2022-2023', '2023-2024'] actual=['2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2007-2008', '2008-2009', '2009-2010', '2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017', '2017-2018', '2018-2019', '2019-2020', '2020-2021', '2021-2022', '2022-2023', '2023-2024']"
+direct_loans::year_coverage_matches_selected_files,True,"expected=['1999-2000', '2000-2001', '2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2007-2008', '2008-2009', '2009-2010', '2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017', '2017-2018', '2018-2019', '2019-2020', '2020-2021', '2021-2022', '2022-2023', '2023-2024', '2024-2025'] actual=['1999-2000', '2000-2001', '2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2007-2008', '2008-2009', '2009-2010', '2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017', '2017-2018', '2018-2019', '2019-2020', '2020-2021', '2021-2022', '2022-2023', '2023-2024', '2024-2025']"
+ffel::year_coverage_matches_selected_files,True,"expected=['1999-2000', '2000-2001', '2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2007-2008', '2008-2009', '2009-2010'] actual=['1999-2000', '2000-2001', '2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2007-2008', '2008-2009', '2009-2010']"
+research::valid_full_opeids,True,157160
+research::root_id_consistency,True,157160
+research::every_final_column_documented,True,[]
+research::all_measure_definitions_available,True,[]
+research::source_descriptors_and_review_flags_retained,True,Master retains source evidence; unresolved reviews remain flagged
+research::every_value_status_populated,True,{}
+research::derived_source_schemas_reviewed,True,{}
+research::descriptor_review_flags_match_ledgers,True,[]
+research::grants_source_accounting_exists,True,grants
+research::grants_1999-2000_AY1999-00Pell.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=5
+research::grants_2000-2001_AY2000-01Pell.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=5
+research::grants_2001-2002_AY2001-02Pell.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=5
+research::grants_2002-2003_AY2002-03Pell.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=6
+research::grants_2003-2004_AY2003-04Pell.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=6
+research::grants_2004-2005_AY2004-05Pell.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=5
+research::grants_2005-2006_AY2005-06Pell.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=1
+research::grants_2006-2007_Q40607AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2007-2008_Q40708AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2008-2009_Q40809AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2009-2010_Q40910AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=1
+research::grants_2010-2011_Q41011AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2011-2012_Q41112AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2012-2013_Q41213AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2013-2014_Q41314AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2014-2015_Q41415AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2015-2016_Q41516AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2016-2017_Q41617AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2017-2018_Q41718AY.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2018-2019_grants-ay18-19-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2019-2020_grants-ay19-20-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2020-2021_grants-ay20-21-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2021-2022_grants-ay21-22-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2022-2023_grants-ay22-23-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2023-2024_grants-ay23-24-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_2024-2025_grants-ay24-25-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::grants_no_unresolved_anonymous_numeric_rows,True,[]
+research::grants_quarantine_ledger_preserved,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/observation_qc/grants_quarantine.parquet
+research::grants_1999-2000_source_rows_preserved,True,accepted=5224 quarantined=4
+research::grants_2000-2001_source_rows_preserved,True,accepted=5204 quarantined=4
+research::grants_2001-2002_source_rows_preserved,True,accepted=5185 quarantined=4
+research::grants_2002-2003_source_rows_preserved,True,accepted=5175 quarantined=3
+research::grants_2003-2004_source_rows_preserved,True,accepted=5203 quarantined=1
+research::grants_2004-2005_source_rows_preserved,True,accepted=5211 quarantined=0
+research::grants_2005-2006_source_rows_preserved,True,accepted=5249 quarantined=0
+research::grants_2006-2007_source_rows_preserved,True,accepted=5503 quarantined=0
+research::grants_2007-2008_source_rows_preserved,True,accepted=5505 quarantined=0
+research::grants_2008-2009_source_rows_preserved,True,accepted=5539 quarantined=0
+research::grants_2009-2010_source_rows_preserved,True,accepted=5600 quarantined=16
+research::grants_2010-2011_source_rows_preserved,True,accepted=5529 quarantined=0
+research::grants_2011-2012_source_rows_preserved,True,accepted=5487 quarantined=0
+research::grants_2012-2013_source_rows_preserved,True,accepted=5475 quarantined=0
+research::grants_2013-2014_source_rows_preserved,True,accepted=5481 quarantined=0
+research::grants_2014-2015_source_rows_preserved,True,accepted=5449 quarantined=0
+research::grants_2015-2016_source_rows_preserved,True,accepted=5397 quarantined=0
+research::grants_2016-2017_source_rows_preserved,True,accepted=5310 quarantined=0
+research::grants_2017-2018_source_rows_preserved,True,accepted=5212 quarantined=0
+research::grants_2018-2019_source_rows_preserved,True,accepted=5118 quarantined=0
+research::grants_2019-2020_source_rows_preserved,True,accepted=5029 quarantined=0
+research::grants_2020-2021_source_rows_preserved,True,accepted=4952 quarantined=0
+research::grants_2021-2022_source_rows_preserved,True,accepted=4883 quarantined=0
+research::grants_2022-2023_source_rows_preserved,True,accepted=4843 quarantined=0
+research::grants_2023-2024_source_rows_preserved,True,accepted=4780 quarantined=0
+research::grants_2024-2025_source_rows_preserved,True,accepted=4713 quarantined=0
+research::grant__acg_disbursements_raw_to_final_conservation,True,"cells=27676 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__acg_recipients_raw_to_final_conservation,True,"cells=27676 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__iasg_disbursements_raw_to_final_conservation,True,"cells=72945 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__iasg_recipients_raw_to_final_conservation,True,"cells=72945 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__pell_disbursements_raw_to_final_conservation,True,"cells=136256 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__pell_recipients_raw_to_final_conservation,True,"cells=136256 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__smart_disbursements_raw_to_final_conservation,True,"cells=27676 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__smart_recipients_raw_to_final_conservation,True,"cells=27676 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__teach_disbursements_raw_to_final_conservation,True,"cells=88797 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grant__teach_recipients_raw_to_final_conservation,True,"cells=88797 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::grants_no_unclassified_numeric_tokens,True,[]
+research::grants_complete_reported_totals_reconcile,True,"mismatches=0; other statuses={'not_reported': 82, 'candidate_incomplete_source_cells': 28, 'candidate_matches_known_sum': 24}"
+research::campus_based_source_accounting_exists,True,campus_based
+research::campus_based_2001-2002_CBDashboard0102.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2002-2003_CBDashboard0203.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2003-2004_CBDashboard0304.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2004-2005_CBDashboard0405.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2005-2006_CBDashboard0506.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2006-2007_CBDashboard0607.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2007-2008_CBDashboard0708.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2008-2009_CBDashboard0809.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2009-2010_CBDashboard0910.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2010-2011_2010-2011CBData.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2011-2012_2011-2012CBData.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2012-2013_2012-13CampusBasedFunding.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2013-2014_2013-14CampusBased.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2014-2015_2014-15CampusBased.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2015-2016_2015-16CampusBased.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2016-2017_2016-17CampusBased.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2017-2018_ay17-18-campus-based.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2018-2019_ay18-19-campus-based.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2019-2020_ay19-20-campus-based.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2020-2021_ay20-21-campus-based.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2021-2022_ay21-22-campus-based.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2022-2023_ay22-23-campus-based.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_2023-2024_ay23-24-campus-based.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::campus_based_no_unresolved_anonymous_numeric_rows,True,[]
+research::campus_based_quarantine_ledger_preserved,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/observation_qc/campus_based_quarantine.parquet
+research::campus_based_2001-2002_source_rows_preserved,True,accepted=4038 quarantined=2
+research::campus_based_2002-2003_source_rows_preserved,True,accepted=4035 quarantined=2
+research::campus_based_2003-2004_source_rows_preserved,True,accepted=4067 quarantined=4
+research::campus_based_2004-2005_source_rows_preserved,True,accepted=4071 quarantined=6
+research::campus_based_2005-2006_source_rows_preserved,True,accepted=4064 quarantined=7
+research::campus_based_2006-2007_source_rows_preserved,True,accepted=3942 quarantined=0
+research::campus_based_2007-2008_source_rows_preserved,True,accepted=3963 quarantined=0
+research::campus_based_2008-2009_source_rows_preserved,True,accepted=3925 quarantined=0
+research::campus_based_2009-2010_source_rows_preserved,True,accepted=3970 quarantined=0
+research::campus_based_2010-2011_source_rows_preserved,True,accepted=4086 quarantined=0
+research::campus_based_2011-2012_source_rows_preserved,True,accepted=4061 quarantined=0
+research::campus_based_2012-2013_source_rows_preserved,True,accepted=4046 quarantined=0
+research::campus_based_2013-2014_source_rows_preserved,True,accepted=4010 quarantined=0
+research::campus_based_2014-2015_source_rows_preserved,True,accepted=4013 quarantined=0
+research::campus_based_2015-2016_source_rows_preserved,True,accepted=3947 quarantined=0
+research::campus_based_2016-2017_source_rows_preserved,True,accepted=3868 quarantined=0
+research::campus_based_2017-2018_source_rows_preserved,True,accepted=3678 quarantined=0
+research::campus_based_2018-2019_source_rows_preserved,True,accepted=3707 quarantined=0
+research::campus_based_2019-2020_source_rows_preserved,True,accepted=3607 quarantined=0
+research::campus_based_2020-2021_source_rows_preserved,True,accepted=3589 quarantined=0
+research::campus_based_2021-2022_source_rows_preserved,True,accepted=3580 quarantined=0
+research::campus_based_2022-2023_source_rows_preserved,True,accepted=3551 quarantined=0
+research::campus_based_2023-2024_source_rows_preserved,True,accepted=3220 quarantined=0
+research::campus__fseog_disbursements_raw_to_final_conservation,True,"cells=89038 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus__fseog_federal_award_raw_to_final_conservation,True,"cells=89038 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus__fseog_recipients_raw_to_final_conservation,True,"cells=89038 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus__fws_disbursements_raw_to_final_conservation,True,"cells=89038 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus__fws_federal_award_raw_to_final_conservation,True,"cells=89038 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus__fws_recipients_raw_to_final_conservation,True,"cells=89038 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus__perkins_disbursements_amt_raw_to_final_conservation,True,"cells=71491 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus__perkins_federal_award_raw_to_final_conservation,True,"cells=60238 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus__perkins_recipients_raw_to_final_conservation,True,"cells=71491 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::campus_based_no_unclassified_numeric_tokens,True,[]
+research::campus_based_complete_reported_totals_reconcile,True,mismatches=0; other statuses={'not_reported': 189}
+research::direct_loans_source_accounting_exists,True,direct_loans
+research::direct_loans_1999-2000_DL_AwardYr_Summary_AY1999_2000_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2000-2001_DL_AwardYr_Summary_AY2000_2001_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2001-2002_DL_AwardYr_Summary_AY2001_2002_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2002-2003_DL_AwardYr_Summary_AY2002_2003_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2003-2004_DL_AwardYr_Summary_AY2003_2004_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2004-2005_DL_AwardYr_Summary_AY2004_2005_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2005-2006_DL_AwardYr_Summary_AY2005_2006_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2006-2007_DL_Dashboard_AY2006_2007_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2007-2008_DL_Dashboard_AY2007_2008_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2008-2009_DL_Dashboard_AY2008_2009_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2009-2010_DL_Dashboard_AY2009_2010_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2010-2011_DL_Dashboard_AY2010_2011_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2011-2012_DL_Dashboard_AY2011_2012_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2012-2013_DL_Dashboard_AY2012_2013_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2013-2014_DL_Dashboard_AY2013_2014_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2014-2015_DL_Dashboard_AY2014_2015_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2015-2016_DL_Dashboard_AY2015_2016_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2016-2017_DL_Dashboard_AY2016_2017_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2017-2018_DL_Dashboard_AY2017_2018_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2018-2019_dl-dashboard-ay2018-2019-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2019-2020_dl-dashboard-ay2019-2020-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2020-2021_dl-dashboard-ay2020-2021-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2021-2022_dl-dashboard-ay2021-2022-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2022-2023_dl-dashboard-ay2022-2023-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2023-2024_dl-dashboard-ay2023-2024-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_2024-2025_dl-dashboard-ay2024-2025-q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::direct_loans_no_unresolved_anonymous_numeric_rows,True,[]
+research::direct_loans_quarantine_ledger_preserved,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/observation_qc/direct_loans_quarantine.parquet
+research::direct_loans_1999-2000_source_rows_preserved,True,accepted=1241 quarantined=0
+research::direct_loans_2000-2001_source_rows_preserved,True,accepted=1204 quarantined=0
+research::direct_loans_2001-2002_source_rows_preserved,True,accepted=1154 quarantined=0
+research::direct_loans_2002-2003_source_rows_preserved,True,accepted=1114 quarantined=0
+research::direct_loans_2003-2004_source_rows_preserved,True,accepted=1086 quarantined=0
+research::direct_loans_2004-2005_source_rows_preserved,True,accepted=1082 quarantined=0
+research::direct_loans_2005-2006_source_rows_preserved,True,accepted=1077 quarantined=0
+research::direct_loans_2006-2007_source_rows_preserved,True,accepted=1086 quarantined=0
+research::direct_loans_2007-2008_source_rows_preserved,True,accepted=1381 quarantined=0
+research::direct_loans_2008-2009_source_rows_preserved,True,accepted=2363 quarantined=0
+research::direct_loans_2009-2010_source_rows_preserved,True,accepted=4260 quarantined=0
+research::direct_loans_2010-2011_source_rows_preserved,True,accepted=5661 quarantined=0
+research::direct_loans_2011-2012_source_rows_preserved,True,accepted=5670 quarantined=0
+research::direct_loans_2012-2013_source_rows_preserved,True,accepted=5650 quarantined=0
+research::direct_loans_2013-2014_source_rows_preserved,True,accepted=5516 quarantined=0
+research::direct_loans_2014-2015_source_rows_preserved,True,accepted=5473 quarantined=0
+research::direct_loans_2015-2016_source_rows_preserved,True,accepted=5441 quarantined=0
+research::direct_loans_2016-2017_source_rows_preserved,True,accepted=5339 quarantined=0
+research::direct_loans_2017-2018_source_rows_preserved,True,accepted=5249 quarantined=0
+research::direct_loans_2018-2019_source_rows_preserved,True,accepted=5150 quarantined=0
+research::direct_loans_2019-2020_source_rows_preserved,True,accepted=5056 quarantined=0
+research::direct_loans_2020-2021_source_rows_preserved,True,accepted=5006 quarantined=0
+research::direct_loans_2021-2022_source_rows_preserved,True,accepted=4958 quarantined=0
+research::direct_loans_2022-2023_source_rows_preserved,True,accepted=4891 quarantined=0
+research::direct_loans_2023-2024_source_rows_preserved,True,accepted=4816 quarantined=0
+research::direct_loans_2024-2025_source_rows_preserved,True,accepted=4721 quarantined=0
+research::loan_direct__grad_plus_disbursements_raw_to_final_conservation,True,"cells=88764 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__grad_plus_disbursements_n_raw_to_final_conservation,True,"cells=88764 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__grad_plus_loans_originated_amt_raw_to_final_conservation,True,"cells=88764 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__grad_plus_loans_originated_n_raw_to_final_conservation,True,"cells=88764 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__grad_plus_recipients_raw_to_final_conservation,True,"cells=88764 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__parent_plus_disbursements_raw_to_final_conservation,True,"cells=87687 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__parent_plus_disbursements_n_raw_to_final_conservation,True,"cells=87687 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__parent_plus_loans_originated_amt_raw_to_final_conservation,True,"cells=87687 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__parent_plus_loans_originated_n_raw_to_final_conservation,True,"cells=87687 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__parent_plus_recipients_raw_to_final_conservation,True,"cells=87687 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__plus_disbursements_raw_to_final_conservation,True,"cells=7958 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__plus_disbursements_n_raw_to_final_conservation,True,"cells=7958 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__plus_loans_originated_amt_raw_to_final_conservation,True,"cells=7958 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__plus_loans_originated_n_raw_to_final_conservation,True,"cells=7958 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__plus_recipients_raw_to_final_conservation,True,"cells=7958 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_disbursements_raw_to_final_conservation,True,"cells=84314 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_disbursements_n_raw_to_final_conservation,True,"cells=84314 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_graduate_disbursements_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_graduate_disbursements_n_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_graduate_loans_originated_amt_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_graduate_loans_originated_n_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_graduate_recipients_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_loans_originated_amt_raw_to_final_conservation,True,"cells=84314 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_loans_originated_n_raw_to_final_conservation,True,"cells=84314 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_recipients_raw_to_final_conservation,True,"cells=84314 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_undergraduate_disbursements_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_undergraduate_disbursements_n_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_undergraduate_loans_originated_amt_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_undergraduate_loans_originated_n_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__subsidized_undergraduate_recipients_raw_to_final_conservation,True,"cells=11331 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_disbursements_raw_to_final_conservation,True,"cells=17048 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_disbursements_n_raw_to_final_conservation,True,"cells=17048 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_graduate_disbursements_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_graduate_disbursements_n_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_graduate_loans_originated_amt_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_graduate_loans_originated_n_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_graduate_recipients_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_loans_originated_amt_raw_to_final_conservation,True,"cells=17048 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_loans_originated_n_raw_to_final_conservation,True,"cells=17048 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_recipients_raw_to_final_conservation,True,"cells=17048 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_undergraduate_disbursements_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_undergraduate_disbursements_n_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_undergraduate_loans_originated_amt_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_undergraduate_loans_originated_n_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_direct__unsubsidized_undergraduate_recipients_raw_to_final_conservation,True,"cells=78597 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::direct_loans_no_unclassified_numeric_tokens,True,[]
+research::direct_loans_complete_reported_totals_reconcile,True,mismatches=0; other statuses={'not_reported': 575}
+research::ffel_source_accounting_exists,True,ffel
+research::ffel_1999-2000_FFEL_AwardYr_Summary_AY1999_2000_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2000-2001_FFEL_AwardYr_Summary_AY2000_2001_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2001-2002_FFEL_AwardYr_Summary_AY2001_2002_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2002-2003_FFEL_AwardYr_Summary_AY2002_2003_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2003-2004_FFEL_AwardYr_Summary_AY2003_2004_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2004-2005_FFEL_AwardYr_Summary_AY2004_2005_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2005-2006_FFEL_AwardYr_Summary_AY2005_2006_All.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2006-2007_FL_Dashboard_AY2006_2007_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2007-2008_FL_Dashboard_AY2007_2008_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2008-2009_FL_Dashboard_AY2008_2009_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_2009-2010_FL_Dashboard_AY2009_2010_Q4.xls_source_identity_evidence_conserved,True,id_mismatches=0; resolution_mismatches=0; classification_mismatches=0; verified_recoveries=0
+research::ffel_no_unresolved_anonymous_numeric_rows,True,[]
+research::ffel_quarantine_ledger_preserved,True,/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/observation_qc/ffel_quarantine.parquet
+research::ffel_1999-2000_source_rows_preserved,True,accepted=4366 quarantined=0
+research::ffel_2000-2001_source_rows_preserved,True,accepted=4397 quarantined=0
+research::ffel_2001-2002_source_rows_preserved,True,accepted=4418 quarantined=0
+research::ffel_2002-2003_source_rows_preserved,True,accepted=4448 quarantined=0
+research::ffel_2003-2004_source_rows_preserved,True,accepted=4498 quarantined=0
+research::ffel_2004-2005_source_rows_preserved,True,accepted=4515 quarantined=0
+research::ffel_2005-2006_source_rows_preserved,True,accepted=4578 quarantined=0
+research::ffel_2006-2007_source_rows_preserved,True,accepted=4617 quarantined=0
+research::ffel_2007-2008_source_rows_preserved,True,accepted=4847 quarantined=0
+research::ffel_2008-2009_source_rows_preserved,True,accepted=4543 quarantined=0
+research::ffel_2009-2010_source_rows_preserved,True,accepted=4188 quarantined=0
+research::loan_ffel__grad_plus_disbursements_raw_to_final_conservation,True,"cells=22773 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__grad_plus_disbursements_n_raw_to_final_conservation,True,"cells=22773 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__grad_plus_loans_originated_amt_raw_to_final_conservation,True,"cells=22773 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__grad_plus_loans_originated_n_raw_to_final_conservation,True,"cells=22773 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__grad_plus_recipients_raw_to_final_conservation,True,"cells=22773 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__parent_plus_disbursements_raw_to_final_conservation,True,"cells=18195 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__parent_plus_disbursements_n_raw_to_final_conservation,True,"cells=18195 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__parent_plus_loans_originated_amt_raw_to_final_conservation,True,"cells=18195 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__parent_plus_loans_originated_n_raw_to_final_conservation,True,"cells=18195 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__parent_plus_recipients_raw_to_final_conservation,True,"cells=18195 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__plus_disbursements_raw_to_final_conservation,True,"cells=31220 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__plus_disbursements_n_raw_to_final_conservation,True,"cells=31220 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__plus_loans_originated_amt_raw_to_final_conservation,True,"cells=31220 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__plus_loans_originated_n_raw_to_final_conservation,True,"cells=31220 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__plus_recipients_raw_to_final_conservation,True,"cells=31220 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__subsidized_disbursements_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__subsidized_disbursements_n_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__subsidized_loans_originated_amt_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__subsidized_loans_originated_n_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__subsidized_recipients_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__unsubsidized_disbursements_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__unsubsidized_disbursements_n_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__unsubsidized_loans_originated_amt_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__unsubsidized_loans_originated_n_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::loan_ffel__unsubsidized_recipients_raw_to_final_conservation,True,"cells=49415 differing=0; metadata={'raw_token': 0, 'lower_bound': 0, 'upper_bound': 0}"
+research::ffel_no_unclassified_numeric_tokens,True,[]
+research::ffel_complete_reported_totals_reconcile,True,mismatches=0; other statuses={'not_reported': 190}
+research::derived_loan_conservation,True,columns=158; failures=[]

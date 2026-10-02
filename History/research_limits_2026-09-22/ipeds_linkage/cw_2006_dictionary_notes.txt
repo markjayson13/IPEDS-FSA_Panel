@@ -1,0 +1,71 @@
+Variable | Label | Description
+OPEID | OPEID | Office of Postsecondary Education (OPE) ID Number
+IPEDSMatch | IPEDS Match (UNITID or 'No match') | IPEDS UNITID linked to the OPEID or 'No match' where no definitive match was able to be made
+AddMatch | Additional UNITIDs (if multiple current year UNITIDs per OPEID) | In cases where multiple current year UNITIDs from IPEDS match to a single OPEID, all additional UNITID matches are listed here
+Source | Match notes | Source of the information linking the IPEDS UNITID to the OPEID. Sources include 1. IPEDS Match, 2. Reporting Map, 3. Established from subsequent years of data, 4. Manual Match, or 5. No Match
+PEPSSchname | PEPS FSA Entity Name | The name of the Main Institution as recorded in PEPS
+PEPSLocname | PEPS FSA Location Name | The official Name for each location as recorded in PEPS
+PEPSEligCert | PEPS Eligibile/ Certified Title IV indicator | Indication of Title IV FSA status of the location, as detetmined by the 3 PEPS fields used to identify Title IV status: Eligible, Certified, Approved
+IPEDSInstnm | IPEDS Match Name  | Institution name of IPEDS match
+IPEDSPSET4FLG | IPEDS Match  Title IV Postsecondary indicator  | Indication of Title IV status of matched UNITID as reported in IPEDS
+f1sysnam | Name of System | Name of multi-institution or multi-campus organization that owns, governs, or controls the institution as reported in IPEDS
+IPEDSrpt | IPEDS reporting of OPEID main and locations | Indicator of whether all OPEID main and locations report under a single UNITID or multiple UNITIDS in IPEDS
+OPEIDMain | FSA Main location related to this OPEID | OPEIDs for main locations will be of the format 0#####00, where the middle 5 digits are shared among all branch locations
+IPEDSMain | IPEDS Match for the FSA Main location related to this OPEID | The UNITID of the FSA Main location
+PY_UNITID | Prior Year UNITID(s) | To faciliate mapping of crosswalks between years, all prior year UNITIDs associated with the matched UNITID are listed
+PYNotes | Type of change to UNITID | The type of change that occurred between the prior year and current year UNITID(s)
+PY_OPEID | Prior year final OPEID | To faciliate mapping of crosswalks between years, all prior year OPEID(s) associated with the current year OPEID are listed
+COA1 | OPEID Changes during current year [1] | Since the PEPS data is continuously updated throughout the year, all changes that occur are outlined in these fields. The OPEIDs involved in the change, the type of change and the date of change are listed.
+COA2 | OPEID Changes during current year [2] | 
+COA3 | OPEID Changes during current year [3] | 
+COA4 | OPEID Changes during current year [4] | 
+COA5 | OPEID Changes during current year [5] | 
+ |  |  |  | 
+ |  |  |  | 
+ | Crosswalk Field | Values | Meaning | Notes
+ |  |  |  | 
+ | Source | 1 | Direct matching to the IPEDS header file (IPEDS match) | 
+ |  | 2 | Linkages reported by the institutions through the IPEDS Reporting Map (Reporting Map) | 
+ |  | 3 | Continuation of relationships established in other years (Established from subsequent years of data) | 
+ |  | 4 | Matches made using manual comparisons and searches of institutional location data (Manual Match) | 
+ |  | 5 | If no match was made between the OPIED and an IPEDS UNITID, this field contains “No Match”. | 
+ |  |  |  | 
+ |  |  |  | 
+ | PEPS Eligibile/ Certified Title IV indicator [PEPSEligCert] | Yes [XXX] | Title IV FSA location | [XXX] represents the values of the 3 PEPS fields used to identify Title IV status: Eligible, Certified, Approved. Eligible=Y (yes) or N (no). Certified=C (certified), P (provisionally certified), or N (no). Approved=Y (yes) or N (no).
+ |  | No [XXX] | No, not Title IV FSA location | 
+ |  |  | Not known; OPEID sourced from IPEDS, not PEPS | 
+ |  |  |  | 
+ |  |  |  | 
+ | IPEDS Match  Title IV Postsecondary indicator [IPEDSPSET4FLG] |  |  | 
+ |  | 1 | Title IV postsecondary reporting unit | 
+ |  | 2 | Non-Title IV postsecondary reporting unit | 
+ |  | 3 | Title IV NOT primarily postsecondary reporting unit | 
+ |  | 4 | Non-Title IV NOT primarily postsecondary reporting unit | 
+ |  | 5 | Title IV postsecondary reporting unit that is NOT open to the public | 
+ |  | 6 | Non-Title IV postsecondary reporting unit that is NOT open to the public | 
+ |  | 9 | Reporting unit is not active in current universe | 
+ |  | -2 | Not available | 
+ |  |  |  | 
+ |  |  |  | 
+ | OPEID Changes during current year |  |  | 
+ | Structured as A|B|C|D | A | OPEID before change | 
+ |  | B | OPEID after change (-2 if closure) | 
+ |  | C | Type of change (see below) | 
+ |  | D | Date of change (YYYYMMDD format) | 
+ |  |  |  | 
+ |  |  |  | 
+ | Type of OPEID change  |  |  | 
+ |  | 1 | Merger | 
+ |  | 2 | Location to Location | 
+ |  | 3 | Location to Freestanding (main) | 
+ |  | 4 | Redesignation | 
+ |  | 5 | Location to Branch | 
+ |  | 6 | Branch to Freestanding | 
+ |  | 7 | Merged/Consolidated | 
+ |  | 8 | Merged/Absorbed | 
+ |  | X | Closed | 
+ |  |  |  | 
+ | IPEDS reporting of OPEID main and locations |  |  | 
+ |  | 1 | OPEID main and locations are reported under one IPEDS UNITID | 
+ |  | 2 | OPEID main and locations reported under multiple IPEDS UNITIDs | 
+ |  | -2 | Not available | 

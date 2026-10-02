@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "repository": "https://github.com/markjayson13/FSAVolumeReports_Panel",
+  "purpose": "Read-only parsing and loan harmonization helpers; linkage is downstream-owned.",
+  "modules": {
+    "Scripts/fsa_build_utils.py": "4e0db31cc593abf713071ad4af8508c3dda9c23308f425ed3556563daa0ecf22",
+    "Scripts/fsa_observations.py": "8c300aff78d0076c740bc80eba41354917d15ffcd2ebd99085cacb5e11b226a9",
+    "Scripts/fsa_loan_harmonization.py": "c02fd2e959a40fbae78063f48f5704ed575f7655bdba01bf3992401a750a6519"
+  },
+  "identity_ledger": {
+    "path": "Metadata/source_identity_resolutions.csv",
+    "sha256": "15b950b69e632b699e920c2e04231870857c4a8134ea044f16dc40d0be02a3f1",
+    "contract": "Upstream OPEID repair decisions retained unchanged; downstream consumes independently reviewed UNITID-only decisions from the same evidence ledger."
+  },
+  "git_commit": "f67f8614500e175e74fb992ca356f94c1a243120"
+}

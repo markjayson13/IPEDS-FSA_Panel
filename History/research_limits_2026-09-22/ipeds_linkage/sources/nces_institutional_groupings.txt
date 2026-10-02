@@ -1,0 +1,360 @@
+Institutional Groupings in IPEDS: Considerations for Data Use and Analysis
+Skip to main content
+About
+IPEDS
+About IPEDS
+Your primary source for information on U.S. colleges, universities, and technical and vocational institutions.
+Overview
+Learn More
+This Week in IPEDS (TWII)
+Survey Components
+Data Release Schedule
+Contact Us
+Use
+The Data
+Use The Data
+Access IPEDS data submitted to NCES through our data tools or download the data to conduct your own research and analysis.
+Overview
+SEARCH EXISTING DATA
+Data Explorer
+Publications and Products
+Download IPEDS Data
+Custom Data Files
+Compare Institutions
+Complete Data Files
+Access Database
+CREATE CUSTOM DATA ANALYSES
+Data Trends
+Statistical Tables
+Summary Tables
+Lookup an Institution
+Data Feedback Report
+Data Tools Shortcuts
+Report
+Your Data
+Report Your Data
+Report your institution’s data and access resources that will help with successful submission.
+Overview
+DATA REPORTING
+Answer the Current Survey
+Revise the Prior Year's Survey
+Request to Be an IPEDS Institution
+REPORTING RESOURCES
+Reporting Guides
+Reporting Tools
+COLLECTION INFORMATION
+Collection Schedule and Survey
+Materials
+Updates to the Data Collection
+About the Data Collection
+Find
+Your College
+Find Your College
+Narrow down your college from over 6,000 colleges, and explore resources to plan, prepare, and graduate from college.
+Overview
+EXPLORE COLLEGES
+Search for College
+Compare Colleges
+Map Your College
+College Stats
+GET FINANCING
+Apply for Federal Student Aid
+Loan Counseling
+College Affordability and Transparency Center
+ACCESS CAREER TOOLS
+Career Options
+Collaborate
+With NCES
+Collaborate With NCES
+Collaborate with NCES to learn more about IPEDS activities, outreach, R&D, and federal grants and fellowships
+Overview
+GET RECENT NEWS AND UPDATES
+National Postsecondary Education
+Cooperative (NPEC)
+Technical Review Panel
+Archived Research & Dissertation Grants
+NCES Data Institute
+PARTICIPATE IN IPEDS
+Trainings & Outreach
+IPEDS Knowledge
+Exchange (Listserv)
+Home
+Use The Data
+Institutional Groupings in IPEDS
+Help
+|
+Help Desk:
+1 (877) 994-7337
+Back to top
+Institutional Groupings in IPEDS
+Institutional Grouping Variables Available in IPEDS Data Products
+Institutional Grouping Variables Not Currently Available in IPEDS Data Products
+Guidance for Data Users
+Institutional Groupings in IPEDS: Considerations for Data Use and Analysis
+The Integrated Postsecondary Education Data System (IPEDS) represents the universe of U.S. postsecondary institutions eligible to participate in any of the Title IV federal student financial assistance programs, which included more than 6,000 institutions in 2022–23. In practice, however, data users are often interested in exploring only a subset of the broader universe of institutions.
+For example, an academic researcher or policy analyst may be interested in “community colleges” in a particular state or “flagships universities” in all states. Similarly, an institutional research analyst may be most interested in comparing a small number of “peer institutions” for benchmarking purposes.
+IPEDS data products—like web-based data tools and data files—include variables that may be useful for grouping institutions by selected characteristics. Data users may also identify their own institutional group of interest using sources or lists outside of IPEDS. This resource page provides an overview of how to understand, identify, and create institutional groupings within IPEDS data products.
+Institutional Grouping Variables Available in IPEDS Data Products
+Data users may find it useful to filter the IPEDS universe into smaller institutional groupings that are more meaningful for analysis and comparison. The following table presents common institutional grouping variables included in IPEDS data tools and files.
+Common Institutional Grouping Variables Available in IPEDS
+Survey Component
+Variable
+1
+Description
+Institutional Characteristics Header (IC-H)
+Control
+Whether an institution is operated by publicly elected or appointed officials (public control) or by privately elected or appointed officials and derives its major source of funds from private sources (private control). Institutions under private control are further classified as either nonprofit or for-profit.
+Level
+Whether an institution’s
+programs
+A combination of courses and related activities organized for the attainment of broad educational objectives as described by the institution.
+Close
+are 4-year or above (4-year), 2-but-less-than 4-year (2-year), or less than 2-year.
+Sector
+One of nine institutional categories derived by interacting an institution’s control and level (e.g., “public 4-year or above”).
+Carnegie Classification
+An institutional classification framework that describes the diversity of degree-granting institutions in U.S. higher education. Common examples include “R1” or “R2” doctoral universities and “master’s colleges” of varying academic program size.
+2
+Historically Black College or University (HBCU)
+Whether an institution is a federally designated Historically Black College or University (HBCU). HBCUs were established prior to 1964 with the principal mission to educate Black Americans.
+Tribal College or University (TCU)
+Whether an institution is a federally designated Tribal College or University (TCU). TCUs, with few exceptions, are tribally controlled and located on reservations and serve to maintain, preserve, and restore Native languages and cultural traditions. They are all members of the American Indian Higher Education Consortium.
+Locale (degree of urbanization)
+The geographic status of an institution on an urban continuum ranging from “large city” to “rural” based on its physical address.
+State or jurisdiction
+3
+An institution’s physical location in any of the 50 states, the District of Columbia, and other jurisdictions.
+4
+Institutional Size
+Size category based on total students enrolled for credit in the fall (e.g., “Under 1,000,” “1,000–4,999”).
+Land Grant Institution
+Institutions of higher education in the United States that have been designated by their state legislature or Congress to receive the benefits of the Morrill Acts of 1862, 1890, or 1994. Most land-grant institutions are large public universities (e.g., Louisiana State University, Virginia Polytechnic Institute & State University), but some are private (e.g., Cornell University, Tuskegee University).
+Institutional Characteristics (IC)
+Open Admission
+Whether an institution has an open admission policy for all or most of the entering first-time undergraduate-level students.
+5
+All programs offered via distance education
+Whether an institution has programs in which all the required coursework for program completion can be completed via distance education courses. These may be considered “online” institutions.
+Calendar System
+The institution’s predominant calendar system, which includes academic (e.g., semester, quarter), program (e.g., continuous basis), or hybrid.
+6
+1
+Note that not all common institutional grouping variables are available across all IPEDS data tools. However, complete IPEDS data files include all variables.
+2
+The Carnegie Classification framework was first published in 1973 and is now updated every 3 years. For more information on the variety of classifications applied to U.S. higher education institutions and how classifications have changed over time, please visit the American Council on Education’s Carnegie Classification
+webpage
+.
+3
+States and jurisdictions can be identified by state abbreviation (character) or FIPS code (numeric) variables in the IC-H component.
+4
+Other jurisdictions include American Samoa, Federated States of Micronesia, Guam, Marshall Islands, Northern Marianas, Palau, Puerto Rico, and Virgin Islands.
+5
+Only institutions that do not have an open admission policy complete the ADM component. Therefore, data users interested in understanding admissions selectively (e.g., percent admitted) should use this indicator variable in combination with data reported on the ADM component for the number of applicants and admitted students.
+6
+An institution’s predominant calendar system has implications for how data are reported to IPEDS, including the timing of fall enrollment counts and how cost of attendance estimates are calculated, among others. For more information on how data collected in IPEDS vary by an institution’s calendar system (i.e., reporter type), please visit the IPEDS survey materials
+webpage
+.
+Top
+Institutional Grouping Variable Spotlight: Institutional Category
+The “institutional category” is an often-overlooked key variable that can be used to create meaningful groups of similar institutions, such as community colleges that may offer baccalaureate programs. The National Center for Education Statistics (NCES) derives this variable based on the level of program offerings reported on the IPEDS Institutional Characteristics (IC) component and the number and level of awards reported on the Completions (C) component. The six institutional category values include the following:
+Degree-granting
+1. graduate with no undergraduate degrees
+2. primarily baccalaureate or above
+3. not primarily baccalaureate or above
+1
+4. associate’s and certificates
+1
+Non-degree-granting
+5. above the baccalaureate
+6. sub-baccalaureate
+1
+These two categories in combination with public control can help data users isolate the universe of “community colleges” in IPEDS, which is not explicitly collected.
+The following section provides information on how data users can apply institutional grouping variables in web-based IPEDS data tools and complete data files, which can be accessed from the IPEDS Use the Data
+webpage
+. Two commonly used ready-made data tools are
+Compare Institutions
+and
+Statistical Tables
+. Both tools allow data users to isolate groups of institutions based on selected characteristics.
+Top
+Compare Institutions and Statistical Tables
+Compare Institutions
+Allows data users to access selected data for a group of institutions for one or more variables
+Statistical Tables
+Allows data users to generate a report containing summary statistics for a group of institutions for one or more variables
+Despite differences in the functionality and purpose of these data tools, the process of selecting institutional grouping variables to filter the IPEDS universe and generate a list of institutions is the same across both tools.
+For Compare Institutions and Statistical Tables, there are three grouping functions known as “By Groups”:
+EZ Group
+,
+Automatic Group
+, and
+Saved Group
+. Data users can select a specific “By Groups” function depending on their analytic needs. 
+            Below is a diagram that displays the different ways institutional groups can be created within these data tools. Click on the icons within the table below to reveal text that explains each function.
+Example of Institutional Grouping Options in Compare Institutions Data Tool
+EZ Group allows data users to create their own institution selection criteria based on a limited set of IPEDS variables. Users can select institutions using common institutional classifications and characteristics (e.g., sector, Carnegie Classification). For a list of common institutional grouping variables found in IPEDS,
+please refer to the table above
+.
+A comparison institution (or focal institution) is not required to retrieve an IPEDS data report or file. However, if data users would like to add a comparison institution, this option is available and allows them to use the Automatic Group and Saved Group functions.
+Once data users select a comparison institution, they can access this function to select an institutional peer group generated by NCES. The automatic peer group selected is based on institutional characteristics such as control, Carnegie Classification (for degree-granting institutions), enrollment size, and largest program of study by enrollment (for non-degree-granting institutions) to ensure the peer group and focal institution are similar.
+Once data users select a comparison institution, they can access this function to select the institutional peer group already defined by that institution. Saved Group is available only for institutions that have previously submitted a custom comparison group. Note that not all institutions provide a list of peer institutions.
+In addition to using preset institutional grouping functions, data users can create their own unique list of institutions by manually entering the institution name or
+UnitID
+Unique identification number assigned to postsecondary institutions surveyed through the Integrated Postsecondary Education Data System (IPEDS).
+Close
+.
+Close
+View All Diagram Notes
+A
+EZ Group allows data users to create their own institution selection criteria based on a limited set of IPEDS variables. Users can select institutions using common institutional classifications and characteristics (e.g., sector, Carnegie Classification). For a list of common institutional grouping variables found in IPEDS,
+please refer to the table above
+.
+B
+A comparison institution (or focal institution) is not required to retrieve an IPEDS data report or file. However, if data users would like to add a comparison institution, this option is available and allows them to use the Automatic Group and Saved Group functions.
+C
+Once data users select a comparison institution, they can access this function to select an institutional peer group generated by NCES. The automatic peer group selected is based on institutional characteristics such as control, Carnegie Classification (for degree-granting institutions), enrollment size, and largest program of study by enrollment (for non-degree-granting institutions) to ensure the peer group and focal institution are similar.
+D
+Once data users select a comparison institution, they can access this function to select the institutional peer group already defined by that institution. Saved Group is available only for institutions that have previously submitted a custom comparison group. Note that not all institutions provide a list of peer institutions.
+E
+In addition to using preset institutional grouping functions, data users can create their own unique list of institutions by manually entering the institution name or
+UnitID
+Unique identification number assigned to postsecondary institutions surveyed through the Integrated Postsecondary Education Data System (IPEDS).
+Close
+.
+Top
+Note that the Look up an Institution data tool allows data users to access selected data for a single institution in a summary format or as reported on the IPEDS component form. This tool uses the same grouping functionality described above to aid data users in filtering the IPEDS universe to isolate a single institution of interest.
+Institutional Grouping Options Spotlight: EZ Group
+A common way data users create meaningful institutional groupings for analysis is by using the
+EZ Group
+function. For example, a researcher interested in studying Title IV Historically Black Colleges or Universities in the Southeast region that primarily award bachelor’s degrees or above would make the following variable selections within the Compare Institutions data tool.
+Your browser does not support the video tag.
+Once these selections have been made and the user clicks “Search,” a list of all 61 institutions that meet the specified criteria will be created.
+Top
+Standard Data Feedback Report
+The standard IPEDS Data Feedback Report (DFR) is an annual report published by NCES that graphically summarizes selected IPEDS data such as enrollment demographics and student success outcomes. This tool allows institutions to compare and benchmark their reported data with a group of peer institutions (i.e., comparison group).
+DFRs incorporate one of two comparison group options:
+Custom Comparison Group
+or
+Automatic Group
+. The standard DFR defaults to using a custom comparison group if an institution has previously created one. However, if the institution does not create a custom comparison group, NCES will generate and use an automatic comparison group (as described above).
+As an example, the following graphic shows the University of Kansas and its custom comparison group of 21 self-selected peer institutions.
+To access the DFR tool, please visit the IPEDS Use the Data
+webpage
+.
+Top
+Custom Data Feedback Report and Statistical Analysis Report
+In addition to accessing an institution’s standard DFR, data users can create a Custom Data Feedback Report (Custom DFR) and related Statistical Analysis Report. The custom DFR differs from the standard DFR (described above) by modifying the comparison group used or figures included in the report. Once data users create a Custom DFR, they can also use the Statistical Analysis Report tool to review the underlying data for each included institution and modify the variables used within the figures. Before users can view a Custom DFR and related Statistical Analysis Report, they must first choose a comparison institution and select a
+Custom Comparison Group
+using the same methods described above for the Compare Institutions and Statistical Tables data tools.
+Data Feedback Report Spotlight: Custom DFR
+An institutional research analyst interested in creating a statistical report to benchmark the University of Kansas with all other Title IV, public, degree-granting, primarily baccalaureate or above institutions in Kansas could create a customized report by making the following variable selections using the
+EZ Group
+function within the Custom DFR data tool.
+Your browser does not support the video tag.
+Once these selections have been made and the user clicks “Search,” a list of the 6 comparison institutions that meet the specified criteria will be created and the data user can select specific figures to be included in the Custom DFR.
+Note. Custom DFRs limit the number of comparison institutions to 100.
+For step-by-step tutorials on how to use the IPEDS DFR tool—for both standard and custom DFRs—please visit the
+            following Association for Institutional Research training
+webpage
+and the NCES DFR help guide
+webpage
+.
+Top
+Institutional Grouping Variables Not Currently Available in IPEDS Data Products
+While IPEDS data products include many key institutional grouping variables, not all variables of interest to the higher education community are included. One key example is the complete range of Minority-Serving Institution (MSI) designations. As mentioned above, IPEDS data products include two MSI designations—HBCU and TCU—that are both variables within the IC-H component. HBCU and TCU designations come from stable institution lists maintained as part of the White House Initiatives on HBCUs and TCUs, respectively. In contrast, institution lists of other MSI designations may vary from year to year because they are based on an institution’s enrollment demographics and financial health, among other considerations, to determine eligibility for certain federal grant programs.
+Given the varying definitions of MSI classifications in higher education research and practice, adding these additional MSI designations to IPEDS data products may limit research for individuals who operationalize these designations differently. In addition, some IPEDS institutions that report main campus and satellite campus locations together in the aggregate may have only a satellite campus that meets specific MSI designation criteria, and these locations would not appear as a standalone institution in IPEDS data products.
+The Office of Postsecondary Education (OPE), which is within the U.S. Department of Education but separate from NCES, designates additional institutional MSI statuses based on federal regulatory criteria. The following table includes short descriptions of the many MSI statuses an institution may have that are not currently included in IPEDS data products.
+Minority-Serving Institution (MSI) Designations
+Classification
+Generalized Description
+Hispanic-Serving Institution (HSI)
+An institution of higher education (IHE) that has an enrollment of undergraduate students that is at least 25 percent Hispanic students
+Alaska Native and Native Hawaiian-Serving Institution (ANNHSI)
+An IHE that has an enrollment of undergraduate students that is at least 20 percent Alaska Native students or at least 10 percent Native Hawaiian students
+Predominately Black Institution (PBI)
+An IHE that has not less than 1,000 undergraduate students of which not less than than 40 percent are Black American students, not less than 50 percent are low-income individuals or first-generation college students, and not less than 50 percent are in an educational program leading to a bachelor’s or associate’s degree
+Asian American and Native American Pacific Islander-serving institution (AANAPISI)
+An IHE that has an enrollment of undergraduate students that is not less than 10 percent Asian American or Native American Pacific Islander students
+Native American-Serving Nontribal Institution (NASNI)
+An IHE that has an enrollment of undergraduate students that is not less than 10 percent Native American students and is not a Tribal College or University
+For more information on MSIs, including legislative and regulatory details and links to institution lists by MSI type, please visit the U.S. Department of Education’s
+webpage
+. Nonfederal informational resources that provide institution lists of MSIs include the Rutgers Center for Minority Serving Institutions
+webpage
+and the MSI Data Project
+webpage
+.
+In addition to MSI designations, the broader higher education research and policy communities are also often interested in postsecondary institutions that fall within other institutional groupings and classifications. The following table presents examples of institutional groupings that are not explicitly available in IPEDS data tools and files but could be created and applied to IPEDS data.
+Top
+Common Institutional Grouping Variables Not
+Currently Available in IPEDS
+Expand All
+|
+Collapse All
+Community College
+Community colleges are typically publicly controlled postsecondary institutions funded by state and local sources that offer a broad range of education and training programs primarily below the baccalaureate level (e.g., certificates, associate’s degrees). In some cases, however, community colleges offer programs at the baccalaureate level.
+A common misconception among IPEDS data users is that the sector variable value for “public 2-year” institutions is a proxy for “community college.” Because community colleges are increasingly offering programs at the baccalaureate level and are thus classified as “public 4-year” institutions in IPEDS, the “public 2-year” value does not capture all institutions data users likely consider to be community colleges.
+IPEDS data products do not include a single “community college” classification variable, but do include institutional grouping variables (e.g., control, Carnegie Classification, institutional category) that can help data users develop their own operational list of community colleges.
+In practice, researchers, policy analysts, and higher education membership organizations that represent the community college sector often have their own operating definitions and rosters of institutions they consider to be community colleges.
+Selectivity/Ranking
+Students and their families may be interested in the likelihood of admission to a particular college during the college search and application processes. Researchers and advocates may be interested in “highly selective” or “highly rejective” colleges and universities in terms of educational opportunity and equity considerations.
+Popular media and publications also rank order institutions based on their own methodologies, which may incorporate measures of institutional resources (e.g., endowments), academic outcomes (e.g., graduation rates), and even post-college outcomes (e.g., earnings).
+IPEDS, however, does not classify institutions based on their selectivity nor rank institutions.
+In practice, data users may proxy an institution’s admission rate as a measure of selectivity, and this rate is available for institutions without an open admission policy. Admission rate data are collected annually in the IPEDS Admissions (ADM) component and include the number of applicants and admitted students who are first-time, full-time, certificate/degree-seeking students in the fall term (i.e., the traditional freshman class).
+Flagship University
+Though there is no commonly agreed upon definition of a “flagship university,” data users may conceptualize these institutions as each state’s most “selective” or “prestigious” public university or as the institution that has the largest enrollment, receives the largest amount of state funding, has the highest research activity, or has the most well-known NCAA Division I sports teams, among other distinguishing characteristics.
+In some contexts, policymakers and researchers may consider a state to have more than one flagship university (e.g., University of Texas at Austin and Texas A&M University), resulting in a list of flagship universities greater than 50.
+Rural-Serving Institution (RSI)
+The
+Alliance for Research on Regional Colleges
+has developed its own methodology for conceptualizing and classifying RSIs, and its roster of RSIs can be merged with IPEDS data using a common
+UnitID
+Unique identification number assigned to postsecondary institutions surveyed through the Integrated Postsecondary Education Data System (IPEDS).
+Close
+number.
+IPEDS data products do include variables related to an institution’s locale (e.g., rural, city) and physical location (e.g., ZIP Code, region, state, county, and geographic coordinates), which can help data users interested in studying postsecondary institutions located in rural areas.
+Accreditation Status
+Accreditation is a process of external quality review of higher education institutions and their programs by a recognized accrediting organization.
+Students, families, government officials, employers, and the press may interpret the accreditation of an institution and its programs as a sign of a high-quality education.
+The
+Database of Accredited Postsecondary Institutions and Programs
+(DAPIP) contains information reported directly to the U.S. Department of Education by recognized accrediting agencies and state approval agencies.
+Reported information in the DAPIP is not audited; therefore, the U.S. Department of Education does not guarantee that the information contained in the database is accurate, current, or complete. For the most accurate and current information, data users should contact the appropriate accrediting agency.
+Top
+Guidance for Data Users
+How can data users create their own unique institutional grouping and apply it to IPEDS data files?
+One seemingly straightforward method data users can adopt to identify their own institutional grouping is to create a roster of institutions and then merge in IPEDS data files, matching by name. This process, however, might be tedious if there are many institutions to match and might be prone to data errors, particularly because the same institution may be listed under different naming conventions across data sources and because multiple IPEDS institutions in different states share the same name.
+Instead of matching by name, data users could develop a crosswalk file—or a roster of institutions—that includes both the institution name and a unique identifier variable. IPEDS data tools and files contain two unique identifiers data users can use to merge their own institution list with IPEDS data files.
+UnitID
+Unique identification number assigned to postsecondary institutions surveyed through the Integrated Postsecondary Education Data System (IPEDS)
+OPE ID
+Identification number used by the U.S. Department of Education’s Office of Postsecondary Education (OPE) to identify schools that have Program Participation Agreements (PPA) so that their students are eligible to participate in Federal Student Financial Assistance programs under Title IV regulations; a 6-digit number followed by a 2-digit suffix used to identify branches, additional locations, and other entities that are part of the eligible institution Type something
+Note that IPEDS UnitID and OPE ID values are not a one-to-one match. For example, an IPEDS institution, recognized as the unit of analysis for data collection and reporting, can reflect more than one PPA, as there may be other branch campuses and additional locations separate from an institution’s “main campus.”
+Both IPEDS UnitID and OPE ID values can be accessed via the NCES
+College Navigator
+tool and the IC-H data file.
+Example of NCES College Navigator Website
+Top
+What other considerations should IPEDS data users
+be mindful of when conducting an analysis using
+institutional groupings?
+Expand All
+|
+Collapse All
+Consider Inclusion (and Exclusion) Criteria for Analytic Sample
+Data users may select an analytic sample based on a limited number of institutional grouping variables (e.g., sector only). This approach may yield an analytic sample that unintentionally includes postsecondary institutions that are dissimilar from the primary group of institutions intended in the analysis.
+For example, an analyst interested in studying “public 4-year” institutions may want to exclude certain institutions that meet the sector inclusion criteria but are online-only institutions (i.e., those that offer academic programs only via distance education), graduate-only institutions, “community colleges” that offer baccalaureate programs, or institutions that enroll fewer than 50 total undergraduates.
+As another example, a researcher interested in studying the racial/ethnic diversity of U.S. college students and faculty may choose to include postsecondary institutions located in Puerto Rico—a jurisdiction outside the 50 states and the District of Columbia—in their analytic sample, as many of these institutions are designated HSIs and enroll and employ large shares of Hispanic/Latino individuals.
+Data users should consider a range of institutional classifications and characteristics when determining meaningful institutional groupings and the potential benefits (or limitations) of either including or excluding institutions. Examining additional grouping variables beyond the primary grouping variable of interest can help data users refine their final analytic sample and ensure their intended institutions are included.
+Consider the Unit of Analysis
+Data users should be aware that an “IPEDS institution,” as the unit of analysis, may reflect varying levels of data aggregation in terms of institutions with multiple campus locations. A single IPEDS reporting institution may reflect a main campus only, a main campus plus affiliated satellite campuses or off-campus locations, a community college district, or even a university system. IPEDS institutions are granted leeway in how they choose to report their data in terms of multisite locations, and some have changed their data reporting practices over time.
+For example, in prior years, Arizona State University had reported data separately by campus location in the Phoenix Metropolitan area (e.g., Downtown, Polytechnic, Tempe), but it now reports under the Tempe “Campus Immersion” location (separate from “Digital Immersion” or online students). As another example, in recent years, the Pennsylvania State University has shifted back and forth between reporting IPEDS data by campus (e.g., University Park, Commonwealth Campuses) and at the system level. Similarly, institutional mergers and campus consolidations, such as those experienced within the University System of Georgia, also impact the institution name under which data are reported.
+Data users should pay close attention to institution name changes and seemingly implausible fluctuations in reported IPEDS data (e.g., enrollment booms), as these could indicate changes in how data are reported or aggregated for multiple campuses.
+In addition, data from the IPEDS Finance (F) and Academic Libraries (AL) survey components may include “parent/child” relationships in which the “parent” institution (e.g., main campus) reports aggregate finance or library collections data, respectively, that includes their related “children” institutions (e.g., branch campuses). For more information on “parent/child” relationships in the F survey component, please visit the following
+webpage
+.
+Consider Potential Changes in Institutional Grouping (Classification) Over Time
+IPEDS remains a dynamic annual data collection that captures the changing universe of Title IV postsecondary institutions. Similarly, an institution’s characteristics and classifications may also change over time. Key examples include level (e.g., a community college begins offering a baccalaureate program) and Carnegie Classification (e.g., a research university moves from an “R2” to an “R1” institution). Given that institutional classifications and related IPEDS grouping variables change over time, data users should consider their approach to analyses that include multiple years.
+A researcher or data analyst may choose to adopt a “longitudinal” approach, in which they identify a stable group of institutions that meet some established baseline criteria, perhaps in the first year of the study period, and then follow only those institutions over time. Under this approach, the number of postsecondary institutions (i.e., analytic sample) would remain the same across years.
+In contrast, data users may choose to adopt a “repeated cross-sectional” approach to their analyses that include multiple years, in which all institutions that meet established baseline criteria in each year are included (e.g., all “public 2-year” institutions annually). Under this approach, the number of postsecondary institutions (i.e., analytic sample) would vary across years, reflecting institutions’ changing classifications and even the merging or closing of institutions.
+Top

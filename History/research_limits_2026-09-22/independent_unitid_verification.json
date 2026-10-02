@@ -1,0 +1,905 @@
+{
+  "verified_utc": "2026-09-23T03:00:19.815073+00:00",
+  "master_rows": 157160,
+  "unitid_rows": 141038,
+  "unique_unitids": 7797,
+  "unitid_columns": 1312,
+  "blocked_only_rows": 18,
+  "blocked_only_by_year": {
+    "2000-2001": 8,
+    "2001-2002": 2,
+    "2002-2003": 1,
+    "2003-2004": 1,
+    "2004-2005": 1,
+    "2005-2006": 1,
+    "2006-2007": 1,
+    "2007-2008": 1,
+    "2008-2009": 2
+  },
+  "families": {
+    "grants": {
+      "master_records": 136256,
+      "ledger_records": 136272,
+      "included_records": 131818,
+      "dispositions": {
+        "included_unique_family_record": 131818,
+        "excluded_annual_identity_unresolved": 4056,
+        "ambiguous_family_multiple_records": 398
+      },
+      "recovered_full_ids": 34,
+      "unitid_only_verified_orphans": 16,
+      "source_measure_columns": 10
+    },
+    "campus_based": {
+      "master_records": 89038,
+      "ledger_records": 89038,
+      "included_records": 87029,
+      "dispositions": {
+        "included_unique_family_record": 87029,
+        "excluded_annual_identity_unresolved": 1999,
+        "ambiguous_family_multiple_records": 10
+      },
+      "recovered_full_ids": 0,
+      "unitid_only_verified_orphans": 0,
+      "source_measure_columns": 9
+    },
+    "direct_loans": {
+      "master_records": 95645,
+      "ledger_records": 95645,
+      "included_records": 87461,
+      "dispositions": {
+        "included_unique_family_record": 87461,
+        "excluded_annual_identity_unresolved": 8182,
+        "ambiguous_family_multiple_records": 2
+      },
+      "recovered_full_ids": 0,
+      "unitid_only_verified_orphans": 0,
+      "source_measure_columns": 45
+    },
+    "ffel": {
+      "master_records": 49415,
+      "ledger_records": 49415,
+      "included_records": 42909,
+      "dispositions": {
+        "included_unique_family_record": 42909,
+        "excluded_annual_identity_unresolved": 6478,
+        "ambiguous_family_multiple_records": 28
+      },
+      "recovered_full_ids": 0,
+      "unitid_only_verified_orphans": 0,
+      "source_measure_columns": 25
+    }
+  },
+  "checks": [
+    {
+      "check": "master_unique_opeid_year",
+      "passed": true,
+      "detail": 157160
+    },
+    {
+      "check": "master_valid_full_opeid",
+      "passed": true,
+      "detail": 157160
+    },
+    {
+      "check": "unitid_unique_year",
+      "passed": true,
+      "detail": 141038
+    },
+    {
+      "check": "unitid_positive_nonmissing_integer",
+      "passed": true,
+      "detail": 141038
+    },
+    {
+      "check": "no_invented_canonical_opeid",
+      "passed": true,
+      "detail": "Only family-specific full OPEIDs belong in the UNITID view"
+    },
+    {
+      "check": "unitid_manifest_matches_frozen_module",
+      "passed": true,
+      "detail": "14bbc4a8de287a99efa320f6444f4d9e6a167b4c585ad2f30dad3e824e7af89d"
+    },
+    {
+      "check": "unitid_dictionary_complete",
+      "passed": true,
+      "detail": 1312
+    },
+    {
+      "check": "grants_all_master_cells_present_in_ledger",
+      "passed": true,
+      "detail": {
+        "rows": 136256,
+        "columns": 64
+      }
+    },
+    {
+      "check": "grants_source_record_ids_unique",
+      "passed": true,
+      "detail": 136272
+    },
+    {
+      "check": "grants_no_unresolved_candidate_disposition",
+      "passed": true,
+      "detail": {
+        "included_unique_family_record": 131818,
+        "excluded_annual_identity_unresolved": 4056,
+        "ambiguous_family_multiple_records": 398
+      }
+    },
+    {
+      "check": "grants_included_unique_unitid_year",
+      "passed": true,
+      "detail": 131818
+    },
+    {
+      "check": "grants_included_cells_not_changed_or_repeated",
+      "passed": true,
+      "detail": {
+        "rows": 131818,
+        "columns": 226
+      }
+    },
+    {
+      "check": "grants_included_identity_explicitly_eligible",
+      "passed": true,
+      "detail": 131818
+    },
+    {
+      "check": "grants_blocked_source_measure_cells_missing",
+      "passed": true,
+      "detail": 157
+    },
+    {
+      "check": "grants_missing_cell_status_matches_report_and_schema",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "grants_scope_notes_nonmissing",
+      "passed": true,
+      "detail": "Scope uncertainty remains independent of identity eligibility"
+    },
+    {
+      "check": "recovered_id_grants_1999_3953",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338000",
+        "award_year": "1999-2000",
+        "grant__source_identity_resolution": "grants_1999_3953"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2000_3954",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338000",
+        "award_year": "2000-2001",
+        "grant__source_identity_resolution": "grants_2000_3954"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2001_3929",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338000",
+        "award_year": "2001-2002",
+        "grant__source_identity_resolution": "grants_2001_3929"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2002_3922",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338000",
+        "award_year": "2002-2003",
+        "grant__source_identity_resolution": "grants_2002_3922"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2003_3927",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338000",
+        "award_year": "2003-2004",
+        "grant__source_identity_resolution": "grants_2003_3927"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2004_3939",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338000",
+        "award_year": "2004-2005",
+        "grant__source_identity_resolution": "grants_2004_3939"
+      }
+    },
+    {
+      "check": "recovered_id_grants_1999_3954",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338100",
+        "award_year": "1999-2000",
+        "grant__source_identity_resolution": "grants_1999_3954"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2000_3955",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338100",
+        "award_year": "2000-2001",
+        "grant__source_identity_resolution": "grants_2000_3955"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2001_3930",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338100",
+        "award_year": "2001-2002",
+        "grant__source_identity_resolution": "grants_2001_3930"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2002_3923",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338100",
+        "award_year": "2002-2003",
+        "grant__source_identity_resolution": "grants_2002_3923"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2003_3928",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338100",
+        "award_year": "2003-2004",
+        "grant__source_identity_resolution": "grants_2003_3928"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2004_3940",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338100",
+        "award_year": "2004-2005",
+        "grant__source_identity_resolution": "grants_2004_3940"
+      }
+    },
+    {
+      "check": "recovered_id_grants_1999_3955",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338200",
+        "award_year": "1999-2000",
+        "grant__source_identity_resolution": "grants_1999_3955"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2000_3956",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338200",
+        "award_year": "2000-2001",
+        "grant__source_identity_resolution": "grants_2000_3956"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2001_3931",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338200",
+        "award_year": "2001-2002",
+        "grant__source_identity_resolution": "grants_2001_3931"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2002_3924",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338200",
+        "award_year": "2002-2003",
+        "grant__source_identity_resolution": "grants_2002_3924"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2003_3929",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338200",
+        "award_year": "2003-2004",
+        "grant__source_identity_resolution": "grants_2003_3929"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2004_3941",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338200",
+        "award_year": "2004-2005",
+        "grant__source_identity_resolution": "grants_2004_3941"
+      }
+    },
+    {
+      "check": "recovered_id_grants_1999_3956",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338300",
+        "award_year": "1999-2000",
+        "grant__source_identity_resolution": "grants_1999_3956"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2000_3957",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338300",
+        "award_year": "2000-2001",
+        "grant__source_identity_resolution": "grants_2000_3957"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2001_3932",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338300",
+        "award_year": "2001-2002",
+        "grant__source_identity_resolution": "grants_2001_3932"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2002_3925",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338300",
+        "award_year": "2002-2003",
+        "grant__source_identity_resolution": "grants_2002_3925"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2003_3930",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338300",
+        "award_year": "2003-2004",
+        "grant__source_identity_resolution": "grants_2003_3930"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2004_3942",
+      "passed": true,
+      "detail": {
+        "opeid8": "00338300",
+        "award_year": "2004-2005",
+        "grant__source_identity_resolution": "grants_2004_3942"
+      }
+    },
+    {
+      "check": "recovered_id_grants_1999_2414",
+      "passed": true,
+      "detail": {
+        "opeid8": "00735300",
+        "award_year": "1999-2000",
+        "grant__source_identity_resolution": "grants_1999_2414"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2000_2424",
+      "passed": true,
+      "detail": {
+        "opeid8": "00735300",
+        "award_year": "2000-2001",
+        "grant__source_identity_resolution": "grants_2000_2424"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2001_2411",
+      "passed": true,
+      "detail": {
+        "opeid8": "00735300",
+        "award_year": "2001-2002",
+        "grant__source_identity_resolution": "grants_2001_2411"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2002_2397",
+      "passed": true,
+      "detail": {
+        "opeid8": "00735300",
+        "award_year": "2002-2003",
+        "grant__source_identity_resolution": "grants_2002_2397"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2003_2394",
+      "passed": true,
+      "detail": {
+        "opeid8": "00735300",
+        "award_year": "2003-2004",
+        "grant__source_identity_resolution": "grants_2003_2394"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2002_1717",
+      "passed": true,
+      "detail": {
+        "opeid8": "00817200",
+        "award_year": "2002-2003",
+        "grant__source_identity_resolution": "grants_2002_1717"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2003_1718",
+      "passed": true,
+      "detail": {
+        "opeid8": "00817200",
+        "award_year": "2003-2004",
+        "grant__source_identity_resolution": "grants_2003_1718"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2004_1736",
+      "passed": true,
+      "detail": {
+        "opeid8": "00817200",
+        "award_year": "2004-2005",
+        "grant__source_identity_resolution": "grants_2004_1736"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2005_1760",
+      "passed": true,
+      "detail": {
+        "opeid8": "00817200",
+        "award_year": "2005-2006",
+        "grant__source_identity_resolution": "grants_2005_1760"
+      }
+    },
+    {
+      "check": "recovered_id_grants_2009_2288",
+      "passed": true,
+      "detail": {
+        "opeid8": "02063800",
+        "award_year": "2009-2010",
+        "grant__source_identity_resolution": "grants_2009_2288"
+      }
+    },
+    {
+      "check": "grants_verified_orphans_have_no_fabricated_opeid",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "check": "grants_all_raw_institution_records_accounted",
+      "passed": true,
+      "detail": {
+        "raw_institution_rows": 136288,
+        "master_records": 136256,
+        "raw_quarantined_records": 32
+      }
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_2072",
+      "passed": true,
+      "detail": "grants_2009_2072"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_2072",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_2077",
+      "passed": true,
+      "detail": "grants_2009_2077"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_2077",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_2086",
+      "passed": true,
+      "detail": "grants_2009_2086"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_2086",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_2095",
+      "passed": true,
+      "detail": "grants_2009_2095"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_2095",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_2102",
+      "passed": true,
+      "detail": "grants_2009_2102"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_2102",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_2108",
+      "passed": true,
+      "detail": "grants_2009_2108"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_2108",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4500",
+      "passed": true,
+      "detail": "grants_2009_4500"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4500",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4502",
+      "passed": true,
+      "detail": "grants_2009_4502"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4502",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4503",
+      "passed": true,
+      "detail": "grants_2009_4503"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4503",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4504",
+      "passed": true,
+      "detail": "grants_2009_4504"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4504",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4505",
+      "passed": true,
+      "detail": "grants_2009_4505"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4505",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4506",
+      "passed": true,
+      "detail": "grants_2009_4506"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4506",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4507",
+      "passed": true,
+      "detail": "grants_2009_4507"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4507",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4508",
+      "passed": true,
+      "detail": "grants_2009_4508"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4508",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4509",
+      "passed": true,
+      "detail": "grants_2009_4509"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4509",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "orphan_unique_raw_row_grants_2009_4510",
+      "passed": true,
+      "detail": "grants_2009_4510"
+    },
+    {
+      "check": "orphan_amounts_equal_raw_grants_2009_4510",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "campus_based_all_master_cells_present_in_ledger",
+      "passed": true,
+      "detail": {
+        "rows": 89038,
+        "columns": 59
+      }
+    },
+    {
+      "check": "campus_based_source_record_ids_unique",
+      "passed": true,
+      "detail": 89038
+    },
+    {
+      "check": "campus_based_no_unresolved_candidate_disposition",
+      "passed": true,
+      "detail": {
+        "included_unique_family_record": 87029,
+        "excluded_annual_identity_unresolved": 1999,
+        "ambiguous_family_multiple_records": 10
+      }
+    },
+    {
+      "check": "campus_based_included_unique_unitid_year",
+      "passed": true,
+      "detail": 87029
+    },
+    {
+      "check": "campus_based_included_cells_not_changed_or_repeated",
+      "passed": true,
+      "detail": {
+        "rows": 87029,
+        "columns": 219
+      }
+    },
+    {
+      "check": "campus_based_included_identity_explicitly_eligible",
+      "passed": true,
+      "detail": 87029
+    },
+    {
+      "check": "campus_based_blocked_source_measure_cells_missing",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "campus_based_missing_cell_status_matches_report_and_schema",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "campus_based_scope_notes_nonmissing",
+      "passed": true,
+      "detail": "Scope uncertainty remains independent of identity eligibility"
+    },
+    {
+      "check": "campus_combined_fisap_scope_not_certified",
+      "passed": true,
+      "detail": "Separate main OPEIDs can be combined in FISAP"
+    },
+    {
+      "check": "campus_based_verified_orphans_have_no_fabricated_opeid",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "campus_based_all_raw_institution_records_accounted",
+      "passed": true,
+      "detail": {
+        "raw_institution_rows": 89059,
+        "master_records": 89038,
+        "raw_quarantined_records": 21
+      }
+    },
+    {
+      "check": "direct_loans_all_master_cells_present_in_ledger",
+      "passed": true,
+      "detail": {
+        "rows": 95645,
+        "columns": 239
+      }
+    },
+    {
+      "check": "direct_loans_source_record_ids_unique",
+      "passed": true,
+      "detail": 95645
+    },
+    {
+      "check": "direct_loans_no_unresolved_candidate_disposition",
+      "passed": true,
+      "detail": {
+        "included_unique_family_record": 87461,
+        "excluded_annual_identity_unresolved": 8182,
+        "ambiguous_family_multiple_records": 2
+      }
+    },
+    {
+      "check": "direct_loans_included_unique_unitid_year",
+      "passed": true,
+      "detail": 87461
+    },
+    {
+      "check": "direct_loans_included_cells_not_changed_or_repeated",
+      "passed": true,
+      "detail": {
+        "rows": 87461,
+        "columns": 399
+      }
+    },
+    {
+      "check": "direct_loans_included_identity_explicitly_eligible",
+      "passed": true,
+      "detail": 87461
+    },
+    {
+      "check": "direct_loans_blocked_source_measure_cells_missing",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "direct_loans_missing_cell_status_matches_report_and_schema",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "direct_loans_scope_notes_nonmissing",
+      "passed": true,
+      "detail": "Scope uncertainty remains independent of identity eligibility"
+    },
+    {
+      "check": "direct_loans_verified_orphans_have_no_fabricated_opeid",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "direct_loans_all_raw_institution_records_accounted",
+      "passed": true,
+      "detail": {
+        "raw_institution_rows": 95645,
+        "master_records": 95645,
+        "raw_quarantined_records": 0
+      }
+    },
+    {
+      "check": "ffel_all_master_cells_present_in_ledger",
+      "passed": true,
+      "detail": {
+        "rows": 49415,
+        "columns": 139
+      }
+    },
+    {
+      "check": "ffel_source_record_ids_unique",
+      "passed": true,
+      "detail": 49415
+    },
+    {
+      "check": "ffel_no_unresolved_candidate_disposition",
+      "passed": true,
+      "detail": {
+        "included_unique_family_record": 42909,
+        "excluded_annual_identity_unresolved": 6478,
+        "ambiguous_family_multiple_records": 28
+      }
+    },
+    {
+      "check": "ffel_included_unique_unitid_year",
+      "passed": true,
+      "detail": 42909
+    },
+    {
+      "check": "ffel_included_cells_not_changed_or_repeated",
+      "passed": true,
+      "detail": {
+        "rows": 42909,
+        "columns": 299
+      }
+    },
+    {
+      "check": "ffel_included_identity_explicitly_eligible",
+      "passed": true,
+      "detail": 42909
+    },
+    {
+      "check": "ffel_blocked_source_measure_cells_missing",
+      "passed": true,
+      "detail": 14
+    },
+    {
+      "check": "ffel_missing_cell_status_matches_report_and_schema",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "ffel_scope_notes_nonmissing",
+      "passed": true,
+      "detail": "Scope uncertainty remains independent of identity eligibility"
+    },
+    {
+      "check": "ffel_verified_orphans_have_no_fabricated_opeid",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "ffel_all_raw_institution_records_accounted",
+      "passed": true,
+      "detail": {
+        "raw_institution_rows": 49415,
+        "master_records": 49415,
+        "raw_quarantined_records": 0
+      }
+    },
+    {
+      "check": "source_family_count_matches_cells",
+      "passed": true,
+      "detail": {
+        "3": 71201,
+        "2": 50336,
+        "1": 14330,
+        "4": 5153,
+        "0": 18
+      }
+    },
+    {
+      "check": "blocked_family_count_matches_cells",
+      "passed": true,
+      "detail": {
+        "0": 140867,
+        "1": 165,
+        "2": 6
+      }
+    },
+    {
+      "check": "no_empty_unexplained_unitid_rows",
+      "passed": true,
+      "detail": 141038
+    },
+    {
+      "check": "all_approved_full_id_recoveries_appear",
+      "passed": true,
+      "detail": {
+        "expected": 34,
+        "actual": 34
+      }
+    },
+    {
+      "check": "all_verified_unitid_orphans_accounted",
+      "passed": true,
+      "detail": {
+        "expected": 16,
+        "actual": 16
+      }
+    }
+  ],
+  "all_passed": true,
+  "input_sha256": {
+    "ResearchBuild/2026-09-22-v2/Panels/final/fsa_volume_reports_panel_1999_2025.parquet": "975a82f20ee7bfff47dccf5a622d499b0ee20f432fa41f366a09154ec711670e",
+    "ResearchBuild/2026-09-22-v2/Panels/ipeds/unitid_research/fsa_unitid_award_year_panel.parquet": "93d675fde748d6c480c7eb9050dccec49a88892154a60ed21e016539ba9983ba",
+    "ResearchBuild/2026-09-22-v2/Panels/ipeds/unitid_research/manifest.json": "7cfdce6b017166e96e3f2c572123e5551fe26532440a48fc6904420b54f01f9c",
+    "Metadata/source_identity_resolutions.csv": "15b950b69e632b699e920c2e04231870857c4a8134ea044f16dc40d0be02a3f1"
+  }
+}

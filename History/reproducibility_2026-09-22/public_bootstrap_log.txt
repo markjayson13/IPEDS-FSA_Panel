@@ -1,0 +1,214 @@
+Reproducing fsa-research-v2-2026-09-22 in /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test
+Downloading the frozen inputs, canonical panels, metadata, and all export formats.
+  SHA256SUMS.txt
+  distribution_manifest.json
+  download_manifest.json
+Installing isolated uv 0.12.18.
+downloading uv 0.12.18 aarch64-apple-darwin
+installing to /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.tools/uv
+  uv
+  uvx
+everything's installed!
+WARN: The following commands are shadowed by other commands in your PATH: uv uvx
+Creating isolated Python 3.13.0 environment.
+Downloading cpython-3.13.0-macos-aarch64-none (download) (14.7MiB)
+ Downloaded cpython-3.13.0-macos-aarch64-none (download)
+Using CPython 3.13.0
+Creating virtual environment at: ResearchBuild/public-reproduction-test/.venv
+Activate with: source ResearchBuild/public-reproduction-test/.venv/bin/activate
+Downloading fsa-research-v2-portable-data.zip (11 parts)
+  Part 1/11: fsa-research-v2-portable-data.zip.part0001
+  Part 2/11: fsa-research-v2-portable-data.zip.part0002
+  Part 3/11: fsa-research-v2-portable-data.zip.part0003
+  Part 4/11: fsa-research-v2-portable-data.zip.part0004
+  Part 5/11: fsa-research-v2-portable-data.zip.part0005
+  Part 6/11: fsa-research-v2-portable-data.zip.part0006
+  Part 7/11: fsa-research-v2-portable-data.zip.part0007
+  Part 8/11: fsa-research-v2-portable-data.zip.part0008
+  Part 9/11: fsa-research-v2-portable-data.zip.part0009
+  Part 10/11: fsa-research-v2-portable-data.zip.part0010
+  Part 11/11: fsa-research-v2-portable-data.zip.part0011
+Verified original archive: fsa-research-v2-portable-data.zip
+Downloading fsa-research-v2-stata.zip (1 parts)
+  Part 1/1: fsa-research-v2-stata.zip
+Verified original archive: fsa-research-v2-stata.zip
+Downloading fsa-research-v2-excel.zip (36 parts)
+  Part 1/36: fsa-research-v2-excel.zip.part0001
+  Part 2/36: fsa-research-v2-excel.zip.part0002
+  Part 3/36: fsa-research-v2-excel.zip.part0003
+  Part 4/36: fsa-research-v2-excel.zip.part0004
+  Part 5/36: fsa-research-v2-excel.zip.part0005
+  Part 6/36: fsa-research-v2-excel.zip.part0006
+  Part 7/36: fsa-research-v2-excel.zip.part0007
+  Part 8/36: fsa-research-v2-excel.zip.part0008
+  Part 9/36: fsa-research-v2-excel.zip.part0009
+  Part 10/36: fsa-research-v2-excel.zip.part0010
+  Part 11/36: fsa-research-v2-excel.zip.part0011
+  Part 12/36: fsa-research-v2-excel.zip.part0012
+  Part 13/36: fsa-research-v2-excel.zip.part0013
+  Part 14/36: fsa-research-v2-excel.zip.part0014
+  Part 15/36: fsa-research-v2-excel.zip.part0015
+  Part 16/36: fsa-research-v2-excel.zip.part0016
+  Part 17/36: fsa-research-v2-excel.zip.part0017
+  Part 18/36: fsa-research-v2-excel.zip.part0018
+  Part 19/36: fsa-research-v2-excel.zip.part0019
+  Part 20/36: fsa-research-v2-excel.zip.part0020
+  Part 21/36: fsa-research-v2-excel.zip.part0021
+  Part 22/36: fsa-research-v2-excel.zip.part0022
+  Part 23/36: fsa-research-v2-excel.zip.part0023
+  Part 24/36: fsa-research-v2-excel.zip.part0024
+  Part 25/36: fsa-research-v2-excel.zip.part0025
+  Part 26/36: fsa-research-v2-excel.zip.part0026
+  Part 27/36: fsa-research-v2-excel.zip.part0027
+  Part 28/36: fsa-research-v2-excel.zip.part0028
+  Part 29/36: fsa-research-v2-excel.zip.part0029
+  Part 30/36: fsa-research-v2-excel.zip.part0030
+  Part 31/36: fsa-research-v2-excel.zip.part0031
+  Part 32/36: fsa-research-v2-excel.zip.part0032
+  Part 33/36: fsa-research-v2-excel.zip.part0033
+  Part 34/36: fsa-research-v2-excel.zip.part0034
+  Part 35/36: fsa-research-v2-excel.zip.part0035
+  Part 36/36: fsa-research-v2-excel.zip.part0036
+Verified original archive: fsa-research-v2-excel.zip
+Downloading fsa-research-v2-canonical.zip (54 parts)
+  Part 1/54: fsa-research-v2-canonical.zip.part0001
+  Part 2/54: fsa-research-v2-canonical.zip.part0002
+  Part 3/54: fsa-research-v2-canonical.zip.part0003
+  Part 4/54: fsa-research-v2-canonical.zip.part0004
+  Part 5/54: fsa-research-v2-canonical.zip.part0005
+  Part 6/54: fsa-research-v2-canonical.zip.part0006
+  Part 7/54: fsa-research-v2-canonical.zip.part0007
+  Part 8/54: fsa-research-v2-canonical.zip.part0008
+  Part 9/54: fsa-research-v2-canonical.zip.part0009
+  Part 10/54: fsa-research-v2-canonical.zip.part0010
+  Part 11/54: fsa-research-v2-canonical.zip.part0011
+  Part 12/54: fsa-research-v2-canonical.zip.part0012
+  Part 13/54: fsa-research-v2-canonical.zip.part0013
+  Part 14/54: fsa-research-v2-canonical.zip.part0014
+  Part 15/54: fsa-research-v2-canonical.zip.part0015
+  Part 16/54: fsa-research-v2-canonical.zip.part0016
+  Part 17/54: fsa-research-v2-canonical.zip.part0017
+  Part 18/54: fsa-research-v2-canonical.zip.part0018
+  Part 19/54: fsa-research-v2-canonical.zip.part0019
+  Part 20/54: fsa-research-v2-canonical.zip.part0020
+  Part 21/54: fsa-research-v2-canonical.zip.part0021
+  Part 22/54: fsa-research-v2-canonical.zip.part0022
+  Part 23/54: fsa-research-v2-canonical.zip.part0023
+  Part 24/54: fsa-research-v2-canonical.zip.part0024
+  Part 25/54: fsa-research-v2-canonical.zip.part0025
+  Part 26/54: fsa-research-v2-canonical.zip.part0026
+  Part 27/54: fsa-research-v2-canonical.zip.part0027
+  Part 28/54: fsa-research-v2-canonical.zip.part0028
+  Part 29/54: fsa-research-v2-canonical.zip.part0029
+  Part 30/54: fsa-research-v2-canonical.zip.part0030
+  Part 31/54: fsa-research-v2-canonical.zip.part0031
+  Part 32/54: fsa-research-v2-canonical.zip.part0032
+  Part 33/54: fsa-research-v2-canonical.zip.part0033
+  Part 34/54: fsa-research-v2-canonical.zip.part0034
+  Part 35/54: fsa-research-v2-canonical.zip.part0035
+  Part 36/54: fsa-research-v2-canonical.zip.part0036
+  Part 37/54: fsa-research-v2-canonical.zip.part0037
+  Part 38/54: fsa-research-v2-canonical.zip.part0038
+  Part 39/54: fsa-research-v2-canonical.zip.part0039
+  Part 40/54: fsa-research-v2-canonical.zip.part0040
+  Part 41/54: fsa-research-v2-canonical.zip.part0041
+  Part 42/54: fsa-research-v2-canonical.zip.part0042
+  Part 43/54: fsa-research-v2-canonical.zip.part0043
+  Part 44/54: fsa-research-v2-canonical.zip.part0044
+  Part 45/54: fsa-research-v2-canonical.zip.part0045
+  Part 46/54: fsa-research-v2-canonical.zip.part0046
+  Part 47/54: fsa-research-v2-canonical.zip.part0047
+  Part 48/54: fsa-research-v2-canonical.zip.part0048
+  Part 49/54: fsa-research-v2-canonical.zip.part0049
+  Part 50/54: fsa-research-v2-canonical.zip.part0050
+  Part 51/54: fsa-research-v2-canonical.zip.part0051
+  Part 52/54: fsa-research-v2-canonical.zip.part0052
+  Part 53/54: fsa-research-v2-canonical.zip.part0053
+  Part 54/54: fsa-research-v2-canonical.zip.part0054
+Verified original archive: fsa-research-v2-canonical.zip
+Downloading fsa-research-v2-replication.zip (14 parts)
+  Part 1/14: fsa-research-v2-replication.zip.part0001
+  Part 2/14: fsa-research-v2-replication.zip.part0002
+  Part 3/14: fsa-research-v2-replication.zip.part0003
+  Part 4/14: fsa-research-v2-replication.zip.part0004
+  Part 5/14: fsa-research-v2-replication.zip.part0005
+  Part 6/14: fsa-research-v2-replication.zip.part0006
+  Part 7/14: fsa-research-v2-replication.zip.part0007
+  Part 8/14: fsa-research-v2-replication.zip.part0008
+  Part 9/14: fsa-research-v2-replication.zip.part0009
+  Part 10/14: fsa-research-v2-replication.zip.part0010
+  Part 11/14: fsa-research-v2-replication.zip.part0011
+  Part 12/14: fsa-research-v2-replication.zip.part0012
+  Part 13/14: fsa-research-v2-replication.zip.part0013
+  Part 14/14: fsa-research-v2-replication.zip.part0014
+Verified original archive: fsa-research-v2-replication.zip
+All release assets passed SHA256 verification.
+Extracting fsa-research-v2-replication.zip
+Extracting fsa-research-v2-canonical.zip
+Extracting fsa-research-v2-portable-data.zip
+Extracting fsa-research-v2-stata.zip
+Extracting fsa-research-v2-excel.zip
+Installing the frozen release dependency versions.
+Using Python 3.13.0 environment at: ResearchBuild/public-reproduction-test/.venv
+WARN Fixing invalid version specifier by removing trailing comma (before: `>=3.6,`; after: `>=3.6`)
+Resolved 18 packages in 1.04s
+Downloading pandas (10.8MiB)
+Downloading numpy (4.8MiB)
+Downloading pyarrow (29.7MiB)
+ Downloaded numpy
+ Downloaded pandas
+ Downloaded pyarrow
+Prepared 18 packages in 2.06s
+Installed 18 packages in 42ms
+ + beautifulsoup4==4.14.2
+ + certifi==2025.10.5
+ + charset-normalizer==3.4.4
+ + et-xmlfile==2.0.0
+ + idna==3.11
+ + numpy==2.1.3
+ + openpyxl==3.1.5
+ + pandas==2.2.3
+ + pyarrow==21.0.0
+ + python-dateutil==2.9.0.post0
+ + pytz==2024.2
+ + requests==2.32.5
+ + six==1.17.0
+ + soupsieve==2.8
+ + typing-extensions==4.15.0
+ + tzdata==2024.2
+ + urllib3==2.5.0
+ + xlrd==2.0.1
+Rebuilding from the frozen local sources and comparing against the canonical release.
+{
+  "verified_bundle_files": 372,
+  "environment": {
+    "expected": {
+      "python": "3.13.0",
+      "pandas": "2.2.3",
+      "pyarrow": "21.0.0",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.1",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.2"
+    },
+    "actual": {
+      "python": "3.13.0",
+      "pandas": "2.2.3",
+      "pyarrow": "21.0.0",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.1",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.2"
+    },
+    "differences": {},
+    "matches_original_environment": true
+  }
+}
+Running frozen pipeline; complete output is in /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/build/reproduction_log.txt
+Completed frozen release rebuild: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/build/reproduction_report.json
+
+Reproduction completed successfully.
+Rebuilt panels and validation: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
+Labeled Stata, CSV, Excel, Parquet and metadata: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/unitid
+Canonical reference panels: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/canonical
+Frozen source and input manifests: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication

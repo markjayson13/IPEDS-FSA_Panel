@@ -1,0 +1,2417 @@
+{
+  "plan_sha256": "96762bb0832e4e645c97eb3190ef8037be70fdb8b6489bd287eb09814cd540e1",
+  "status": "reviewed",
+  "approved_components": 94,
+  "approved_edges_reviewed": 106,
+  "all_bridges_at_adjacent_source_boundaries": true,
+  "additional_exclusions": [],
+  "findings": [
+    "Every bridge is at the nearest observed source boundary and crosses exactly one year. No approval relies on distant-year evidence.",
+    "Manual review of all raw definition diffs found only academic-year, cohort-year, annual source-table-year, annual Data Feedback Report-year changes and the exact perturbation notice. No fixed policy year, numeric identifier, population term, formula coefficient, or cohort duration was changed by normalization in an approved bridge.",
+    "Changes in titles were checked against full descriptions. Later SFA titles expand the already documented full-time first-time population; salary faculty/staff title wording has identical boundary definitions.",
+    "Transitive components bridge DFR to GR200 in 2005/2006 and GR200 to DRVGR in 2009/2010. GR200 internal reference-variable evolution remains in annual metadata. Groups lacking the second complete bridge remain partial.",
+    "This audit proves source-lane consolidation, not universal measurement invariance. Original within-lane SAT, aid, race/ethnicity and other definition changes remain and must remain visible in annual metadata.",
+    "The rolling-year comparison is safe only for this reviewed, source-hash-bound allowlist. It is not authorized as an automatic equivalence detector on changed or new sources."
+  ],
+  "edges": [
+    {
+      "base": "ADMCON4",
+      "a": "ipeds__ADMCON4__ADM__00010536__52447A17EC3A",
+      "b": "ipeds__ADMCON4__IC__00010536__DC2ACD04E656",
+      "bridge_years": [
+        2014,
+        2013
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Completion of college-preparatory program",
+      "title_b": "Completion of college-preparatory program",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "ADMCON8",
+      "a": "ipeds__ADMCON8__ADM__00010556__FAB7E3CF94F4",
+      "b": "ipeds__ADMCON8__IC__00010556__CB5C7825B4AA",
+      "bridge_years": [
+        2014,
+        2013
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "TOEFL (Test of English as a Foreign Language",
+      "title_b": "TOEFL (Test of English as a Foreign Language",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "AGRNT_A",
+      "a": "ipeds__AGRNT_A__SFA_P__00070321__516B07129244",
+      "b": "ipeds__AGRNT_A__SFA__00070321__63622AA44B6B",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Average amount of grant",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Average amount of grant"
+        }
+      ],
+      "title_a": "Average amount of federal, state, local or institutional grant aid received",
+      "title_b": "Average amount of federal, state, local or institutional grant aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "AGRNT_N",
+      "a": "ipeds__AGRNT_N__SFA_P__00070311__7772381601BE",
+      "b": "ipeds__AGRNT_N__SFA__00070311__F61310F8F94D",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Number of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Number of full-time, first-time"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving federal, state, local or institutional grant aid",
+      "title_b": "Number receiving federal, state, local or institutional grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "AGRNT_P",
+      "a": "ipeds__AGRNT_P__SFA_P__00070316__6D2CBF72DB63",
+      "b": "ipeds__AGRNT_P__SFA__00070316__73E234ED3E6C",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Percentage of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Percentage of full-time, first-time"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving federal, state, local or institutional grant aid",
+      "title_b": "Percent receiving federal, state, local or institutional grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "ANYAIDN",
+      "a": "ipeds__ANYAIDN__SFA_P__00070196__9C746E21D858",
+      "b": "ipeds__ANYAIDN__SFA__00070196__8166A49A2EED",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving any financial aid",
+      "title_b": "Number receiving any financial aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "ANYAIDP",
+      "a": "ipeds__ANYAIDP__SFA_P__00070201__3029359FB165",
+      "b": "ipeds__ANYAIDP__SFA__00070201__321131AD8897",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving any financial aid",
+      "title_b": "Percentage receiving any financial aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "CINDFAM",
+      "a": "ipeds__CINDFAM__DRVIC__00011601__237F5A40827B",
+      "b": "ipeds__CINDFAM__IC_AY__00011601__91CB9C79E2C8",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07.",
+          "to": "2005-06.",
+          "from_context": "family) for academic year 2006-07. It includes in-district tuition",
+          "to_context": "family) for academic year 2005-06. It includes in-district tuition"
+        }
+      ],
+      "title_a": "Total price for in-district students living off campus (with family)  2006-07",
+      "title_b": "Total price for in-district students living off campus (with family)  2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "CINDOFF",
+      "a": "ipeds__CINDOFF__DRVIC__00011586__19FE4A3E9D6C",
+      "b": "ipeds__CINDOFF__IC_AY__00011586__9094F303B2B1",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07.It",
+          "to": "2005-06.It",
+          "from_context": "family) for academic year 2006-07.It includes in-district tuition and",
+          "to_context": "family) for academic year 2005-06.It includes in-district tuition and"
+        }
+      ],
+      "title_a": "Total price for in-district students living off campus (not with family)  2006-07",
+      "title_b": "Total price for in-district students living off campus (not with family)  2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "CINDON",
+      "a": "ipeds__CINDON__DRVIC__00011571__FEB6F443AB40",
+      "b": "ipeds__CINDON__IC_AY__00011571__22E03F167FAB",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07",
+          "to": "2005-06",
+          "from_context": "campus for academic year 2006-07 It includes in-district tuition",
+          "to_context": "campus for academic year 2005-06 It includes in-district tuition"
+        }
+      ],
+      "title_a": "Total price for in-district students living on campus  2006-07",
+      "title_b": "Total price for in-district students living on campus  2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "CINSFAM",
+      "a": "ipeds__CINSFAM__DRVIC__00011606__259EC43F650D",
+      "b": "ipeds__CINSFAM__IC_AY__00011606__8357789F66A4",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07.",
+          "to": "2005-06.",
+          "from_context": "family) for academic year 2006-07. It includes in-state tuition",
+          "to_context": "family) for academic year 2005-06. It includes in-state tuition"
+        }
+      ],
+      "title_a": "Total price for in-state students living off campus (with family)  2006-07",
+      "title_b": "Total price for in-state students living off campus (with family)  2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "CINSOFF",
+      "a": "ipeds__CINSOFF__DRVIC__00011591__EEDFD8BF2AA3",
+      "b": "ipeds__CINSOFF__IC_AY__00011591__E4F11296FE61",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07.",
+          "to": "2005-06.",
+          "from_context": "family) for academic year 2006-07. It includes in-state tuition",
+          "to_context": "family) for academic year 2005-06. It includes in-state tuition"
+        }
+      ],
+      "title_a": "Total price for in-state students living off campus (not with family)  2006-07",
+      "title_b": "Total price for in-state students living off campus (not with family)  2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "CINSON",
+      "a": "ipeds__CINSON__DRVIC__00011576__00ED8A1BEBF7",
+      "b": "ipeds__CINSON__IC_AY__00011576__5C64BAA0523B",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07.",
+          "to": "2005-06.",
+          "from_context": "campus for academic year 2006-07. It includes in-state tuition",
+          "to_context": "campus for academic year 2005-06. It includes in-state tuition"
+        }
+      ],
+      "title_a": "Total price for in-state students living on campus 2006-07",
+      "title_b": "Total price for in-state students living on campus 2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "COTSFAM",
+      "a": "ipeds__COTSFAM__DRVIC__00011611__7A57AE2D335B",
+      "b": "ipeds__COTSFAM__IC_AY__00011611__4F374B821054",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07.",
+          "to": "2005-06.",
+          "from_context": "family) for academic year 2006-07. It includes out-of-state tuition",
+          "to_context": "family) for academic year 2005-06. It includes out-of-state tuition"
+        }
+      ],
+      "title_a": "Total price for out-of-state students living off campus (with family)  2006-07",
+      "title_b": "Total price for out-of-state students living off campus (with family)  2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "COTSOFF",
+      "a": "ipeds__COTSOFF__DRVIC__00011596__5BC6CB49C4E5",
+      "b": "ipeds__COTSOFF__IC_AY__00011596__F13C894D06BF",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07.",
+          "to": "2005-06.",
+          "from_context": "family) for academic year 2006-07. It includes out-of-state tuition",
+          "to_context": "family) for academic year 2005-06. It includes out-of-state tuition"
+        }
+      ],
+      "title_a": "Total price for out-of-state students living off campus (not with family)  2006-07",
+      "title_b": "Total price for out-of-state students living off campus (not with family)  2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "COTSON",
+      "a": "ipeds__COTSON__DRVIC__00011581__5E54C4601E32",
+      "b": "ipeds__COTSON__IC_AY__00011581__64ED7DD8270A",
+      "bridge_years": [
+        2006,
+        2005
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2006-07.",
+          "to": "2005-06.",
+          "from_context": "campus for academic year 2006-07. It includes in-out-of-state tuition",
+          "to_context": "campus for academic year 2005-06. It includes in-out-of-state tuition"
+        }
+      ],
+      "title_a": "Total price for out-of-state students living on campus 2006-07",
+      "title_b": "Total price for out-of-state students living on campus 2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "DFRCUSCG",
+      "a": "ipeds__DFRCUSCG__CUSTOMCG__00016000__ADEF7C31903E",
+      "b": "ipeds__DFRCUSCG__HD__00016000__95607880F445",
+      "bridge_years": [
+        2010,
+        2011
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2011",
+          "to": "2012",
+          "from_context": "for use in the 2011 IPEDS Data Feedback Report",
+          "to_context": "for use in the 2012 IPEDS Data Feedback Report"
+        }
+      ],
+      "title_a": "Data Feedback Report - Institution submitted a  custom comparison group",
+      "title_b": "Data Feedback Report - Institution submitted a  custom comparison group",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "F1SYSNAM",
+      "a": "ipeds__F1SYSNAM__FLAGS__00016071__B025E5C7E58F",
+      "b": "ipeds__F1SYSNAM__HD__00016071__CDF351E00584",
+      "bridge_years": [
+        2009,
+        2010
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Name system, governing board or corporate entity.",
+      "title_b": "Name of system, governing board or corporate entity.",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "FGRNT_A",
+      "a": "ipeds__FGRNT_A__SFA_P__00070216__A44C9F2D3A23",
+      "b": "ipeds__FGRNT_A__SFA__00070216__B9AAF5AA4772",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Average amount of federal grant aid received by full-time first-time undergraduates",
+      "title_b": "Average amount of federal grant aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "FGRNT_N",
+      "a": "ipeds__FGRNT_N__SFA_P__00070206__8A619698EC6E",
+      "b": "ipeds__FGRNT_N__SFA__00070206__9FA37745D2DB",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving federal grant aid",
+      "title_b": "Number receiving federal grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "FGRNT_P",
+      "a": "ipeds__FGRNT_P__SFA_P__00070211__6854879C86ED",
+      "b": "ipeds__FGRNT_P__SFA__00070211__72C4B437412C",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates  receiving federal grant aid",
+      "title_b": "Percentage  receiving federal grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "FLOAN_A",
+      "a": "ipeds__FLOAN_A__SFA_P__00070366__7359E5980342",
+      "b": "ipeds__FLOAN_A__SFA__00070366__65B6C34182B6",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Average amount of federal",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Average amount of federal"
+        }
+      ],
+      "title_a": "Average amount of federal student loan aid received by full-time first-time undergraduates",
+      "title_b": "Average amount of federal loan aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "FLOAN_N",
+      "a": "ipeds__FLOAN_N__SFA_P__00070356__8885517A3C9A",
+      "b": "ipeds__FLOAN_N__SFA__00070356__795D1F3B5AC7",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Number of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Number of full-time, first-time"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving federal student loan aid",
+      "title_b": "Number receiving federal loan aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "FLOAN_P",
+      "a": "ipeds__FLOAN_P__SFA_P__00070361__A9AEB207431F",
+      "b": "ipeds__FLOAN_P__SFA__00070361__2CE265A8DA69",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Percentage of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Percentage of full-time, first-time"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving federal student loan aid",
+      "title_b": "Percentage receiving federal loan aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "FTE",
+      "a": "ipeds__FTE__DFR__00020061__FB7D3229593E",
+      "b": "ipeds__FTE__DRVEF__00020061__075195670360",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Full-time equivalent enrollment: Fall 2005",
+      "title_b": "Full-time equivalent enrollment: Fall 2006",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA4RTT",
+      "a": "ipeds__GBA4RTT__DFR__00081027__808434351D9A",
+      "b": "ipeds__GBA4RTT__GR200__00081027__74536CF2EB11",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE24 when GRTYPE=13(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE24 when GRTYPE=13(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 4 years, total",
+      "title_b": "Graduation rate - Bachelor degree within 4 years, total",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA4RTT",
+      "a": "ipeds__GBA4RTT__DRVGR__00081027__460439B06CD3",
+      "b": "ipeds__GBA4RTT__GR200__00081027__74536CF2EB11",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is GRTOTLT when GRTYPE=13(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRTOTLT when GRTYPE=13(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 4 years, total",
+      "title_b": "Graduation rate - Bachelor degree within 4 years, total",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA5RTT",
+      "a": "ipeds__GBA5RTT__DFR__00081029__38363671F2F3",
+      "b": "ipeds__GBA5RTT__GR200__00081029__5D1EED0CC8CA",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "completers in 5-years (GRACE24,GRTYPE=14)(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "completers in 5-years (GRACE24,GRTYPE=14)(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 5 years, total",
+      "title_b": "Graduation rate - Bachelor degree within 5 years, total",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA5RTT",
+      "a": "ipeds__GBA5RTT__DRVGR__00081029__E9F8B6155100",
+      "b": "ipeds__GBA5RTT__GR200__00081029__5D1EED0CC8CA",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "completers in 5-years (GRACE24,GRTYPE=14)(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "completers in 5-years (GRACE24,GRTYPE=14)(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 5 years, total",
+      "title_b": "Graduation rate - Bachelor degree within 5 years, total",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RT2M",
+      "a": "ipeds__GBA6RT2M__DRVGR__00081066__D1846A017FB0",
+      "b": "ipeds__GBA6RT2M__GR200__00081066__02AE7B819668",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is GR2MORT when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GR2MORT when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "graduation rate - Bachelor degree within 6 years, two or more races",
+      "title_b": "graduation rate - Bachelor degree within 6 years, two or more races",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTAN",
+      "a": "ipeds__GBA6RTAN__DFR__00081045__B260E9F6BCEB",
+      "b": "ipeds__GBA6RTAN__GR200__00081045__98EFBAC84086",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE19 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE19 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, American Indian or Alaska Native",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, American Indian or Alaska Native",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTAN",
+      "a": "ipeds__GBA6RTAN__DRVGR__00081045__6EDD6720DBE8",
+      "b": "ipeds__GBA6RTAN__GR200__00081045__98EFBAC84086",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is DVGRAIT when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is DVGRAIT when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, American Indian or Alaska Native",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, American Indian or Alaska Native",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTAP",
+      "a": "ipeds__GBA6RTAP__DFR__00081043__8E7AF6AA320F",
+      "b": "ipeds__GBA6RTAP__GR200__00081043__F70E253EE085",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE20 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE20 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Asian or Pacific Islander",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Asian or Pacific Islander",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTAP",
+      "a": "ipeds__GBA6RTAP__DRVGR__00081043__E5B227F63603",
+      "b": "ipeds__GBA6RTAP__GR200__00081043__F70E253EE085",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is DVGRAPT when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is DVGRAPT when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Asian or Pacific Islander",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Asian or Pacific Islander",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTBK",
+      "a": "ipeds__GBA6RTBK__DFR__00081039__F2207EFBD892",
+      "b": "ipeds__GBA6RTBK__GR200__00081039__05DA18E18865",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE18 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE18 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Black, non-Hispanic",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Black, non-Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTBK",
+      "a": "ipeds__GBA6RTBK__DRVGR__00081039__DFE0FD18EA4A",
+      "b": "ipeds__GBA6RTBK__GR200__00081039__05DA18E18865",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is DVGRBKT when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is DVGRBKT when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Black, non-Hispanic",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Black, non-Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTHS",
+      "a": "ipeds__GBA6RTHS__DFR__00081041__5A5CDC9382FD",
+      "b": "ipeds__GBA6RTHS__GR200__00081041__63B11049711F",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE21 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE21 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Hispanic",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTHS",
+      "a": "ipeds__GBA6RTHS__DRVGR__00081041__34C3E9C00980",
+      "b": "ipeds__GBA6RTHS__GR200__00081041__63B11049711F",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is DVGRHST when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is DVGRHST when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Hispanic",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTM",
+      "a": "ipeds__GBA6RTM__DFR__00081033__0F5E12F1FF18",
+      "b": "ipeds__GBA6RTM__GR200__00081033__CA2ECAB16AB0",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "degree - Men - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "degree - Men - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE15 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE15 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, men",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, men",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTM",
+      "a": "ipeds__GBA6RTM__DRVGR__00081033__E0D2510F934A",
+      "b": "ipeds__GBA6RTM__GR200__00081033__CA2ECAB16AB0",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "degree - Men - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "degree - Men - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is GRTOTLM when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRTOTLM when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, men",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, men",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTNR",
+      "a": "ipeds__GBA6RTNR__DFR__00081049__31D20B4AA2C7",
+      "b": "ipeds__GBA6RTNR__GR200__00081049__494C56830CE0",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE17 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE17 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Nonresident alien",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Nonresident alien",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTNR",
+      "a": "ipeds__GBA6RTNR__DRVGR__00081049__B440531E7959",
+      "b": "ipeds__GBA6RTNR__GR200__00081049__494C56830CE0",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is GRNRALT when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRNRALT when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Nonresident alien",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Nonresident alien",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTT",
+      "a": "ipeds__GBA6RTT__DFR__00081031__AF91AC8EA0A0",
+      "b": "ipeds__GBA6RTT__GR200__00081031__4572F9BB289C",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE24 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE24 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, total",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, total",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTT",
+      "a": "ipeds__GBA6RTT__DRVGR__00081031__B5B0F3467396",
+      "b": "ipeds__GBA6RTT__GR200__00081031__4572F9BB289C",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is GRTOTLT when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRTOTLT when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, total",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, total",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTUN",
+      "a": "ipeds__GBA6RTUN__DFR__00081047__60B45D86A32B",
+      "b": "ipeds__GBA6RTUN__GR200__00081047__5CB33DC1CB86",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE23 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE23 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Race/ethnicity unknown",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Race/ethnicity unknown",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTUN",
+      "a": "ipeds__GBA6RTUN__DRVGR__00081047__2D356B146B1E",
+      "b": "ipeds__GBA6RTUN__GR200__00081047__5CB33DC1CB86",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is GRUNKNT when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRUNKNT when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, Race/ethnicity unknown",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, Race/ethnicity unknown",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTWH",
+      "a": "ipeds__GBA6RTWH__DFR__00081037__7DC724C0FF7B",
+      "b": "ipeds__GBA6RTWH__GR200__00081037__15B57B6EDC58",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE22 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE22 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, White, non-Hispanic",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, White, non-Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTWH",
+      "a": "ipeds__GBA6RTWH__DRVGR__00081037__CB53B2D98E80",
+      "b": "ipeds__GBA6RTWH__GR200__00081037__15B57B6EDC58",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "or equivalent degree - 2004 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2003 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "is DVGRWHT when GRTYPE=12(Table gr2010). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is DVGRWHT when GRTYPE=12(Table gr2009). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, White, non-Hispanic",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, White, non-Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBA6RTW",
+      "a": "ipeds__GBA6RTW__DFR__00081035__34FE8A8B062F",
+      "b": "ipeds__GBA6RTW__GR200__00081035__034903F31DA2",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "degree - Women - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "degree - Women - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE16 when GRTYPE=12(Table GR2005). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING",
+          "to_context": "is GRRACE16 when GRTYPE=12(Table GR2006). BACHELOR'S OR EQUIVALENT DEGREE-SEEKING"
+        }
+      ],
+      "title_a": "Graduation rate - Bachelor degree within 6 years, women",
+      "title_b": "Graduation rate - Bachelor degree within 6 years, women",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GBATRRT",
+      "a": "ipeds__GBATRRT__DFR__00081051__825EC20A1C44",
+      "b": "ipeds__GBATRRT__GR200__00081051__EA06783C1893",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "or equivalent degree - 1999 Bachelors subcohort (4-year institutions)",
+          "to_context": "or equivalent degree - 2000 Bachelors subcohort (4-year institutions)"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "is GRRACE24 when GRTYPE=16(Table GR2005). A transfer-out student is",
+          "to_context": "is GRRACE24 when GRTYPE=16(Table GR2006). A transfer-out student is"
+        }
+      ],
+      "title_a": "Transfer-out rate - Bachelor cohort",
+      "title_b": "Transfer-out rate - Bachelor cohort",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GRRTAP",
+      "a": "ipeds__GRRTAP__DFR__00081012__B5BA37ABD4F2",
+      "b": "ipeds__GRRTAP__GR200__00081012__4C6CC7F47362",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "Pacific Islander students - 1999 cohort (4-year institutions) and",
+          "to_context": "Pacific Islander students - 2000 cohort (4-year institutions) and"
+        },
+        {
+          "from": "2002",
+          "to": "2003",
+          "from_context": "cohort (4-year institutions) and 2002 cohort (2-year institutions). The",
+          "to_context": "cohort (4-year institutions) and 2003 cohort (2-year institutions). The"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "other degree/certificate-seeking subcohort (Table GR2005). For 2-year institutions the",
+          "to_context": "other degree/certificate-seeking subcohort (Table GR2006). For 2-year institutions the"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "GRRACE20 when GRTYPE=30 (Table GR2005). Graduation rate data was",
+          "to_context": "GRRACE20 when GRTYPE=30 (Table GR2006). Graduation rate data was"
+        }
+      ],
+      "title_a": "Graduation rate, Asian or Pacific Islander",
+      "title_b": "Graduation rate, Asian or Pacific Islander",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GRRTNR",
+      "a": "ipeds__GRRTNR__DFR__00081019__53EC591E6C98",
+      "b": "ipeds__GRRTNR__GR200__00081019__67041EF78190",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "1999",
+          "to": "2000",
+          "from_context": "Nonresident Alien students - 1999 cohort (4-year institutions) and",
+          "to_context": "Nonresident Alien students - 2000 cohort (4-year institutions) and"
+        },
+        {
+          "from": "2002",
+          "to": "2003",
+          "from_context": "cohort (4-year institutions) and 2002 cohort (2-year institutions). The",
+          "to_context": "cohort (4-year institutions) and 2003 cohort (2-year institutions). The"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "other degree/certificate-seeking subcohort (Table GR2005). For 2-year institutions the",
+          "to_context": "other degree/certificate-seeking subcohort (Table GR2006). For 2-year institutions the"
+        },
+        {
+          "from": "GR2005).",
+          "to": "GR2006).",
+          "from_context": "GRRACE17 when GRTYPE=30 (Table GR2005). Graduation rate data was",
+          "to_context": "GRRACE17 when GRTYPE=30 (Table GR2006). Graduation rate data was"
+        }
+      ],
+      "title_a": "Graduation rate, Nonresident alien",
+      "title_b": "Graduation rate, Nonresident alien",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "GRRTNR",
+      "a": "ipeds__GRRTNR__DRVGR__00081019__D84960F34F69",
+      "b": "ipeds__GRRTNR__GR200__00081019__67041EF78190",
+      "bridge_years": [
+        2010,
+        2009
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004",
+          "to": "2003",
+          "from_context": "Nonresident Alien students - 2004 cohort (4-year institutions) and",
+          "to_context": "Nonresident Alien students - 2003 cohort (4-year institutions) and"
+        },
+        {
+          "from": "2007",
+          "to": "2006",
+          "from_context": "cohort (4-year institutions) and 2007 cohort (2-year institutions). The",
+          "to_context": "cohort (4-year institutions) and 2006 cohort (2-year institutions). The"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "other degree/certificate-seeking subcohort (Table gr2010). For 2-year institutions the",
+          "to_context": "other degree/certificate-seeking subcohort (Table gr2009). For 2-year institutions the"
+        },
+        {
+          "from": "gr2010).",
+          "to": "gr2009).",
+          "from_context": "GRNRALT when GRTYPE=30 (Table gr2010). Graduation rate data was",
+          "to_context": "GRNRALT when GRTYPE=30 (Table gr2009). Graduation rate data was"
+        }
+      ],
+      "title_a": "Graduation rate, Nonresident alien",
+      "title_b": "Graduation rate, Nonresident alien",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "IGRNT_A",
+      "a": "ipeds__IGRNT_A__SFA_P__00070246__1F4182AE6E2D",
+      "b": "ipeds__IGRNT_A__SFA__00070246__5A871F7CF741",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Average amount of institutional grant aid received by full-time first-time undergraduates",
+      "title_b": "Average amount of institutional grant aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "IGRNT_N",
+      "a": "ipeds__IGRNT_N__SFA_P__00070236__4B0668A4E245",
+      "b": "ipeds__IGRNT_N__SFA__00070236__FA126C66B925",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving  institutional grant aid",
+      "title_b": "Number receiving  institutional grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "IGRNT_P",
+      "a": "ipeds__IGRNT_P__SFA_P__00070241__C988B60A751A",
+      "b": "ipeds__IGRNT_P__SFA__00070241__824DFFD4EFA6",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving institutional grant aid",
+      "title_b": "Percentage receiving institutional grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "LOAN_A",
+      "a": "ipeds__LOAN_A__SFA_P__00070261__785B5A2F13FF",
+      "b": "ipeds__LOAN_A__SFA__00070261__4DCA295212E1",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Average amount of student loan aid received by full-time first-time undergraduates",
+      "title_b": "Average amount of student loan aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "LOAN_N",
+      "a": "ipeds__LOAN_N__SFA_P__00070251__693A87D05E92",
+      "b": "ipeds__LOAN_N__SFA__00070251__15D7090377D6",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving student loan aid",
+      "title_b": "Number receiving student loan aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "LOAN_P",
+      "a": "ipeds__LOAN_P__SFA_P__00070256__88845B92CADA",
+      "b": "ipeds__LOAN_P__SFA__00070256__DCDE290C257A",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving student loan aid",
+      "title_b": "Percentage receiving student loan aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "OFGRT_A",
+      "a": "ipeds__OFGRT_A__SFA_P__00070351__3DD90321F045",
+      "b": "ipeds__OFGRT_A__SFA__00070351__73E06E066A3C",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Average amount of other",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Average amount of other"
+        }
+      ],
+      "title_a": "Average amount of other federal grant aid received by full-time first-time undergraduates",
+      "title_b": "Average amount of other federal grant aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "OFGRT_N",
+      "a": "ipeds__OFGRT_N__SFA_P__00070341__31E149257E89",
+      "b": "ipeds__OFGRT_N__SFA__00070341__0830ECF5357C",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Number of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Number of full-time, first-time"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving other federal grant aid",
+      "title_b": "Number receiving other federal grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "OFGRT_P",
+      "a": "ipeds__OFGRT_P__SFA_P__00070346__F206221D684E",
+      "b": "ipeds__OFGRT_P__SFA__00070346__F36B91ABD6C4",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Percentage of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Percentage of full-time, first-time"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving other federal grant aid",
+      "title_b": "Percentage receiving other federal grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "OLOAN_A",
+      "a": "ipeds__OLOAN_A__SFA_P__00070381__59C3439C3DDF",
+      "b": "ipeds__OLOAN_A__SFA__00070381__C677145E568C",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Average amount of other",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Average amount of other"
+        }
+      ],
+      "title_a": "Average amount of other student loan aid received by full-time first-time undergraduates",
+      "title_b": "Average amount of loan aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "OLOAN_N",
+      "a": "ipeds__OLOAN_N__SFA_P__00070371__998B77A1614F",
+      "b": "ipeds__OLOAN_N__SFA__00070371__44F8CA8AA3BE",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Number of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Number of full-time, first-time"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving other student loan aid",
+      "title_b": "Number receiving other loan aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "OLOAN_P",
+      "a": "ipeds__OLOAN_P__SFA_P__00070376__5F155D73990C",
+      "b": "ipeds__OLOAN_P__SFA__00070376__6E84DBF6CED4",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Percentage of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Percentage of full-time, first-time"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving other student loan aid",
+      "title_b": "Percentage receiving other loan aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PCTENRAN",
+      "a": "ipeds__PCTENRAN__DFR__00023335__96ED5B752E85",
+      "b": "ipeds__PCTENRAN__DRVEF__00023335__B73FFBE3C3E5",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Percent of total enrollment  that are American Indian or Alaska Native",
+      "title_b": "Percent of total enrollment  that are American Indian or Alaska Native",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PCTENRAP",
+      "a": "ipeds__PCTENRAP__DFR__00023330__746E2BC65331",
+      "b": "ipeds__PCTENRAP__DRVEF__00023330__848D8488E2B2",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Percent of total enrollment that are Asian or Pacific Islander",
+      "title_b": "Percent of total enrollment that are Asian or Pacific Islander",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PCTENRBK",
+      "a": "ipeds__PCTENRBK__DFR__00023320__2781A92DD3D6",
+      "b": "ipeds__PCTENRBK__DRVEF__00023320__02CB21CB26B8",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Percent of total enrollment that are Black, non-Hispanic",
+      "title_b": "Percent of total enrollment that are Black, non-Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PCTENRHS",
+      "a": "ipeds__PCTENRHS__DFR__00023325__FB4B3EDF7695",
+      "b": "ipeds__PCTENRHS__DRVEF__00023325__21F9E09C774C",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Percent of total enrollment that are Hispanic",
+      "title_b": "Percent of total enrollment that are Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PCTENRNR",
+      "a": "ipeds__PCTENRNR__DFR__00023345__F27AB77CEF11",
+      "b": "ipeds__PCTENRNR__DRVEF__00023345__258334ECD2D2",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Percent of total enrollment that are Non-resident Alien",
+      "title_b": "Percent of total enrollment that are Non-resident Alien",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PCTENRWH",
+      "a": "ipeds__PCTENRWH__DFR__00023315__B48FAF23B343",
+      "b": "ipeds__PCTENRWH__DRVEF__00023315__EEE3E0B33C66",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Percent of total enrollment that are White, non-Hispanic",
+      "title_b": "Percent of total enrollment that are White, non-Hispanic",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PGRNT_A",
+      "a": "ipeds__PGRNT_A__SFA_P__00070336__58371BC76411",
+      "b": "ipeds__PGRNT_A__SFA__00070336__C97041515F04",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Average amount of Pell",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Average amount of Pell"
+        }
+      ],
+      "title_a": "Average amount of Pell grant aid received by full-time first-time undergraduates",
+      "title_b": "Average amount of Pell grant aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PGRNT_N",
+      "a": "ipeds__PGRNT_N__SFA_P__00070326__C7F9332BE1B9",
+      "b": "ipeds__PGRNT_N__SFA__00070326__9D0898F0460A",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Number of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Number of full-time, first-time"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving Pell grants",
+      "title_b": "Number receiving Pell grants",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "PGRNT_P",
+      "a": "ipeds__PGRNT_P__SFA_P__00070331__68C7460741C4",
+      "b": "ipeds__PGRNT_P__SFA__00070331__829FD255BC60",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Percentage of full-time, first-time",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Percentage of full-time, first-time"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving Pell grants",
+      "title_b": "Percentage receiving Pell grants",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SALASSC",
+      "a": "ipeds__SALASSC__DFR__00040405__B15677623313",
+      "b": "ipeds__SALASSC__DRVHR__00040405__19A127757836",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Average salary equated to 9-month contracts of full-time instructional faculty - associate professors",
+      "title_b": "Average salary equated to 9-month contracts of full-time instructional staff - associate professors",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SALASST",
+      "a": "ipeds__SALASST__DFR__00040407__0C25EDB18959",
+      "b": "ipeds__SALASST__DRVHR__00040407__15F642694D6C",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Average salary equated to 9-month contracts of full-time instructional faculty - assistant professors",
+      "title_b": "Average salary equated to 9-month contracts of full-time instructional staff - assistant professors",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SALINST",
+      "a": "ipeds__SALINST__DFR__00040409__7C89206B39FC",
+      "b": "ipeds__SALINST__DRVHR__00040409__5708BE3CB156",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Average salary equated to 9-month contracts of full-time instructional faculty - instructors",
+      "title_b": "Average salary equated to 9-month contracts of full-time instructional staff - instructors",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SALLECT",
+      "a": "ipeds__SALLECT__DFR__00040411__D6926F3177F1",
+      "b": "ipeds__SALLECT__DRVHR__00040411__6C22F5DA5F35",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Average salary equated to 9-month contracts of full-time instructional faculty - lecturers",
+      "title_b": "Average salary equated to 9-month contracts of full-time instructional staff - lecturers",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SALNRNK",
+      "a": "ipeds__SALNRNK__DFR__00040413__7C17F767DF8A",
+      "b": "ipeds__SALNRNK__DRVHR__00040413__26B451FD4EE3",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Average salary equated to 9-month contracts of full-time instructional faculty - No academic rank",
+      "title_b": "Average salary equated to 9-month contracts of full-time instructional staff - No academic rank",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SALPROF",
+      "a": "ipeds__SALPROF__DFR__00040403__F6DB376FDF1E",
+      "b": "ipeds__SALPROF__DRVHR__00040403__485218EFB63B",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Average salary equated to 9-month contracts of full-time instructional faculty - professors",
+      "title_b": "Average salary equated to 9-month contracts of full-time instructional staff - professors",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SALTOTL",
+      "a": "ipeds__SALTOTL__DFR__00040401__C72ADCFD3459",
+      "b": "ipeds__SALTOTL__DRVHR__00040401__9D8333877A88",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Average salary equated to 9-month contracts of full-time instructional faculty - all ranks",
+      "title_b": "Average salary equated to 9-month contracts of full-time instructional staff - all ranks",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SATMT25",
+      "a": "ipeds__SATMT25__ADM__00010641__EB0C3DE618DD",
+      "b": "ipeds__SATMT25__IC__00010641__50A5141ABF96",
+      "bridge_years": [
+        2014,
+        2013
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "SAT Math 25th percentile score",
+      "title_b": "SAT Math 25th percentile score",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SATMT75",
+      "a": "ipeds__SATMT75__ADM__00010646__10A86162374D",
+      "b": "ipeds__SATMT75__IC__00010646__26A1E06CA86D",
+      "bridge_years": [
+        2014,
+        2013
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "SAT Math 75th percentile score",
+      "title_b": "SAT Math 75th percentile score",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SATVR25",
+      "a": "ipeds__SATVR25__ADM__00010631__A6357D0FA70A",
+      "b": "ipeds__SATVR25__IC__00010631__B51CDE396E62",
+      "bridge_years": [
+        2014,
+        2013
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "SAT Critical Reading 25th percentile score",
+      "title_b": "SAT Critical Reading 25th percentile score",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SATVR75",
+      "a": "ipeds__SATVR75__ADM__00010636__1FF40D2F183C",
+      "b": "ipeds__SATVR75__IC__00010636__A82D65BA6EC3",
+      "bridge_years": [
+        2014,
+        2013
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "SAT Critical Reading 75th percentile score",
+      "title_b": "SAT Critical Reading 75th percentile score",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA11N",
+      "a": "ipeds__SCFA11N__SFA_P__00070136__2960C63686A5",
+      "b": "ipeds__SCFA11N__SFA__00070136__232629A56F5F",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort) who are",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort) who are"
+        }
+      ],
+      "title_a": "Number of students in fall cohort who are in-district",
+      "title_b": "Number of students in fall cohort who are in-district",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA11P",
+      "a": "ipeds__SCFA11P__SFA_P__00070141__CF6DF18DFB46",
+      "b": "ipeds__SCFA11P__SFA__00070141__ECCD83386780",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort) who are",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort) who are"
+        }
+      ],
+      "title_a": "Percentage of students in cohort who are in-district",
+      "title_b": "Percentage of students in cohort who are in-district",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA12N",
+      "a": "ipeds__SCFA12N__SFA_P__00070146__8EF4CB9F748E",
+      "b": "ipeds__SCFA12N__SFA__00070146__C29F05F0CFE8",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort) who are",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort) who are"
+        }
+      ],
+      "title_a": "Number of students in cohort who are in-state",
+      "title_b": "Number of students in cohort who are in-state",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA12P",
+      "a": "ipeds__SCFA12P__SFA_P__00070151__9A403C73DEDA",
+      "b": "ipeds__SCFA12P__SFA__00070151__98B2B974F083",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort) who are",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort) who are"
+        }
+      ],
+      "title_a": "Percentage of students in cohort who are in-state",
+      "title_b": "Percentage of students in cohort who are in-state",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA13N",
+      "a": "ipeds__SCFA13N__SFA_P__00070156__0C57E2431B66",
+      "b": "ipeds__SCFA13N__SFA__00070156__6BCAEE1D7C56",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort) who are",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort) who are"
+        }
+      ],
+      "title_a": "Number of students in cohort who are out-of-state",
+      "title_b": "Number of students in cohort who are out-of-state",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA13P",
+      "a": "ipeds__SCFA13P__SFA_P__00070161__92BEBEF1BA40",
+      "b": "ipeds__SCFA13P__SFA__00070161__B9EB8C57C6C6",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort) who are",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort) who are"
+        }
+      ],
+      "title_a": "Percentage of students in cohort who are out-of-state",
+      "title_b": "Percentage of students in cohort who are out-of-state",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA14N",
+      "a": "ipeds__SCFA14N__SFA_P__00070166__32F29BBBF1A0",
+      "b": "ipeds__SCFA14N__SFA__00070166__091D1005AAFB",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort) whose residence",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort) whose residence"
+        }
+      ],
+      "title_a": "Number of students in cohort whose residence is unknown",
+      "title_b": "Number of students in cohort whose residence is unknown",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA14P",
+      "a": "ipeds__SCFA14P__SFA_P__00070171__D8E827924ED9",
+      "b": "ipeds__SCFA14P__SFA__00070171__98EC14461F98",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort) whose residence",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort) whose residence"
+        }
+      ],
+      "title_a": "Percent of students in cohort whose residence is unknown",
+      "title_b": "Percent of students in cohort whose residence is unknown",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA1N",
+      "a": "ipeds__SCFA1N__SFA_P__00070126__333E45B5BCDA",
+      "b": "ipeds__SCFA1N__SFA__00070126__AD337BB0803C",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "full-time first-time degree/certificate-seeking undergraduates (2008 fall cohort). Undergraduate -",
+          "to_context": "full-time first-time degree/certificate-seeking undergraduates (2007 fall cohort). Undergraduate -"
+        }
+      ],
+      "title_a": "Number of students in fall cohort",
+      "title_b": "Number of students in fall cohort",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA1P",
+      "a": "ipeds__SCFA1P__SFA_P__00070131__A90DF6170E34",
+      "b": "ipeds__SCFA1P__SFA__00070131__518EACC53DA2",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008",
+          "to": "(2007",
+          "from_context": "were full-time, first-time degree/certificate-seeking (2008 fall cohort). Undergraduate -",
+          "to_context": "were full-time, first-time degree/certificate-seeking (2007 fall cohort). Undergraduate -"
+        }
+      ],
+      "title_a": "Students in cohort as a percentage of all  undergraduates",
+      "title_b": "Students in cohort as a percentage of all  undergraduates",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFA2",
+      "a": "ipeds__SCFA2__SFA_P__00070176__A64DAD4D82AB",
+      "b": "ipeds__SCFA2__SFA__00070176__0611C5CE1E1F",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Total number of undergraduates",
+      "title_b": "Total number of undergraduates",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFY1N",
+      "a": "ipeds__SCFY1N__SFA_P__00070181__87199A4B1142",
+      "b": "ipeds__SCFY1N__SFA__00070181__8A9FE038A99F",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008-09",
+          "to": "(2007-08",
+          "from_context": "first-time degree\\certificate-seeking undergraduate students (2008-09 full-year cohort). Unduplicated count",
+          "to_context": "first-time degree\\certificate-seeking undergraduate students (2007-08 full-year cohort). Unduplicated count"
+        }
+      ],
+      "title_a": "Number of students in full year cohort",
+      "title_b": "Number of students in full year cohort",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFY1P",
+      "a": "ipeds__SCFY1P__SFA_P__00070186__21363DA29931",
+      "b": "ipeds__SCFY1P__SFA__00070186__B392A1AE9A3E",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "(2008-09",
+          "to": "(2007-08",
+          "from_context": "were full-time, first-time degree/certificate-seeking (2008-09 full-year cohort). Unduplicated count",
+          "to_context": "were full-time, first-time degree/certificate-seeking (2007-08 full-year cohort). Unduplicated count"
+        }
+      ],
+      "title_a": "Students in cohort as a percentage of all  undergraduates",
+      "title_b": "Students in cohort as a percentage of all  undergraduates",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SCFY2",
+      "a": "ipeds__SCFY2__SFA_P__00070191__3ECFEDF8E81F",
+      "b": "ipeds__SCFY2__SFA__00070191__7964F2F943B0",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [],
+      "title_a": "Total number of undergraduates",
+      "title_b": "Total number of undergraduates",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SGRNT_A",
+      "a": "ipeds__SGRNT_A__SFA_P__00070231__1E5CD17699BB",
+      "b": "ipeds__SGRNT_A__SFA__00070231__97E0D5810A5A",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Average amount of state/local grant aid received by full-time first-time undergraduates",
+      "title_b": "Average amount of state/local grant aid received",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SGRNT_N",
+      "a": "ipeds__SGRNT_N__SFA_P__00070221__4CBF9751C590",
+      "b": "ipeds__SGRNT_N__SFA__00070221__0E1566FB50D9",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Number of full-time first-time undergraduates receiving state/local grant aid",
+      "title_b": "Number receiving state/local grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "SGRNT_P",
+      "a": "ipeds__SGRNT_P__SFA_P__00070226__E127A08E7B82",
+      "b": "ipeds__SGRNT_P__SFA__00070226__9A35B052839B",
+      "bridge_years": [
+        2009,
+        2008
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "",
+          "to": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information.",
+          "from_context": "Student Financial Aid and",
+          "to_context": "Note: Perturbation procedures were applied to these data to protect against disclosure of individual information. Student Financial Aid and"
+        }
+      ],
+      "title_a": "Percent of full-time first-time undergraduates receiving state/local grant aid",
+      "title_b": "Percentage receiving state/local grant aid",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "TUFEYR1",
+      "a": "ipeds__TUFEYR1__DFR__00100605__766026F97A05",
+      "b": "ipeds__TUFEYR1__DRVIC__00100605__01423D9BB352",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2003-04",
+          "to": "2004-05",
+          "from_context": "Published tuition and fees, 2003-04 for academic year reporters",
+          "to_context": "Published tuition and fees, 2004-05 for academic year reporters"
+        },
+        {
+          "from": "2003-04",
+          "to": "2004-05",
+          "from_context": "data come from the 2003-04 in-district tuition and fee",
+          "to_context": "data come from the 2004-05 in-district tuition and fee"
+        },
+        {
+          "from": "2003-04",
+          "to": "2004-05",
+          "from_context": "and required fees for 2003-04 IN-DISTRICT TUITION - The",
+          "to_context": "and required fees for 2004-05 IN-DISTRICT TUITION - The"
+        }
+      ],
+      "title_a": "Tuition and fees, 2003-04",
+      "title_b": "Tuition and fees, 2004-05",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "TUFEYR3",
+      "a": "ipeds__TUFEYR3__DFR__00100609__F51414FBDFA0",
+      "b": "ipeds__TUFEYR3__DRVIC__00100609__8C91464BC1AC",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2005-06",
+          "to": "2006-07",
+          "from_context": "Published tuition and fees, 2005-06 for academic year reporters",
+          "to_context": "Published tuition and fees, 2006-07 for academic year reporters"
+        },
+        {
+          "from": "2005-06",
+          "to": "2006-07",
+          "from_context": "data came from the 2005-06 in-district tuition and fee",
+          "to_context": "data came from the 2006-07 in-district tuition and fee"
+        },
+        {
+          "from": "2005-06",
+          "to": "2006-07",
+          "from_context": "and required fees for 2005-06 IN-DISTRICT TUITION - The",
+          "to_context": "and required fees for 2006-07 IN-DISTRICT TUITION - The"
+        }
+      ],
+      "title_a": "Tuition and fees, 2005-06",
+      "title_b": "Tuition and fees, 2006-07",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "UNDUPUG",
+      "a": "ipeds__UNDUPUG__DFR__00023362__4A245EF8EA2F",
+      "b": "ipeds__UNDUPUG__DRVEF__00023362__D48A5E9E4CFF",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004-05",
+          "to": "2005-06",
+          "from_context": "12-month unduplicated headcount: 2004-05 Indicates how many individuals",
+          "to_context": "12-month unduplicated headcount: 2005-06 Indicates how many individuals"
+        }
+      ],
+      "title_a": "12-month unduplicated headcount, undergraduate: Academic year 2004-05",
+      "title_b": "12-month unduplicated headcount, undergraduate: Academic year 2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    },
+    {
+      "base": "UNDUP",
+      "a": "ipeds__UNDUP__DFR__00023360__B285776C1A20",
+      "b": "ipeds__UNDUP__DRVEF__00023360__ED2D6A649A9F",
+      "bridge_years": [
+        2005,
+        2006
+      ],
+      "actual_source_boundary_gap": 1,
+      "bridge_is_closest_observed_boundary": true,
+      "changed_definition_tokens": [
+        {
+          "from": "2004-05",
+          "to": "2005-06",
+          "from_context": "12-month unduplicated headcount: 2004-05 Indicates how many individuals",
+          "to_context": "12-month unduplicated headcount: 2005-06 Indicates how many individuals"
+        }
+      ],
+      "title_a": "12-month unduplicated headcount, total: Academic year 2004-05",
+      "title_b": "12-month unduplicated headcount, total: Academic year 2005-06",
+      "decision": "retain_approval_with_annual_metadata"
+    }
+  ]
+}

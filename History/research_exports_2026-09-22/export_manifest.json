@@ -1,0 +1,661 @@
+{
+  "title": "FSA volume: IPEDS UNITID by award year",
+  "export_schema_version": "1.0.0",
+  "created_utc": "2026-09-23T03:44:50.753415+00:00",
+  "source_release": "fsa-research-v2",
+  "source_release_manifest_sha256": "547d26b6729897d0a4d67b330c1b20a2e4f45df3b14d358d3a74014d69602345",
+  "source_panel_sha256": "93d675fde748d6c480c7eb9050dccec49a88892154a60ed21e016539ba9983ba",
+  "source_dictionary_sha256": "fbef323e453016c10ac509145039d9cde760edce5cb88c7db22e4a4d8b2aecd2",
+  "rows": 141038,
+  "columns": 1312,
+  "primary_key": [
+    "unitid",
+    "award_year_start"
+  ],
+  "award_year_min": "1999-2000",
+  "award_year_max": "2024-2025",
+  "currency": "USD",
+  "price_basis": "nominal; not inflation adjusted",
+  "scope": "Unbalanced annual institutional identity panel. Campus-exclusive aid allocation is not certified.",
+  "missing_rule": "Missing is not zero; consult each measure and family status and source scope.",
+  "category_rule": "Status and boolean numeric codes use value_labels.csv. Codes are nominal, not ordinal.",
+  "text_missingness": "CSV uses __FSA_NULL__; Stata/Excel empty and null require string_nulls.parquet for exact restoration.",
+  "excel_precision": "15 significant digits: only cent-preserving monetary binary tails (<=4 ulps) and name-similarity scores (<=5e-15) may change; checked and counted in the export manifest. Other formats retain exact numeric values.",
+  "csv_security": "CSV text is preserved verbatim. Use typed loaders; use the XLSX export for spreadsheet opening.",
+  "freshness": "Re-export of frozen validated source bytes, not a new data collection or linkage build.",
+  "formats": [
+    "parquet",
+    "csv",
+    "stata",
+    "excel"
+  ],
+  "checks": [
+    {
+      "format": "parquet",
+      "rows": 141038,
+      "columns": 1312,
+      "cells_checked": 185041856,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": false,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 0
+    },
+    {
+      "format": "csv",
+      "rows": 141038,
+      "columns": 1312,
+      "cells_checked": 185041856,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": false,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 0
+    },
+    {
+      "format": "stata",
+      "rows": 141038,
+      "columns": 1312,
+      "cells_checked": 185041856,
+      "all_values_passed": true,
+      "variable_labels_passed": true,
+      "value_labels_passed": true,
+      "native_string_empty_null_equivalent": true
+    },
+    {
+      "format": "excel",
+      "rows": 5426,
+      "columns": 1312,
+      "cells_checked": 7118912,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2914,
+      "file": "excel/fsa_unitid_1999_2000.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5404,
+      "columns": 1312,
+      "cells_checked": 7090048,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2784,
+      "file": "excel/fsa_unitid_2000_2001.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5501,
+      "columns": 1312,
+      "cells_checked": 7217312,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3516,
+      "file": "excel/fsa_unitid_2001_2002.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5514,
+      "columns": 1312,
+      "cells_checked": 7234368,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3690,
+      "file": "excel/fsa_unitid_2002_2003.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5469,
+      "columns": 1312,
+      "cells_checked": 7175328,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3471,
+      "file": "excel/fsa_unitid_2003_2004.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5467,
+      "columns": 1312,
+      "cells_checked": 7172704,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3343,
+      "file": "excel/fsa_unitid_2004_2005.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5511,
+      "columns": 1312,
+      "cells_checked": 7230432,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3108,
+      "file": "excel/fsa_unitid_2005_2006.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5554,
+      "columns": 1312,
+      "cells_checked": 7286848,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2972,
+      "file": "excel/fsa_unitid_2006_2007.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5536,
+      "columns": 1312,
+      "cells_checked": 7263232,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3118,
+      "file": "excel/fsa_unitid_2007_2008.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5530,
+      "columns": 1312,
+      "cells_checked": 7255360,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3212,
+      "file": "excel/fsa_unitid_2008_2009.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5576,
+      "columns": 1312,
+      "cells_checked": 7315712,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3323,
+      "file": "excel/fsa_unitid_2009_2010.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5594,
+      "columns": 1312,
+      "cells_checked": 7339328,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3249,
+      "file": "excel/fsa_unitid_2010_2011.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5759,
+      "columns": 1312,
+      "cells_checked": 7555808,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3302,
+      "file": "excel/fsa_unitid_2011_2012.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5753,
+      "columns": 1312,
+      "cells_checked": 7547936,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3222,
+      "file": "excel/fsa_unitid_2012_2013.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5645,
+      "columns": 1312,
+      "cells_checked": 7406240,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 3173,
+      "file": "excel/fsa_unitid_2013_2014.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5630,
+      "columns": 1312,
+      "cells_checked": 7386560,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 1029,
+      "excel_similarity_rounding_cells": 3116,
+      "file": "excel/fsa_unitid_2014_2015.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5580,
+      "columns": 1312,
+      "cells_checked": 7320960,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2986,
+      "file": "excel/fsa_unitid_2015_2016.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5506,
+      "columns": 1312,
+      "cells_checked": 7223872,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2737,
+      "file": "excel/fsa_unitid_2016_2017.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5399,
+      "columns": 1312,
+      "cells_checked": 7083488,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2632,
+      "file": "excel/fsa_unitid_2017_2018.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5301,
+      "columns": 1312,
+      "cells_checked": 6954912,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2484,
+      "file": "excel/fsa_unitid_2018_2019.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5220,
+      "columns": 1312,
+      "cells_checked": 6848640,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2280,
+      "file": "excel/fsa_unitid_2019_2020.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5160,
+      "columns": 1312,
+      "cells_checked": 6769920,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2192,
+      "file": "excel/fsa_unitid_2020_2021.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5104,
+      "columns": 1312,
+      "cells_checked": 6696448,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 2045,
+      "file": "excel/fsa_unitid_2021_2022.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 5042,
+      "columns": 1312,
+      "cells_checked": 6615104,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 1940,
+      "file": "excel/fsa_unitid_2022_2023.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 4974,
+      "columns": 1312,
+      "cells_checked": 6525888,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 1822,
+      "file": "excel/fsa_unitid_2023_2024.xlsx"
+    },
+    {
+      "format": "excel",
+      "rows": 4883,
+      "columns": 1312,
+      "cells_checked": 6406496,
+      "all_values_passed": true,
+      "native_string_empty_null_equivalent": true,
+      "excel_binary_rounding_cells_cents_preserved": 0,
+      "excel_similarity_rounding_cells": 1335,
+      "file": "excel/fsa_unitid_2024_2025.xlsx"
+    },
+    {
+      "check": "string_null_masks",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true,
+  "native_stata_execution": false,
+  "native_excel_execution": false,
+  "outputs": [
+    {
+      "path": "README.md",
+      "bytes": 1682,
+      "sha256": "596db875fd5e9eba6f3a5b306f1cba3c0ec0fe2bf0c50ab618b5d56f211bf905"
+    },
+    {
+      "path": "codebook.csv",
+      "bytes": 8753793,
+      "sha256": "70b1f39bc924eb016cf292f06ddbbe0a906cc709117ae1d7d97541367b0a4cfd"
+    },
+    {
+      "path": "codebook.json",
+      "bytes": 11515098,
+      "sha256": "0828527ce6a6cf10387cdb708ff4e57e7457cf1b1d6bd0bfa8b87c2e31493dc3"
+    },
+    {
+      "path": "dataset_metadata.json",
+      "bytes": 1623,
+      "sha256": "0855faf3f25bf9e58656313e43ec2813358c52f2905c870078fb92cecb7354cc"
+    },
+    {
+      "path": "documentation/descriptor_resolution.md",
+      "bytes": 15442,
+      "sha256": "759be974083cec7275d0187c71802477b28acf941a3f8529ebaa222505714b5b"
+    },
+    {
+      "path": "documentation/ipeds_documentation_review.md",
+      "bytes": 15384,
+      "sha256": "5f45894fbeac3c6a54efc3caf4ba17739428d83c70b6ffa4f1017c8bdbf08fb8"
+    },
+    {
+      "path": "documentation/ipeds_linkage.md",
+      "bytes": 12835,
+      "sha256": "a2ef55ddb951c7d8d40d1e3274e516a5c78f5f7c4bc69feeb7efd3259c165825"
+    },
+    {
+      "path": "documentation/loan_harmonization.md",
+      "bytes": 8657,
+      "sha256": "81e0710f6e4e6ce1aa8b6165e439578096ef06efc516a120ea03a22ea52a80e6"
+    },
+    {
+      "path": "documentation/policy_and_reporting_changes.md",
+      "bytes": 21233,
+      "sha256": "1ea84bdee8c92cb77593471cde53bc61a58af9e3e75d729c33f95409ac5f732d"
+    },
+    {
+      "path": "documentation/portable_exports.md",
+      "bytes": 14035,
+      "sha256": "dc5cfb616ad09daae358b4854d0b7cdadcf423ad914a4d23100b9bdf16d7ecc5"
+    },
+    {
+      "path": "documentation/research_limits_review.md",
+      "bytes": 15444,
+      "sha256": "051598972587c99bb25424d551a687f4e62cb38e1a9ec9219897e2215d7dea31"
+    },
+    {
+      "path": "documentation/research_use.md",
+      "bytes": 11838,
+      "sha256": "dd93d8c76cef645217d4a95825cf27471a8fa67b419748cb363585d65b552882"
+    },
+    {
+      "path": "documentation/source_identity_recovery.md",
+      "bytes": 11824,
+      "sha256": "726396c1f353a250fea1fc921b00a475989d058a5a201892b3d8bb7bcc046f96"
+    },
+    {
+      "path": "documentation/unitid_panel.md",
+      "bytes": 10476,
+      "sha256": "6f0c59f86dba5ff178989be4f087937842c93e2c16ff2d6b0783b8acc285ff05"
+    },
+    {
+      "path": "excel/fsa_unitid_1999_2000.xlsx",
+      "bytes": 13706628,
+      "sha256": "b0127fa1c9480c5351cce98c02387c0fe10250834adf018bb9cd55be95dc22bc"
+    },
+    {
+      "path": "excel/fsa_unitid_2000_2001.xlsx",
+      "bytes": 16993689,
+      "sha256": "71bb601f8d576380ab16ab50c4fbc42285d6864151322c89fac83e0a7ad08fa0"
+    },
+    {
+      "path": "excel/fsa_unitid_2001_2002.xlsx",
+      "bytes": 21876957,
+      "sha256": "ed0b42ed2d790428a22a1b2b5eda9581a196111c9918ad312a81002f09c14fa3"
+    },
+    {
+      "path": "excel/fsa_unitid_2002_2003.xlsx",
+      "bytes": 22009816,
+      "sha256": "518a6d56656b34907cc225549dd6207714aceffe4b6c5d9a4fb5b5315fc0abdf"
+    },
+    {
+      "path": "excel/fsa_unitid_2003_2004.xlsx",
+      "bytes": 22121806,
+      "sha256": "25cda3e969d23e308441dd639e441b289a18d1c09e61a06bead3079709648a53"
+    },
+    {
+      "path": "excel/fsa_unitid_2004_2005.xlsx",
+      "bytes": 22040184,
+      "sha256": "1ad78fc3b32570f27c65cc6ea25214ebcb6435c1e8c77d80f97e9f8342c84e53"
+    },
+    {
+      "path": "excel/fsa_unitid_2005_2006.xlsx",
+      "bytes": 22412910,
+      "sha256": "8b5df387bc80a1f26958734fa74717dd1a3804466f63887b19745748c5180724"
+    },
+    {
+      "path": "excel/fsa_unitid_2006_2007.xlsx",
+      "bytes": 23085904,
+      "sha256": "ca2f52ce8566a63d19e93c642731f4ceb699135b07577a1041ba55039bdad11f"
+    },
+    {
+      "path": "excel/fsa_unitid_2007_2008.xlsx",
+      "bytes": 23926838,
+      "sha256": "232697d5382bd90f2638781f8ff63ae56d396f8319f589192c90dfabc2d26fc7"
+    },
+    {
+      "path": "excel/fsa_unitid_2008_2009.xlsx",
+      "bytes": 24870169,
+      "sha256": "b2b9858430502f0ae93490140d82b46df6a0052a21ca784ca99125608938b4b4"
+    },
+    {
+      "path": "excel/fsa_unitid_2009_2010.xlsx",
+      "bytes": 27475157,
+      "sha256": "a6a799305926296043c94a0269da1c6c4ec1c3c472f2417c000afd385c266053"
+    },
+    {
+      "path": "excel/fsa_unitid_2010_2011.xlsx",
+      "bytes": 25204531,
+      "sha256": "db2cac195c36749fdb7bc1728f10ff8f47b96d1f10f837b6a43590553d99c263"
+    },
+    {
+      "path": "excel/fsa_unitid_2011_2012.xlsx",
+      "bytes": 25552327,
+      "sha256": "e22f252623deb2d2392518d78975e9f8f7c43b0dffc6354036018845055b71d2"
+    },
+    {
+      "path": "excel/fsa_unitid_2012_2013.xlsx",
+      "bytes": 25159476,
+      "sha256": "8a806985e960043b201acb0df509aed702415be77f7710635646f31057d7eeda"
+    },
+    {
+      "path": "excel/fsa_unitid_2013_2014.xlsx",
+      "bytes": 24615068,
+      "sha256": "c6f1b17d93ee8e83ada6a647c343558f21290b951162983b73b111c8d8f9ddc2"
+    },
+    {
+      "path": "excel/fsa_unitid_2014_2015.xlsx",
+      "bytes": 24685978,
+      "sha256": "72738d7f1720f34146d229572520cf596c861294110b1a9addcfa4e616b2dcb0"
+    },
+    {
+      "path": "excel/fsa_unitid_2015_2016.xlsx",
+      "bytes": 24560866,
+      "sha256": "a20ce85b9c7456e32ee1402327907435fbbff18140f47cb1494faf739d55e07d"
+    },
+    {
+      "path": "excel/fsa_unitid_2016_2017.xlsx",
+      "bytes": 24148261,
+      "sha256": "d7b37d7150a8333c2d18d3fbec1c5642f486fde8cb2708cc02e310328b0a6fce"
+    },
+    {
+      "path": "excel/fsa_unitid_2017_2018.xlsx",
+      "bytes": 22583271,
+      "sha256": "41acbcad6e7c5f4c86f0f64f4e3179998469e898ec0af82cb3fba7de145397b4"
+    },
+    {
+      "path": "excel/fsa_unitid_2018_2019.xlsx",
+      "bytes": 22272492,
+      "sha256": "952762589e5303d59c18928d92e6eb537a8e9b87117c46a3cc6227736ee1979b"
+    },
+    {
+      "path": "excel/fsa_unitid_2019_2020.xlsx",
+      "bytes": 21876451,
+      "sha256": "dc9e093a1e341e05bc0789ed7aebf08fd44ee43d1151e3824a62223a42c27826"
+    },
+    {
+      "path": "excel/fsa_unitid_2020_2021.xlsx",
+      "bytes": 21637564,
+      "sha256": "648ca7a161c3450d6244264bc4f853899b64e0971e00e62526550287499ff44f"
+    },
+    {
+      "path": "excel/fsa_unitid_2021_2022.xlsx",
+      "bytes": 21447417,
+      "sha256": "4254424a6d14559ab3869bef25c204eb80207d25626a76cd3f131c5151424013"
+    },
+    {
+      "path": "excel/fsa_unitid_2022_2023.xlsx",
+      "bytes": 21222717,
+      "sha256": "51766d6722986e53ab587fef0cc866fb4de23a52cf58c378c07081c6fdb9b869"
+    },
+    {
+      "path": "excel/fsa_unitid_2023_2024.xlsx",
+      "bytes": 20683731,
+      "sha256": "b198e3d979c55c5b7cebc0699318a77e83eca32c1e07199909827e027dc12270"
+    },
+    {
+      "path": "excel/fsa_unitid_2024_2025.xlsx",
+      "bytes": 17169551,
+      "sha256": "8ede3838efb162c1e4b0387fca63f6410f2e5b93d4d997564931639b20ddf426"
+    },
+    {
+      "path": "export_source/15_export_research_formats.py",
+      "bytes": 740,
+      "sha256": "dc945f638fca63dfcb8825bd2bb53a69760b3c96fe2e8728b6f8e1f9f2afe5cd"
+    },
+    {
+      "path": "export_source/fsa_export_metadata.py",
+      "bytes": 31079,
+      "sha256": "fa3d7cd02f0243b300dcbe4468723d6fac7b3bfc1a9918436c11c1d37c2485ed"
+    },
+    {
+      "path": "export_source/fsa_portable_exports.py",
+      "bytes": 32342,
+      "sha256": "aca63bcd622eea6898e6c1181882a930fe919e669edcb8887f2175d4a9032295"
+    },
+    {
+      "path": "fsa_unitid_panel.csv-metadata.json",
+      "bytes": 949259,
+      "sha256": "1c3908dc27814c5e5504d70c8247a84706c6c707b61249f1dcf85faa6fd1c58e"
+    },
+    {
+      "path": "fsa_unitid_panel.csv.gz",
+      "bytes": 75586322,
+      "sha256": "3432f6819679e116d879f84b4361939a7052d88c37b2b931a3cb2be14a77bcc6"
+    },
+    {
+      "path": "fsa_unitid_panel.dta",
+      "bytes": 2011381409,
+      "sha256": "2f53500378cfd691862370d92adc3c30626c220a6476d7debb75620a524fa0b6"
+    },
+    {
+      "path": "fsa_unitid_panel.parquet",
+      "bytes": 92431805,
+      "sha256": "e4e0eee167e74fa3f429b049600001b385f0712a73120dcab0125b98b6d347bd"
+    },
+    {
+      "path": "load_csv.R",
+      "bytes": 808,
+      "sha256": "e72392e4fb360a5f3bcce0cedabb4aa8d50c46fdc4a9a49dee5119aaa865e93c"
+    },
+    {
+      "path": "load_csv.py",
+      "bytes": 1378,
+      "sha256": "d7cd1c8ae1bf0dc7b2371d2cab22e1a4b32ac162ec553f5b67891a3e0893bc4e"
+    },
+    {
+      "path": "load_stata.do",
+      "bytes": 1011258,
+      "sha256": "84c91dfac3d576afb28cfbc02e59556a2123d84ae9195cb3cd65e6f65c814bd7"
+    },
+    {
+      "path": "name_map.csv",
+      "bytes": 140354,
+      "sha256": "b0663cecf7731c2ecab06f4ec26a7c81c012e02d93f842622fb0dad56d3ef04f"
+    },
+    {
+      "path": "source_release_manifest.json",
+      "bytes": 124820,
+      "sha256": "547d26b6729897d0a4d67b330c1b20a2e4f45df3b14d358d3a74014d69602345"
+    },
+    {
+      "path": "source_unitid_manifest.json",
+      "bytes": 3246,
+      "sha256": "7cfdce6b017166e96e3f2c572123e5551fe26532440a48fc6904420b54f01f9c"
+    },
+    {
+      "path": "string_nulls.parquet",
+      "bytes": 4450991,
+      "sha256": "78b6a5c6dc264a7998d1a0aef24205cce19aed13fe8db4a752593110abf65355"
+    },
+    {
+      "path": "value_labels.csv",
+      "bytes": 207883,
+      "sha256": "9b03ba2756fc78e848f2f2e1da13ed706106227c77d251b419daab3fed8e407a"
+    }
+  ],
+  "environment": {
+    "python": "3.13.0",
+    "pandas": "2.2.3",
+    "pyarrow": "21.0.0"
+  },
+  "metadata_coverage": {
+    "variables": 1312,
+    "nonempty_labels": 1312,
+    "nonempty_definitions": 1312,
+    "max_name_length": 32,
+    "max_label_length": 75,
+    "value_labels": 1100
+  },
+  "export_code": [
+    {
+      "path": "Scripts/fsa_portable_exports.py",
+      "sha256": "aca63bcd622eea6898e6c1181882a930fe919e669edcb8887f2175d4a9032295"
+    },
+    {
+      "path": "Scripts/fsa_export_metadata.py",
+      "sha256": "fa3d7cd02f0243b300dcbe4468723d6fac7b3bfc1a9918436c11c1d37c2485ed"
+    },
+    {
+      "path": "Scripts/15_export_research_formats.py",
+      "sha256": "dc945f638fca63dfcb8825bd2bb53a69760b3c96fe2e8728b6f8e1f9f2afe5cd"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Verified packaged artifacts 50 of 214
+Verified packaged artifacts 100 of 214
+Verified packaged artifacts 150 of 214
+Verified packaged artifacts 200 of 214
+{
+  "completed": true,
+  "output": "/Volumes/CIRAGO/FSA-IPEDS_DS",
+  "artifacts": 215,
+  "validation_checks": 180
+}

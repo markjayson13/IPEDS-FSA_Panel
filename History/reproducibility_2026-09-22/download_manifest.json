@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "release_tag": "fsa-research-v2-2026-09-22",
+  "archives": [
+    {
+      "name": "fsa-research-v2-portable-data.zip",
+      "bytes": 183557295,
+      "sha256": "8670c10566612b28f543d65696c1cc6c603e85b128ed5c76724b9f648eb031ef",
+      "parts": [
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0001",
+          "bytes": 16777216,
+          "sha256": "0bbd8a4171db1b2ce05fa871c1393645a78b554547e631240a4cabcec390bf98"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0002",
+          "bytes": 16777216,
+          "sha256": "0219d759113b05e48ed6c95d746abad47bdd25ac61dd364fb2bb89dd60bbb402"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0003",
+          "bytes": 16777216,
+          "sha256": "efd7505881554b44252b2993e294fa66422dd15cd17de83f9e590ca135fddf4a"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0004",
+          "bytes": 16777216,
+          "sha256": "f91bc03319e0d1b66e6732095de8764a884855dc9e9d4fb23e67748bfbecade0"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0005",
+          "bytes": 16777216,
+          "sha256": "35c6012bfac0168d45a5939f9545b6ca554ec8dde5ffc8137d51a1c7f00b539c"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0006",
+          "bytes": 16777216,
+          "sha256": "282d1b5affdad50d1a801d1fa02147f5098ddac207480be02c70a353d29161ab"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0007",
+          "bytes": 16777216,
+          "sha256": "903226eb7aae5b66f9d79ae35ad329547bd4689246b9c4c76c0ca36ac5fb91e4"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0008",
+          "bytes": 16777216,
+          "sha256": "de5dc7761ff563648913bee82b9002d5ebb6bb19ecd1f86b3ad411f329f99531"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0009",
+          "bytes": 16777216,
+          "sha256": "a2c6fcfd49626f600cb97187d5d636e1303af7c41813f85206d9240e5559075d"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0010",
+          "bytes": 16777216,
+          "sha256": "0697d0f13f62a0b960b73ecfdf7ee730c47d2b981ef52c604bc95e2c6551b8cd"
+        },
+        {
+          "name": "fsa-research-v2-portable-data.zip.part0011",
+          "bytes": 15785135,
+          "sha256": "f06d604b7e942e499497896ade04599b01416c526ccab3502e8ee574c050ae4b"
+        }
+      ]
+    },
+    {
+      "name": "fsa-research-v2-stata.zip",
+      "bytes": 164659230,
+      "sha256": "c59c1f6536d044c34f2590e9d78f24291d5d5ec9ff0b7b6d62322f4b3eacb7fc",
+      "parts": [
+        {
+          "name": "fsa-research-v2-stata.zip",
+          "bytes": 164659230,
+          "sha256": "c59c1f6536d044c34f2590e9d78f24291d5d5ec9ff0b7b6d62322f4b3eacb7fc"
+        }
+      ]
+    },
+    {
+      "name": "fsa-research-v2-excel.zip",
+      "bytes": 598882605,
+      "sha256": "dd78811cfe2539d81a53eb597ebaf8a56032290f8feb060b2b1f6c76ac600bcd",
+      "parts": [
+        {
+          "name": "fsa-research-v2-excel.zip.part0001",
+          "bytes": 16777216,
+          "sha256": "7c64e86f33c82cd972dae153ffb71bf1a3df3e178af83f245db805f286968129"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0002",
+          "bytes": 16777216,
+          "sha256": "26cb5f9ab82fb19f4126818ea9354635850b7662d856beb5a4cc3fece6fbb5e9"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0003",
+          "bytes": 16777216,
+          "sha256": "38a1b08fcbf0dcccd8e69eb96d0940f6aa6732cd1dd31dcf409403c762db73b9"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0004",
+          "bytes": 16777216,
+          "sha256": "f73b2296e38a50194db7d7d3a28542e7519da7db47a3ffb9c4cc6a2df8a498bd"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0005",
+          "bytes": 16777216,
+          "sha256": "b471dae7d83790be0ae98dd64ca70f064b945b4efc2b6afaab7e54a8e9a3919f"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0006",
+          "bytes": 16777216,
+          "sha256": "651348ea2e57dbea897a0af692c31f85fce611ffe14b8e3f492ce911bd07f0e8"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0007",
+          "bytes": 16777216,
+          "sha256": "bf373c22402061330062fab020de47f90027595e8e2389d6c0d9727f1775f534"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0008",
+          "bytes": 16777216,
+          "sha256": "95ac7c74b33ad0804d1f9918eb4d7d00ee43a1bbaa28f14d25a551cdf00fc56a"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0009",
+          "bytes": 16777216,
+          "sha256": "a6bd826609e2cdc1bd801c98bf1bee1c5902afd94fa78741bc267b36c7dfaf37"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0010",
+          "bytes": 16777216,
+          "sha256": "4be87e0ac7751d22ad013e3ae6c85f9b817de584a74002ba31a4ae3e22343651"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0011",
+          "bytes": 16777216,
+          "sha256": "399ef6d2fa2f6378de2033cca9d4313e263c59b70e01b415960463b9ac6188d3"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0012",
+          "bytes": 16777216,
+          "sha256": "9a1785c327e01fb454c673712bea72669afe2630d1a920eb8b6305c1443fa9c2"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0013",
+          "bytes": 16777216,
+          "sha256": "bbceca862f37bc1238359b7bbe046f759423c7359e54fd2b35ec3c9c34cddf1b"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0014",
+          "bytes": 16777216,
+          "sha256": "4f3ab472a118bf3e7834df1b7678ef7cc3da3132c40ae5ec2b78ab1b669282a6"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0015",
+          "bytes": 16777216,
+          "sha256": "dd2e91520c3965961f316559a514efb308e09f9744cf31d796c962590f33b915"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0016",
+          "bytes": 16777216,
+          "sha256": "0af7a781a2dfdbb1368f3f949d8ea9e65d4a65c682a30e648cc2d7e2e9e81464"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0017",
+          "bytes": 16777216,
+          "sha256": "9735f5e61af596e79f8fe9d1bed5aedbd83410bcfcfcd0549147333f3389bf61"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0018",
+          "bytes": 16777216,
+          "sha256": "2f70d0273ffc907fe111be3f12e354a29588af67142f9866b90a92bde3b24fab"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0019",
+          "bytes": 16777216,
+          "sha256": "09a936a240f91cbc8cc4245fce407a27781e89bd91d4393f16ea5940f547ec97"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0020",
+          "bytes": 16777216,
+          "sha256": "8d8bfc73cdfa6ca9ceec6abc9109ea91a8b998c0bd236527ebc6bfcc41ad49fe"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0021",
+          "bytes": 16777216,
+          "sha256": "8e545955373729be65576cc782954c50fa862c30405eaad5055e30bcfc829bc7"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0022",
+          "bytes": 16777216,
+          "sha256": "3200fed6687d634e7fbc33b7a2f6d4ed42771507eb8a72a2a0155009ab02d822"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0023",
+          "bytes": 16777216,
+          "sha256": "29f5ddca8fd65a3f848c1aeb25c79923993bd01ead76e2c068ee5e957fbd2eeb"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0024",
+          "bytes": 16777216,
+          "sha256": "915f0dc2b98fe16cbfad9d2721f2aea278c9f9a60a68d4ea15ae8d885b2ab5ca"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0025",
+          "bytes": 16777216,
+          "sha256": "9cc1c14b1f036c2b209280b9256845aa9304cdea8e4f293d794eb9cc0dd7181a"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0026",
+          "bytes": 16777216,
+          "sha256": "8ca0eb185f449a506ec5f1dd126b6c447ce2449a5878c9bf24b20296ff402542"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0027",
+          "bytes": 16777216,
+          "sha256": "7fd7b13fce3c24939509dca8db62a6322ad47e8fbb70d6d7d7b5bd23cdf937ff"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0028",
+          "bytes": 16777216,
+          "sha256": "a7904c96527324cd7f52ca4963a77b13eef7964d79d04c01105fb87b7690d0d8"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0029",
+          "bytes": 16777216,
+          "sha256": "53ecb448d9a3cfb803c2f8f8053374f8a386d61908070b878402a069e2ea610e"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0030",
+          "bytes": 16777216,
+          "sha256": "c5b8fd90b9603c20eda0a6f98a72391c0b3336e0c46693310131c9c26c6a7503"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0031",
+          "bytes": 16777216,
+          "sha256": "f1f0307ca48593625e27fec6435325519efc493f47be69bb18d1ffce40e8d82e"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0032",
+          "bytes": 16777216,
+          "sha256": "a55128a50a339fa3eb3337fa0506053701bfb135704bab95779da478671b8e7b"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0033",
+          "bytes": 16777216,
+          "sha256": "c8a3ef243a466fbdc6084f158ca9eea901d33e0bb066f1aa76f0734966834d86"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0034",
+          "bytes": 16777216,
+          "sha256": "04ade9cbf8fa46dded722ddb619f14cc3c06f4b41bfc404681acd37477e1f0fa"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0035",
+          "bytes": 16777216,
+          "sha256": "07cce627654dc3fc0035949da85e88a47af778d4d89adbcc292f677c774cb2ac"
+        },
+        {
+          "name": "fsa-research-v2-excel.zip.part0036",
+          "bytes": 11680045,
+          "sha256": "70f2ca2bd8691e793e50f4a6d82ae21f6b2c63551b49303b37d3e10ed9c96d36"
+        }
+      ]
+    },
+    {
+      "name": "fsa-research-v2-canonical.zip",
+      "bytes": 894538539,
+      "sha256": "f2c0dd278df1696b7ae495378f0b4c385d33be9497d76347a553d6f49c9a8f58",
+      "parts": [
+        {
+          "name": "fsa-research-v2-canonical.zip.part0001",
+          "bytes": 16777216,
+          "sha256": "693be09bb5c778d1920c91664e2b126003954feffc5b0c9ee8c4b8dd4d35e579"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0002",
+          "bytes": 16777216,
+          "sha256": "a4f33e1dadee953ea5cc25fa7f702ad7851a289df6fcd9f0c2e2734f26000a4e"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0003",
+          "bytes": 16777216,
+          "sha256": "f36e28089978718d97e451964dc3aab51854151ab0ee3675fbdecf1f7321a111"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0004",
+          "bytes": 16777216,
+          "sha256": "791243aec8a57e7a0b1ce27d693bd9f040ba1587e6317ebce9ab1d2c5db70dd7"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0005",
+          "bytes": 16777216,
+          "sha256": "8d5ec47f5b9451e7955a6da9494fcc543751ceccd2a7e2c2fe0183591be1b154"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0006",
+          "bytes": 16777216,
+          "sha256": "0a4b15b2e37e128fbaee95e57e72eca27be385085c7cd55a8060851ee07d932f"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0007",
+          "bytes": 16777216,
+          "sha256": "257cb1b059e71a4a28f171bf16ab15620f7f3da95d954066cf625f26d7a88dce"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0008",
+          "bytes": 16777216,
+          "sha256": "36e0bbb0d937c959664822a9769056ee5d86ef3d8d5645b0f3772eed12c0ba5d"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0009",
+          "bytes": 16777216,
+          "sha256": "203a75415b07ee97fdd5664000d93a0920d486fce8f0ea8d8d686ac5ca3a111f"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0010",
+          "bytes": 16777216,
+          "sha256": "1b6ba01ac421cbd5b49bfc7656767c1ca3040a0bea9d7ddcfe026b612dcec517"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0011",
+          "bytes": 16777216,
+          "sha256": "e42cd3cb076359a788cdb589c47481d365a256df24299b0c8906b7f36a7ecc8d"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0012",
+          "bytes": 16777216,
+          "sha256": "2cb36f74b1152a5710d4985e36d890990c55f433d8645cd951233dbea0595f97"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0013",
+          "bytes": 16777216,
+          "sha256": "fc8282f268af7047492ed58796bce6831fba6d24d24c8522c567396889219a69"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0014",
+          "bytes": 16777216,
+          "sha256": "12f9890b59c5d25acf0b4432ab1d35943831753cc93fba3520cbde7111fc28ff"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0015",
+          "bytes": 16777216,
+          "sha256": "65a3fe4a4a92cbd93ff68f06a21316eb31771736fbd9992e005498444011de8b"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0016",
+          "bytes": 16777216,
+          "sha256": "590dcc60533316311c9fab1665c71e071ee0b6c0f05e01bcd79161896eff9745"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0017",
+          "bytes": 16777216,
+          "sha256": "fd49c699c0cc940aba2cf36c838bf2681662d3b108fefb23d96e66a3b1f82de7"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0018",
+          "bytes": 16777216,
+          "sha256": "eb300f29296e0e8fcba1a615d462531147d99f7031e67ce6b9d922e8cf50c438"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0019",
+          "bytes": 16777216,
+          "sha256": "22c6c91e036b0ddfdb4caf041bb0ee7616ef42360e63157e75cdab615254488d"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0020",
+          "bytes": 16777216,
+          "sha256": "bba4a06512df99db99aad27e4b386b8c69745b3f7d6ff717b048065eaa627d0d"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0021",
+          "bytes": 16777216,
+          "sha256": "d021bfc62f8cb49be983c7a1ce07efa50ad7f508096d91660fd84d656e03f417"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0022",
+          "bytes": 16777216,
+          "sha256": "8b497b109071ec2e21ad5398a24bf7e5ea9a01cfd76c56cb336fd7f2fd5475a9"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0023",
+          "bytes": 16777216,
+          "sha256": "e0739b2f1a8793495255cde0825af471d2c226270e6edc4a65d89a59aa7a4a8e"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0024",
+          "bytes": 16777216,
+          "sha256": "59094c32d80630623557b88c52d7493e292d83ded1cf3d5da4b2241255294d84"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0025",
+          "bytes": 16777216,
+          "sha256": "166d5225ac0f6f1ec0165b7baf70a004e1820b5f82a60eefb2977098fbed6230"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0026",
+          "bytes": 16777216,
+          "sha256": "85e5ac6d6749f9964e519272aac9f9a1f9d64ee433dad0679d619e0ecdfcfd9c"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0027",
+          "bytes": 16777216,
+          "sha256": "6c756887e6b9250d26bf7c41e18b6cbe28b0afbbc84d668b9162fc12ee61a0b3"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0028",
+          "bytes": 16777216,
+          "sha256": "3f31b6a6e8f2eb9e99aa8a41139153e828c48ac046e5733baf5f5c8fe3d8b1e8"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0029",
+          "bytes": 16777216,
+          "sha256": "908750952a4bbcfd0b8bb17d5c22560f7deafd0c1e2b855b65c25fa8187c5818"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0030",
+          "bytes": 16777216,
+          "sha256": "ade0568508d7121fba27f13b1e53dcf5efd399e2a80dbf4097d7cb2b87d38704"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0031",
+          "bytes": 16777216,
+          "sha256": "96409d7f17e52859d2cc1e8912959ee257f4400d30a154173cd0dbd04a203a84"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0032",
+          "bytes": 16777216,
+          "sha256": "a575dfaed95c32e22513057e156936c9f135ff868be41149299bb212866ae937"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0033",
+          "bytes": 16777216,
+          "sha256": "49d93a7cb33d759784b06364d59682b7dd6bbe51208174573108ef53310c9e7e"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0034",
+          "bytes": 16777216,
+          "sha256": "8527507880bd7d340596f127073bb6e9da8a2eec2857a8c4b8cf195b0763a2f0"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0035",
+          "bytes": 16777216,
+          "sha256": "0adb584f7e972a1dc844097aedb3594750418c9d1d9cdcb67d7ae9b91e94fa23"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0036",
+          "bytes": 16777216,
+          "sha256": "c404ce4034a1bbe3c73cc7d7bf4848fc79e6a90d2386ddc6e65d57c3c84489ea"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0037",
+          "bytes": 16777216,
+          "sha256": "9e7670306c8f81ebe7b0a2d8fd17e1fcacfb83b18012486f335462d4f4d13253"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0038",
+          "bytes": 16777216,
+          "sha256": "0de9dfae47993512a611d385c7bdb1ad2a3d6b7f49443483f6ab7ad6aecdf850"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0039",
+          "bytes": 16777216,
+          "sha256": "62da2b579cdad686d9d0b37b41e44452e01b6d3cc3bb0b54a9405692bfac4aba"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0040",
+          "bytes": 16777216,
+          "sha256": "273528ff632a791f1bba4b6dc5d4ab98e3f7473cda26f2ea4ec6d6f18d256099"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0041",
+          "bytes": 16777216,
+          "sha256": "2c5689e8fdf0de56c826146dfe5dcfc140dec52858cd8a165eb3cf0a4514404b"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0042",
+          "bytes": 16777216,
+          "sha256": "08a301d12d6ed5ee6e962188def9b78d277694f749fcf917a92c5d72c33a6890"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0043",
+          "bytes": 16777216,
+          "sha256": "fa175b33b7805f326d517a1f8e4f128bbf6798962b4a394a8a51f08919102734"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0044",
+          "bytes": 16777216,
+          "sha256": "58b3d30fcea200df390f1867e1cf8838b01a19f8d49ce339815ed03e14cd6534"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0045",
+          "bytes": 16777216,
+          "sha256": "3d2f7020d84d308874445dd0b48fa83c9112985afc1aef6d2186f05f1243c6c0"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0046",
+          "bytes": 16777216,
+          "sha256": "9f866acf627123422e3c104b2ed73a86628ee64c12156ec883038c64756cc9d6"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0047",
+          "bytes": 16777216,
+          "sha256": "297bfcf01fd416be8e80e4310a97837827c46e9d037305a1878a2d72c8097046"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0048",
+          "bytes": 16777216,
+          "sha256": "a5a3f4a9ede28d1227571a1ea6723f98c419f0bb04108e2fd8c4bc28c6d3186c"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0049",
+          "bytes": 16777216,
+          "sha256": "a1cd17adc35b4572c35e6c232786d208fb21a9bfeff276f52d604a718c00931b"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0050",
+          "bytes": 16777216,
+          "sha256": "b675761ebf9e61968439141a91fef9e30306b8bcf9de62e92a04b79b7181018b"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0051",
+          "bytes": 16777216,
+          "sha256": "160e12df644cfc3847c05c2a4fbc62134ba9360b9ee33d996b68ef98441724bd"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0052",
+          "bytes": 16777216,
+          "sha256": "0d89242e6f7255320c6eafc609dd0829bcc52652cfbf8bf89533799035eb0da7"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0053",
+          "bytes": 16777216,
+          "sha256": "c024761341410c49b328fc4430d8ce71573d5808058c543155b26bb718324c01"
+        },
+        {
+          "name": "fsa-research-v2-canonical.zip.part0054",
+          "bytes": 5346091,
+          "sha256": "6d35e97fd7f6f493c8cd5dcb7eefaf95530e2e9ab5172da7dd0634d849a01f24"
+        }
+      ]
+    },
+    {
+      "name": "fsa-research-v2-replication.zip",
+      "bytes": 220153332,
+      "sha256": "3490da843e8d6c4d5f6d7fff647618fa7d81c10d9e263533687826b75006556b",
+      "parts": [
+        {
+          "name": "fsa-research-v2-replication.zip.part0001",
+          "bytes": 16777216,
+          "sha256": "304f33c97e9cd9390c26755e6ac47db511e33e0ccf46051804362ccef6235fba"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0002",
+          "bytes": 16777216,
+          "sha256": "9365fe5d107b905a17d602fa91e3e2320942e1f1012a0d5b70b0d76e8ad7d65f"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0003",
+          "bytes": 16777216,
+          "sha256": "a4ff7ae8354e17794c7c87f2423e1625aa26a3d613c8c3bef9b197093c8d1051"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0004",
+          "bytes": 16777216,
+          "sha256": "ff8cb50e8e2fe6b91738303c72128ffb39541857267591521a4cb52e4fbf51ec"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0005",
+          "bytes": 16777216,
+          "sha256": "1001d730ff35a7bb8be1a66858cca0373f8049f1ef1855f8f25e63aaa1636f2b"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0006",
+          "bytes": 16777216,
+          "sha256": "16b5fc0221ba3c5a8f0571c6529d6dd5ecf2f797fa56e161ff102afa92058ebd"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0007",
+          "bytes": 16777216,
+          "sha256": "add4b2ef29f7373b4d998432cd87a8dd78fc39af9038b46a4262be00356beb86"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0008",
+          "bytes": 16777216,
+          "sha256": "baed5d6c564955ca7840ce313c02ab6383acfb4dd03eb8ae22538a816e2f34c0"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0009",
+          "bytes": 16777216,
+          "sha256": "b22a7c27d05e40d7585ab6714d4d0076d4781a1e8fccf9ca45a0a8e767a1d175"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0010",
+          "bytes": 16777216,
+          "sha256": "789985be41ca9f142bac269a0c6046f8c98bbdc758f21e3d40245711a67dedba"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0011",
+          "bytes": 16777216,
+          "sha256": "ed201bf01bbf94d1f6ec86cad90f267fa2724fb2a82a328bea88f1bb1333eb50"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0012",
+          "bytes": 16777216,
+          "sha256": "72877147267e4c6edc857c467bc36021b232a3e0c7e3a4c25005e6b336f72bbb"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0013",
+          "bytes": 16777216,
+          "sha256": "82e6b5f231d6b3244e40cf70f8b354a719b6211b86341a2ae1a86775c922444d"
+        },
+        {
+          "name": "fsa-research-v2-replication.zip.part0014",
+          "bytes": 2049524,
+          "sha256": "d68ab2fdd03b1a2e04ece8cffa0d67683c103f99d2c3aa35003937937fdd6433"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1405 @@
+{
+  "date": "2026-10-01",
+  "records": [
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Scripts/13_link_ipeds.py",
+      "source_sha256": "1958e7051261e32b792cdb159976f53bc1dad706d969c02915a929df464b7bb9",
+      "target": "Scripts/13_link_ipeds.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Scripts/15_export_research_formats.py",
+      "source_sha256": "dc945f638fca63dfcb8825bd2bb53a69760b3c96fe2e8728b6f8e1f9f2afe5cd",
+      "target": "Scripts/15_export_research_formats.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Scripts/fsa_ipeds_linkage.py",
+      "source_sha256": "bc0dae9b7b982dc7ae3e85d895498ac3f84b93f1bc1cbc14d064594dcb996407",
+      "target": "Scripts/fsa_ipeds_linkage.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Scripts/fsa_annual_linkage.py",
+      "source_sha256": "f7fa702d214ad1cbc1112cb7db7b1d2dddb56aced211ef4c360eabe75a49c50c",
+      "target": "Scripts/fsa_annual_linkage.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Scripts/fsa_official_crosswalk.py",
+      "source_sha256": "2feff7b7a8b7201c9f7b90c57e83a62cf1fe515d633123f75318d1d8ba7390ce",
+      "target": "Scripts/fsa_official_crosswalk.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Scripts/fsa_unitid_panels.py",
+      "source_sha256": "14bbc4a8de287a99efa320f6444f4d9e6a167b4c585ad2f30dad3e824e7af89d",
+      "target": "Scripts/fsa_unitid_panels.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Scripts/fsa_export_metadata.py",
+      "source_sha256": "fa3d7cd02f0243b300dcbe4468723d6fac7b3bfc1a9918436c11c1d37c2485ed",
+      "target": "Scripts/fsa_export_metadata.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Scripts/fsa_portable_exports.py",
+      "source_sha256": "aca63bcd622eea6898e6c1181882a930fe919e669edcb8887f2175d4a9032295",
+      "target": "Scripts/fsa_portable_exports.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_annual_linkage.py",
+      "source_sha256": "47b7aa75019538666a9bd8c43b57b53e827f39bf91a12e8b6af25473dd450302",
+      "target": "tests/test_annual_linkage.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_ipeds_download.py",
+      "source_sha256": "32609f59e22d0d0aec6eacafc68e821d77ad1ccbd2b86e659331727ca98d141c",
+      "target": "tests/test_ipeds_download.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_ipeds_linkage.py",
+      "source_sha256": "4883336a62bde1ee83ae953c671fd03b2e0fe42d5f1f30f75ed936030accbf3d",
+      "target": "tests/test_ipeds_linkage.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_official_crosswalk.py",
+      "source_sha256": "2bc08ac2b44f3fad30473c50aeb0ab2a39562426281d792511f372628d0c6de3",
+      "target": "tests/test_official_crosswalk.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_unitid_panels.py",
+      "source_sha256": "b05b8c4dcca80de8f59bd925290c8120b42a23107243b10a74d161fa497b0918",
+      "target": "tests/test_unitid_panels.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_combined_excel.py",
+      "source_sha256": "ca04d111e3f4aa50f7ec81339c4a72ffe2f8bd8c6517ada1954ea34d47c56b01",
+      "target": "tests/test_combined_excel.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_combined_metadata.py",
+      "source_sha256": "4f3a7641c2f52a43d85aedbd753d4888081a17a85716bac2b54be37b599d8c59",
+      "target": "tests/test_combined_metadata.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_fsa_ipeds_combined_panel.py",
+      "source_sha256": "d1fc4d059ea9a5fcf402caf442be747d0dd3a67dd8732215647037921f6755ee",
+      "target": "tests/test_fsa_ipeds_combined_panel.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_fsa_ipeds_merge_diagnostics.py",
+      "source_sha256": "313e9cd7bc0062cd068f9836766b87751c3fe335e70e561d6aada078176f1040",
+      "target": "tests/test_fsa_ipeds_merge_diagnostics.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_fsa_ipeds_pell_validation.py",
+      "source_sha256": "370a49283788d7e7ed152981279d0504c66f91fc6da27cdd672482ec56eb3e9c",
+      "target": "tests/test_fsa_ipeds_pell_validation.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_export_metadata.py",
+      "source_sha256": "6a98f698a31d4c1a51716caa788296d948637bc286021c0fd2e86a835ed50e94",
+      "target": "tests/test_export_metadata.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/test_portable_exports.py",
+      "source_sha256": "8e7d2d71f9a399409ff393f6cc92ca7676922ec5e2fb258d72e067021408266b",
+      "target": "tests/test_portable_exports.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "tests/helpers.py",
+      "source_sha256": "6a71083a4330bbea18889c811c40c42ade4b52b26ea6a4df5e0fd234aaffc99a",
+      "target": "tests/helpers.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Documentation/ipeds_linkage.md",
+      "source_sha256": "a2ef55ddb951c7d8d40d1e3274e516a5c78f5f7c4bc69feeb7efd3259c165825",
+      "target": "Documentation/ipeds_linkage.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Documentation/unitid_panel.md",
+      "source_sha256": "6f0c59f86dba5ff178989be4f087937842c93e2c16ff2d6b0783b8acc285ff05",
+      "target": "Documentation/unitid_panel.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Documentation/ipeds_documentation_review.md",
+      "source_sha256": "5f45894fbeac3c6a54efc3caf4ba17739428d83c70b6ffa4f1017c8bdbf08fb8",
+      "target": "Documentation/ipeds_documentation_review.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Documentation/portable_exports.md",
+      "source_sha256": "dc5cfb616ad09daae358b4854d0b7cdadcf423ad914a4d23100b9bdf16d7ecc5",
+      "target": "Documentation/portable_exports.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Documentation/ipeds_linkage_fields.csv",
+      "source_sha256": "63467062bf7dd21af14c3d0230b3ec37e14952fe7dce0cf312434e31a84ce8b7",
+      "target": "Documentation/ipeds_linkage_fields.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/fsa_ipeds_merge_diagnostics.py",
+      "source_sha256": "e1704a6db6faa2a87ca25a7eff372f7252eafaa5441dfea33b76a54c8a4ee1a3",
+      "target": "Scripts/fsa_ipeds_merge_diagnostics.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/fsa_portable_exports.py",
+      "source_sha256": "aca63bcd622eea6898e6c1181882a930fe919e669edcb8887f2175d4a9032295",
+      "target": "Scripts/fsa_portable_exports.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/fsa_export_metadata.py",
+      "source_sha256": "fa3d7cd02f0243b300dcbe4468723d6fac7b3bfc1a9918436c11c1d37c2485ed",
+      "target": "Scripts/fsa_export_metadata.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/fsa_ipeds_pell_validation.py",
+      "source_sha256": "55bcfa6124a79c7de434d7bb0787ab7cf2771a3e798941ebbd1c9c8322dcafea",
+      "target": "Scripts/fsa_ipeds_pell_validation.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/ipeds_category_storage.py",
+      "source_sha256": "83023eab18af90d11e3817742e5774cd525a6d8fd70ef20f07c812554d11a18b",
+      "target": "Scripts/ipeds_category_storage.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/16_build_fsa_ipeds_panel.py",
+      "source_sha256": "bd715514dd6ab9971f7c41096045244bfe198cdb52701edfa147bf654158dcac",
+      "target": "Scripts/16_build_fsa_ipeds_panel.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/fsa_ipeds_source_repair.py",
+      "source_sha256": "0ef04dcb792dcec373f501bcffa673d004f353f23fb8396b02660f1f666f378e",
+      "target": "Scripts/fsa_ipeds_source_repair.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/fsa_ipeds_combined_excel.py",
+      "source_sha256": "ad84dda569e744710a6370e560f7c34524f7740f87a1b9e285beb6b69b5a3d59",
+      "target": "Scripts/fsa_ipeds_combined_excel.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Scripts/fsa_ipeds_combined_metadata.py",
+      "source_sha256": "90b12bca7019ea80379049a7b96d324761b4909909c86959ef436dcd1642c959",
+      "target": "Scripts/fsa_ipeds_combined_metadata.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Tests/test_pell_metadata_repair.py",
+      "source_sha256": "484e73daf0f95e04e91c601850b9bc659ab30ec14d2bf649e6776a88efe8f16b",
+      "target": "Tests/test_pell_metadata_repair.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Tests/test_lineage_binding.py",
+      "source_sha256": "1e40c00f208e5bec76aaa87f49ce49d361b33abcafde6254ab84da86299403e8",
+      "target": "Tests/test_lineage_binding.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Tests/test_source_repair_packaging.py",
+      "source_sha256": "b8df74142ecaf068173609fb9f6fa53b5f93ba3a2cf2c367b868eac2cbf4cea7",
+      "target": "Tests/test_source_repair_packaging.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Tests/test_merge_diagnostic_classification.py",
+      "source_sha256": "93105a1a402b6535fe756896890f3805cb896f685d455bec756b38a4bdec1498",
+      "target": "Tests/test_merge_diagnostic_classification.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Scripts/ipeds_category_storage.py",
+      "source_sha256": "83023eab18af90d11e3817742e5774cd525a6d8fd70ef20f07c812554d11a18b",
+      "target": "Analysis/Scripts/ipeds_category_storage.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Scripts/ipeds_final_metadata.py",
+      "source_sha256": "701bbd9fb40c5be723e2d9a181a0a4176aee559cea9f3997268e8c6e5017718b",
+      "target": "Analysis/Scripts/ipeds_final_metadata.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Scripts/build_analysis_views.py",
+      "source_sha256": "2e8ec5ce3cdf66aa8270c7833192f5bfe4bbc80eade70c09baf6b84e67140c68",
+      "target": "Analysis/Scripts/build_analysis_views.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Scripts/ipeds_analysis_missing.py",
+      "source_sha256": "71248a433342ad801348163a5e61ca7db099bf6f9f5aa43522eeca7d481b8b2d",
+      "target": "Analysis/Scripts/ipeds_analysis_missing.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Tests/test_ipeds_category_storage.py",
+      "source_sha256": "c6bf0ce208ef7a5480b15115f7b0ea9d9f9fd0b8bd2501fb769135a7391dc3a4",
+      "target": "Analysis/Tests/test_ipeds_category_storage.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Tests/test_ipeds_final_metadata.py",
+      "source_sha256": "a1796088894336a62e084457eeb9b636c6acb4985127d5dda0bd4432062aad73",
+      "target": "Analysis/Tests/test_ipeds_final_metadata.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Tests/test_analysis_views.py",
+      "source_sha256": "2d41387d42836ff2b68996e400e13a8326a4b7d26897bdd6c1f835fcc480d944",
+      "target": "Analysis/Tests/test_analysis_views.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Tests/test_ipeds_analysis_missing.py",
+      "source_sha256": "52201f8dbb5717dadca7d00868ab2fa34a6984d1596f9a8eb3d7bf63f7ebaffd",
+      "target": "Analysis/Tests/test_ipeds_analysis_missing.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Tests/test_stata_count_guard.py",
+      "source_sha256": "d371c7322a0c2f4d01690846962df51abfd2a311629aebe136ea030689bcd13f",
+      "target": "Analysis/Tests/test_stata_count_guard.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/fsa_analysis_consolidation.json",
+      "source_sha256": "eb6de407573f7d1c464ad2a97c40897b27ab5b619c94566333941afaf43cfcf1",
+      "target": "Analysis/Decisions/fsa_analysis_consolidation.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/ipeds_analysis_consolidation.json",
+      "source_sha256": "96762bb0832e4e645c97eb3190ef8037be70fdb8b6489bd287eb09814cd540e1",
+      "target": "Analysis/Decisions/ipeds_analysis_consolidation.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/consolidation_plan.json",
+      "source_sha256": "cfc49d418ef6e3e6a3516abd1d2dcac7688f60cfff6f9d48bb8060129bbb4a6f",
+      "target": "Analysis/Decisions/consolidation_plan.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/ipeds_opeid_analysis_audit.json",
+      "source_sha256": "8e03ec9fd06bbfb4e9bd6289842473a2dfb702d7e636ea56d75f7d7d1c53642f",
+      "target": "Analysis/Decisions/ipeds_opeid_analysis_audit.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/ipeds_analysis_annual_definition_evidence.csv",
+      "source_sha256": "240287c5bdd435ba72f5bce70f6bc9c345beb404ef448af197fcec418e2535b5",
+      "target": "Analysis/Decisions/ipeds_analysis_annual_definition_evidence.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/ipeds_sentinel_policy.json",
+      "source_sha256": "10c1fdaecfe372fb53af832b21cfc06736bb02494e7765747a9720d53a1121a0",
+      "target": "Analysis/Decisions/ipeds_sentinel_policy.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/ipeds_analysis_consolidation_safety_review.json",
+      "source_sha256": "db016f460343122489655a014ddbf5c02b4210f0e514408dbe44da29cfbd71b4",
+      "target": "Analysis/Decisions/ipeds_analysis_consolidation_safety_review.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/ipeds_numeric_categories.json",
+      "source_sha256": "9729f82a304af0f7a67f9c44d09cb959308a4bcbd41e40a94d0b98f7ee9051a0",
+      "target": "Analysis/Decisions/ipeds_numeric_categories.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/ipeds_nonfinance_negatives_audit.json",
+      "source_sha256": "2a2b72540253b6641f425358574e2720939f4d630ae21b81c4b38e9215bfa1b9",
+      "target": "Analysis/Decisions/ipeds_nonfinance_negatives_audit.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/Decisions/missing_rules.json",
+      "source_sha256": "209c33d823a5ba63b851c171d8f814d626b6465629a70d055f993561247c8df4",
+      "target": "Analysis/Decisions/missing_rules.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "environment-requirements.txt",
+      "source_sha256": "ca372cbc7539d87cee9b4fba8585072636d12ff8e4475e7a5e8349111c4d39d2",
+      "target": "requirements.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "Analysis/README.md",
+      "source_sha256": "ba17a9b8aeddcb6393faa5be8667f8d6d4960a727101270ca50514abb1457daf",
+      "target": "Documentation/analysis_views.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSA-IPEDS_DS published bundle",
+      "source_path": "README.md",
+      "source_sha256": "249addba0d5e5716184945e21f7fcab89d8084b3616cacf1fb3257f85b9c577d",
+      "target": "Documentation/published_bundle.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Documentation/evidence/ipeds_annual_dictionary_evidence.json",
+      "source_sha256": "910f716b667978334b9e2cc0929bc294e1844f59f805e685e1a3bd0697d39e3a",
+      "target": "Documentation/evidence/ipeds_annual_dictionary_evidence.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Documentation/evidence/ipeds_annual_dictionary_review.csv",
+      "source_sha256": "fc5522fb923afc3b21ec246bc3805f5f5f8525b079f7e2933b6cda6decdc4c93",
+      "target": "Documentation/evidence/ipeds_annual_dictionary_review.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/finder_publication_failure_log.txt",
+      "source_sha256": "3c0b8d081a8c2467def7bb2eb715a672963bddec2d22f43c387b8b654f219453",
+      "target": "History/combined_panel_2026-09-24/finder_publication_failure_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/delivery_verification.json",
+      "source_sha256": "3795c7e85dfab2611b73be18afb71ec2a771351cfb81fceda2309b1cce9fe9a2",
+      "target": "History/combined_panel_2026-09-24/delivery_verification.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/excel_source_text_scan.json",
+      "source_sha256": "0af820167fa8599fa0ff80ba07c674bafb7db58eb7d8b5c0376722a36548fb07",
+      "target": "History/combined_panel_2026-09-24/excel_source_text_scan.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/publication_log.txt",
+      "source_sha256": "89b4de3e3e60bc7ddf19ba42e53480e9971f3ee6db49692f0964d151355b542c",
+      "target": "History/combined_panel_2026-09-24/publication_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/export_recovery_checkpoints.json",
+      "source_sha256": "5691e42cf702524029ee8eccf85ddaa7f69c5ddfbaf17f9e130516ab35fe8561",
+      "target": "History/combined_panel_2026-09-24/export_recovery_checkpoints.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/test_results.txt",
+      "source_sha256": "2be561c01ac3463013887158d06831dc2a31c7acef07417395eb1f9a53c71e9b",
+      "target": "History/combined_panel_2026-09-24/test_results.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/publication_verification.json",
+      "source_sha256": "bb7436e4e93df61935b89bdfccbe995b6584353e3f40a4bf8b5e89c5aa9cf154",
+      "target": "History/combined_panel_2026-09-24/publication_verification.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/pell_catalog_test_results.txt",
+      "source_sha256": "cfbb5f646cfe65e1080873ff3611f541b09288b02413d44afea35505eb8add56",
+      "target": "History/combined_panel_2026-09-24/pell_catalog_test_results.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/interrupted_before_excel_fix_log.txt",
+      "source_sha256": "8058e18c985d43d2077316c252141d2bde0b3468cc472e558df2c37b63a79c79",
+      "target": "History/combined_panel_2026-09-24/interrupted_before_excel_fix_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/resume_guard_test_results.txt",
+      "source_sha256": "5f0e4dec54e7c6d7ec06a57841f9d8486090aeb25bdee8d05e7a70f3f605d3bb",
+      "target": "History/combined_panel_2026-09-24/resume_guard_test_results.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/review_status.json",
+      "source_sha256": "162910d315e0b40d5451d6ced6e755162eef902b45bba18cba152fad88daf386",
+      "target": "History/combined_panel_2026-09-24/review_status.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/README.md",
+      "source_sha256": "71de3d26028329b9a6602ef901b27bbb4d7abbc584a662530ee15bb806343d01",
+      "target": "History/combined_panel_2026-09-24/README.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/final_test_results.txt",
+      "source_sha256": "4bdc0adc7fee7765f7a87f333d102d7c1135a41e66f69d03b61a0c955899639d",
+      "target": "History/combined_panel_2026-09-24/final_test_results.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/delivery_verification_log.txt",
+      "source_sha256": "b4013cd42d64d42f569d6c94d5719f3a6322438ffbef68f97d6a71c957cabf03",
+      "target": "History/combined_panel_2026-09-24/delivery_verification_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/build_log.txt",
+      "source_sha256": "3c0b8d081a8c2467def7bb2eb715a672963bddec2d22f43c387b8b654f219453",
+      "target": "History/combined_panel_2026-09-24/build_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/reproduction_verification.json",
+      "source_sha256": "36960068560b6dcac572373457a25fa48eadc01356dff17773e494ade3938c92",
+      "target": "History/combined_panel_2026-09-24/reproduction_verification.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/reproduction_log.txt",
+      "source_sha256": "f1a5f126fc0e8d0ece7875b48ef70bd8ffd5fd145177bc8e07aceb7713ec981b",
+      "target": "History/combined_panel_2026-09-24/reproduction_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/builder_before_publication_fix.py",
+      "source_sha256": "a5912664b8b43c383e0ef10c9f8298135283a9f9e98c9e4e6cb1e46ea469c7da",
+      "target": "History/combined_panel_2026-09-24/builder_before_publication_fix.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/excel_control_character_failure_log.txt",
+      "source_sha256": "09a20fa9b72e1cb740b34b75c03796ff95e394fe3afbedf596ec019e58ca8721",
+      "target": "History/combined_panel_2026-09-24/excel_control_character_failure_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/combined_panel_2026-09-24/independent_merge_review.json",
+      "source_sha256": "5831005028d141f15eee86cf5d99b712cbb15fff670551e341b869b57db89a9e",
+      "target": "History/combined_panel_2026-09-24/independent_merge_review.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/unassigned_baseline.csv",
+      "source_sha256": "ed09ccbc7196468763aa8f2611fcfde60128df5aa2e5dfa4d8d00e337b66edad",
+      "target": "History/research_limits_2026-09-22/unassigned_baseline.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/source_family_measure_totals.csv",
+      "source_sha256": "55465b519ee34cbafd36c1cd5211d32e9d89f4361b11506f49f9b177fd69ff1c",
+      "target": "History/research_limits_2026-09-22/source_family_measure_totals.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/source_family_year_disposition_dollars.csv",
+      "source_sha256": "78adbf3817a6172881b989045519d11c0affa7be6d10f65a1da5f72e197bdfa0",
+      "target": "History/research_limits_2026-09-22/source_family_year_disposition_dollars.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/verified_unitid_only_source_values.csv",
+      "source_sha256": "6ba7ba99a7afe62f6771f05395c139dbabe7294f36b86c06efc8f2bc8218541c",
+      "target": "History/research_limits_2026-09-22/verified_unitid_only_source_values.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/independent_unitid_verification.json",
+      "source_sha256": "8a01c79d3c4f9d39f1409c87013629a9647069521a12019ee83c08c18b8290e7",
+      "target": "History/research_limits_2026-09-22/independent_unitid_verification.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/verified_full_opeid_recoveries.csv",
+      "source_sha256": "73360c42d9450219f2d2152b9a29383fbc2ea763f1eb5302b385ad3ef8d1bb17",
+      "target": "History/research_limits_2026-09-22/verified_full_opeid_recoveries.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/README.md",
+      "source_sha256": "85eb3bd4d7734652a473b9d10f1e2cae6ff82ab171e01ece87bb43ae6a7f3186",
+      "target": "History/research_limits_2026-09-22/README.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/source_family_year_disposition_coverage.csv",
+      "source_sha256": "6660912032817a7dbd2ea9ca186257a04c5e907601569eb18e7f7d2eb20f74f2",
+      "target": "History/research_limits_2026-09-22/source_family_year_disposition_coverage.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/verify_release_v2.py",
+      "source_sha256": "e82ca07ec3551ce2f25fc14c5cf8d2d52f5f36a5e0303b079e8b39e06d29fc25",
+      "target": "History/research_limits_2026-09-22/verify_release_v2.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/source_family_year_identity_reason_dollars.csv",
+      "source_sha256": "64559e527687db05564308f83bcfa11be09f9e7f10f5b092a0ca404ba3430545",
+      "target": "History/research_limits_2026-09-22/source_family_year_identity_reason_dollars.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/verify_unitid_outputs.py",
+      "source_sha256": "3b047a5ea07c029b9b031e5e19fe0985b31fe6eae9a8dd809a35965ce68356a7",
+      "target": "History/research_limits_2026-09-22/verify_unitid_outputs.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/release_validation/research_release_manifest.json",
+      "source_sha256": "547d26b6729897d0a4d67b330c1b20a2e4f45df3b14d358d3a74014d69602345",
+      "target": "History/research_limits_2026-09-22/release_validation/research_release_manifest.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/release_validation/test_results.txt",
+      "source_sha256": "de955a591a012ec8f49680127b0c65a02b6d8c24fef62d54b91c6a8960177397",
+      "target": "History/research_limits_2026-09-22/release_validation/test_results.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/release_validation/README.md",
+      "source_sha256": "95cf7e46e1aa2d771e45e793e194c5cea750cbb05fc5aadcc3d73d95c1671c68",
+      "target": "History/research_limits_2026-09-22/release_validation/README.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/release_validation/environment-requirements.txt",
+      "source_sha256": "115cd54f9bb7700fecbd1377359cbebd8992623374efb378e907e4e80a88638d",
+      "target": "History/research_limits_2026-09-22/release_validation/environment-requirements.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/release_validation/build_log.txt",
+      "source_sha256": "2c780c81048c96fff663285a46b07cd11aabd1692eb113693b9814e9601bd5c8",
+      "target": "History/research_limits_2026-09-22/release_validation/build_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/release_validation/verified_release_statistics.json",
+      "source_sha256": "6d7d83d25534c89c143057d428f5cb0067c61b866790247e1873bdcc1022ac06",
+      "target": "History/research_limits_2026-09-22/release_validation/verified_release_statistics.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/release_validation/VALIDATION_REPORT.md",
+      "source_sha256": "fa572efa7a8d62febbd320fc13e98cdbca07a41f57d5c1ac2a6badc5f90c7956",
+      "target": "History/research_limits_2026-09-22/release_validation/VALIDATION_REPORT.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2001_dictionary_notes.txt",
+      "source_sha256": "f3cc3a8c0d24e1dcd31d3971fe390d9a2202d5a993d21ec8123bf767799fedfe",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2001_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/documentation_review_coverage.csv",
+      "source_sha256": "5767087aad5e230d272732cf750e7cbaca133de9c43cf48746a66c803c59c3c6",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/documentation_review_coverage.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2004_dictionary_notes.txt",
+      "source_sha256": "f3cc3a8c0d24e1dcd31d3971fe390d9a2202d5a993d21ec8123bf767799fedfe",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2004_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/final_count_reconciliation.md",
+      "source_sha256": "15ebf668813681d5a6e655ec25113f55b28ee8917c91abcd57bf9078514a7bf9",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/final_count_reconciliation.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/residual_2024_without_group_evidence.csv",
+      "source_sha256": "877ef5a44ef12a670890f7f4b9152a1e0b1743ae8e6dedba8430277520b5fc65",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/residual_2024_without_group_evidence.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2024_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2024_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/reviewed_state_name_disagreements.csv",
+      "source_sha256": "342925fb7ab3903977f4a84a66c144afe325796650639d6be374e92fae0c4dfc",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/reviewed_state_name_disagreements.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2019_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2019_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/crosswalk_annual_documentation_coverage.csv",
+      "source_sha256": "4c6c7b1f363628083bedcba80630a2e1f0cdb931d4f8640160dc3481b497572f",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/crosswalk_annual_documentation_coverage.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2021_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2021_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2016_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2016_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2013_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2013_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/reconcile_unrepresented_ipeds.py",
+      "source_sha256": "8280a07e9d09e5719719b5b441370c59d4c29afb00f4d1f1a3e8f002bcc8f331",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/reconcile_unrepresented_ipeds.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/residual_universe_manifest.json",
+      "source_sha256": "16dffcd918bcc0024af78492f8bd0e34cf821312d8420ffc80eaf37f4a2804ae",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/residual_universe_manifest.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/residual_universe_reconciliation.csv",
+      "source_sha256": "349b1b1d8befd30c8754ccb6bb1fcd38c6bbaff21d251c7a6e6d849c92f7abde",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/residual_universe_reconciliation.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2000_dictionary_notes.txt",
+      "source_sha256": "f3cc3a8c0d24e1dcd31d3971fe390d9a2202d5a993d21ec8123bf767799fedfe",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2000_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2005_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2005_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2017_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2017_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/identity_descriptor_followup.md",
+      "source_sha256": "08e8410096ffe5b55ff3e02e99046ea164f155cbf4d7e91699413666fab97c3d",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/identity_descriptor_followup.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2012_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2012_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/investigation.md",
+      "source_sha256": "2ae2edad6d09f7f037a196283faab3d9dfc6fa4129040725e71212d2fa4d2cbe",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/investigation.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2020_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2020_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2018_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2018_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2023_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2023_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/official_crosswalk_fields.csv",
+      "source_sha256": "43fe7cfc5ef71fdd322a8df81d40ba4c4b162d428fdedc75de09417aa0da873e",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/official_crosswalk_fields.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2011_dictionary_notes.txt",
+      "source_sha256": "50f838ed9980b5e3235175cd6f2a6f95aaf711ad44102b00526349656af380ff",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2011_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2014_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2014_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2006_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2006_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/baseline_input_manifest.json",
+      "source_sha256": "b3c392860b94e8a5cb6f01d803c0084a8932e1a5f60490a6285cd326910e092c",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/baseline_input_manifest.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/hd_crosswalk_unique_disagreements.csv",
+      "source_sha256": "ff53a231b89c77f741be806f281308ee4653455c18bd31295914c2a52017b1e3",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/hd_crosswalk_unique_disagreements.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2003_dictionary_notes.txt",
+      "source_sha256": "f3cc3a8c0d24e1dcd31d3971fe390d9a2202d5a993d21ec8123bf767799fedfe",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2003_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/residual_universe_records.parquet",
+      "source_sha256": "1c1729cf4ea02c97739c9e80cfc113cd6c6e4af070114936e3811434593f6624",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/residual_universe_records.parquet",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/reviewed_state_name_disagreements_manifest.json",
+      "source_sha256": "0d23bff7c5ccf4193232119f0c9dd787dcb4a0e1e36a5e08287845ecd14e0754",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/reviewed_state_name_disagreements_manifest.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/acquire_crosswalks.py",
+      "source_sha256": "63151a80c4f7f52e679e4a4f1240c720d98262c066975d4681dc5a1ee5d78c72",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/acquire_crosswalks.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/fsa_crosswalk_comparison.parquet",
+      "source_sha256": "0c399bd80dacccf2204203c00579b99e61df7c49510c5f60f25914693551caac",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/fsa_crosswalk_comparison.parquet",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/residual_universe_records.csv",
+      "source_sha256": "afd4635532fec43165aedc4cf0a86d5d4461f81f9379c239c5434370288fecec",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/residual_universe_records.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2009_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2009_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/residual_partition_checks.json",
+      "source_sha256": "f75f3f236fe28cc0e9919ab96bd75c47321e0d00b216c9beef8e4e60d467ceeb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/residual_partition_checks.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/unmatched_with_official_unique_candidates.csv",
+      "source_sha256": "3baac21555f492aa6d39c469189b92c28ff7d10341e8529bc734474bc768ccda",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/unmatched_with_official_unique_candidates.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2010_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2010_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2015_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2015_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/official_crosswalk_unmatched_ipeds.parquet",
+      "source_sha256": "deedc3cfbfd0e448113d582503989b313635ac4618a44b69b314e21dbf305407",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/official_crosswalk_unmatched_ipeds.parquet",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2022_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2022_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/acquire_current_ipeds.py",
+      "source_sha256": "9828abdd19dc56c43baabc3d4bb404968c00e317c68ee6c2447ceb2ad932e3ef",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/acquire_current_ipeds.py",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/hd_vs_official_crosswalk_counts.csv",
+      "source_sha256": "eb3bdcdd270bde693ebbca8a87f65f5be5ccb9551059005daa0d7dd7ee153b8c",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/hd_vs_official_crosswalk_counts.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/current_unassigned_records.csv",
+      "source_sha256": "88f4abb2ff6313174fb204c018eb3aa06319ba943744b6eb6c503922451c81ea",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/current_unassigned_records.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2008_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2008_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2007_dictionary_notes.txt",
+      "source_sha256": "f70a8f542f900702fb07beea866e9cd865d330595ddc83903d25cfc76c875bbb",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2007_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/ipeds_vintage_comparison.csv",
+      "source_sha256": "e48b130e1f906d849f943f73a9a9961e266a287f5f464bcc387c6883771fcb36",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/ipeds_vintage_comparison.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/cw_2002_dictionary_notes.txt",
+      "source_sha256": "f3cc3a8c0d24e1dcd31d3971fe390d9a2202d5a993d21ec8123bf767799fedfe",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/cw_2002_dictionary_notes.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/fsa_cod_campus_based_faq.html",
+      "source_sha256": "a7958f2891f70cab6c09ed062e916f90bcc995b93e7b9c03c1587462a4b94a65",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/fsa_cod_campus_based_faq.html",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_fall2025_release_memo.txt",
+      "source_sha256": "f4643cc61f65ac9dd05f0d31c22d569fe019736c4380bc3e743af68f60c1e54c",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_fall2025_release_memo.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_data.html",
+      "source_sha256": "f798be7ce47da91f2c598a38f973de379ae1611420540b3222be0d2b973dfc62",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_data.html",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_fall2025_release_memo.html",
+      "source_sha256": "fa139b3d0c44c2a1fea78b811bea53c170859e278dc0d8295a75a3c985ce9692",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_fall2025_release_memo.html",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_institutional_groupings.html",
+      "source_sha256": "c0ddee8547f7ebec50d478b47e871e76140bdc73287b09e00996bbbf112e84a6",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_institutional_groupings.html",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_access.html",
+      "source_sha256": "d89482185f434631325df5e73287bcb39164f287380846af594d54270daf3241",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_access.html",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_fall2025_release_memo.download.json",
+      "source_sha256": "e6d9c114236b34ba5e0167d846c643bece3d5fec62a713fcc64570e6297067ec",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_fall2025_release_memo.download.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_ipeds_handbook.html",
+      "source_sha256": "b57eb84acb94aa3842db5fac0c1fe008d17983a04af5f4259b00073b9d58a8d8",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_ipeds_handbook.html",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_finance_reporting.html",
+      "source_sha256": "a9e4d3ea8e4a4f6005f624ee3483b25d12f311900764053186246adf68535609",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_finance_reporting.html",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_ipeds_handbook.download.json",
+      "source_sha256": "370643b86c6eb75593106a1a4e04e0543ff4a33b0c8c9d74f229388cc8319b3f",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_ipeds_handbook.download.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_institutional_groupings.download.json",
+      "source_sha256": "e10327643ff24d32679d11ae7e30de4e59a48b41df956ae97029e71d97c5b5ba",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_institutional_groupings.download.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_release_schedule.txt",
+      "source_sha256": "21eee4ab2edb4ce4ce1d95badf4d601bc2f1b53b6743bd8cb406f8f4d9b0c749",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_release_schedule.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/fsa_cod_campus_based_faq.txt",
+      "source_sha256": "03019693eec457e5e5a33f3efbddd81563eb962d9a252d2765df5fb6440bdd2a",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/fsa_cod_campus_based_faq.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_finance_reporting.txt",
+      "source_sha256": "a0b8e30c49fe18f0cb33f20c8c0ad82fde6594035718b5884839013280d45f15",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_finance_reporting.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_institution_documentation.download.json",
+      "source_sha256": "283edc405ecfe51d7388d1e4eb0c421e3a07e3ac5080a82c87046d08df14d89f",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_institution_documentation.download.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_access.txt",
+      "source_sha256": "b9dbcf229c1973d66c27dd275994c19dfb5fecac6ec2a7d21bd5bdc6efc59329",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_access.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_release_schedule.html",
+      "source_sha256": "4a0089da9e041767ab3799994f6a23d54993c70a41f70efb4283621dfb6ffe43",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_release_schedule.html",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_institution_documentation.txt",
+      "source_sha256": "0766ddb579aaa61fbc044786bf71b75b82a4f5b301629a61a6f627ddb40d75f0",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_institution_documentation.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/fsa_cod_campus_based_faq.download.json",
+      "source_sha256": "b73d6e2ec014ac553e7eb1b96db11807bf69751e233fc932ef6ad7258fe20a25",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/fsa_cod_campus_based_faq.download.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_ipeds_handbook.txt",
+      "source_sha256": "67eb9c77afe61aaa52589f74b9e8c1d700e16bc1cd26af9a3171f19f8bd27351",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_ipeds_handbook.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_finance_reporting.download.json",
+      "source_sha256": "df5358f7fa8987e1ee1535d40abc06b6c54a4288e81d56080f55cc5c3389143a",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_finance_reporting.download.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/nces_institutional_groupings.txt",
+      "source_sha256": "8155e320ebc9b28f7a2520b8bebe4933967aa7d75e68603cd72adc4f496bbdcf",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/nces_institutional_groupings.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_institution_documentation.pdf",
+      "source_sha256": "269c19e1972e9be08f6e94febb5c3f0b9380b7aeeb4b229cc5abe46bf12e5adc",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_institution_documentation.pdf",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_data.txt",
+      "source_sha256": "5a46b2d54223378e31a95ba9d7448f6a54cbae1e84aeb02f8bee25465a69ffdc",
+      "target": "History/research_limits_2026-09-22/ipeds_linkage/sources/scorecard_data.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_exports_2026-09-22/test_results.txt",
+      "source_sha256": "a41e92d6418680eef47b788492da178dc7ae2885d193cbdea2ab4330e0dab900",
+      "target": "History/research_exports_2026-09-22/test_results.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_exports_2026-09-22/value_labels.csv",
+      "source_sha256": "9b03ba2756fc78e848f2f2e1da13ed706106227c77d251b419daab3fed8e407a",
+      "target": "History/research_exports_2026-09-22/value_labels.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_exports_2026-09-22/name_map.csv",
+      "source_sha256": "b0663cecf7731c2ecab06f4ec26a7c81c012e02d93f842622fb0dad56d3ef04f",
+      "target": "History/research_exports_2026-09-22/name_map.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_exports_2026-09-22/README.md",
+      "source_sha256": "0f095c23ebcc1b1fc5a6a9b7708395523fad5b560716ae6ba04279c69eae6942",
+      "target": "History/research_exports_2026-09-22/README.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_exports_2026-09-22/export_codebook.csv",
+      "source_sha256": "8bd8616da4401689b7fa79e589ec0e12a2659888c88d28a74f1be911a633524b",
+      "target": "History/research_exports_2026-09-22/export_codebook.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_exports_2026-09-22/export_build_log.txt",
+      "source_sha256": "a7bcf9866fa75af9b21f41f360efb9894569864bbc335169edb911034a7dfb43",
+      "target": "History/research_exports_2026-09-22/export_build_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/research_exports_2026-09-22/export_manifest.json",
+      "source_sha256": "fd7b8cda8e9d0f9b67e7dbee197dfaedbd7e70650b5d39ecbf313f9546cad695",
+      "target": "History/research_exports_2026-09-22/export_manifest.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/final_packaged_reproduction_report.json",
+      "source_sha256": "10585d54416ea967363d2e2cd20d3d1366c02257ff072d320c89045fe4997dd4",
+      "target": "History/reproducibility_2026-09-22/final_packaged_reproduction_report.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/download_manifest.json",
+      "source_sha256": "30b7d018cb5ab3e38070607cf515e11e59cc0b7e2c56fe0012a4ea819667f1d2",
+      "target": "History/reproducibility_2026-09-22/download_manifest.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/public_reproduction_report.json",
+      "source_sha256": "ac6eb21f4c4fe8465c765c5b2e418c532ac02d42e368ea57ef1d31d4c089d69c",
+      "target": "History/reproducibility_2026-09-22/public_reproduction_report.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/multipart_test_results.txt",
+      "source_sha256": "788c6be839e002c3a4674402def09985a094cd227f5b65849aa43c30e48cb242",
+      "target": "History/reproducibility_2026-09-22/multipart_test_results.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/test_results.txt",
+      "source_sha256": "f4369318b47d515474da30e3b55e1d1d7b3008b35f8a451522606b59ba658328",
+      "target": "History/reproducibility_2026-09-22/test_results.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/publication_report.json",
+      "source_sha256": "363d5d8f46b0c67a4d75c4599739adfccb5c96a3a2c2b48b7afeb5203d5d58cf",
+      "target": "History/reproducibility_2026-09-22/publication_report.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/public_bootstrap_verification.json",
+      "source_sha256": "148cbd6af428fd944dc8c7aefc7a4a55d5ad983ce66b5452e5d5feac6b01ace8",
+      "target": "History/reproducibility_2026-09-22/public_bootstrap_verification.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/README.md",
+      "source_sha256": "af702f0d0182e91a47c517879ea6871fe0544114467f9da6d260422f438cd671",
+      "target": "History/reproducibility_2026-09-22/README.md",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/reproduction_log.txt",
+      "source_sha256": "e1f21d15c8b652606b41d5dbb05fd1af6bb266ed2952bb968231a0513305cbeb",
+      "target": "History/reproducibility_2026-09-22/reproduction_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/reproduction_report.json",
+      "source_sha256": "5ba5b19750453f5325d44429d3c2d85ff54b9c21c7d6dc9992161694425b11fb",
+      "target": "History/reproducibility_2026-09-22/reproduction_report.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/final_packaged_reproduction_log.txt",
+      "source_sha256": "2fdbe779a5285a187bf6cd21b967c65056b4c371bea4cc6f290f633c7089ded6",
+      "target": "History/reproducibility_2026-09-22/final_packaged_reproduction_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/public_acceptance_summary.csv",
+      "source_sha256": "3a6b34fc0e56627e357264c4561202b064cff6d9e94b4cb4d28893b5ed455776",
+      "target": "History/reproducibility_2026-09-22/public_acceptance_summary.csv",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/final_bundle_verification.txt",
+      "source_sha256": "37b884d5d580467461e0c5b017bcad65676833e21375735c2580d0af45b3d5c9",
+      "target": "History/reproducibility_2026-09-22/final_bundle_verification.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/public_reproduction_log.txt",
+      "source_sha256": "2ef76ec10b25966b7618d2f969249a77f45bb089125550fbd78768e7dfe0c3da",
+      "target": "History/reproducibility_2026-09-22/public_reproduction_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/SHA256SUMS.txt",
+      "source_sha256": "67a406b061f3a43e1a859a9f88121d220fd34e313e4d80153ba11fa7bfddd14d",
+      "target": "History/reproducibility_2026-09-22/SHA256SUMS.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/anonymous_public_access_report.json",
+      "source_sha256": "8a3486441725bbcca8590f048b3e2a0072acafb03e76577267f54edf12fc28f1",
+      "target": "History/reproducibility_2026-09-22/anonymous_public_access_report.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/public_bootstrap_log.txt",
+      "source_sha256": "8a0b4f455f592b603af134291105bc22a193aa484981e6b8ca5a0392e3b85f0c",
+      "target": "History/reproducibility_2026-09-22/public_bootstrap_log.txt",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    },
+    {
+      "source": "FSAVolumeReports_Panel",
+      "source_path": "Analysis/reproducibility_2026-09-22/distribution_manifest.json",
+      "source_sha256": "0ebb48ef508b16110a3695eaddf78b5da2d767e01e48dc7fb80cc56ed6762844",
+      "target": "History/reproducibility_2026-09-22/distribution_manifest.json",
+      "disposition": "migrated then maintained here; no upstream panelization code copied"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+Wrote workbook profiles rows=86
+Wrote dictionary rows=158
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:218: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  combined = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+Wrote grant panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/grants/panel_grant_volume_1999_2025.parquet
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:218: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  combined = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+Wrote campus-based panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/campus_based/panel_campus_based_volume_2001_2024.parquet
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:218: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  combined = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:227: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  present = panel.get(present_col, pd.Series(False, index=panel.index)).fillna(False).astype(bool)
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:227: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  present = panel.get(present_col, pd.Series(False, index=panel.index)).fillna(False).astype(bool)
+Wrote direct panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/loans/panel_direct_loan_volume_1999_2025.parquet
+Wrote FFEL panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/loans/panel_ffel_loan_volume_1999_2010.parquet
+Wrote merged loan panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/loans/panel_loan_volume_1999_2025.parquet
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:227: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  present = panel.get(present_col, pd.Series(False, index=panel.index)).fillna(False).astype(bool)
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:227: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  present = panel.get(present_col, pd.Series(False, index=panel.index)).fillna(False).astype(bool)
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:227: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  present = panel.get(present_col, pd.Series(False, index=panel.index)).fillna(False).astype(bool)
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_observations.py:227: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  present = panel.get(present_col, pd.Series(False, index=panel.index)).fillna(False).astype(bool)
+Wrote final raw panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/final/fsa_volume_reports_raw_1999_2025.parquet
+Wrote final clean panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/final/fsa_volume_reports_clean_1999_2025.parquet
+Wrote panel dictionary CSV: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Dictionary/fsa_volume_panel_dictionary.csv
+Wrote panel dictionary parquet: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Dictionary/fsa_volume_panel_dictionary.parquet
+Wrote manual review workbook: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/panel_qc/manual_review_package/final_descriptor_manual_review_workbook.xlsx
+Wrote manual review package dir: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/panel_qc/manual_review_package
+Wrote filtered panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/final/fsa_volume_reports_clean_us_states_only_1999_2025.parquet
+Wrote filter summary: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/final_filters/fsa_volume_reports_clean_us_states_only_1999_2025_summary.csv
+Wrote dropped-state counts: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/final_filters/fsa_volume_reports_clean_us_states_only_1999_2025_dropped_state_counts.csv
+Wrote analysis-ready final panel: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/final/fsa_volume_reports_panel_1999_2025.parquet
+Wrote analysis-ready panel summary: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Checks/final_panels/fsa_volume_reports_panel_1999_2025_summary.csv
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_annual_linkage.py:257: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  member_ids = set(year_members.loc[~year_members.contradicted.fillna(False).astype(bool), "unitid"].dropna().astype(int))
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/fsa_unitid_panels.py:276: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  frame = pd.concat([frame, orphan_frames[family]], ignore_index=True)
+{
+  "built_utc": "2026-09-23T09:37:09.834506+00:00",
+  "source_panel": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/final/fsa_volume_reports_panel_1999_2025.parquet",
+  "source_panel_sha256": "975a82f20ee7bfff47dccf5a622d499b0ee20f432fa41f366a09154ec711670e",
+  "source_panel_rows": 157160,
+  "anchor": "start",
+  "linkage_code_sha256": "bc0dae9b7b982dc7ae3e85d895498ac3f84b93f1bc1cbc14d064594dcb996407",
+  "ipeds_years_requested": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "ipeds_years_available": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "crosswalk_years_available": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "crosswalk_requested": true,
+  "all_original_cells_preserved": true,
+  "exact_assigned_rows": 141646,
+  "resolved_identity_rows": 141505,
+  "annual_identity_eligible_rows": 141359,
+  "strict_rows": 92566,
+  "unitid_panel": {
+    "grain": "unitid x award_year",
+    "rows": 141038,
+    "unique_unitids": 7797,
+    "source_families": {
+      "grants": {
+        "input_master_records": 136256,
+        "verified_quarantine_records": 16,
+        "included_records": 131818,
+        "excluded_records": 4454
+      },
+      "campus_based": {
+        "input_master_records": 89038,
+        "verified_quarantine_records": 0,
+        "included_records": 87029,
+        "excluded_records": 2009
+      },
+      "direct_loans": {
+        "input_master_records": 95645,
+        "verified_quarantine_records": 0,
+        "included_records": 87461,
+        "excluded_records": 8184
+      },
+      "ffel": {
+        "input_master_records": 49415,
+        "verified_quarantine_records": 0,
+        "included_records": 42909,
+        "excluded_records": 6506
+      }
+    },
+    "conservation_checks": 3047,
+    "all_conservation_passed": true,
+    "dictionary_columns": 1312,
+    "panel_columns": 1312,
+    "canonical_opeid_created": false,
+    "scope_warning": "Annual institution identity only; FSA campus aid reporting scope is not certified.",
+    "files": {
+      "grants_source_record_ledger": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/grants_source_record_ledger.parquet",
+      "campus_based_source_record_ledger": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/campus_based_source_record_ledger.parquet",
+      "direct_loans_source_record_ledger": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/direct_loans_source_record_ledger.parquet",
+      "ffel_source_record_ledger": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/ffel_source_record_ledger.parquet",
+      "panel": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/fsa_unitid_award_year_panel.parquet",
+      "dictionary": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/dictionary.csv",
+      "conservation": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/conservation.csv",
+      "exclusions": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/exclusions.csv",
+      "quarantine_identity_evidence": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/quarantine_identity_evidence.parquet"
+    },
+    "official_membership_rows": 145413,
+    "official_membership_key_sha256": "91e3d6c8b5143d8e0501d547073fb2eb5c15a1623ec0b1841c3b70d12d8480b6",
+    "module_sha256": "14bbc4a8de287a99efa320f6444f4d9e6a167b4c585ad2f30dad3e824e7af89d",
+    "output_sha256": {
+      "grants_source_record_ledger": "33c5a0f19fbd93ffe9de075c3e2250c88145c4855cbc93450ff167352865957c",
+      "campus_based_source_record_ledger": "e8ef896ab755ce66801083c7eb278a17ef9088a154a17194fda3d80517547711",
+      "direct_loans_source_record_ledger": "b5d262ec1035499fff3118162ea875b4210c5fe1d7d0c498e94b9c04e60b953f",
+      "ffel_source_record_ledger": "29fecfd64df2322ec2c9986f765be25694497ce3f7e33702611be294868e5564",
+      "panel": "08ad960c71eb24b5016894532018865d41ec804da552f2083bbe8ec1b0679ffa",
+      "dictionary": "fbef323e453016c10ac509145039d9cde760edce5cb88c7db22e4a4d8b2aecd2",
+      "conservation": "3760601925376714cbd8e8a66e4ecc1b95482da43bb13252639dbc234d90a721",
+      "exclusions": "84ab91b2a9391262e3e21d951e864ac11252ff59de99939b824c35c314c7b9b9",
+      "quarantine_identity_evidence": "3c4f05f1510469f2d0ff53d1d14b6193165dde895f8a4cac6a16daf55ba8e2c4"
+    }
+  },
+  "artifacts": {
+    "bridge": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/fsa_ipeds_bridge.parquet",
+      "rows": 157160,
+      "sha256": "bfc8d82ed9cc1ff22b74c5b3e4423c203f2d1dbe66a43898fea6744607969264"
+    },
+    "candidates": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/fsa_ipeds_candidates.parquet",
+      "rows": 383432,
+      "sha256": "f9c0b44217c036374982b3a3f582df9eddf15fb5b9c13c25720022241112fb35"
+    },
+    "linked_panel": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/fsa_ipeds_linked_panel.parquet",
+      "rows": 157160,
+      "sha256": "93b7879107636dfa38043225f777a78c2d3be8afd1d18f134a58b000dd6f0c0c"
+    },
+    "strict_panel": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/fsa_ipeds_strict_panel.parquet",
+      "rows": 92566,
+      "sha256": "c93902981fe523ec7bd1f0bca1d903eaef87817ad8ca4ba6e726c992513b725b"
+    },
+    "direct_site_memberships": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/fsa_ipeds_direct_site_memberships.parquet",
+      "rows": 145413,
+      "sha256": "021ab9653abe0fa87956c8f51d5890afe09f85c12a5e7a36ab69096893ba6ec3"
+    },
+    "official_crosswalk_records": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/fsa_ipeds_official_crosswalk_records.parquet",
+      "rows": 620663,
+      "sha256": "5ff9f5cb3be447bd5fc9aa87c968930c8ba254e0907bb3868816763227d9cbbe"
+    },
+    "official_crosswalk_relations": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/fsa_ipeds_official_crosswalk_relations.parquet",
+      "rows": 1238813,
+      "sha256": "ec38b99e3a83da7f3469507fe4e08473367a4855e8e6f47517126cbdb1ea5342"
+    },
+    "ipeds_source_manifest": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/ipeds_source_manifest.csv",
+      "rows": 49,
+      "sha256": "6081c99c23f12b7b080ba4632b5abe238212272b7c37d6147512c22211864cf3"
+    },
+    "ipeds_invalid_opeid_records": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/ipeds_invalid_opeid_records.csv",
+      "rows": 10518,
+      "sha256": "e646333f22cd458f8f9341261fccc3848e37674a93a3b1fd78cb99212a52aec1"
+    },
+    "ipeds_institution_count_reconciliation": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/ipeds_institution_count_reconciliation.csv",
+      "rows": 26,
+      "sha256": "1c146dc282cb0e0a667ca6297fea59d680414442d6b38655d48deb71fcb32d64"
+    },
+    "ipeds_linkage_summary": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/ipeds_linkage_summary.csv",
+      "rows": 308,
+      "sha256": "4c3aa73a8718bca49e6c77c0ced83731536e3323d5708eb4e02d141d5d1dfc01"
+    },
+    "ipeds_crosswalk_source_manifest": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/ipeds_crosswalk_source_manifest.csv",
+      "rows": 27,
+      "sha256": "9f349fc9877a572375cd16b17faf29375a9ddf722e4ef674d0a9558d98648672"
+    },
+    "ipeds_strict_exclusions": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/ipeds_strict_exclusions.csv",
+      "rows": 494,
+      "sha256": "f295683ff250b440a8e317e69a03f09d64d1696826526503d5493ea22b5f02b6"
+    },
+    "bridge_dictionary": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/ipeds_bridge_dictionary.csv",
+      "rows": 157,
+      "sha256": "28a953323de0abfdfbc95a0359fb9e1572b71f7e6f589f62c5adc6deecdc0ca8"
+    },
+    "unitid_grants_source_record_ledger": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/grants_source_record_ledger.parquet",
+      "sha256": "33c5a0f19fbd93ffe9de075c3e2250c88145c4855cbc93450ff167352865957c"
+    },
+    "unitid_campus_based_source_record_ledger": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/campus_based_source_record_ledger.parquet",
+      "sha256": "e8ef896ab755ce66801083c7eb278a17ef9088a154a17194fda3d80517547711"
+    },
+    "unitid_direct_loans_source_record_ledger": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/direct_loans_source_record_ledger.parquet",
+      "sha256": "b5d262ec1035499fff3118162ea875b4210c5fe1d7d0c498e94b9c04e60b953f"
+    },
+    "unitid_ffel_source_record_ledger": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/ffel_source_record_ledger.parquet",
+      "sha256": "29fecfd64df2322ec2c9986f765be25694497ce3f7e33702611be294868e5564"
+    },
+    "unitid_panel": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/fsa_unitid_award_year_panel.parquet",
+      "sha256": "08ad960c71eb24b5016894532018865d41ec804da552f2083bbe8ec1b0679ffa"
+    },
+    "unitid_dictionary": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/dictionary.csv",
+      "sha256": "fbef323e453016c10ac509145039d9cde760edce5cb88c7db22e4a4d8b2aecd2"
+    },
+    "unitid_conservation": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/conservation.csv",
+      "sha256": "3760601925376714cbd8e8a66e4ecc1b95482da43bb13252639dbc234d90a721"
+    },
+    "unitid_exclusions": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/exclusions.csv",
+      "sha256": "84ab91b2a9391262e3e21d951e864ac11252ff59de99939b824c35c314c7b9b9"
+    },
+    "unitid_quarantine_identity_evidence": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/quarantine_identity_evidence.parquet",
+      "sha256": "3c4f05f1510469f2d0ff53d1d14b6193165dde895f8a4cac6a16daf55ba8e2c4"
+    },
+    "unitid_manifest": {
+      "path": "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds/unitid_research/manifest.json",
+      "sha256": "2c18748af205360f41fb15e67e6da7b16e673e9fa79e59d5bbfb0f6aeda09c9a"
+    }
+  },
+  "scope": "Primary plus additional site relations; no amount allocation, root-only assignment, nearest-year filling, or automatic merger stitching.",
+  "limitation": "Annual institution identity is not certification of program-specific campus reporting scope. Strict view is a restrictive sensitivity sample."
+}
+Wrote source QA rows=5
+Wrote panel QA rows=9
+Wrote acceptance audit rows=313 failed=0
+/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/build/research_release_manifest.json
+[fsa-volume] data root: /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/02_profile_workbooks.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/03_build_dictionary.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/04_panelize_grants.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/05_panelize_campus_based.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/06_panelize_loans.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/07_merge_fsa_panels.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/08_build_panel_dictionary.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/09_build_manual_review_workbook.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/10_filter_clean_panel_to_us_states.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/11_build_analysis_ready_final_panel.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/13_link_ipeds.py --input-parquet /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/final/fsa_volume_reports_panel_1999_2025.parquet --ipeds-dir /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/inputs/ipeds_hd --output-dir /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt/Panels/ipeds --anchor start --research-root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt --crosswalk-dir /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/inputs/ipeds_crosswalks
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/QA_QC/00_source_qaqc.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/QA_QC/01_panel_qaqc.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/QA_QC/02_acceptance_audit.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt
++ /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/.venv/bin/python /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/replication/source/Scripts/14_package_research_release.py --root /Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/public-reproduction-test/rebuilt

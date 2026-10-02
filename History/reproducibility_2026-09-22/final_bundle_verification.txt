@@ -1,0 +1,26 @@
+{
+  "verified_bundle_files": 372,
+  "environment": {
+    "expected": {
+      "python": "3.13.0",
+      "pandas": "2.2.3",
+      "pyarrow": "21.0.0",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.1",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.2"
+    },
+    "actual": {
+      "python": "3.13.0",
+      "pandas": "2.2.3",
+      "pyarrow": "21.0.0",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.1",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.2"
+    },
+    "differences": {},
+    "matches_original_environment": true
+  }
+}
+Verified 86 selected FSA inputs and the frozen code snapshot; no rebuild performed.

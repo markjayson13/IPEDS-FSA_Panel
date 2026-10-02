@@ -1,0 +1,444 @@
+IPEDS Data Release Memorandum (Memo)
+Skip to main content
+About
+IPEDS
+About IPEDS
+Your primary source for information on U.S. colleges, universities, and technical and vocational institutions.
+Overview
+Learn More
+This Week in IPEDS (TWII)
+Survey Components
+Data Release Schedule
+Contact Us
+Use
+The Data
+Use The Data
+Access IPEDS data submitted to NCES through our data tools or download the data to conduct your own research and analysis.
+Overview
+SEARCH EXISTING DATA
+Data Explorer
+Publications and Products
+Download IPEDS Data
+Custom Data Files
+Compare Institutions
+Complete Data Files
+Access Database
+CREATE CUSTOM DATA ANALYSES
+Data Trends
+Statistical Tables
+Summary Tables
+Lookup an Institution
+Data Feedback Report
+Data Tools Shortcuts
+Report
+Your Data
+Report Your Data
+Report your institution’s data and access resources that will help with successful submission.
+Overview
+DATA REPORTING
+Answer the Current Survey
+Revise the Prior Year's Survey
+Request to Be an IPEDS Institution
+REPORTING RESOURCES
+Reporting Guides
+Reporting Tools
+COLLECTION INFORMATION
+Collection Schedule and Survey
+Materials
+Updates to the Data Collection
+About the Data Collection
+Find
+Your College
+Find Your College
+Narrow down your college from over 6,000 colleges, and explore resources to plan, prepare, and graduate from college.
+Overview
+EXPLORE COLLEGES
+Search for College
+Compare Colleges
+Map Your College
+College Stats
+GET FINANCING
+Apply for Federal Student Aid
+Loan Counseling
+College Affordability and Transparency Center
+ACCESS CAREER TOOLS
+Career Options
+Collaborate
+With NCES
+Collaborate With NCES
+Collaborate with NCES to learn more about IPEDS activities, outreach, R&D, and federal grants and fellowships
+Overview
+GET RECENT NEWS AND UPDATES
+National Postsecondary Education
+Cooperative (NPEC)
+Technical Review Panel
+Archived Research & Dissertation Grants
+NCES Data Institute
+PARTICIPATE IN IPEDS
+Trainings & Outreach
+IPEDS Knowledge
+Exchange (Listserv)
+Home
+About IPEDS
+Survey Components
+Data Release Schedule
+Release Memo
+Help Desk:
+1 (877) 994-7337
+Back to top
+Memorandum for the NCES Review Tracking System (RTS)
+        IPEDS Data Collection Cycle
+2025–26 IPEDS Data Collection: Fall Provisional Data Release
+Download the memo
+2025-26 Memo
+2024-25 Memo
+2023-24 Memo
+2022-23 Memo
+2021-22 Memo
+2020-21 Memo
+2019-20 Memo
+2018-19 Memo
+The provisional data release of the components collected during the fall collection period of the 2025–26 Integrated Postsecondary Education Data System (IPEDS) contains substantive changes in file structure or file documentation for multiple components of IPEDS compared to the previous year. Within the Institutional Characteristics (IC) component, the Admissions screening question regarding open admissions has been moved to the Admissions component to better align the timing and reporting of this question. In addition, the Academic Libraries (AL) expenses screening question has been removed from IC with the retirement of the AL component from IPEDS. In the Completions and 12-Month Enrollment components, the term “gender” has been replaced with “sex”, “men” has been replaced with “male”, and “women” has been replaced with “female”, in accordance with the Presidential Executive Order issued
+1
+on January 20, 2025. Details regarding these changes can be found under “Updates to the Data Collection” on the IPEDS Report Your Data website (
+https://nces.ed.gov/ipeds/report-your-data#updates-to-the-data-collection
+), as pictured below.
+The data are released to the public through the “Use the Data” portal (
+https://nces.ed.gov/ipeds/use-the-data
+) on the IPEDS website. The IPEDS Survey Methodology is located at
+https://nces.ed.gov/ipeds/survey-components/ipeds-survey-methodology
+as a resource for data users.
+IPEDS is an annual, large-scale, web-based survey that collects institution-level data from postsecondary institutions in the United States (50 states and the District of Columbia) and other U.S. jurisdictions.
+2
+For more information about the IPEDS Survey, its 12 components, and data release procedures, visit
+https://nces.ed.gov/ipeds/use-the-data/survey-components
+. This memorandum documents the IPEDS universe of reporting institutions and response to the fall collection period of the 2025–26 IPEDS, which was open from September 3, 2025 to October 15, 2025.
+2025–26 IPEDS Universe of Institutions
+The IPEDS universe is established during the fall collection period. During the 2025–26 collection year, there were 5,779 Title IV institutions, administrative offices,
+3
+and U.S. service academies
+4
+in the United States and other jurisdictions of the United States, such as Puerto Rico. For 2025–26, a total of 498 postsecondary institutions were reported exclusively by a parent institution and are not included in the universe counts. The four U.S. service academies that are not Title IV eligible are included in the IPEDS universe because they are federally funded and open to the public.
+NCES statistical standards require that the potential for nonresponse bias for all institutions be analyzed for sectors for which the response rate is less than 85 percent. Because response rates were nearly 100 percent for each survey component, no such analysis was necessary.
+Table 1 provides an overview of the number of institutions responding to the components that comprise the fall collection period.
+        This table is updated after each collection period’s data release.
+Appendix A
+provides a summary of responses for the previous collection year
+        for comparison purposes.
+Appendix B
+shows a table of institutions with a Title IV status change.
+5
+Of the 126 institutions that were Title IV in
+        2024–25 but were no longer Title IV in 2025–26, some 93 were private for-profit institutions.
+Table 1. Summary of response by IPEDS survey component, 2025–26 data collection
+IPEDS survey component
+Number of institutions
+Not required to report
+1
+Expected to respond
+Did not respond
+2
+Provided data
+Fall collection period: September 3, 2025 to October 15, 2025
+Institutional Characteristics
+0
+5,779
+2
+5,777
+Completions
+3
+1
+5,710
+9
+5,701
+12-Month Enrollment
+3
+10
+5,701
+9
+5,692
+Winter collection period: December 3, 2025 to February 4, 2026
+Admissions
+3
+—
+—
+—
+—
+Graduation Rates
+3
+—
+—
+—
+—
+Cost
+3
+—
+—
+—
+—
+200 Percent Graduation Rates
+3
+—
+—
+—
+—
+Outcome Measures
+3
+—
+—
+—
+—
+Student Financial Aid
+3
+—
+—
+—
+—
+Spring collection period: December 3, 2025 to April 1, 2026
+Fall Enrollment
+3
+—
+—
+—
+—
+Finance
+—
+—
+—
+—
+Human Resources
+—
+—
+—
+—
+ACTS
+4
+—
+—
+—
+—
+— Data currently not available.
+1
+Not required to respond to the survey component because the institutions were new, were closed, did not enroll students, or did not meet the criteria for the component (e.g., some components only apply to degree-granting institutions).
+2
+Due to unit nonresponse, all data were imputed for nonresponding institutions.
+3
+Does not include the 68 administrative offices. An administrative office is a system or central office in a multi-campus environment.
+4
+Admissions and Consumer Transparency Supplement.
+NOTE: Title IV institutions are those with a written agreement with the U.S. Department of Education that allows the institution to participate in any of the Title IV federal student financial assistance programs. The U.S. Naval Academy, the U.S. Military Academy, the U.S. Coast Guard Academy, and the U.S. Air Force Academy are not Title IV eligible but are included in the Integrated Postsecondary Education Data System (IPEDS) universe because they are federally funded and open to the public; they are included in this table. The U.S. Merchant Marine Academy is Title IV eligible and is also included in this table. Definitions for terms used in this table may be found in the IPEDS online glossary located at
+https://surveys.nces.ed.gov/ipeds/public/glossary
+. The glossary is primarily focused on terms used in the current IPEDS collection and may not reflect the definitions in effect when the data in this table were collected.
+SOURCE: U.S. Department of Education, National Center for Education Statistics, IPEDS 2025–26 collection (provisional data).
+For any questions related to this data product release, please contact Brian Fu (
+Brian.Fu@ed.gov
+).
+1
+“Defending Women From Gender Ideology Extremism And Restoring Biological Truth To The Federal Government”, retrieved April 13, 2026 from
+https://www.whitehouse.gov/presidential-actions/2025/01/defending-women-from-gender-ideology-extremism-and-restoring-biological-truth-to-the-federal-government/
+.
+2
+The other U.S. jurisdictions surveyed in IPEDS are American Samoa, the Commonwealth of the Northern Mariana Islands, the Federated States of Micronesia, Guam, the Marshall Islands, Palau, Puerto Rico, and the U.S. Virgin Islands.
+3
+Title IV institutions and administrative offices include 5,711 institutions and 68 administrative (central or system) offices. The central and system offices are required to complete the Institutional Characteristics component in the fall, the Human Resources component in the spring, and the Finance component in the spring (if they have their own separate budget).
+4
+The four U.S. service academies that are not Title IV eligible are the U.S. Naval Academy, the U.S. Military Academy, the U.S. Coast Guard Academy, and the U.S. Air Force Academy. The U.S. Merchant Marine Academy is Title IV eligible. Data for all five institutions are included in the tables and counts of institutions unless otherwise indicated.
+5
+An institution may be classified as changing Title IV status for the following reasons: it closed, it no longer provides federal funded financial assistance, it lost Title IV eligibility, it combined or merged with another institution, it is new, it began to provide federal funded financial assistance, or it regained Title IV eligibility.
+Appendix A
+×
+Table A-1. Summary of response by IPEDS survey component, 2024–25 data collection
+IPEDS survey component
+Number of institutions
+Not required to report
+1
+Expected to respond
+Did not respond
+2
+Provided data
+Fall collection period: September 4, 2024 to October 16, 2024
+Institutional Characteristics
+0
+5,829
+4
+5,825
+Completions
+3
+0
+5,760
+6
+5,754
+12-Month Enrollment
+3
+11
+5,749
+5
+5,744
+Winter collection period: December 4, 2024 to February 5, 2025
+Admissions
+3
+3,825
+1,935
+1
+1,934
+Graduation Rates
+3
+587
+5,173
+10
+5,163
+Cost
+3
+5
+5,755
+4
+5,751
+200 Percent Graduation Rates
+3
+951
+4,809
+6
+4,803
+Outcome Measures
+3
+2,212
+3,548
+5
+3,543
+Student Financial Aid
+3
+25
+5,735
+8
+5,727
+Spring collection period: December 4, 2024 to April 2, 2025
+Academic Libraries
+3
+1,908
+3,852
+2
+3,850
+Fall Enrollment
+3
+10
+5,750
+13
+5,737
+Finance
+3
+5,826
+18
+5,808
+Human Resources
+5
+5,824
+11
+5,813
+Notes:
+1
+Not required to respond to the survey component because the institutions were new, were closed, did not enroll students, or did not meet the criteria for the component (e.g., some components only apply to degree-granting institutions).
+2
+Due to unit nonresponse, all data were imputed for nonresponding institutions.
+3
+Does not include the 69 administrative offices. An administrative office is a system or central office in a multi-campus environment.
+NOTE: Title IV institutions are those with a written agreement with the U.S. Department of Education that allows the institution to participate in any of the Title IV federal student financial assistance programs. The U.S. Naval Academy, the U.S. Military Academy, the U.S. Coast Guard Academy, and the U.S. Air Force Academy are not Title IV eligible but are included in the Integrated Postsecondary Education Data System (IPEDS) universe because they are federally funded and open to the public; they are included in this table. The U.S. Merchant Marine Academy is Title IV eligible and is also included in this table.
+Definitions for terms used in IPEDS may be found in the online glossary located at
+https://surveys.nces.ed.gov/ipeds/public/glossary
+. The glossary is primarily focused on terms used in the current IPEDS collection and may not reflect the definitions in effect when the data in this table were collected.
+SOURCE: U.S. Department of Education, National Center for Education Statistics, IPEDS 2024–25 collection (provisional data).
+Close
+Appendix B.
+×
+Table B-1. Number of Title IV institutions and number changing Title IV status: United States and other U.S. jurisdictions, academic years 2024–25 and 2025–26
+Sector of institution
+Title IV institutions
+1
+in 2024–25
+Title IV institutions
+1
+in 2025–26
+Net change in Title IV status from
+                                2024–25 to 2025–26
+2
+Number
+Number that are no longer Title IV in
+                                2025–26
+Number
+Number that became Title IV since
+                                2024–25
+All institutions
+5,760
+126
+5,711
+77
+-49
+Public 4-year
+845
+1
+859
+0
+-1
+Private nonprofit 4-year
+1,545
+20
+1,545
+15
+-5
+Private for-profit 4-year
+301
+13
+291
+4
+-9
+Public 2-year
+832
+3
+818
+1
+-2
+Private nonprofit 2-year
+125
+4
+121
+0
+-4
+Private for-profit 2-year
+490
+25
+480
+23
+-2
+Public less-than-2-year
+219
+4
+215
+2
+-2
+Private nonprofit less-than-2-year
+53
+1
+55
+3
+2
+Private for-profit less-than-2-year
+1,350
+55
+1,327
+29
+-26
+1
+The U.S. Naval Academy, the U.S. Military Academy, the U.S. Coast Guard Academy, and the U.S. Air Force Academy are not Title IV eligible but are included in the Integrated Postsecondary Education Data System (IPEDS) universe because they are federally funded and open to the public; they are included in this table. The U.S. Merchant Marine Academy is Title IV eligible and is also included in this table.
+2
+The net change indicated in this table is the result of changes to Title IV status (number that became Title IV since 2024–25 minus the number that were no longer Title IV as of 2025–26). Institutions that changed sector between 2024–25 and 2025–26 are not reflected in this column.
+NOTE: Title IV institutions are those with a written agreement with the U.S. Department of Education that allows the institution to participate in any of the
+                        Title IV federal student financial assistance programs. An institution may be classified as changing Title IV status because it closed,
+                        it no longer provides federally funded financial assistance, it lost Title IV eligibility, it combined or merged with another institution, it is new,
+                        it began to provide federally funded financial assistance, or it regained Title IV eligibility. The United States includes the 50 states and the District of Columbia.
+                        The other U.S. jurisdictions include American Samoa, the Commonwealth of the Northern Mariana Islands,
+                        the Federated States of Micronesia, Guam, the Marshall Islands, Palau, Puerto Rico, and the U.S. Virgin Islands.
+                        Counts exclude administrative offices.
+                        Definitions for terms used in IPEDS may be found in the online glossary located at
+https://surveys.nces.ed.gov/ipeds/public/glossary
+. The glossary is primarily focused on terms used in the current IPEDS collection and may not reflect the definitions in effect when the data in this table were collected.
+SOURCE: U.S. Department of Education, National Center for Education Statistics, IPEDS, Fall 2024 Institutional Characteristics component (provisional data) and Fall 2025 Institutional Characteristics component (provisional data).
+Close

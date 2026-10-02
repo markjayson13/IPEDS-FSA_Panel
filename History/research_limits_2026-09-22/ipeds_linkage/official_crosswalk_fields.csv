@@ -1,0 +1,60 @@
+table,column,meaning_and_research_use
+records,cw_year,"Crosswalk reference year. Default analysis joins award-year start, an explicit convention; PEPS aliases can be retrospective."
+records,opeid8,Full eight-digit OPEID normalized only by padding numeric-storage leading zeros; distinct branch/location suffix retained.
+records,cw_source_row,"Excel row number in the Crosswalk sheet, header at row1."
+records,cw_source_path,Absolute path of input workbook in this build.
+records,cw_source_sha256,SHA-256 of exact input workbook bytes.
+records,cw_preliminary,"True for filename marked _prelim, currently CW2024_prelim; not final-vintage evidence."
+records,cw_source_code,1=HD/header;2=institution reporting map;3=relationship established using other years;4=official manual comparison;5=no match.
+records,cw_source_method,Readable label for cw_source_code. Source3 requires explicit retrospective-history treatment.
+records,cw_ipeds_reporting_code,1=OPEID main and locations report under one UNITID;2=multiple UNITIDs;-2=unknown. Does not override nonempty AddMatch.
+records,cw_parent_opeid8,"Normalized OPEIDMain, identifying FSA main location. Reference only; not allocation or direct matching key."
+records,cw_site_candidate_count,Number of distinct valid UNITIDs in IPEDSMatch union AddMatch. An incomplete parse means this is a lower bound.
+records,cw_primary_unitid,Parsed primary IPEDSMatch UNITID; not an assigned UNITID when additional relations exist.
+records,cw_additional_candidate_count,Distinct valid AddMatch UNITIDs; raw duplicates retained in cw_raw_AddMatch.
+records,cw_parent_candidate_count,"Distinct valid IPEDSMain UNITIDs, parent references only."
+records,cw_has_additional_match,At least one valid additional UNITID. Invalid additional tokens remain documented in parse issues.
+records,cw_multiple_site_unitids,More than one distinct valid site candidate; never collapse by taking primary.
+records,cw_relation_parse_complete,All primary/additional/parent fields parsed completely using full six-digit UNITID tokens and documented pipe separator.
+records,cw_site_parse_complete,Both IPEDSMatch and AddMatch parsed completely. False blocks a singleton claim.
+records,cw_parse_issues_json,JSON mapping malformed source fields to their unparsed tokens. Valid tokens and original full strings are still preserved.
+records,cw_site_parent_unitids_differ,Both site and parent candidate sets nonempty and unequal; signals different site versus main-location scope.
+records,cw_official_no_match,No site candidates and complete site parse. Inspect cw_source_code to distinguish official Source5 from anomalous empty records.
+records,cw_has_change_notes,At least one nonmissing COA1..COA5 entry. False does not certify no reorganization.
+records,cw_has_prior_id_notes,"Nonmissing PY_UNITID/PY_OPEID/PYNotes, which may repeat current IDs without an actual change."
+records,cw_raw_OPEID,Original OPEID cell text.
+records,cw_raw_IPEDSMatch,Original primary UNITID or no-match sentinel.
+records,cw_raw_AddMatch,Original pipe-delimited additional current-reference-year UNITIDs. Six published University of Phoenix cells are truncated mid-ID.
+records,cw_raw_Source,Original official match-source code.
+records,cw_raw_PEPSSchname,PEPS main institution name; may reflect later PEPS vintage.
+records,cw_raw_PEPSLocname,"PEPS location name; useful corroboration, never a name-only identity assignment."
+records,cw_raw_PEPSEligCert,PEPS eligibility/certification/approval evidence; triplet detail unavailable before2005. Not necessarily contemporaneous operating status.
+records,cw_raw_IPEDSInstnm,Name of primary IPEDS matched institution.
+records,cw_raw_IPEDSPSET4FLG,Primary IPEDS match postsecondary/Title IV code;9 is inactive and -2 unavailable. Check annual directory flags.
+records,cw_raw_f1sysnam,IPEDS multi-institution system name; common ownership is not proof of common reporting scope.
+records,cw_raw_IPEDSrpt,Original one-versus-multiple-IPEDSinstitutions reporting code.
+records,cw_raw_OPEIDMain,Original FSA main-location OPEID reference.
+records,cw_raw_IPEDSMain,"Original UNITID(s) of main-location match, reference only."
+records,cw_raw_PY_UNITID,"Prior-year UNITID(s) supplied by source, not a same-year candidate."
+records,cw_raw_PYNotes,Source-described prior/current UNITID change evidence.
+records,cw_raw_PY_OPEID,"Prior-year final OPEID(s), not an automatically applicable historical FSA identifier."
+records,cw_raw_COA1,Change-event text: old OPEID|new OPEID|change type|YYYYMMDD. -2 unavailable; date and reporting period require review.
+records,cw_raw_COA2,Change-event text: old OPEID|new OPEID|change type|YYYYMMDD. -2 unavailable; date and reporting period require review.
+records,cw_raw_COA3,Change-event text: old OPEID|new OPEID|change type|YYYYMMDD. -2 unavailable; date and reporting period require review.
+records,cw_raw_COA4,Change-event text: old OPEID|new OPEID|change type|YYYYMMDD. -2 unavailable; date and reporting period require review.
+records,cw_raw_COA5,Change-event text: old OPEID|new OPEID|change type|YYYYMMDD. -2 unavailable; date and reporting period require review.
+records,cw_duplicate_opeid_rows,"More than one source record with identical year/full OPEID; all source rows retained, no arbitrary reduction."
+relations,cw_year,"Crosswalk reference year. Default analysis joins award-year start, an explicit convention; PEPS aliases can be retrospective."
+relations,opeid8,Full eight-digit OPEID normalized only by padding numeric-storage leading zeros; distinct branch/location suffix retained.
+relations,cw_source_row,"Excel row number in the Crosswalk sheet, header at row1."
+relations,cw_source_path,Absolute path of input workbook in this build.
+relations,cw_source_sha256,SHA-256 of exact input workbook bytes.
+relations,cw_preliminary,"True for filename marked _prelim, currently CW2024_prelim; not final-vintage evidence."
+relations,cw_source_code,1=HD/header;2=institution reporting map;3=relationship established using other years;4=official manual comparison;5=no match.
+relations,cw_source_method,Readable label for cw_source_code. Source3 requires explicit retrospective-history treatment.
+relations,cw_ipeds_reporting_code,1=OPEID main and locations report under one UNITID;2=multiple UNITIDs;-2=unknown. Does not override nonempty AddMatch.
+relations,cw_parent_opeid8,"Normalized OPEIDMain, identifying FSA main location. Reference only; not allocation or direct matching key."
+relations,cw_relation_parse_complete,All primary/additional/parent fields parsed completely using full six-digit UNITID tokens and documented pipe separator.
+relations,cw_site_parse_complete,Both IPEDSMatch and AddMatch parsed completely. False blocks a singleton claim.
+relations,unitid,Candidate IPEDS UNITID. Null on no_site_match/unparsed_site_match. Interpret only with relation_type.
+relations,relation_type,"primary_match=IPEDSMatch; additional_match=AddMatch; parent_reference=IPEDSMain, never a direct site assignment; no_site_match=complete empty site fields; unparsed_site_match=site fields could not be fully parsed."

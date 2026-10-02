@@ -1,0 +1,85 @@
+Building annual source metadata
+Merging 2004
+Merging 2005
+Merging 2006
+Merging 2007
+Merging 2008
+Merging 2009
+Merging 2010
+Merging 2011
+Merging 2012
+Merging 2013
+Merging 2014
+Merging 2015
+Merging 2016
+Merging 2017
+Merging 2018
+Merging 2019
+Merging 2020
+Merging 2021
+Merging 2022
+Merging 2023
+Verifying every canonical output cell against source inputs
+Exporting and checking annual CSV/Stata/Excel files with two workers
+Completed and verified exports 2004
+Completed and verified exports 2005
+Completed and verified exports 2006
+Completed and verified exports 2007
+Completed and verified exports 2008
+Completed and verified exports 2009
+Completed and verified exports 2010
+Completed and verified exports 2011
+Completed and verified exports 2012
+Completed and verified exports 2013
+Completed and verified exports 2014
+Completed and verified exports 2015
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/process.py", line 253, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 213, in export_worker
+    checks, masks = export_year(table, year, out, codebook, labels, set(formats))
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 182, in export_year
+    excel_check, precision_records = export_excel(frame, path, codebook, value_labels, {
+                                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'dataset': 'FSA–IPEDS collection-anchor panel', 'year': year,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        'codes': 'FSA statuses/booleans use ValueLabels. IPEDS raw string codes retain year-specific definitions in Metadata/ipeds_metadata.json.',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_ipeds_combined_excel.py", line 116, in export_excel
+    write_excel(excel, path, metadata, value_labels, notes)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_portable_exports.py", line 267, in write_excel
+    _write_sheet(z, 1, list(frame), frame.itertuples(index=False, name=None), kinds)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_portable_exports.py", line 243, in _write_sheet
+    emit(last, values)
+    ~~~~^^^^^^^^^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_portable_exports.py", line 222, in emit
+    cells.append(f'<c r="{ref}" t="inlineStr" s="{1 if header else 2}"><is><t xml:space="preserve">{_xml_text(v)}</t></is></c>')
+                                                                                                    ~~~~~~~~~^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/fsa_portable_exports.py", line 194, in _xml_text
+    raise ValueError("Excel text exceeds limits or contains an unsupported control character")
+ValueError: Excel text exceeds limits or contains an unsupported control character
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 543, in <module>
+    build(args)
+    ~~~~~^^^^^^
+  File "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/Scripts/16_build_fsa_ipeds_panel.py", line 448, in build
+    year, export_checks = future.result()
+                          ~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: Excel text exceeds limits or contains an unsupported control character

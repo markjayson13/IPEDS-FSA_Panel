@@ -1,0 +1,236 @@
+Data Release Schedule
+Skip to main content
+About
+IPEDS
+About IPEDS
+Your primary source for information on U.S. colleges, universities, and technical and vocational institutions.
+Overview
+Learn More
+This Week in IPEDS (TWII)
+Survey Components
+Data Release Schedule
+Contact Us
+Use
+The Data
+Use The Data
+Access IPEDS data submitted to NCES through our data tools or download the data to conduct your own research and analysis.
+Overview
+SEARCH EXISTING DATA
+Data Explorer
+Publications and Products
+Download IPEDS Data
+Custom Data Files
+Compare Institutions
+Complete Data Files
+Access Database
+CREATE CUSTOM DATA ANALYSES
+Data Trends
+Statistical Tables
+Summary Tables
+Lookup an Institution
+Data Feedback Report
+Data Tools Shortcuts
+Report
+Your Data
+Report Your Data
+Report your institution’s data and access resources that will help with successful submission.
+Overview
+DATA REPORTING
+Answer the Current Survey
+Revise the Prior Year's Survey
+Request to Be an IPEDS Institution
+REPORTING RESOURCES
+Reporting Guides
+Reporting Tools
+COLLECTION INFORMATION
+Collection Schedule and Survey
+Materials
+Updates to the Data Collection
+About the Data Collection
+Find
+Your College
+Find Your College
+Narrow down your college from over 6,000 colleges, and explore resources to plan, prepare, and graduate from college.
+Overview
+EXPLORE COLLEGES
+Search for College
+Compare Colleges
+Map Your College
+College Stats
+GET FINANCING
+Apply for Federal Student Aid
+Loan Counseling
+College Affordability and Transparency Center
+ACCESS CAREER TOOLS
+Career Options
+Collaborate
+With NCES
+Collaborate With NCES
+Collaborate with NCES to learn more about IPEDS activities, outreach, R&D, and federal grants and fellowships
+Overview
+GET RECENT NEWS AND UPDATES
+National Postsecondary Education
+Cooperative (NPEC)
+Technical Review Panel
+Archived Research & Dissertation Grants
+NCES Data Institute
+PARTICIPATE IN IPEDS
+Trainings & Outreach
+IPEDS Knowledge
+Exchange (Listserv)
+Home
+About IPEDS
+Survey Components
+Data Release Schedule
+Help Desk:
+1 (877) 994-7337
+Back to top
+Data Release Schedule
+Data are submitted at the aggregated-level from postsecondary institutions and do not have student-level information. Institutions submit data through 12 interrelated survey components about general higher education topics for 3 reporting periods.
+Click for more information on
+IPEDS methodology.
+Fall Surveys
+Institutional Characteristics (IC), Completions (C), 12-month Enrollment (E12)
+Winter Surveys
+Admissions (ADM), Graduation Rates (GR), Student Financial Aid (SFA), Outcome Measures (OM), Cost (CST)
+Spring Surveys
+Fall Enrollment (EF), Finance (F), Human Resources (HR), Academic Libraries (AL)
+2025-26 Collection
+Release Date
+Links
+Fall
+July 28, 2026 (PD)
+Tables (PD)
+|
+Memo
+2024-25 Collection
+Release Date
+Links
+Spring
+January 6, 2026 (PD)
+Tables (PD)
+|
+Memo
+Winter
+December 9, 2025 (PD)
+Tables (PD)
+|
+Memo
+Fall
+September 8, 2026 (FD)
+Tables (PD)
+|
+Memo
+2023-24 Collection
+Release Date
+Links
+Spring
+January 6, 2026 (FD)
+Tables (PD)
+|
+Memo
+Winter
+December 9, 2025 (FD)
+Tables (FD)
+|
+Memo
+Fall
+September 23, 2025 (FD)
+Tables (FD)
+|
+Memo
+2022-23 Collection
+Release Date
+Links
+Spring
+December 5, 2024 (FD)
+Tables (FD)
+|
+Memo
+Winter
+September 27, 2024 (FD)
+Tables (FD)
+|
+Memo
+Fall
+August 1, 2024 (FD)
+Tables (FD)
+|
+Memo
+2021-22 Collection
+Release Date
+Links
+Spring
+December 12, 2023 (FD)
+Tables (FD)
+|
+Memo
+Winter
+November 7, 2023 (FD)
+Tables (FD)
+|
+Memo
+Fall
+September 21, 2023 (FD)
+Tables (FD)
+|
+Memo
+2020-21 Collection
+Release Date
+Links
+Spring
+November 17, 2022 (FD)
+Tables (FD)
+|
+Memo
+Winter
+October 25, 2022 (FD)
+Tables (FD)
+|
+Memo
+Fall
+August 23, 2022 (FD)
+Tables (FD)
+|
+Memo
+2019-20 Collection
+Release Date
+Links
+Spring
+November 10, 2021 (FD)
+Tables (FD)
+|
+Memo
+Winter
+October 14, 2021 (FD)
+Tables (FD)
+|
+Memo
+Fall
+July 27, 2021 (FD)
+Tables (FD)
+|
+Memo
+2018-19 Collection
+Release Date
+Links
+Spring
+February 2, 2021 (FD)
+Tables (FD)
+|
+Memo
+Winter
+September 17, 2020 (FD)
+Tables (FD)
+|
+Memo
+Fall
+July 8, 2020 (FD)
+Tables (FD)
+|
+Memo
+Note: 
+                PD =
+Provisional Data;
+FD =
+Final Data

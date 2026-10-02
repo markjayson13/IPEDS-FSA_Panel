@@ -1,0 +1,236 @@
+IPEDS Access Databases
+Skip to main content
+About
+IPEDS
+About IPEDS
+Your primary source for information on U.S. colleges, universities, and technical and vocational institutions.
+Overview
+Learn More
+This Week in IPEDS (TWII)
+Survey Components
+Data Release Schedule
+Contact Us
+Use
+The Data
+Use The Data
+Access IPEDS data submitted to NCES through our data tools or download the data to conduct your own research and analysis.
+Overview
+SEARCH EXISTING DATA
+Data Explorer
+Publications and Products
+Download IPEDS Data
+Custom Data Files
+Compare Institutions
+Complete Data Files
+Access Database
+CREATE CUSTOM DATA ANALYSES
+Data Trends
+Statistical Tables
+Summary Tables
+Lookup an Institution
+Data Feedback Report
+Data Tools Shortcuts
+Report
+Your Data
+Report Your Data
+Report your institution’s data and access resources that will help with successful submission.
+Overview
+DATA REPORTING
+Answer the Current Survey
+Revise the Prior Year's Survey
+Request to Be an IPEDS Institution
+REPORTING RESOURCES
+Reporting Guides
+Reporting Tools
+COLLECTION INFORMATION
+Collection Schedule and Survey
+Materials
+Updates to the Data Collection
+About the Data Collection
+Find
+Your College
+Find Your College
+Narrow down your college from over 6,000 colleges, and explore resources to plan, prepare, and graduate from college.
+Overview
+EXPLORE COLLEGES
+Search for College
+Compare Colleges
+Map Your College
+College Stats
+GET FINANCING
+Apply for Federal Student Aid
+Loan Counseling
+College Affordability and Transparency Center
+ACCESS CAREER TOOLS
+Career Options
+Collaborate
+With NCES
+Collaborate With NCES
+Collaborate with NCES to learn more about IPEDS activities, outreach, R&D, and federal grants and fellowships
+Overview
+GET RECENT NEWS AND UPDATES
+National Postsecondary Education
+Cooperative (NPEC)
+Technical Review Panel
+Archived Research & Dissertation Grants
+NCES Data Institute
+PARTICIPATE IN IPEDS
+Trainings & Outreach
+IPEDS Knowledge
+Exchange (Listserv)
+Home
+Use The Data
+Survey Data
+IPEDS Access Databases
+Help
+|
+Help Desk:
+1 (877) 994-7337
+Back to top
+IPEDS Access Databases
+About IPEDS:
+The Integrated Postsecondary Education Data System (IPEDS) is a system of interrelated surveys conducted annually by the U.S. Department of Education's National Center for Education Statistics (NCES). IPEDS annually gathers information from about 6,400 colleges, universities, and technical and vocational institutions that participate in the federal student aid programs.
+Access Database:
+To eliminate the step of downloading IPEDS separately by survey component or select variables, IPEDS has made available the entire survey data for one collection year in the Microsoft Access format beginning with the 2004-05 IPEDS data collection year. Each database contains the relational data tables as well as the metadata tables that describe each data table, the variable titles, descriptions and variables types.  Value codes  and value labels are also available for all categorical variables. When downloading an IPEDS Access Database, the file is compressed using WinZip.
+Prior to 2004-05 collection year, IPEDS data are not available in Access format. To access IPEDS data prior to 2004-05, please use either the Complete data files or Custom data files functions in the Use the Data's
+Survey Data
+.
+IPEDS Final and Provisional Data Releases:
+Provisional release data have undergone all NCES data quality control procedures. Data are imputed for nonresponding institutions. These data are used for First Look (Provisional Data) publications and are released about one year after the initial data collection.
+Final release data include revisions to the provisional release data that have been made by institutions during the subsequent data collection year through the Prior Year Revision System. The final release data can be used when the most up to date data are required; however, these data may not match tables from the First Look reports based on preliminary and provisional data. Final data are released about two years after the initial data collection.
+Provisional data will not be available in the annual IPEDS Access Database when all survey components have been released as Final. Provisional data releases are still available in the Use the Data portal found on the
+IPEDS website
+.
+Documentation for IPEDS Access Databases:
+All IPEDS Access Databases contain metadata tables that describe each data table and provide a list of the variables. The same metadata tables are placed in a WinZip Excel workbook to serve as a standalone reference without having to download an entire database.
+Download an IPEDS Access Database:
+Database Name
+Documentation
+Release Type
+Release Date
+2024-25 Access
+zip (64.0mb) | decompressed (590mb)
+2024-25 Excel
+(IPEDS202425Tablesdoc.xlsx, 1261kb)
+Provisional
+March 2026
+2023-24 Access
+zip (92.0mb) | decompressed (957mb)
+2023-24 Excel
+(IPEDS202324Tablesdoc.xlsx, 1348kb)
+Final
+March 2026
+2022-23 Access
+zip (75.2mb) | decompressed (578mb)
+2022-23 Excel
+(IPEDS202223Tablesdoc.xlsx, 1382kb)
+Final
+January 2025
+2021-22 Access
+zip (70.3mb) | decompressed (542mb)
+2021-22 Excel
+(IPEDS202122Tablesdoc.xlsx, 1266kb)
+Final
+January 2024
+2020-21 Access
+zip (73.3mb) | decompressed (562mb)
+2020-21 Excel
+(IPEDS202021Tablesdoc.xlsx, 1270kb)
+Final
+January 2022
+2019-20 Access
+zip (56.7mb) | decompressed (511mb)
+2019-20 Excel
+(IPEDS201920Tablesdoc.xlsx, 1225kb)
+Final
+December 2021
+2018-19 Access
+zip (70.6mb) | decompressed (524mb)
+2018-19 Excel
+(IPEDS201819Tablesdoc.xlsx, 1275kb)
+Final
+March 2021
+2017-18 Access
+zip (70.4mb) | decompressed (527mb)
+2017-18 Excel
+(IPEDS201718Tablesdoc.xlsx, 1365kb)
+Final
+December 2019
+2016-17 Access
+zip (64.2mb) | decompressed (553mb)
+2016-17 Excel
+(IPEDS201617Tablesdoc.xlsx, 1384kb)
+Final
+January 2019
+2015-16 Access
+zip (72.9mb) | decompressed (519mb)
+2015-16 Excel
+(IPEDS201516Tablesdoc.xlsx, 1322kb)
+Final
+August 2018
+2014-15 Access
+zip (55.9mb) | decompressed (528mb)
+2014-15 Excel
+(IPEDS201415Tablesdoc.xlsx, 1375kb)
+Final
+April 2017
+2013-14 Access
+zip (54.4mb) | decompressed (520mb)
+2013-14 Excel
+(IPEDS201314Tablesdoc.xlsx, 1309kb)
+Final
+April 2016
+2012-13 Access
+zip (54.5mb) | decompressed (484mb)
+2012-13 Excel
+(IPEDS201213Tablesdoc.xlsx, 1338kb)
+Final
+April 2016
+2011-12 Access
+zip (48.6mb) | decompressed (421mb)
+2011-12 Excel
+(IPEDS201112Tablesdoc.xlsx, 1176kb)
+Final
+April 2016
+2010-11 Access
+zip (56.9mb) | decompressed (630mb)
+2010-11 Excel
+(IPEDS201011Tablesdoc.xlsx, 1094kb)
+Final
+May 2020
+2009-10 Access
+zip (56.9mb) | decompressed (668mb)
+2009-10 Excel
+(IPEDS200910Tablesdoc.xlsx, 1074kb)
+Final
+July 2017
+2008-09 Access
+zip (52.9mb) | decompressed (632mb)
+2008-09 Excel
+(IPEDS200809Tablesdoc.xlsx, 929kb)
+Final
+July 2017
+2007-08 Access
+zip (42.5mb) | decompressed (336mb)
+2007-08 Excel
+(IPEDS200708Tablesdoc.xlsx, 808kb)
+Final
+July 2017
+2006-07 Access
+zip (59.4mb) | decompressed (328mb)
+2006-07 Excel
+(IPEDS200607Tablesdoc.xlsx, 742kb)
+Final
+August 2018
+2005-06 Access
+zip (41.1mb) | decompressed (318mb)
+2005-06 Excel
+(IPEDS200506Tablesdoc.xlsx, 665kb)
+Final
+April 2020
+2004-05 Access
+zip (39.7mb) | decompressed (305mb)
+2004-05 Excel
+(IPEDS200405Tablesdoc.xlsx, 680kb)
+Final
+April 2020

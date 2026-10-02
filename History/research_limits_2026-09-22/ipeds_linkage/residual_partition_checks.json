@@ -1,0 +1,16 @@
+{
+  "bridge_sha256": "9e5657438017106d55c248d17d2268e74adaffbb1d68c1b33ed0b0f34d8cbfc6",
+  "strict_json_valid": true,
+  "available_universe_years": 25,
+  "all_universe_partitions_exact": true,
+  "all_residual_partitions_exact": true,
+  "unique_residual_unitid_years": 29753,
+  "remaining_2024_type_counts": {
+    "administrative_office": 53,
+    "other_active_participating_institution_no_observed_direct_or_group_link": 38,
+    "deferment_only": 3,
+    "not_participating_with_opeid": 1,
+    "new_institution_in_annual_directory": 1
+  },
+  "reviewed_96_csv_sha256": "877ef5a44ef12a670890f7f4b9152a1e0b1743ae8e6dedba8430277520b5fc65"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-01",
+  "scope": "Repository separation and input/output path safety; existing data were not rebuilt.",
+  "validation": {
+    "combined_tests": 188,
+    "analysis_tests_with_frozen_bundle": 63,
+    "fsa_pipeline_tests": 102,
+    "additional_fsa_bootstrap_tests": 4,
+    "reviewed_input_hashes_checked": 12,
+    "live_legacy_linkage_evidence_inputs_verified": 11,
+    "external_bundle_manifests_unchanged": true,
+    "full_dataset_rebuild_performed": false
+  },
+  "upstream_fsa_commit": "f67f8614500e175e74fb992ca356f94c1a243120",
+  "source_bundle_size_bytes": 16215934002,
+  "data_storage": "External bundle; ignored local Data link; no datasets committed",
+  "repository_boundary": "FSA and IPEDS source panelizers remain in their upstream repositories"
+}

@@ -1,0 +1,621 @@
+COD Online
+Your session will end in:
+5 minutes and 00 seconds!
+STAY SIGNED IN
+LOG OUT
+Starting Out: Basics and Deadlines
+Q: What should new applicants do to participate?
+A: If your school is a first-time participant in the Campus-Based programs or does not possess a current Program Participation Agreement (PPA) for the Title IV programs, your school must apply for participation to the U.S. Department of Education's School Eligibility Channel (SEC). Schools must use the online Application for Approval to Participate on the Federal Student Financial Aid Programs (also known as E-App website).
+Once your school answers questions for initial applicants and prints and faxes them to the School Participation Team (SPT) for your school's home state, the SPT will provide your school with an OPEID number that gives your school access to complete the E-application.
+Your school does not need to establish its eligibility before filing the FISAP by the congressionally mandated deadline. However, if your school wishes to participate in the Campus-Based programs in the next award year, your school must have an OPEID number to access the Campus-Based System to apply for funds deadline.
+(See Question below:
+When is the FISAP due?
+for an explanation of the FISAP deadline.)
+Q: Do I need an FSA User ID and Two Factor Authentication (TFA) Token?
+A: Yes. The FISAP must be filed electronically through the Campus-Based System website. This can be accessed through
+cod.ed.gov
+by selecting the "School" tab and then selecting "Campus-Based System". Access to the COD and Campus-Based systems is provided by your school's Destination Point Administrator (DPA).
+Q: Will I need to complete the entire FISAP?
+A: Not necessarily. To decide what parts must be completed, you must know what your school did last year and what it plans to do next year. The FISAP contains data cells for two separate award years: An Application for funds for the next award year and the Fiscal Operations Report for the prior award year. Because first-time applicants have no spending history, they complete only the Application portion of the FISAP.
+Use the following table to determine what parts need to be completed:
+For this situation
+Complete these parts
+You are a school requesting funds for the next award year.
+FISAP, Part I: Identifying Information, Certification and Warning
+FISAP, Part II: Application to Participate
+You are a current Campus-Based participant that received funds for the prior award year.
+FISAP, Part I: Identifying Information, Certification and Warning
+FISAP, Parts III, IV, V: Fiscal Operations Report (as applicable), and
+FISAP, Part VI: Program Summary
+In addition, if your school continues to service or is in the process of liquidating its Federal Perkins Loan Fund, you must complete the Identifying Information, Certification and Warning section and the Part III Perkins Loan Program section of the Fiscal Operations Report.
+Q: My school has additional institutions. Can I complete one application to cover funding for all locations?
+A: Yes. Institutions with unique OPEID numbers* that are under the same administrative control or ownership may combine to complete one FISAP application. In this case, you must include in your FISAP the name, address, and OPEID of each eligible institution for which the FISAP contains information. You must also be able to provide all FISAP data separately for each institution if required to do by an audit or program review.
+Schools are encouraged to complete a separate FISAP for each institution.
+*An institution's unique OPEID number is the one associated with what is commonly called the "main campus." The first digit is always zero "0" and the last two digits are always zero "00".
+Explanation:
+The last two digits identify additional campus locations. If an institution has more than 99 additional campus locations, the first digit of the OPEID is then incremented to 1. If an institution has more than 199 additional campus locations, the first digit of the OPEID is incremented to 2, etc.
+Note:
+Campus-Based funds are awarded to the reporting institution (the institution filing the FISAP) and the reporting institution must ensure that funds are made reasonably available to all qualifying students at each eligible institution for which it has requested funds and each additional campus location listed in its Program Participation Agreement (PPA).
+Q: How do I get access to the FISAP and submit my data?
+A: You must go online to the Campus-Based System website via
+cod.ed.gov
+by selecting the "School" tab and then selecting "Campus-Based System". At that site, you can also receive communications from the Department and submit corrections.
+To submit your FISAP on the Campus-Based System, you must have a user ID and password. If you don't have these, go to the website mentioned above and click on the "Login" button. Then click on the registration link in the left navigation bar and enter the information requested. Once you have registered, you will receive your user ID immediately by e-mail. Your request for access will be submitted to your DPA for approval. Once it is approved, you will receive an e-mail. When your access has been approved by the DPA, return to the site and click "Login." Enter your user ID and the password you created when you registered. Click "Submit" to access Campus-Based.
+Q: What if I forget my password?
+A: Click the "Login" button. Click on "Forgot Password?" below the Password box. On the next screen enter your User ID and click "Submit" to continue. Answer the Challenge Questions then create and verify your new password. When your new password is accepted, you will see a message that says "New Password." The new password may take a few minutes to take effect. Click on the link to return to the login screen. Enter your User ID and new password and click "Login." If you should get a message that indicates your User ID or Password are "Unauthorized," please close your browser window then reopen and try again. This is just the timing of creating the new password and the screen refresh.
+Q: What do I do with the combined certification with original signatures?
+A: In Part I (Identifying Information, Certification and Warning), the Department has combined the anti-lobbying certification with the FISAP signature page.This requires your CEO's signature.
+Q: How do I submit a signature on the FISAP?
+FISAP Signature Options
+Paper Signature
+The Department will also accept the FISAP signature form manually. The manual process has not changed.
+You are required to send the hard copy of the combined certification and signature pages--containing Section A information and containing, in Section B, the original signature of one of the officials listed above--to the address below. Print out these pages by clicking the FISAP tab, going to "FISAP Dashboard," selecting "Signature Report" PDF link from FISAP Part I, Section B, and then selecting "File" and "Print."
+Mail the signature pages to the following address:
+For regular mail:
+U.S. Department of Education
+P.O. Box 1130
+Fairfax, VA 22038
+For overnight mail:
+U.S. Department of Education
+4050 Legato Road #800
+Fairfax, VA 22033
+Lobbying Form Signature Options
+Manual Signature
+The Department will also accept the Lobbying Form signature form manually. The manual process has not changed. Send the hard copy of the manually signed Lobbying form to the address below.
+Print the Lobbying form by clicking the Print Friendly Version link on the form.
+Mail the signed Lobbying Form to the following address:
+For regular mail:
+U.S. Department of Education
+P.O. Box 1130
+Fairfax, VA 22038
+For overnight mail:
+U.S. Department of Education
+4050 Legato Road #800
+Fairfax, VA 22033
+Q: Am I required to submit the signature pages each time I submit my FISAP?
+A: No. You submit signature pages only once a year with the initial FISAP submission--not every time you submit a FISAP update or correction. To see if your signature pages have been logged as submitted, go to the Campus-Based System website via
+cod.ed.gov
+by selecting the "School" tab and then selecting "Campus-Based System". From the Campus-Based System, select 'Self Service' and then "Submission Log".
+Q: When is the FISAP due?
+A: The FISAP deadline date is published annually in a Federal Register Notice. The date is October 1 or the last week day prior to October 1. The actual deadline date is posted in the Federal Register as well as provided by Electronic Announcement, on the Campus-Based home page, accessible through
+cod.ed.gov
+by selecting the "School" tab and then selecting "Campus-Based System", and in the FISAP instructions.
+Q: When will I hear from the Department of Education?
+A: The Campus-Based System offers real-time data validation. The validation feature is designed to provide easy and immediate validation of FISAP data. Once you have selected "Validate," "Validate All," or "Submit," you will receive a validation worksheet detailing any errors identified on your FISAP. (To see the "Submit" link, you cannot currently have selected "Validate" or "Validate All.")
+After you correct or explain all edit error messages, you proceed to submission. If you had selected "Validate" or "Validate All," you must click on "Exit Validation," then click on "Submit," and then select the "Continue to Submit" button. If you had selected "Submit," you would simply then click on "Continue to Submit." At this point, your school will receive a submission confirmation listing the date and time the Department received your FISAP. The Department will also let you know your tentative award amount(s) by February 1 and your final award amount(s) by April 1.
+Q: What general instructions should I follow when I complete the FISAP?
+A: Read the FISAP Instructions carefully BEFORE you begin using the Campus-Based System. This document is located on the Campus-Based home page at the bottom of the screen as a PDF, which can be accessed through
+cod.ed.gov
+by selecting the "School" tab and then selecting "Campus-Based System". Use actual figures except where estimates are requested. When a dollar amount is requested, use whole dollars only. Do not report cents. The electronic FISAP system will not accept the submission of cents or fractions. Round all figures to the nearest dollar. For example, report $175 if the actual amount in your records is $175.49. Report $176 if the actual amount in your records is $175.50.
+Do not report negative amounts in any situation. The Campus-Based System will accept only positive amounts.
+Most calculations are automatically performed for you.
+Complete only those items that pertain to your school.
+Q: What are important dates in the FISAP award process?
+A: Submission deadlines and funding schedules follow:
+Campus-Based Programs Submission Deadlines and Funding Schedule
+The Campus-Based Reallocation Form designated for the return of 2025-2026 funds and the request for supplemental FWS funds for the 2026-2027 award year.
+By September 1, 2026
+The Work Colleges Program Report of 2025-2026 award year expenditures.
+By October 1, 2026
+The 2027-2028 FISAP (reporting 2025-2026 expenditure data and requesting funds for 2027-2028).
+By October 1, 2026
+The 2025-2026 Financial Assistance for Students with Intellectual Disabilities Expenditure Report.
+By October 1, 2026
+The 2027-2028 FISAP Edit Corrections and Perkins Cash on Hand Update as of October 31, 2026.
+By December 15, 2026
+Request for a waiver of the 2027-2028 award year penalty for the underuse of 2025-2026 award year funds.
+By February 1, 2027
+Tentative 2027-2028 Awards.
+By February 1, 2027
+The Institutional Application and Agreement for Participation in the Work Colleges Program for the 2027-2028 award year.
+By March 1, 2027
+Final 2027-2028 Awards.
+By April 1, 2027
+Request for a waiver of the FWS Community Service Expenditure Requirement for the 2027-2028 award year.
+By April 19, 2027
+Technical Problems
+Q: I am stuck in the validation screen and it won't let me out. What should I do?
+A: Once in the validation screen you will need to click "Return to FISAP Parts" to go back and navigate the FISAP.
+Q: My signature pages weren't received the first time I mailed them. Now what?
+A: If the FSA Partner and School Relations Center contacts you stating that the signature pages haven't been received, you might have to print another copy, have your school CEO sign them and mail them to the address listed in the document as soon as possible.
+Q: I'm having trouble accessing the FISAP; what can I do?
+A: There are a few things you should check:
+You are using Internet Explorer or Chrome.
+You must either have Destination Point Administrator (DPA) rights or have been granted access rights to the COD Web site by your Destination Point Administrator (DPA). The DPA is typically the Financial Aid Administrator.
+Your local network or Internet service might be down, or interrupted.
+If none of these is an issue, please contact the FSA Partner and School Relations Center at 1-800-848-0978 to see if that staff can help you diagnose the problem.
+Funding/Award Level Questions
+Q: Why is the level of funding in FWS/FSEOG for this year lower than last year's?
+A: You will need to open your FISAP report and study it to try and determine if the reduced funding was due to unexpended award money or misreported tuitions and fees, enrollment, eligible aid applicants, etc. Generally speaking, there are three main reasons for a change in your level of funding. First, if you have an underuse of funds in the prior year that exceeds 10 percent of your allocation(s) for that year, a penalty will be assessed and your award will be reduced, unless you have requested and received an Underuse waiver. Second, if the amounts in your application (Part II) went down, particularly the eligible aid applicant data, your need was reduced from last year, and you might have one or more decreased awards. The third reason is related to the national totals used in the calculations. If the total national need figure increased by a greater percentage than your school's need, then your fair share of the amount available will be reduced. If you can't determine the cause, contact the FSA Partner and School Relations Center at 1-800-848-0978; that staff can research the change for you.
+Q: How are my Campus-Based awards calculated?
+A: Awards are calculated using the formulas set forth in the Higher Education Act of 1965, as amended (HEA). For a line-by-line explanation of the worksheets, refer to the "Explanation of Worksheets" attachment to the Electronic Announcements for Tentative Funding Levels and Final Funding Authorization, posted on the
+Knowledge Center website
+. Tentative funding level notifications are posted to the Campus-Based website by February 1 each year. Final funding authorizations are posted by April 1 each year.
+Schools' awards are calculated using base guarantees and a fair share formula.
+Computation of Base Guarantees
+Federal Supplemental Educational Opportunity Grant (FSEOG)
+An institution that participated in the FSEOG Program in the 1999-2000 award year receives a base guarantee equal to
+1) its 1999-2000 base guarantee and 2) its 1999-2000 initial pro rata increase.
+An institution applying to participate in the FSEOG program for the first or second time receives a base guarantee equal to the greatest of--
+(A) $5,000; or
+(B) 90 percent of the figure derived by taking the Federal share of FSEOG expenditures in 2026-2027 by institutions offering comparable type programs of instruction (See page 4), DIVIDED BY enrolled students in 2026-2027 in those same institutions, MULTIPLIED BY the applicant institution's 2026-2027 enrollment; or
+(C) 90 percent of its 2027-2028 allocation.
+An institution that did not participate in the FSEOG Program in the 1999-2000 award year and is not a first or second time participant receives a base guarantee equal to the greater of-
+(A) $5,000 or
+(B) 90 percent of its expenditures from funds authorized for this program for the first year it participated in the FSEOG Program after the 1999-2000-award year.
+EXCEPT that if the institution's second year base guarantee was greater than its first year base guarantee, its 2028-2029 base guarantee is equal to 90% of its expenditures for the first year of participation, or 90% of its second year base guarantee, whichever is greater.
+Federal Work Study (FWS)
+An institution that participated in the FWS Program in the 1999-2000 award year receives a base guarantee equal to: 1) its 1999-2000 base guarantee, 2) its 1999-2000 initial pro rata increase, and 3) if applicable, the additional FWS funds issued from the $17 million set aside that the institution received in the 1999-2000 award year.
+An institution applying to participate in the FWS Program for the first or second time receives a base guarantee equal to the greatest of-
+(A) $5,000; or
+(B) 90 percent of the figure derived by taking the Federal share of FWS expenditures in 2026-2027 by institutions offering comparable type programs of instruction (See page 4), DIVIDED BY enrolled students in 2026-2027 in those same institutions, MULTIPLIED BY the applicant institution's 2026-2027 enrollment; or
+(C) 90 percent of its 2027-2028 allocation.
+An institution that did not participate in the FWS Program in the 1999-2000 award year and is not a first or second time participant receives a base guarantee equal to the greater of--
+(A) $5,000 or
+(B) 90 percent of its expenditures from funds authorized for this program for the first year it participated in the FWS Program after the 1999-2000 award year.
+EXCEPT that if the institution's second year base guarantee was greater than its first year base guarantee, its 2028-2029 base guarantee is equal to 90% of its expenditures for the first year of participation, or 90% of its second year base guarantee, whichever is greater.
+Fair Share Formula
+The second part of the formula involves a fair share calculation. A need figure is calculated for every school and represents the amount of funds students need to attend the school for a year, factoring in Expected Family Contributions. A fair share amount is then calculated that represents that portion of the funds the school would receive if funds were distributed using the school's need figure compared to the need of all participating Campus-Based schools. The "shortfall" figure is the fair share amount that has not been funded through the base guarantee. After base guarantees are funded, the remaining appropriation is used for the fair share calculation. The fair share money is distributed using the shortfall ratio just mentioned, which is the school's shortfall compared to the shortfall of all the schools.
+For FSEOG only, an expenditure figure for Pell Grants is subtracted from a school's need. This figure represents Pell Grant awards made during the Fiscal Operations Report year and reduces the school's need because it represents federal funds given to students to pay for school.
+General "How To"
+Q: May I modify the FISAP after the due date?
+A: You can modify it at any time before December 15 (or the last business day of the week prior to December 15 if it falls on the weekend) without prior approval. If changes are necessary after the deadline, you must receive approval from the Department before submitting the change. Always check the "Submission Log" under the Self Service section to confirm your submission has been completed. But, be aware of the deadlines (located on the Campus-Based home page), as certain data changes may affect your funding. For example, without approval from the Department, you may not ask for an increase in the Request for Funds in Part II after tentative awards are calculated in late January. If you find you need to change your request figure(s), you should contact the FSA Partner and School Relations Center at 1-800-848-0978 for guidance.
+Q: How do I submit a FISAP Change Request after the December 15 deadline?
+A: After the deadline, when a school clicks the "Submit" button, the only sub-menu option is to submit a "Submit Change Request." Upon clicking "Submit Change Request," you must provide a description of the change and justify the need to make the correction. Then submit the Change Request by clicking the submit button located under the Description input box. Your request will be reviewed by the FISAP Change Request Monitoring Team in the Grants and Campus-Based Division. You will be notified of the decision to allow or deny the correction. If the correction is allowed, you will be granted access to "Submit" the correction by going back into the Campus-Based website and submitting the FISAP as you normally would prior to December 15.
+Q: How can I tell that you've received my FISAP? Or my Reallocation Form?
+A. To verify your school's submissions, log into the Campus-Based website, select the "Self Service" link on the left navigation bar. Then select "Submission Log" to view the log and verify the date and time of your submission of the FISAP or the Reallocation Form.
+Q: How do I print my FISAP?
+A: From the "FISAP Dashboard" page you can either print the "Draft FISAP," in parts, or the entire report. You can also print the "Submitted FISAP." If you are having problems, check to see if you are using the most current versions of Adobe Acrobat Reader and Internet Explorer. If you are still having problems, try clearing your browser's cache by selecting "Tools," then "Internet Options," and then clicking on the "General" tab. Afterwards, select "ok," then "ok" again to complete the cache clearing.
+Q: How can I view my FISAP from the last several years?
+A: The Campus-Based System currently shows FISAP data for only the last six years in addition to the current year:
+Current Year:
+Application year 2028-2029, Fiscal Operations Report year 2026-2027
+Past Years:
+Application year 2027-2028, Fiscal Operations Report year 2025-2026
+Application year 2026-2027, Fiscal Operations Report year 2024-2025
+Application year 2025-2026, Fiscal Operations Report year 2023-2024
+Application year 2024-2025, Fiscal Operations Report year 2022-2023
+Application year 2023-2024, Fiscal Operations Report year 2021-2022
+Application year 2022-2023, Fiscal Operations Report year 2020-2021
+Q: How do I change FISAP years?
+A: You need to be on the "Setup" page, where you will find a "Change Years" dropdown box and a "Change Years" button. Use the dropdown box to change the year, then click on the "Change Years" button.
+Q: When will the statement of account be posted to the Campus-Based site?
+A: By April 1, for the next Award Year cycle (July 1 through June 30).
+Q: How do I find my award notification? Or my Reallocation adjustment or Supplemental award notification?
+A: Award notifications are posted to the Statement of Account located on the "Notifications" page in the "Self Service" module. Supplemental Awards are in the same place.
+Q: How do I increase my Perkins Level of Expenditure (LOE)?
+A: Contact the School Participation Team assigned to your region. You can find the team nearest you at the
+Help-Contact Information screen at the Knowledge Center Web site
+.
+Q: How do I get a copy of my Title III/V non-matching waiver letter?
+A: Your waiver information should be posted on the "Manage Application" section of the "Forms and Waivers" page. Please note that your schools must first be certified as an eligible Title III/V school in order to have received the Title III/V non-matching waiver. See the FISAP instructions for details and contact information.
+Perkins Loans Liquidation
+Q: How do I liquidate my Federal Perkins Loan Program Fund?
+A: To begin the Perkins liquidation process, you must submit your intent to liquidate electronically. To submit your intent to liquidate, navigate to the "Perkins Liquidation" page under the "Perkins" link on the left navigation bar. Then select Begin Liquidation Process, and submit. As part of the process, all outstanding loans must be assigned to the Department or purchased by the school. You will be required to return to the Department the federal share of the remaining cash on hand. Please refer to guidance provided in the Perkins Liquidation and Assignment section of the Campus-Based Processing Information page on the Knowledge Center Web site. You may olso contact the FSA Partner and School Relations Center at 1-800-848-0978 or CODSupport@ed.gov if you have additional questions.
+Job Location and Development Program
+Q: What is the Job Location and Development Program (JLD)?
+A: The JLD Program is part of the Federal Work-Study (FWS) Program. Its goal is to locate and develop off-campus jobs for currently enrolled students who want jobs, regardless of their financial need. The Program encourages students to participate in community service activities. A school is allowed to use part of the federal funds it receives under the FWS Program to establish or expand a JLD Program.
+Q: What is the dollar limit on the FWS federal funds that may be used for the JLD Program?
+A: A school may use up to the lesser of $75,000 or 10 percent of its total FWS allocation to establish or expand a JLD Program.
+Q: Does the JLD Program require a school to provide a nonfederal share?
+A: Yes. When a school participates in the JLD Program, federal funds may pay up to 80 percent of the allowable costs. The school must provide the remaining 20 percent of allowable costs, either in cash or in services. The school's 20 percent share may be either (1) 20 percent of each allowable cost, or (2) varying percentages of allowable costs, as long as the school's total expenditures of school funds and/or provision of services equals at least 20 percent of the total allowable costs for the JLD Program. The school must maintain records that indicate the amount and sources of its share. The fiscal procedures and records requirements for JLD are the same as those for the FWS Program.
+Q: Does the JLD Program provide for a waiver of the nonfederal share requirement?
+A: No. Unlike the nonfederal share requirement for FWS earnings, the JLD nonfederal share requirement cannot be waived.
+Q: What are allowable costs of carrying out the JLD Program?
+A: Allowable costs include
+staff wages and salaries (may also include fringe benefits if they are the same as those paid to other school employees in comparable positions, and the fringe benefits are not paid to an FWS student);
+travel expenses;
+printing and mailing costs;
+telephone charges, including installation of a separate line for off-campus employers;
+costs for supplies, equipment, and furniture;
+newspaper or other types of advertising; and
+costs for workshops for students and employers.
+Q: What costs are not allowable under the JLD Program?
+A: Costs related to purchasing, constructing, or altering the facilities that house a JLD project. Indirect administrative costs also are not allowable. One example of an indirect administrative cost is a portion of the salary of someone who is not directly involved in the program, such as the JLD director's supervisor. Other examples of indirect administrative costs are lighting, heating, or custodial costs incurred as part of the normal operations of the facility in which the JLD Program is administered, such as the financial aid or placement offices.
+Q: When a school currently participating in the FWS Program wants to participate in the JLD Program, must it make prior contact with the Department or have its Program Participation Agreement (PPA) revised?
+A: No. The fact that the school has an executed PPA for the FWS Program means the school is also able to participate in the JLD Program without any prior contact with the Department or revision to its PPA. Under the PPA, the school agrees to administer the JLD Program according to the appropriate statutory and regulatory provisions.
+Q: If a school participates in the JLD Program, is there any information a school must provide to the Department?
+A: Yes, on the FISAP, the school must provide information about its total JLD expenditures, federal expenditures for JLD, school expenditures for JLD, number of students for whom jobs were located or developed, and total earnings for those students.
+Q: Under the JLD Program, must a school generate a certain amount of student wages?
+A: Yes. It must locate and develop jobs that generate total student wages exceeding the total amount of the federal funds spent under the JLD Program.
+Q: May schools participating in FWS enter into a written agreement with other participating schools to establish and operate a JLD Program?
+A: Yes. The agreement must designate the JLD Program's administrator and must specify the program's terms, conditions, and performance standards. Each school that is part of the agreement retains responsibility for properly disbursing and accounting for the federal funds it contributes under the agreement. For example, each school must show that its own students have earned wages that exceed the amount of federal funds the school contributed to locate and develop those jobs.
+Q: What types of organizations should a school contact to locate and develop jobs through the JLD Program?
+A: Either a for-profit or nonprofit employer.
+Q: May the JLD Program be used to locate and develop jobs for FWS students?
+A: Yes. Federal JLD funds are to be used to pay the school's costs of establishing and administering the JLD Program, under which jobs are located and developed for FWS and non-FWS eligible students. However, using JLD funds to find jobs only for FWS students would not satisfy the statutory requirement to expand off-campus jobs for currently enrolled students who want jobs, regardless of financial need.
+Q: May JLD Program funds be used to locate and develop jobs at the school or at other eligible schools?
+A: No. JLD funds can only be used to locate and develop jobs off campus.
+Q: May JLD funds be used to pay students whose jobs were located and developed through the program?
+A: No.
+Q: May a school employ FWS and non-FWS students as staff in the JLD Program?
+A: Yes. The prohibition against using JLD funds to locate and develop jobs at any school does not include hiring students to work as staff for the JLD Program itself, because the JLD staff jobs were not located and developed with JLD Program funds.
+Q: May federal JLD funds be used to pay the nonfederal share of wages FWS students earn while working as staff in the JLD Program?
+A: No. Any funds allocated under the FWS Program may not be used to pay the nonfederal share of FWS compensation to students. However, since JLD allowable costs include staff salaries, the school would pay, with its own funds, the nonfederal share of wages FWS students earn while working as staff in the JLD Program. The school would count those funds in meeting the minimum 20 percent institutional share requirement.
+Q: Under the JLD Program, may the school locate and develop jobs for students to obtain upon graduation?
+A: No. The program locates and develops off-campus employment opportunities for students during and between periods of school attendance.
+Q: Does the JLD Program encourage locating and developing jobs that provide community services?
+A: Yes. The JLD Program encourages participation in community service activities. Further, the program description notes that funds are to be expended to establish or expand a program to locate and develop jobs, including community service jobs. However, the JLD Program does not have a specific minimum community service requirement, as does the FWS Program.
+Q: Does the JLD Program have a requirement similar to the one for the FWS Program that jobs, to the maximum extent practicable, complement and reinforce students' educational programs or vocational goals?
+A: Yes. Under the JLD Program, jobs located and developed must be suitable to the students' scheduling and other needs and, to the maximum extent practicable, must complement and reinforce students' educational programs or vocational goals.
+Q: May the jobs located and developed under the JLD Program be full time?
+A: Yes.
+Q: May jobs located and developed under the JLD Program be a substitute for employed workers?
+A: No. Jobs must not displace employees or impair existing service contracts.
+FWS Use of Funds
+Q: How may a school use FWS federal funds?
+A: The school may use FWS federal funds to pay the federal share of FWS student wages, to carry out certain administrative activities, and to pay the cost of certain activities under the Job Location and Development Program and the Work Colleges Program. The school may also transfer portions of its FWS federal funds to its Federal Supplemental Educational Opportunity Grant (FSEOG) Program and/or the Federal Perkins Loan (Perkins) Program.
+Federal/Institutional Share Requirements
+Q: What are the federal share limitations for FWS wages?
+A: Except for certain waivers and exceptions specified under FWS regulations, the federal share of FWS wages paid to students may not exceed 75 percent. The nonfederal share of FWS wages must be at least 25 percent. A school may use any resource available to pay its share of FWS compensation except federal funds allocated under the FWS Program or other sources that would prohibit such use. The school's share may come from its own funds, from outside funds (such as from an off-campus agency), or from both. The school also has the option of paying its share of a student's FWS wages in the form of a non-cash contribution of services or equipment (e.g., tuition and fees, room and board, and books and supplies).
+The federal share of FWS wages paid to students employed by a private for-profit organization may not exceed 50 percent. The private for-profit organization must contribute the nonfederal share of funds.
+When a public or private nonprofit organization is unable to pay the regular nonfederal share of 25 percent, a school may pay a federal share up to 90 percent of wages earned by FWS students employed by that organization. The 90 percent federal share is limited to no more than 10 percent of the students paid under the FWS Program, excluding students who have been employed as reading/math tutors or in family literacy projects.
+Q: Under what circumstances are the FWS institutional-share requirements for student wages waived?
+A: Title III/V Schools
+- The Department may authorize a federal share of 100 percent of FWS compensation earned by a student at schools designated as eligible under the Developing Hispanic-Serving Institutions Program (34 CFR, Part 606); Strengthening Institutions Program, (34 CFR, Part 607); Strengthening Historically Black Colleges and Universities Program (34 CFR, Part 608); or Strengthening Historically Black Graduate Institutions Program (34 CFR, Part 609). The school may request an increased federal share for an award year on the FISAP for that year. However, the amount the school receives depends on the funding formula. The work the student performs must be for the school itself, for a federal, state, or local public agency, or for a private nonprofit organization.
+B: Reading Tutors of Children
+- The Department will authorize a federal share of up to 100 percent of the compensation earned by an FWS student employed as a reading tutor of preschool-age children and children in elementary school or employed in performing family literacy activities. The FWS student must perform the work for the school itself; for a federal, state, or local public agency; or for a private nonprofit organization. The school does not have to request a waiver from the Department. To meet its community service requirements, a school must employ at least one FWS student as a reading tutor or in a family literacy project that qualifies as community service. Since most reading tutor placements also meet the definition of community service, schools can meet the FWS Program's community service expenditure requirement by employing FWS students as reading tutors in eligible positions.
+C: Mathematics Tutors of Children
+- The Department will authorize a federal share of up to 100 percent of the compensation an FWS student earns while employed as a mathematics tutor of children from elementary through ninth-grade levels. The FWS student must perform the work for the school itself; for a federal, state, or local public agency; or for a private nonprofit organization. The school need not request a waiver from the Department.
+D: Civic Education and Participation Activities
+- The Department will authorize a federal share of up to 100 percent of the compensation an FWS student earns while engaged in projects that teach civics in schools, raise awareness of government functions or resources, or increase civic participation. The school need not request a waiver from the Department.
+Q: Are there any limitations on the waivers of the institutional-share requirement for the FWS Program?
+A: Yes. Waivers apply only to the nonfederal share of student wages. Employers are still responsible for the employer's share of Social Security, workers' compensation, retirement, or any other welfare or insurance program the employer must pay for an employee, and for any fringe benefits. A school also must ensure it provides the proper federal and nonfederal shares for any portion of its FWS allocation expended under the provisions governing student employment provided by a private for-profit organization (50 percent federal-share limitation). Similarly, the school must provide the proper federal and nonfederal shares for administering the Job Location and Development Program (80 percent federal-share limitation). The nonfederal share requirement for these two categories of FWS expenditures may not be waived.
+Q: For those cases where a waiver of the institutional-share applies, may a school still provide a share?
+A: Yes.
+FWS Community Service and Reading Tutors
+Q: What is the definition of community service for the purpose of the FWS Program?
+A: It is defined as services identified by an institution of higher education-through formal or informal consultation with local nonprofit, governmental, and community-based organizations--that are designed to improve the quality of life for community residents, particularly low-income individuals, or to solve particular problems related to their needs. Services may include (1) work in such fields as health care, child care, literacy training, education (including tutorial services), welfare, social services, transportation, housing and neighborhood improvement, public safety, crime prevention and control, recreation, rural development, and community improvements; (2) work in service opportunities or youth corps as defined in section 101 of the National and Community Service Act of 1990, and service in the agencies, institutions, and activities designated in section 124(a) of that Act; (3) support services to students (other than a school's own students) with disabilities; and (4) activities in which a student serves as a mentor for such purposes as tutoring, supporting educational and recreational activities, and counseling, including career counseling.
+Q: What is the required amount of FWS federal funds a school must use for community service activities?
+A: There are two amounts: First, a school must use at least 7 percent of its FWS federal allocation for an award year to pay for the federal share of wages to students employed in community service jobs for that year. Second, in meeting this 7 percent community service requirement, one or more of the school's FWS students must be employed as a reading tutor for children in a reading tutoring project or must be performing family literacy activities in a family literacy project. However, when a school receives reallocated FWS funds, the minimum amount of FWS federal funds the school must expend on community service jobs is the greater of (1) 7 percent of the adjusted allocation (initial plus supplemental, minus any amount returned on the Reallocation Form or reduced due to a recalculation) or (2) 100% of the amount of the reallocated FWS funds.
+Q: May on-campus jobs meet the definition of community service?
+A: Yes, provided the services are open and accessible to the community. A university or college is not considered a community in and of itself. A service considered open to the community is one that is publicized to the community, and the general public uses the service. If the service is provided only to students, faculty, staff, and their families, the job does not meet the definition of community service under the FWS Program. For example, it would be acceptable for a school to employ students in services located on campus (e.g., tutoring centers or child care centers) if such services are also open to the community. It would also be acceptable for a school to employ students in services at various sites in the community if the school opens the services to the community. In addition to the general public, students, faculty, staff, and their families may also use the services.
+Q: Under what circumstances will the Department grant waivers of the requirement that schools must use at least 7 percent of their total FWS allocation for paying FWS students performing community service?
+A: A school may submit a waiver request electronically via the Campus-Based website by the annual deadline. The Department grants approval only if it determines the school has demonstrated that meeting the requirement would cause a hardship for the school's students. A school's difficulty in complying with this provision is not a basis for granting a waiver.
+To allow flexibility when considering valid reasons for a waiver, the Department does not specify the particular circumstances that would warrant a waiver. However, the Department has approved a limited number of waivers for schools that (1) have a very small FWS allocation, (2) are located in rural areas where availability of qualifying jobs and/or transportation are issues, or (3) have such specialized study that students have extensive curriculum and classroom workloads.
+Q: How do we submit a waiver request?
+A: The FWS Community Service Waiver request will be found on the Manage Application page of the Campus-Based System. The request and justification must be submitted electronically. Additional information will be available on the Knowledge Center website in March.
+Q: For off-campus employment, may an FWS student be paid for the time spent traveling or be reimbursed for travel expenses?
+A: Only if it is a community service job. A school is allowed to pay students for a reasonable amount of time spent for travel to and from work that is directly related to employment in community service activities. However, a school will not be able to directly reimburse students for travel expenses such as gas or bus fare. The time spent for travel must be reported on the student's FWS time record in the same way hours actually worked are reported. The time record should separate the time spent in travel from the actual hours worked.
+Q: May a student employed in a community service activity under the FWS Program work with non-paid volunteers?
+A: Yes. However, an FWS student may not provide voluntary services to an employer. The Fair Labor Standards Act of 1938, as amended, prohibits employers (including postsecondary institutions) from accepting voluntary services from any paid employee. Any student employed under FWS must be paid for all hours worked.
+Q: If a student is employed with an agency or organization that provides community services, must that student have a job description that identifies the work to be performed as meeting the definition of community service?
+A: Yes. As with any FWS position, the school must have a job description that includes the position's duties and responsibilities. In determining whether the service is community service, the school must always consider whether the service the FWS student provides benefits primarily the community as opposed to the agency or school. For example, if a private nonprofit agency hired an FWS student to take care of the grounds at a public park, that job would be community service. However, if the FWS student was hired to take care of the grounds for the private nonprofit agency's administrative offices, that job would not be community service.
+Q: Must the service provided be "direct" in order to meet the definition of community service?
+A: No. The job duties must provide services designed to improve the quality of life for community residents or solve particular problems related to their needs. The Department has provided flexibility for schools to determine which jobs provide service to the community. The Secretary does not intend to indicate that certain activities are more important than others or that only jobs that have "direct" contact with community members are acceptable. For example, an FWS student working for a "meals on wheels" program for the elderly may prepare those meals without any direct contact with the community recipients.
+Q: In an off-campus community service job, who will be responsible for the employer's payment of Social Security or workers' compensation-the school, or the public agency or private nonprofit organization?
+A: The school must enter into a written agreement with the agency or organization. The agreement sets forth the FWS work conditions and establishes whether the school, or the public agency or private nonprofit organization will be the employer. The agreement must also indicate whether the school, or the public agency or private nonprofit organization will pay the students. The agreement may require the employer to pay the nonfederal share of earnings and the required employer costs, such as the employer's share of Social Security or workers' compensation
+Q: Has the Department developed a sample contract to use with outside agencies employing FWS students in community service jobs?
+A: Yes. A model appears in the Federal Student Aid Handbook as an appendix to Volume 6. This agreement is a suggested model for developing a written agreement between a school and a federal, state, or local public agency, or a private nonprofit organization that employs students participating in the FWS Program. As stated in the model, schools and agencies or organizations may devise additional, or substitute, paragraphs consistent with the statute and regulations and may add any pertinent information that orients the agreement towards community service.
+Q: Do private for-profit organizations qualify as employers for meeting the 7 percent community service requirement under the FWS Program?
+A: No. The statute does not allow such organizations to qualify as community service employers.
+Q: What is the Department's definition of a "reading tutor" for purposes of the waiver of the institutional-share requirement under the FWS Program?
+A: The Department has provided flexibility for schools to determine a reading tutor's job description and duties. Therefore, the Department is not providing a definition of a "reading tutor" for the FWS Program. The FWS regulations provide, however, that for a school to obtain a waiver of the FWS institutional-share requirement for students employed as reading tutors, the students must be tutoring preschool-age children or children in elementary school. For example, an FWS student reading to a group of preschoolers in a public library would meet this requirement.
+Q: Must FWS students employed as reading tutors of children meet certain statutory or regulatory educational standards or qualifications for purposes of the waiver of the FWS institutional-share requirement?
+A: No. However, it is very important that FWS reading tutors have adequate reading skills.
+Q: Do the FWS students hired as reading tutors of children need to be trained?
+A: Yes; students should be well-trained before they tutor. When FWS students receive training from a reading specialist, or expert, for sufficient duration and intensity, they are more likely to be successful with the child they are helping learn to read. In addition, tutor training should emphasize the importance of the reading tutor communicating with the regular classroom teacher to maximize effectiveness. For example, it is important for FWS reading tutors to be trained in a way that builds on the child's in-class reading program. The amount and type of training for reading tutors will often vary depending on the child being tutored; for example, a preschool-age child will have needs different from a third-grader; a child with a disability will have different needs from a child without a disability.
+Q: Must the reading tutoring of children be held only in a school setting to qualify for the waiver of the FWS institutional-share requirement?
+A: No. It could take place at a public library or a community center.
+Q: Must the reading tutoring of children take place only during the regular school hours of the children?
+A: No. It may also take place after school, on weekends, or in the summer. The school may construct its own reading tutor program or join existing community programs.
+Q: Is the waiver of the FWS institutional-share requirement for reading tutors of children only for one award year?
+A: No. The waiver has been available since the 1997-1998 award year. It would take a regulatory change for the waiver to be removed; no such change is contemplated.
+Q: May students employed as reading tutors under the FWS Program tutor children in parochial schools?
+A: Yes, under certain conditions. A parochial school may be eligible for a 100 percent federal share if it is classified as a private, non-profit school by the Internal Revenue Service or a state taxing body. Under the statutory and regulatory requirements for the FWS Program, the work may not involve constructing, operating, or maintaining any part of a building used for religious worship or sectarian instruction. Also, students employed as reading tutors may not use religious material to tutor the children.
+Q: Do FWS reading tutors for children need to have background checks performed before tutoring?
+A: Neither the FWS statute nor regulations cover background checks. However, some state and local jurisdictions require such checks. Further, requirements will vary according to the agency or organization involved. For example, public schools may require, for the safety of the children and for insurance purposes, that its employees have background checks.
+Q: Does the reading tutoring of children have to be one-on-one or may it be done in groups?
+A: One-on-one or in a group.
+Q: Under the waiver, is there any limit on the amount of funds a school can spend from its FWS allocation to pay FWS students employed as reading tutors of children?
+A: No. A school may spend any portion of its FWS allocation to pay FWS students employed as reading tutors of children; the federal share may be up to 100 percent.
+Q: May the JLD Program be used to locate or develop jobs for FWS students as reading tutors of children?
+A: Yes. However, using JLD funds to find jobs only for FWS students would not satisfy the statutory requirement to expand off-campus jobs for currently enrolled students who want jobs, regardless of financial need.
+Q: Since the definition of an elementary school varies from state to state, will the Department provide guidance to schools on the maximum grade level for elementary school for purposes of the waiver of the FWS institutional-share requirement for tutoring children in reading?
+A: No. Because state laws vary in their definition of elementary school, the Department will not interfere with a state's determination of what constitutes children who are in elementary school. In some states, elementary school ends after the sixth grade. Other determinations also exist.
+Q: Does the job of a reading tutor of children always satisfy the community service requirement?
+A: No. Some reading tutor jobs might qualify for a waiver of the FWS institutional-share requirement but not qualify as part of the 7 percent community service requirement. An example would be a school that employed FWS students to tutor young children in that school's day care center, but the only children in the day care center are those of the school's students, staff, and faculty.
+Q: May students be paid FWS wages while they are training for positions as reading tutors of children?
+A: Yes, under limited circumstances. Every job consists of some type of training, whether formal or informal. Therefore, FWS students would be eligible for wages during a training period conducted for a reasonable length of time, not to exceed approximately 20 hours.
+Q: Do the FWS student's wages qualify for a federal share of up to 100 percent while that student is being trained as a reading tutor of children?
+A: Yes, under limited circumstances. The Department considers a necessary training period conducted for a reasonable length of time to be important for the job of a reading tutor of children.
+Q: Would an FWS student's wages qualify for a federal share of up to 100 percent if that student is training reading tutors of children or performing administrative tasks related to supporting other people who are actually providing the reading tutoring?
+A: No, such wages would require an institutional share. The waiver of the FWS institutional-share requirement is only for a student employed as a reading tutor of preschool-age children and children in elementary school.
+Q: May a reading tutor of children be paid with a federal share of up to 100 percent for preparation and evaluation time as well as actual tutoring time?
+A: Yes. The Department expects that all work performed under the FWS Program will meet FWS Program requirements and that students will be compensated for a reasonable amount of time to perform various activities necessary to accomplish their reading tutoring jobs.
+Q: How does the school determine whether the waiver for reading tutors of children applies when an FWS student spends only part of his or her work time tutoring children to read (including preparation and evaluation time for the tutoring)?
+A: The waiver of the FWS institutional-share requirement for working as a reading tutor of children does not apply during the time when an FWS student is working at a job other than tutoring. For example, suppose an FWS student spends only half of his or her time working as a reading tutor of children (including preparation and evaluation time), and the rest of the time is spent on performing non-tutoring tasks. That FWS student may be paid 100 percent federal funds only for half the time; the other half must be paid for with a maximum of 75 percent federal funds and a minimum of 25 percent nonfederal funds.
+Q: May a school use its administrative cost allowance (ACA) to cover the costs of training the reading tutors of children?
+A: Yes.
+Q: When employing students as reading tutors of children in local school districts, may schools use a portion of their ACA to cover expenses not incurred with other organizations?
+A: Yes. For example, to work in one local school district, all employees must undergo a background check and be fingerprinted at a cost of $40.00 per employee. If a school district requires such a clearance check and fingerprinting, the costs of such activities would be considered necessary in the operation of the FWS Program and may be charged to the school's ACA. Another example would be the costs for FWS students to be inoculated.
+Q: Beyond the ACA funds, does the FWS Program provide for any special funding for technical assistance and training of reading tutors of children?
+A: No.
+Q: What documentation must the school keep as support for the waiver of the FWS institutional-share requirement for students employed as reading tutors for children?
+A: The school must be able to identify the FWS students who performed the reading tutoring of children and must be able to provide job descriptions for those students. In addition, the school must have records to support the hours worked and the amount paid to the FWS students who were reading tutors.
+FWS Miscellaneous Questions
+Q: Does the receipt of academic credit for a job disqualify it from being part of the FWS Program?
+A: No. However, there are certain restrictions. An internship or practicum that is part of a student's degree requirement does not qualify as a job under the FWS Program, unless the employer normally pays all other persons who hold the same position or has paid all other persons who have held that position in the past. If the employer normally pays or has paid these persons, the internship or practicum qualifies as an FWS job. An example of an internship that normally does not qualify as an FWS job is student teaching. A student who receives academic credit for an FWS job should not be paid any less than if he or she received no academic credit. A student may not be paid under the FWS Program for receiving instruction in a classroom, laboratory, or other academic setting.
+FWS Periods of Non-Enrollment
+Q: May a student be employed under the FWS Program during a period of non-enrollment?
+A: Yes. A student may be employed during the summer or equivalent vacation period or during a cooperative education program's full-time work period. To be eligible for this employment, a student must be planning to enroll or reenroll at the school for the next regular session. The school must determine the amount of the student's earnings during this period of non-enrollment that is to be applied to the student's cost of attendance (attributed earnings) for the next period of enrollment.
+Q: If a student's eligibility for FWS employment during the summer was based on anticipated enrollment in the subsequent term, and that student fails to attend, what is the school's responsibility?
+A: When a student fails to attend the subsequent term, the school must be able to demonstrate that the student was eligible for employment and that the school had reason to believe the student intended to study at that school in the next term. At a minimum, the school must keep a written record in its files showing that the student had accepted the school's offer of admittance in the upcoming session.
+Q: How does a school determine the amount of a student's earnings during a period of non-enrollment that must be applied to the student's cost of attendance for the next period of enrollment?
+A: From the student's gross earnings, the school would subtract the taxes and job-related costs the student pays and apply the remaining earnings to the student's cost of attendance for the next period of enrollment.
+Q: What job-related costs are allowed during periods of non-enrollment?
+A: Costs a student incurs because of his or her job, such as costs for uniforms and transportation to and from work. In some circumstances, room and board costs may be considered job-related costs (for example, during vacation periods, if the student is paying those costs only because he or she has an FWS job). However, to provide FWS employment only to meet a student's subsistence costs during a period of non-enrollment would not be in keeping with the program's statutory purpose.
+Q: Is a student allowed to have an FWS job during a period of non-enrollment in the summer if that job is located outside the state where his or her school is located?
+A: Yes. For a school that has off-campus agreements, the Department recommends that appropriate school staff periodically visit each organization with which it has such an agreement to determine whether students are doing appropriate work and whether the terms of the agreement are being fulfilled. However, if such visits are not feasible because of distance and cost, the school can and should use alternative methods to ensure the prudent management of the FWS Program. For example, the school might have periodic conference calls with the supervisor and student or receive reports on the work performed. Such jobs are an excellent means of satisfying a school's 7 percent requirement to employ students in community service jobs.
+FWS Family Literacy
+Q: What is a family literacy program?
+A: A family literacy program integrates four components. It provides (1) literacy or pre-literacy education for children, (2) literacy training for parents or caregivers of children in the program, (3) a means of equipping parents or caregivers with the skills needed to partner with their children in learning, and (4) literacy activities between parents or caregivers and their children. Note that the fourth component could be met in a variety of ways. For example, parents can engage in literacy activities with their children at the family literacy center, parents can be given assignments and materials that they and their children can work with together at home, or reading activity nights with parents and children can be organized at the local library.
+The definition above is consistent with the Even Start and Head Start definitions of family literacy programs. The family literacy concept considers the family as a "school" for education and learning and the parents as their children's first teachers. The family literacy concept also is based on the premise that an investment in the education of adults in a family is, simultaneously, an investment in improving the chances for academic success for the children in that family.
+Q: Are all four components necessary to meet this definition of a family literacy program?
+A: Yes. All four components must be included for the FWS family literacy institutional-share waiver to be applicable.
+Q: What conditions must be met for a position to qualify under the waiver of the FWS institutional-share requirement for tutors in a family literacy program?
+A: Since July 1, 1998, the Department has authorized a federal share of up to 100 percent of the compensation earned by an FWS student employed as a tutor in a family literacy program that provides services to families with preschool-age children or children who are in elementary school. The work must be performed by the FWS student for the school itself; for a federal, state, or local public agency; or for a private nonprofit organization. The school does not have to ask the Department for this waiver.
+Q: For purposes of the FWS family literacy institutional-share waiver, may an FWS student tutor in a family literacy program in which two or more community entities work together to provide the full range of family literacy services?
+A: Yes. However, the entities working together must provide all four components of a family literacy program. Many family literacy programs consist of a children's school or center collaborating with an adult literacy program to provide the full range of family literacy services.
+Q: What is the Department's definition of family literacy activities for purposes of the FWS community service expenditure requirement or the institutional-share waiver?
+A: The Department has provided schools flexibility in determining a tutor's job description and duties. Therefore, the Department is not providing a definition of family literacy activities for the FWS Program
+Q: For purposes of the FWS family literacy institutional-share waiver, may the FWS student working in a family literacy program tutor children or adults in areas other than reading?
+A: Yes. This family literacy waiver is not restricted to providing assistance in reading skills. For example, the FWS student may provide tutoring assistance in math readiness, the use of computers, and other areas covered by the family literacy program. These examples are not meant to be an exhaustive list of topics.
+Q: Would an FWS student's wages qualify for a federal share of up to 100 percent if that student is performing administrative tasks related to supporting other people who are actually providing the tutoring in a family literacy program?
+A: No, such wages would require an institutional share. The waiver of the FWS family literacy institutional-share is only for a student employed as a tutor in a family literacy program that provides services to families with preschool-age children or children who are in elementary school.
+Q: What is the meaning of preschool-age children for purposes of the FWS family literacy institutional-share waiver?
+A: Preschool-age children are children from infancy to the time at which the state provides elementary education. The FWS family literacy institutional-share waiver is available for tutoring in programs that provide services to families with those children.
+Q: Since the definition of an elementary school varies from state to state, will the Department provide guidance to schools on the maximum grade level for elementary school for purposes of the FWS family literacy institutional-share waiver?
+A: No. Because state laws vary in their definition of elementary school, the Department will not interfere with a state's determination of what constitutes children who are in elementary school. The school should check the maximum grade level for elementary school with the appropriate state agency.
+Q: How would a school substantiate that a program selected for FWS employment meets the Department's definition of a family literacy program?
+A: All federally funded Even Start and Head Start programs meet the definition of a family literacy program. If an official of another family literacy program provides a signed letter stating that program provides all four components outlined in the first Q&A under FWS Family Literacy above, that statement would be sufficient.
+Q: May an FWS student employed as a tutor in an off-campus family literacy program be paid for the time spent traveling to and from the job or be reimbursed for such travel expenses?
+A: Only if it is a community service job. A school is allowed to pay students for a reasonable amount of time spent for travel to and from work that is directly related to employment in community service activities. However, a school will not be able to directly reimburse students for travel expenses such as gas or bus fare. The time spent for travel must be reported on the student's FWS time record in the same way hours actually worked are reported. The time record should separate the time spent in travel from the actual hours worked.
+Q: Must FWS students employed as tutors in family literacy programs meet certain statutory or regulatory educational standards or qualifications for purposes of the FWS family literacy institutional-share waiver?
+A: No. However, it is very important that FWS students employed as such tutors have adequate reading, writing, and other basic skills.
+Q: Do FWS students hired as tutors in a family literacy program need to have training that addresses the special needs of family literacy?
+A: It is strongly recommended that FWS students be well-trained before they tutor. Training should be appropriate for the specific age groups and the needs of those individuals with whom the tutor will be working. For family literacy training, the Department encourages schools to approach existing family literacy programs that have reading specialists or experts working with them who can provide this training. Schools may wish to coordinate training with reading specialists on their own campus.
+Q: Do the FWS student's wages qualify for a federal share of up to 100 percent while the student is being trained to tutor in a family literacy program?
+A: Yes, under limited circumstances. A training period, conducted before the FWS student begins tutoring and for a reasonable and limited length of time, would be important for the job as a tutor in a family literacy program. The Department would consider a training period that does not exceed approximately 20 hours to be reasonable.
+Q: May a tutor in a family literacy program be paid with a federal share of up to 100 percent for preparation and evaluation time, such as weekly meetings held with other tutors?
+A: Yes, as long as the time spent for this purpose is reasonable. The Department expects that all work performed under the FWS Program meet FWS Program requirements and that students will be compensated for a reasonable amount of time to perform various activities necessary to accomplish their tutoring jobs. For example, the Department would consider attending evaluation and preparation meetings once a week for approximately one hour to be reasonable. The Department wants to give some flexibility because of the value of evaluation and preparation time. However, the goal is to spend the funds for FWS students to interact with the families and their children, not for other activities.
+Q: May an FWS student tutor only adults or only children in a family literacy program, or does the student have to tutor both the adults and their children?
+A: To qualify for the FWS family literacy institutional-share waiver, the FWS student can tutor the parents or caregivers, the children, or both. For example, an FWS tutor can work with only parents in a family literacy program if others in the program are providing the remaining family literacy components.
+Q: Are there any circumstances in which the FWS student can tutor an adult who is not a parent or caregiver and still have the student's wages qualify for a federal share of up to 100 percent?
+A: Yes. In a group tutoring session primarily attended by parents or caregivers of preschool-age children or children who are in elementary school, the FWS student may also tutor some adults who do not have children.
+Q: May an FWS tutor spend a percentage of his or her hours working in a children's reading tutoring program and a percentage in a family literacy program?
+A: Yes. An FWS tutor may spend a percentage of his or her time in both programs.
+Q: Must the tutoring sessions in a family literacy program be held only in a school setting to qualify for the FWS family literacy institutional-share waiver?
+A: No. The tutoring could take place, for example, at a public library, a community center, or a day care center. These examples are not meant to be an exhaustive list.
+Q: Is there any limit on the amount of funds a school can spend from its FWS allocation to pay FWS students employed as tutors in family literacy programs?
+A: No. A school may spend any portion of its FWS allocation to pay FWS students employed as tutors in family literacy programs, with a federal share of up to 100 percent. In addition, placing students in jobs as tutors in family literacy programs is, in many instances, an important way for schools to meet the FWS Program's community service expenditure requirement.
+Q: Does the job of tutoring in a family literacy program always satisfy the community service requirement?
+A: No. Some tutoring jobs might qualify for the FWS family literacy institutional-share waiver but not qualify as part of the 7 percent community service requirement. One example would be a school that employed FWS students to tutor in a family literacy program open only to students, staff, and their families.
+Q: May a school use its administrative cost allowance (ACA) to help cover the costs incurred when employing students in family literacy programs?
+A: Yes. Schools participating in the Campus-Based programs are allowed to use their ACA to help offset administrative costs. For example, the ACA can be used to pay for background checks if the state or school district requires them. The ACA could also be used to help pay a professional trainer to train tutors to work in family literacy programs.
+Q: May the Job Location and Development (JLD) Program be used to locate or develop jobs for FWS students as tutors in family literacy programs?
+A: Yes. The JLD Program may be used to locate and develop off-campus jobs for FWS and non-FWS students as tutors in family literacy programs. However, using JLD funds to find jobs only for FWS students would not satisfy the statutory requirement to expand off-campus jobs for currently enrolled students who want jobs, regardless of their financial need.
+FWS Waiver for Mathematics Tutors of Children
+Q: What conditions must be met for a work-study position to qualify under the waiver of the FWS institutional-share requirement for mathematics tutors?
+A: Since July 1, 1999, the Department has authorized a federal share of up to 100 percent of the compensation an FWS student earns while employed as a mathematics tutor for elementary school students (through the ninth grade). The FWS student must perform the work for the school itself; for a federal, state, or local public agency; or for a private nonprofit organization. Check with the appropriate state agency for the minimum grade level for elementary school, since state laws vary in their definitions.
+Q: Why did the Department expand the FWS regulations to include this FWS institutional-share waiver for mathematics tutors?
+A: This waiver is based upon international and national data that show that U.S. school children are not performing at internationally competitive levels in mathematics. Student performance in mathematics declines significantly between fourth and eighth grades, leaving too few students adequately prepared for advanced coursework in high school.
+Q: Do the FWS regulations that allow a school to pay FWS students employed as mathematics tutors for children a federal share of up to 100 percent set a specific limit on the total federal dollars that may be used for this purpose?
+A: The FWS regulations that allow a school to pay FWS students employed as mathematics tutors for children a federal share of up to 100 percent do not set a specific limit on the total FWS federal dollars that may be used for this purpose. However, under the FWS Program the school must still use at least 7 percent of its FWS federal allocation for an award year to pay the federal share of wages earned by students employed in community service jobs for that award year. It is important to note that an FWS student employed as a mathematics tutor for children is not automatically considered to be employed in a community service job for FWS purposes. The FWS job must meet all the conditions for community service to qualify as part of the 7 percent community service requirement, including that the service must be open and accessible to the outside community. If, for example, the FWS student was only providing mathematics tutoring for the children of the students and staff of the college and not the children of the outside community, the FWS job may qualify for the 100 percent federal share, but not qualify as part of the 7 percent community service requirement. Also, in meeting this 7 percent community service requirement, one or more of the school's FWS students must be employed as a reading tutor for children in a reading tutoring project or must be performing family literacy activities in a family literacy project.
+Q: May FWS mathematics tutors help elementary through ninth-grade students in areas other than mathematics?
+A: No. The interaction between tutors and students must be centered on mathematics topics. However, the context in which such tutoring occurs may be broader than a classroom setting. For example, programs designed to help elementary through ninth-grade students think of themselves as prospective college students often include an academic component, such as mathematics. Saturday or after-school programs, based in community settings, often include the use of mathematics in problem-solving challenges. In such cases, the FWS waiver for mathematics tutors may be applied.
+Q: Are there any limitations on the FWS institutional-share waiver for mathematics tutors?
+A: Yes. The waiver applies only to the nonfederal share of student wages. Employers are still responsible for the employer's share of Social Security, workers' compensation, retirement, any other welfare or insurance program, and any fringe benefits.
+Q: If a school qualifies for the FWS institutional-share waiver for mathematics tutors, may the school still provide a share?
+A: Yes. A school has the option of continuing to provide a share and determining the amount of that share.
+Q: Would an FWS student's wages qualify for a federal share of up to 100 percent if that student performs administrative tasks related to supporting mathematics tutors?
+A: No. The FWS institutional-share waiver is only for a student employed as a mathematics tutor for elementary through ninth-grade students. However, a school may employ FWS students as administrative support, but the school must pay the institutional share.
+Q: May an FWS tutor spend a percentage of his or her time tutoring students in reading and mathematics?
+A: Yes. If an FWS student wishes, he or she may provide tutoring services in reading, mathematics, or both. However, since tutors will need adequate training in both disciplines, the number of tutoring contact hours will be reduced.
+Q: Does the job of tutoring in mathematics always satisfy the community service requirement?
+A: No. Most mathematics tutoring jobs will qualify as part of the 7 percent community service requirement. However, some will not, even though those jobs might qualify for the FWS mathematics tutoring institutional-share waiver. If, for example, a school employed FWS students to tutor in a mathematics program open only to children of students, faculty and staff, such a program would not meet the definition of community service.
+Q: May a school use its administrative cost allowance (ACA) to help cover the costs incurred when employing students as mathematics tutors?
+A: A school that participates in the Campus-Based programs is allowed to use its ACA to offset administrative costs. For example, the ACA can be used to pay for training costs, such as helping to pay a professional trainer or program coordinator, or for background checks and fingerprinting if required by the state or school district.
+Q: Must FWS students employed as tutors in mathematics meet certain statutory or regulatory educational standards or qualifications for purposes of the FWS institutional-share waiver for mathematics tutors?
+A: No. However, it is very important that such students have strong mathematics skills.
+Q: Do the FWS students hired as mathematics tutors need training?
+A: It is strongly recommended that before tutoring jobs begin, FWS mathematics tutors receive training in both content and pedagogy pertinent to the age group of the children being tutored. Interested higher education faculty, such as those in the College of Education or in the Department of Mathematics, or qualified personnel affiliated with the tutoring site-such as teachers or after-school program coordinators-could provide such training. These suggestions are not meant to be exhaustive.
+Q: What kind of ongoing support should be provided to mathematics tutors?
+A: Regular meetings between tutors and adult coordinators help improve the quality of the tutoring experience. Tutors might raise questions about particular challenges they are facing with particular students. Coordinators might discuss ways to evaluate progress among the young students and/or ways to communicate with parents and teachers.
+Q: Do the FWS student's wages qualify for a federal share of up to 100 percent while the student is being trained to be a mathematics tutor?
+A: Yes, as long as the time spent for this purpose is reasonable. The Department recognizes the value to all concerned when high quality training is provided. For example, the Department would consider a training period that begins before the actual tutoring to be reasonable if it does not exceed approximately 20 hours. Although a school has flexibility in establishing training activities, optimizing tutor contact hours is the goal.
+Q: May an FWS mathematics tutor be paid with a federal share of up to 100 percent for preparation, evaluation, and ongoing support?
+A: Yes, as long as the time spent for this purpose is reasonable. The Department expects that all work performed will meet FWS Program requirements and that FWS students will be paid for a reasonable amount of time to perform various activities necessary to accomplish their tutoring jobs. For example, the Department would consider weekly evaluation meetings of approximately one hour to be reasonable.
+Q: How can a school locate sites to place its FWS mathematics tutors?
+A: A school can contact local schools, community-based organizations, local religious organizations, and 21st Century Community Learning Centers (CCLCs) as starting points for placing math tutors. This list is not meant to be exhaustive.
+Q: Is there a sample contract to use with outside agencies employing FWS students in community service jobs?
+A: Yes. A model off-campus agreement appears in the Federal Student Aid Handbook as an appendix to Volume 6. The model is for the development of a written agreement between a school and a federal, state, or local public agency, or a private nonprofit organization that employs students participating in the FWS Program. As stated in the model, schools and agencies or organizations may devise additional or substitute paragraphs consistent with the statute and regulations and may add any pertinent information that orients the agreement towards community service.
+Q: May the Job Location and Development (JLD) Program be used to locate or develop jobs for FWS students to tutor in mathematics?
+A: Yes. The JLD Program may be used to locate and develop off-campus jobs for FWS and non-FWS students. However, using JLD funds to find jobs only for FWS students would not satisfy the statutory requirement to expand off-campus employment for currently enrolled students who want jobs, regardless of their financial need.
+Q: May a FWS student employed as a mathematics tutor off campus receive pay for the time spent traveling to and from the job?
+A: Only if it is a community service job. A school is allowed to pay students for a reasonable amount of time spent for travel to and from work that is directly related to employment in community service activities. However, a school will not be able to directly reimburse students for travel expenses such as gas or bus fare. The time spent for travel must be reported on the student's FWS time record in the same way hours actually worked are reported. The time record should separate the time spent in travel from the actual hours worked.
+FISAP Edits
+Q: How do I validate my FISAP?
+A: There are three ways to have data validated. Two of these are found after clicking "Validation" at the bottom of the "FISAP Dashboard" section on the "FISAP" page on the Web site:
+Validate Selected Parts -
+Selecting this link will validate the FISAP sections you selected in the dropdown.
+Validate All Parts -
+Selecting this link will validate your entire FISAP. You should complete your FISAP before selecting this link.
+The third way to validate is by selecting the "Submit FISAP" link that appears next to the "Validation" link at the bottom of the "FISAP Dashboard" page. Selecting "Submit" will automatically validate your entire FISAP and, unlike "Validate All Parts," will allow you to proceed to submission.
+To confirm your submission, navigate to the "Submission Log" section under the "Self Service" page.
+Q: How do I read edit error messages?
+A: Each validation edit error message comprises a five-digit code followed by an explanation. Each edit should be either explained or corrected. If you are going to fix the error, then you need to click on the "Fix Error" option, which takes you to the FISAP page where the error occurs. If the error involves more than one field on separate pages, the system will take you to the last page affected by the error. The error message text will describe other fields affected by the error, which you might need to adjust.
+If you are going to explain why the edit is not an error, click the "Provide Additional Information" dropdown associated with the validation edit error, then click "+ Add Additional Information" to add an explanation and click "Save." Be sure to include a reasonable, full explanation. (For example, "The information provided is accurate because the prior year data was incorrect. We are submitting a correction for the prior year's FISAP.")
+Negative Balances
+Q: How do I resolve a "negative balance"?
+A: For the Campus-Based programs, a negative balance, or unprocessed deobligation, occurs when the net amount of funds drawn down from G5 for a particular program for a given year exceeds the total expenditures reported on the school's FISAP and the Deparment reduces the authorization below the level of the G5 net drawdown. The school should take the necessary steps to resolve the unprocessed deobligation so the Campus-Based account and G5 are reconciled. These steps might include revising the FISAP or processing a refund in G5. Note: Revising the FISAP will not generate a funding level increase.
+Administrative Cost Allowance
+Q: Are schools entitled to any funds to assist them in covering their expenses for administering the Campus-Based programs?
+A: Yes. A school participating in any of the Campus-Based programs is entitled to an administrative cost allowance (ACA) to help offset administrative expenses. Schools may use the ACA to help pay the costs of administering not only the Campus-Based programs but the Federal Pell Grant Program as well. The ACA may also cover expenses for carrying out the student consumer information services requirements. The ACA is determined by adding the following:
+5 percent of the first $2,750,000 of a school's total awards to students under the Campus-Based programs for an award year, plus
+4 percent of total awards to students under the Campus-Based programs that exceed $2,750,000 but are less than $5,500,000 for an award year, plus
+3 percent of total awards to students under the Campus-Based programs that equal $5,500,000 or greater for an award year.
+Q: How do I obtain funds to cover my administrative cost allowance?
+A: A school takes the ACA out of the annual authorizations the school receives for the FSEOG and FWS programs. The ACA is not a separate allocation sent to the school. A school may take its ACA from any combination of the Campus-Based programs, or it may take the total allowance from only one Campus-Based program, provided there are sufficient funds in that program. However, a school may not draw any part of its ACA from a Campus-Based program unless the school has disbursed funds to students from that program during the award year.
+Carry Forward/Carry Back and Transfers
+Q: How much money can we carry forward or carry back in FSEOG or FWS?
+A: Note: In addition to the information below, please see the
+June 28, 2012 Electronic Announcement, Change to G5 Functionality for Campus-Based Program Awards
+.
+As published in the
+Federal Student Aid Handbook, Volume 6, Managing Campus-Based Programs
+, there are provisions for transferring Campus-Based funds between Campus-Based Programs and carrying funds forward or back between award years. These provisions do not allow for moving funds between programs, between schools or between years within G5. The transfer of Campus-Based funds is reported on the Fiscal Operations Report and Application to Participate (FISAP) only.
+A school may carry forward into the next award year up to 10 percent of its original plus supplemental awards in FSEOG and FWS. A school may also carry back to the prior award year up to 10 percent of its original plus supplemental awards in both programs. In addition to the 10 percent carry back provision, a school may carry back any additional amount to spend for summer enrollment in FSEOG and for student wages in FWS (earned from May 1 to July 1). A school may carry forward or back only within the same program. The diagram below illustrates this process.
+Q: What are the limitations for transferring money between programs?
+A: Note: In addition to the information below, please see the
+June 28, 2012 Electronic Announcement, Change to G5 Functionality for Campus-Based Program Awards
+.
+As published in the
+Federal Student Aid Handbook, Volume 6, Managing Campus-Based Programs
+, there are provisions for transferring Campus-Based funds between Campus-Based Programs and carrying funds forward or back between award years. These provisions do not allow for moving funds between programs, between schools or between years within G5. The transfer of Campus-Based funds is reported on the Fiscal Operations Report and Application to Participate (FISAP) only.
+A school may transfer up to 25 percent of its original plus supplemental awards in the Campus-Based programs in the following manner:
+From FWS to FSEOG. The total amount transferred may not exceed 25 percent.
+From FSEOG to FWS.
+Any amount transferred but not spent must be returned.
+Mergers and Splits of Schools (Relating to FISAP Submissions)
+Q: What is a merger?
+A: A merger occurs when two or more eligible schools (schools that have met the criteria set forth by the Secretary in CFR 34 Part 600.20) merge to become one entity, and the surviving school, or parent school, retains its OPEID Number. When a merger has been completed, the surviving school will request Campus-Based funds for itself and all its eligible (non-separate) locations. The school that has been merged will no longer be able to apply separately for Campus-Based funds.
+A merger of FISAPs can also occur without merging the schools. To request funds on the same FISAP, separately eligible schools must be able to show common ownership.
+Q: When should I notify the Grants and Campus-Based Division of my school's merger?
+A: As soon as possible. Although Campus-Based FISAPs cannot be merged until the School Participation Team has approved the process, early notification may help smooth your school's transition. This does not apply to Changes of Affiliation (COA). Schools must work with the Funds Management Division and Campus-Based Program staff before the Change of Affiliation occurs to determine when FISAP data can be combined (in the case of mergers) or split (in the case of schools splitting into multiple entities).
+Q: When should I combine my school's FISAPs?
+A: FISAP data should not be merged until the School Participation Team has approved your school's merger. Once you have notified a Campus-Based specialist of your school's merger, that individual will provide ongoing assistance until the merger has been approved; your school's FISAP application sections can then be combined. Note: Schools that are Title III/V eligible should file separately from schools that are not. Otherwise, Title III/V-eligible schools will not be able to receive the Title III/V waiver.
+Q: How can I split a FISAP so that multiple schools now applying under one FISAP can begin receiving separate Campus-Based awards?
+A: Separately eligible schools or schools that will soon be separately eligible, and which are applying for and receiving Campus-Based funds under another school's FISAP, can apply for Campus-Based funds by submitting their own FISAP applications. The FISAP Part I and Part II data should be split on the FISAP applications so that only the data relevant to the school applying is shown in Part I and Part II.
+Q: In the Grants and Campus-Based Division, who should I notify of my schools' merger?
+A: You should contact the FSA Partner and School Relations Center at 1-800-848-0978.
+Work Colleges Program
+Q: What designates a school a Work College?
+A: The school will comply with all provisions of Part C, Section 448 of Title IV of the Higher Education Act of 1965, as amended (HEA), and with all program regulations in effect, and will make the following assurances:
+"The institution is a public or private nonprofit, four-year, degree-granting institution with a commitment to community service;
+"The institution has operated a comprehensive work-learning-service program for at least two years;
+"The institution requires students, including at least one-half of all students who are enrolled on a full-time basis, to participate in a comprehensive work-learning-service program for at least five hours each week, or at least 80 hours during each period of enrollment, except summer school, unless the student is engaged in an institutionally organized or approved study abroad or externship program;
+"The institution provides students participating in the comprehensive work-learning-service program with the opportunity to contribute to their education and to the welfare of the community as a whole;
+"The institution has a comprehensive work-learning-service program that:
+A. Is an integral and stated part of the institution's educational philosophy and program;
+B. Requires participation of all resident students for enrollment and graduation;
+C. Includes learning objectives, evaluation, and a record of work performance as part of each student's college record;
+D. Provides programmatic leadership by college personnel at levels comparable to traditional academic programs;
+E. Recognizes the educational role of work-learning-service supervisors; and
+F. Includes consequences for non-performance or failure in the work-learning-service program similar to the consequences for failure in the regular academic program.
+"The institution understands that in addition to any separately allocated funds, the institution may transfer Federal Work-Study (FWS) Program funds allocated for the current award year to the Work Colleges Program to provide flexibility in strengthening the self-help-through-work element in financial aid packaging for eligible students;
+"The institution will match Federal funds used for the Work-Colleges Program on a dollar-for-dollar basis from nonFederal sources; and
+"The institution understands that available Federal funds may be used:
+A. To support the educational costs of qualified students through self-help payments or credits provided under the work-learning program of the institution within the limits of Part F of Title IV of the HEA;
+B. To promote the work-learning-service experience as a tool of postsecondary education, financial self-help, and community service-learning opportunities;
+C. To carry out activities described in Section 443 or 446 of the HEA;
+For the administration, development, and assessment of comprehensive work-learning programs, including-
+i. Community-based work-learning alternatives that expand opportunities for community service and career-related work; and
+ii. Alternatives that develop sound citizenship, encourage student persistence, and make optimum use of assistance under Part C of Title IV of the HEA in education and student development;
+E. To coordinate and carry out joint projects and activities to promote work service learning; and
+F. To carry out a comprehensive, longitudinal study of student academic progress and academic and career outcomes, relative to student self-sufficiency in financing their higher education, repayment of student loans, continued community service, kind and quality of service performed, and career choice and community service selected after graduation."
+Q: How do I apply for Work College Program funds?
+A: A school must submit a completed Institutional Application and Agreement for Participation in the Work Colleges Program to the Department electronically via the
+Campus-Based website
+. To access the application on the Campus-Based website, log in, navigate to "Manage Application" on the "Forms and Waivers" page.
+The application must be signed by the CEO using either the manual signature process.
+To submit the application using a manual signature, a school must submit to the Department a completed and signed paper application. (The school can simply print the application it completes on the Campus-Based website.) To print the application, download the completed application and then select "File" and "Print" on the top menu bar.
+The application may be hand-delivered to:
+United States Department of Education
+Federal Student Aid
+Grants & Campus-Based Division
+Work Colleges Program
+830 First Street, N.E., Room 64F2
+Washington, D.C. 20002
+Mail to: The address listed above; however, please use zip code 20202-5453.
+Q: When is the Work Colleges application due?
+A: The deadline for electronic submission of the Work Colleges application is before midnight (ET) on the date stated in the current Campus-Based Deadline Date Federal Register Notice. The deadline dates are also listed above in the "Starting Out: Basics and Deadlines" section of this Q & A document.
+Q: Do I have to report Work Colleges expenditures?
+A: The Work Colleges Program Expenditure Report can be found in the "Manage Transactions" section of the "FISAP Dashboard" on the Web by September 29. The deadline date for submission of the Work Colleges Program Expenditure Report is the same as the deadline date for submission of the FISAP. (See the deadline dates listed above on the Campus-Based homepage.)
+Title III/V Non-Matching Waivers for FWS and FSEOG
+Q: How do I apply for a Title III/V non-matching waiver?
+A: In order to receive a waiver of the FWS/FSEOG institutional-share requirement for Title III/V schools, a school must be designated as Title III/V eligible by the Department of Education, Office of Postsecondary Education, Institutional Service Office (OPE/IS). Schools may review the
+OPE/IS website (https://www2.ed.gov/about/offices/list/ope/idues/eligiblity.html)
+to check its' eligibility status each year. If your institution does not meet the requirement(s) to be automatically eligible under one of the Title III or Title V programs, you may complete the application for eligibility and provide any further documentation as requested by OPE/IS by the annual deadline. Schools that have been designated by OPE/IS as Title III/V eligible for the fiscal year 2028 will be eligible for a waiver of the institutional-share requirement under the FWS Program and/or the FSEOG Program for the 2028-2029 award year.
+In general, schools must be designated each year to continue receiving the waiver of the institutional-share requirement. However, schools that are awarded a grant under one of the Title III or V programs may receive the waiver throughout the duration of their grant without having to complete the application each year. Additionally, schools that have received official White House designation as a Historically Black College or University (HBCU) or a Tribal College or University (TCU) will be automatically eligible for the waiver.
+An eligibility letter for the waiver of the Non-Federal Cost Share Requirement will be posted to the Campus-Based Self Service page annually.
+Q: How do I know if my school is qualified for a non-matching waiver?
+A: If you are unsure of your Title III/V eligibility for the 2028-2029 award year, or if you need to apply for Title III/V eligibility, contact:
+U.S. Department of Education
+Office of Postsecondary Education
+Institutional Service
+400 Maryland Avenue
+Washington, DC 20202
+Program Officers:
+Jason Cotrell
+Email: Jason.Cotrell@ed.gov
+Tel: (202) 453-7530
+Christopher Smith
+Email: Christopher.Smith@ed.gov
+Tel: (202) 453-7946
+or go to the website at:
+https://www2.ed.gov/about/offices/list/ope/idues/eligibility.html
+Q: How will I be notified of my school's non-matching waiver status?
+A: Each Spring, the Grants and Campus-Based Division receives a list of Title III/V- eligible schools. The Division loads these schools into the Campus-Based System and generates letters informing these schools they do not have to match the federal FWS and FSEOG funds the schools have received. The letter is posted to the "Self Service" area of the Campus-Based System for the upcoming year
+Q: Can my school still provide matching funds if it is approved for the non-matching waiver?
+A: Yes, although your school is not required to do so.
+Underuse Waiver
+Q: What is an underuse waiver?
+A: In accordance with HEA sections 413D(d)(2), 442(d)(2) and 462(i)(4), if a school returns more than 10 percent of its Federal Perkins Loan, FWS, or FSEOG allocation for an award year, the allocation for the next award year for that program will be reduced by the dollar amount returned. The law also provides that the Secretary may waive this requirement if its enforcement would be contrary to the interest of the affected Campus-Based program. Schools may apply for this waiver if they wish to avoid the penalty.
+Your expended amount from the FISAP is used to calculate the unexpended percentage of funds. The unexpended percent = (Highest award amount - expended amount)/(Highest award amount) x 100 percent. If this unexpended percent is greater than 10 percent, you will receive a penalty next year unless a waiver has been approved. Funds returned during reallocation do not affect the underuse penalty calculation.
+Q: How do I apply for an underuse waiver and when is the application due?
+A: Each Spring, the Grants and Campus-Based Division receives a list of Title III/V-eligible schools. The Division loads these schools into the Campus-Based System and generates letters informing these schools they do not have to match the federal FWS and FSEOG funds the schools have received. The letter is emailed to the school's FAA and posted to the "Notifications" page of Self Service on the Web for the upcoming year.
+Q: When will I be notified of my waiver approval or denial?
+A: The Department will notify schools by mid-March each year.
+Service (Teacher) Cancellation Payments
+Q. What are service cancellation payments?
+A. Schools that participate in the Federal Perkins Loan Program are reimbursed for loans they cancel due to full-time borrower employment in certain public service fields, such as teaching in a designated low-income school or teaching in certain subject matter areas where there are teacher shortages. Cancellations are also given for military service, volunteer service, law enforcement and corrections officer service, child/family/early intervention service, nurse/medical technician service, pre-K or child care program staff member service, service as an attorney in a public defender organization, fire fighter service, Tribal College or University faculty service, librarian service, and speech-language pathology service.
+Q: Where do I find a list of schools eligible for Perkins Loan service (teacher) cancellation?
+A: You can find the list of low-income schools eligible for Perkins (and Stafford) Loan cancellation at
+StudentAid.gov
+. Select the State and the year from the dropdown option. If you are looking for a specific listing, also type in the school name and/or location, then click on the "Search" button. If you want to download a State's TCLI Directory, click "Export to XLS" at the bottom of the results.
+Q: How was the service (teacher) cancellation payment determined?
+A: The service cancellation payment was calculated using FISAP Part III, Section A data. The cumulative service cancellation amounts of loan principal and interest from the FISAP minus the cumulative service cancellation reimbursement amount to date represents what the Department has left to reimburse the school.
+Q: Where and when was the service cancellation payment made?
+A: When funds are available, service cancellation payments are direct-deposited into the bank account you have set up in G5 to receive such payments. Service cancellation payments are sent to schools each year in June. NOTE: Service cancellation payments are not currently funded.
+Q: How am I notified of the service cancellation payment?
+A: The Department notifies your financial aid administrator by e-mail that payment has been made to your school's bank account for service (teacher) cancellation reimbursement. You will be able to view and print your service cancellation payment letter and worksheet at the Campus-Based website. Select the "Self Service" link from the left navigation bar and go to the "Notifications" section.
+Q: What do I do with this service cancellation payment?
+A: There are two categories of reimbursement. The first category represents your school's portion of principal and interest canceled on Perkins Loans made before July 1, 1972 under Section 208 of the Higher Education Act of 1965, as amended, based on the cumulative information you provided in Part III, Section A, Field 35 of your Fiscal Operations Report, including any adjustments to prior year reports. That portion of the reimbursement belongs to your school and may be used in any way desired. If you choose to deposit it into your Loan Fund, report the amount as additional Institutional Capital Contribution in Field 29.3, not as a service/teacher cancellation reimbursement. The second category represents reimbursement of both the federal and institutional portions of principal and interest canceled on loans made on or after July 1, 1972 under Section 465 of the Higher Education Act of 1965, as amended, as shown in Part III, Section A, fields 35 through 52 of your Fiscal Operations Report, including any adjustments to prior year reports. This portion of the reimbursement must be deposited into the Perkins Loan Fund account and must be included in Part III, Section A, Field 33 of your Fiscal Operations Report. This amount should not be considered as an increase to your Federal Capital Contribution.
+Q: Which student loans were cancelled?
+A: The Campus-Based electronic system does not collect loan data by student. The service cancellations shown on the FISAP are summaries by type of Perkins Loan principal and interest cancelled cumulatively since the school entered the Perkins program. Your loan servicer should be able to provide student-level detail about which loans were cancelled.
+Q: How do I return the service (teacher) cancellation payment to the Department if these funds are not needed to make new loans?
+A: Service (teacher) cancellation payments can be returned through the G5 electronic refund process or through the G5 lockbox mail center. Place the award number (P037Yxxxxxx) on the refund documentation returned with the check so the money will be credited to the appropriate service cancellation award.
+Supplemental Awards
+Q: How and when do I apply for supplemental Campus-Based awards?
+A: The Campus-Based Reallocation Form, which is used to return unused prior year award funds and to apply for an FWS supplemental award, is available by August 1 of each year. The Reallocation Form is due to the Department around mid-August each year. The exact date is listed in the "Starting Out: Basics and Deadlines" section of this Q & A document. Supplemental FSEOG is calculated automatically for schools that meet the criteria below and have request amounts that were not met or that exceeded their initial awards. Schools must submit an FWS request figure on the Reallocation Form to receive supplemental FWS funds, as this additional funding must be spent entirely on community service compensation.
+Q: How do I find my Reallocation Form?
+A: The form can be found at the Campus-Based website. It is accessible through the "Manage Application" option under "Forms and Waivers" section on the left navigation bar. The instructions for completing the form are there.
+Q: What are the qualifications for receiving and using supplemental awards?
+A: The criteria for the distribution of supplemental Campus-Based funds have been established in accordance with the authority contained in the Higher Education Act of 1965, as amended, sections 462 (i), 442 (d), and 413D (d). In addition, a minimum supplemental allocation of $1,000 has been set for each program. Therefore, if you find your school meets one or more of the conditions below and you are not receiving a supplemental allocation for that program, the calculated amount was less than $1,000 for your school.
+Federal Supplemental Educational Opportunity Grant (FSEOG)
+One hundred percent of the supplemental FSEOG funds are awarded to participating schools with a current year fair share shortfall (derived from the final funding worksheet for FSEOG, line 25).
+Federal Work-Study (FWS)
+One hundred percent of supplemental FWS funds are awarded to schools with a current year fair share shortfall (derived from the final funding worksheet for FWS, line 28) and that
+Indicated on line 4 of the Campus-Based Reallocation Form (E40-4P) that they spent at least 5 percent of their total previous year's FWS federal funds to compensate students employed as reading tutors of children or employed in family literacy activities as part of their community service activities; and
+Requested a supplemental FWS allocation on line 5 of the Reallocation Form to compensate students employed in community service jobs.
+Supplemental FWS funds must be spent to compensate students employed in community service jobs.
+Q: Are other Campus-Based funds available throughout the year?
+A: Beyond the initial awards made in March and these supplemental awards made in September, there are no additional Campus-Based funds. Any requests for further Campus-Based funding cannot be fulfilled.
+Closeout of Campus-Based Awards
+Q: How were the closeout amounts for my school determined?
+A: For FSEOG, the award decrease is equal to your current FSEOG award authorization amount minus the expended FSEOG authorization amount from Part IV, Field 17 of your FISAP. Your final FSEOG award amount will be equal to your expended FSEOG authorization amount (Field 17).
+For FWS, the award decrease is equal to your current FWS award authorization amount minus the expended FWS authorization amount from Part V, Field 18 of your FISAP. Your final FWS award amount will be equal to your expended FWS authorization amount (Field 18).
+If your school does not submit a FISAP showing expenditures, then your authorizations will be reduced to zero for that school year.
+Q: What if my FISAP expenditure report was incorrect and I need to adjust the FISAP report?
+A: You may correct the FISAP through December 15 (or the last business day prior to that date if December 15 falls on a weekend) following the end of the award year. After that date, corrections will be accepted only under unusual circumstances through the Change Request process. Contact the FSA Partner and School Relations Center at 1-800-848-0978 for assistance.
+Sep 22 2026 22:26 EDT
+Home
+Privacy Act
+Links
+Contact Us
+Campus-Based Resources
+COD Resources
+Help
+Glossary
+Login

@@ -1,0 +1,29 @@
+{
+  "final_full_test_count": 239,
+  "full_suite_passed": true,
+  "supplemental_resume_guard_tests_passed": 9,
+  "independent_review": "No current-data blocker; resume implementation fingerprints and explicit prior lineage-cache guard added for future runs.",
+  "recovery_reason": "One unsupported 2017 IPEDS mission-statement string; original text preserved with Excel-only JSON escaping and a restoration ledger.",
+  "completed_exports_reused": 17,
+  "new_exports_required": [
+    2017,
+    2022,
+    2023
+  ],
+  "string_scan": {
+    "rows": 141711,
+    "string_columns": 1131,
+    "unsupported_string_cells": 1,
+    "ooxml_literal_cells": 0,
+    "overlength_cells": 0
+  },
+  "latest_pell_lineage_audit": {
+    "verified_variable_years": 29,
+    "source_table_conflicts": 2,
+    "conflict_collection_year": 2023,
+    "common_sample_rows": 71710,
+    "metadata_scope_common_rows": 67003
+  },
+  "delivery_passed": true,
+  "fresh_parquet_replay_passed": true
+}

@@ -1,0 +1,1819 @@
+{
+  "schema_version": "1.0",
+  "source_hashes": {
+    "Inputs/fsa_panel.parquet": "93d675fde748d6c480c7eb9050dccec49a88892154a60ed21e016539ba9983ba",
+    "Panels/fsa_ipeds_panel_2004_2023.parquet": "078e190ceeb2753eedf4247534557e5f4e286b67a383672388d168433fab7506",
+    "Panels/fsa_ipeds_aid_aligned_2004_2023.parquet": "b8771d3f8f492be9a9b8f33ed978ca12e29d77f428e67b96743e7bf805870905",
+    "Inputs/fsa/codebook.csv": "70b1f39bc924eb016cf292f06ddbbe0a906cc709117ae1d7d97541367b0a4cfd",
+    "Inputs/fsa/value_labels.csv": "9b03ba2756fc78e848f2f2e1da13ed706106227c77d251b419daab3fed8e407a",
+    "Metadata/codebook.csv": "6cd2786823a131ee53ecc31169f9c8e6d8faf46affff81a13048d7c9dae088b2",
+    "Metadata/value_labels.csv": "7f77ff147047cb57c487830b698d2d734ab7587cabc8728c51c0e95c7056e90f",
+    "Metadata/ipeds_metadata.json": "855db4b5b290284ce5e3b0c85822bd638608c3afffb380e57ee07413dc807cf4",
+    "Scripts/fsa_portable_exports.py": "aca63bcd622eea6898e6c1181882a930fe919e669edcb8887f2175d4a9032295",
+    "Scripts/fsa_export_metadata.py": "fa3d7cd02f0243b300dcbe4468723d6fac7b3bfc1a9918436c11c1d37c2485ed",
+    "Inputs/ipeds/final_labeled_panel/binding.json": "c0bcc531aeebe31e3e505f29106cabfcacf0fe7d219ea45b8a738b63a380ee0a",
+    "Inputs/ipeds/final_labeled_panel/panel_clean_prch_2004_2023.dta.metadata.json.gz": "8ffb492c26e3597701691a5f3cf926c887353e57776cc6b085284a8bc0981615"
+  },
+  "groups": [
+    {
+      "namespace": "fsa",
+      "target": "loan_direct_harmonized__subsidized_loans_originated_n",
+      "sources": [
+        "loan_direct_harmonized__subsidized_loans_originated_n",
+        "loan_direct__subsidized_loans_originated_n"
+      ],
+      "metadata_source": "loan_direct_harmonized__subsidized_loans_originated_n",
+      "method": "coalesce",
+      "reason": "canonical_harmonized_coverage_extension; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct_harmonized__subsidized_loans_originated_amt",
+      "sources": [
+        "loan_direct_harmonized__subsidized_loans_originated_amt",
+        "loan_direct__subsidized_loans_originated_amt"
+      ],
+      "metadata_source": "loan_direct_harmonized__subsidized_loans_originated_amt",
+      "method": "coalesce",
+      "reason": "canonical_harmonized_coverage_extension; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct_harmonized__subsidized_disbursements_n",
+      "sources": [
+        "loan_direct_harmonized__subsidized_disbursements_n",
+        "loan_direct__subsidized_disbursements_n"
+      ],
+      "metadata_source": "loan_direct_harmonized__subsidized_disbursements_n",
+      "method": "coalesce",
+      "reason": "canonical_harmonized_coverage_extension; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct_harmonized__subsidized_disbursements",
+      "sources": [
+        "loan_direct_harmonized__subsidized_disbursements",
+        "loan_direct__subsidized_disbursements"
+      ],
+      "metadata_source": "loan_direct_harmonized__subsidized_disbursements",
+      "method": "coalesce",
+      "reason": "canonical_harmonized_coverage_extension; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct_harmonized__unsubsidized_loans_originated_n",
+      "sources": [
+        "loan_direct_harmonized__unsubsidized_loans_originated_n",
+        "loan_direct__unsubsidized_loans_originated_n"
+      ],
+      "metadata_source": "loan_direct_harmonized__unsubsidized_loans_originated_n",
+      "method": "coalesce",
+      "reason": "canonical_harmonized_coverage_extension; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct_harmonized__unsubsidized_loans_originated_amt",
+      "sources": [
+        "loan_direct_harmonized__unsubsidized_loans_originated_amt",
+        "loan_direct__unsubsidized_loans_originated_amt"
+      ],
+      "metadata_source": "loan_direct_harmonized__unsubsidized_loans_originated_amt",
+      "method": "coalesce",
+      "reason": "canonical_harmonized_coverage_extension; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct_harmonized__unsubsidized_disbursements_n",
+      "sources": [
+        "loan_direct_harmonized__unsubsidized_disbursements_n",
+        "loan_direct__unsubsidized_disbursements_n"
+      ],
+      "metadata_source": "loan_direct_harmonized__unsubsidized_disbursements_n",
+      "method": "coalesce",
+      "reason": "canonical_harmonized_coverage_extension; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct_harmonized__unsubsidized_disbursements",
+      "sources": [
+        "loan_direct_harmonized__unsubsidized_disbursements",
+        "loan_direct__unsubsidized_disbursements"
+      ],
+      "metadata_source": "loan_direct_harmonized__unsubsidized_disbursements",
+      "method": "coalesce",
+      "reason": "canonical_harmonized_coverage_extension; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__subsidized_recipient_count_sum",
+      "sources": [
+        "loan_ffel_harmonized__subsidized_recipient_count_sum",
+        "loan_ffel__subsidized_recipients"
+      ],
+      "metadata_source": "loan_ffel_harmonized__subsidized_recipient_count_sum",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__subsidized_loans_originated_n",
+      "sources": [
+        "loan_ffel_harmonized__subsidized_loans_originated_n",
+        "loan_ffel__subsidized_loans_originated_n"
+      ],
+      "metadata_source": "loan_ffel_harmonized__subsidized_loans_originated_n",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__subsidized_loans_originated_amt",
+      "sources": [
+        "loan_ffel_harmonized__subsidized_loans_originated_amt",
+        "loan_ffel__subsidized_loans_originated_amt"
+      ],
+      "metadata_source": "loan_ffel_harmonized__subsidized_loans_originated_amt",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__subsidized_disbursements_n",
+      "sources": [
+        "loan_ffel_harmonized__subsidized_disbursements_n",
+        "loan_ffel__subsidized_disbursements_n"
+      ],
+      "metadata_source": "loan_ffel_harmonized__subsidized_disbursements_n",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__subsidized_disbursements",
+      "sources": [
+        "loan_ffel_harmonized__subsidized_disbursements",
+        "loan_ffel__subsidized_disbursements"
+      ],
+      "metadata_source": "loan_ffel_harmonized__subsidized_disbursements",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__unsubsidized_recipient_count_sum",
+      "sources": [
+        "loan_ffel_harmonized__unsubsidized_recipient_count_sum",
+        "loan_ffel__unsubsidized_recipients"
+      ],
+      "metadata_source": "loan_ffel_harmonized__unsubsidized_recipient_count_sum",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__unsubsidized_loans_originated_n",
+      "sources": [
+        "loan_ffel_harmonized__unsubsidized_loans_originated_n",
+        "loan_ffel__unsubsidized_loans_originated_n"
+      ],
+      "metadata_source": "loan_ffel_harmonized__unsubsidized_loans_originated_n",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__unsubsidized_loans_originated_amt",
+      "sources": [
+        "loan_ffel_harmonized__unsubsidized_loans_originated_amt",
+        "loan_ffel__unsubsidized_loans_originated_amt"
+      ],
+      "metadata_source": "loan_ffel_harmonized__unsubsidized_loans_originated_amt",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__unsubsidized_disbursements_n",
+      "sources": [
+        "loan_ffel_harmonized__unsubsidized_disbursements_n",
+        "loan_ffel__unsubsidized_disbursements_n"
+      ],
+      "metadata_source": "loan_ffel_harmonized__unsubsidized_disbursements_n",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel_harmonized__unsubsidized_disbursements",
+      "sources": [
+        "loan_ffel_harmonized__unsubsidized_disbursements",
+        "loan_ffel__unsubsidized_disbursements"
+      ],
+      "metadata_source": "loan_ffel_harmonized__unsubsidized_disbursements",
+      "method": "coalesce",
+      "reason": "exact_point_duplicate_with_distinct_provenance; native source/status/bounds remain in master; recipient sums are not distinct borrowers"
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_recipients",
+      "sources": [
+        "loan_direct__parent_plus_recipients",
+        "loan_direct__plus_recipients"
+      ],
+      "metadata_source": "loan_direct__parent_plus_recipients",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_recipients",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_recipients",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_recipients__status",
+      "sources": [
+        "loan_direct__parent_plus_recipients__status",
+        "loan_direct__plus_recipients__status"
+      ],
+      "metadata_source": "loan_direct__parent_plus_recipients__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_recipients__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_recipients__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_loans_originated_n",
+      "sources": [
+        "loan_direct__parent_plus_loans_originated_n",
+        "loan_direct__plus_loans_originated_n"
+      ],
+      "metadata_source": "loan_direct__parent_plus_loans_originated_n",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_loans_originated_n",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_loans_originated_n",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_loans_originated_n__status",
+      "sources": [
+        "loan_direct__parent_plus_loans_originated_n__status",
+        "loan_direct__plus_loans_originated_n__status"
+      ],
+      "metadata_source": "loan_direct__parent_plus_loans_originated_n__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_loans_originated_n__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_loans_originated_n__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_loans_originated_amt",
+      "sources": [
+        "loan_direct__parent_plus_loans_originated_amt",
+        "loan_direct__plus_loans_originated_amt"
+      ],
+      "metadata_source": "loan_direct__parent_plus_loans_originated_amt",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_loans_originated_amt",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_loans_originated_amt",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_loans_originated_amt__status",
+      "sources": [
+        "loan_direct__parent_plus_loans_originated_amt__status",
+        "loan_direct__plus_loans_originated_amt__status"
+      ],
+      "metadata_source": "loan_direct__parent_plus_loans_originated_amt__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_loans_originated_amt__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_loans_originated_amt__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_disbursements_n",
+      "sources": [
+        "loan_direct__parent_plus_disbursements_n",
+        "loan_direct__plus_disbursements_n"
+      ],
+      "metadata_source": "loan_direct__parent_plus_disbursements_n",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_disbursements_n",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_disbursements_n",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_disbursements_n__status",
+      "sources": [
+        "loan_direct__parent_plus_disbursements_n__status",
+        "loan_direct__plus_disbursements_n__status"
+      ],
+      "metadata_source": "loan_direct__parent_plus_disbursements_n__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_disbursements_n__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_disbursements_n__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_disbursements",
+      "sources": [
+        "loan_direct__parent_plus_disbursements",
+        "loan_direct__plus_disbursements"
+      ],
+      "metadata_source": "loan_direct__parent_plus_disbursements",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_disbursements",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_disbursements",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_direct__parent_plus_disbursements__status",
+      "sources": [
+        "loan_direct__parent_plus_disbursements__status",
+        "loan_direct__plus_disbursements__status"
+      ],
+      "metadata_source": "loan_direct__parent_plus_disbursements__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_direct__plus_disbursements__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_direct__parent_plus_disbursements__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_recipients",
+      "sources": [
+        "loan_ffel__parent_plus_recipients",
+        "loan_ffel__plus_recipients"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_recipients",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_recipients",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_recipients",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_recipients__status",
+      "sources": [
+        "loan_ffel__parent_plus_recipients__status",
+        "loan_ffel__plus_recipients__status"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_recipients__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_recipients__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_recipients__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_loans_originated_n",
+      "sources": [
+        "loan_ffel__parent_plus_loans_originated_n",
+        "loan_ffel__plus_loans_originated_n"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_loans_originated_n",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_loans_originated_n",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_loans_originated_n",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_loans_originated_n__status",
+      "sources": [
+        "loan_ffel__parent_plus_loans_originated_n__status",
+        "loan_ffel__plus_loans_originated_n__status"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_loans_originated_n__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_loans_originated_n__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_loans_originated_n__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_loans_originated_amt",
+      "sources": [
+        "loan_ffel__parent_plus_loans_originated_amt",
+        "loan_ffel__plus_loans_originated_amt"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_loans_originated_amt",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_loans_originated_amt",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_loans_originated_amt",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_loans_originated_amt__status",
+      "sources": [
+        "loan_ffel__parent_plus_loans_originated_amt__status",
+        "loan_ffel__plus_loans_originated_amt__status"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_loans_originated_amt__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_loans_originated_amt__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_loans_originated_amt__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_disbursements_n",
+      "sources": [
+        "loan_ffel__parent_plus_disbursements_n",
+        "loan_ffel__plus_disbursements_n"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_disbursements_n",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_disbursements_n",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_disbursements_n",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_disbursements_n__status",
+      "sources": [
+        "loan_ffel__parent_plus_disbursements_n__status",
+        "loan_ffel__plus_disbursements_n__status"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_disbursements_n__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_disbursements_n__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_disbursements_n__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_disbursements",
+      "sources": [
+        "loan_ffel__parent_plus_disbursements",
+        "loan_ffel__plus_disbursements"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_disbursements",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_disbursements",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_disbursements",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "loan_ffel__parent_plus_disbursements__status",
+      "sources": [
+        "loan_ffel__parent_plus_disbursements__status",
+        "loan_ffel__plus_disbursements__status"
+      ],
+      "metadata_source": "loan_ffel__parent_plus_disbursements__status",
+      "method": "year_partition",
+      "reason": "Parent PLUS renamed at AY2006; generic PLUS through AY2005 excludes Graduate PLUS; source selected by award year",
+      "year_rules": [
+        {
+          "source": "loan_ffel__plus_disbursements__status",
+          "min": 1999,
+          "max": 2005
+        },
+        {
+          "source": "loan_ffel__parent_plus_disbursements__status",
+          "min": 2006,
+          "max": 2024
+        }
+      ]
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_ipeds_year",
+      "sources": [
+        "grant__ipeds_year",
+        "campus__ipeds_year",
+        "loan_direct__ipeds_year",
+        "loan_ffel__ipeds_year"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_ipeds_anchor",
+      "sources": [
+        "grant__ipeds_anchor",
+        "campus__ipeds_anchor",
+        "loan_direct__ipeds_anchor",
+        "loan_ffel__ipeds_anchor"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_ipeds_finance_scope",
+      "sources": [
+        "grant__ipeds_finance_scope",
+        "campus__ipeds_finance_scope",
+        "loan_direct__ipeds_finance_scope",
+        "loan_ffel__ipeds_finance_scope"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_ipeds_student_aid_scope",
+      "sources": [
+        "grant__ipeds_student_aid_scope",
+        "campus__ipeds_student_aid_scope",
+        "loan_direct__ipeds_student_aid_scope",
+        "loan_ffel__ipeds_student_aid_scope"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_ipeds_fall_enrollment_scope",
+      "sources": [
+        "grant__ipeds_fall_enrollment_scope",
+        "campus__ipeds_fall_enrollment_scope",
+        "loan_direct__ipeds_fall_enrollment_scope",
+        "loan_ffel__ipeds_fall_enrollment_scope"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_ipeds_completions_scope",
+      "sources": [
+        "grant__ipeds_completions_scope",
+        "campus__ipeds_completions_scope",
+        "loan_direct__ipeds_completions_scope",
+        "loan_ffel__ipeds_completions_scope"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_ipeds_twelve_month_enrollment_scope",
+      "sources": [
+        "grant__ipeds_twelve_month_enrollment_scope",
+        "campus__ipeds_twelve_month_enrollment_scope",
+        "loan_direct__ipeds_twelve_month_enrollment_scope",
+        "loan_ffel__ipeds_twelve_month_enrollment_scope"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_ipeds_component_scope_review_required",
+      "sources": [
+        "grant__ipeds_component_scope_review_required",
+        "campus__ipeds_component_scope_review_required",
+        "loan_direct__ipeds_component_scope_review_required",
+        "loan_ffel__ipeds_component_scope_review_required"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_idx_sfa",
+      "sources": [
+        "grant__idx_sfa",
+        "campus__idx_sfa",
+        "loan_direct__idx_sfa",
+        "loan_ffel__idx_sfa"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_idx_f",
+      "sources": [
+        "grant__idx_f",
+        "campus__idx_f",
+        "loan_direct__idx_f",
+        "loan_ffel__idx_f"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_idx_ef",
+      "sources": [
+        "grant__idx_ef",
+        "campus__idx_ef",
+        "loan_direct__idx_ef",
+        "loan_ffel__idx_ef"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_idx_c",
+      "sources": [
+        "grant__idx_c",
+        "campus__idx_c",
+        "loan_direct__idx_c",
+        "loan_ffel__idx_c"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "fsa",
+      "target": "fsa_idx_e12",
+      "sources": [
+        "grant__idx_e12",
+        "campus__idx_e12",
+        "loan_direct__idx_e12",
+        "loan_ffel__idx_e12"
+      ],
+      "method": "coalesce",
+      "reason": "Same UNITID and reference year/anchor; every overlapping source value must agree"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__ADMCON4",
+      "sources": [
+        "ipeds__ADMCON4__IC__00010536__DC2ACD04E656",
+        "ipeds__ADMCON4__ADM__00010536__52447A17EC3A"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__ADMCON8",
+      "sources": [
+        "ipeds__ADMCON8__IC__00010556__CB5C7825B4AA",
+        "ipeds__ADMCON8__ADM__00010556__FAB7E3CF94F4"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__AGRNT_A",
+      "sources": [
+        "ipeds__AGRNT_A__SFA__00070321__63622AA44B6B",
+        "ipeds__AGRNT_A__SFA_P__00070321__516B07129244"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__AGRNT_N",
+      "sources": [
+        "ipeds__AGRNT_N__SFA__00070311__F61310F8F94D",
+        "ipeds__AGRNT_N__SFA_P__00070311__7772381601BE"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__AGRNT_P",
+      "sources": [
+        "ipeds__AGRNT_P__SFA__00070316__73E234ED3E6C",
+        "ipeds__AGRNT_P__SFA_P__00070316__6D2CBF72DB63"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__ANYAIDN",
+      "sources": [
+        "ipeds__ANYAIDN__SFA__00070196__8166A49A2EED",
+        "ipeds__ANYAIDN__SFA_P__00070196__9C746E21D858"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__ANYAIDP",
+      "sources": [
+        "ipeds__ANYAIDP__SFA__00070201__321131AD8897",
+        "ipeds__ANYAIDP__SFA_P__00070201__3029359FB165"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__CINDFAM",
+      "sources": [
+        "ipeds__CINDFAM__IC_AY__00011601__91CB9C79E2C8",
+        "ipeds__CINDFAM__DRVIC__00011601__237F5A40827B"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__CINDOFF",
+      "sources": [
+        "ipeds__CINDOFF__IC_AY__00011586__9094F303B2B1",
+        "ipeds__CINDOFF__DRVIC__00011586__19FE4A3E9D6C"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__CINDON",
+      "sources": [
+        "ipeds__CINDON__IC_AY__00011571__22E03F167FAB",
+        "ipeds__CINDON__DRVIC__00011571__FEB6F443AB40"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__CINSFAM",
+      "sources": [
+        "ipeds__CINSFAM__IC_AY__00011606__8357789F66A4",
+        "ipeds__CINSFAM__DRVIC__00011606__259EC43F650D"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__CINSOFF",
+      "sources": [
+        "ipeds__CINSOFF__IC_AY__00011591__E4F11296FE61",
+        "ipeds__CINSOFF__DRVIC__00011591__EEDFD8BF2AA3"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__CINSON",
+      "sources": [
+        "ipeds__CINSON__IC_AY__00011576__5C64BAA0523B",
+        "ipeds__CINSON__DRVIC__00011576__00ED8A1BEBF7"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__COTSFAM",
+      "sources": [
+        "ipeds__COTSFAM__IC_AY__00011611__4F374B821054",
+        "ipeds__COTSFAM__DRVIC__00011611__7A57AE2D335B"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__COTSOFF",
+      "sources": [
+        "ipeds__COTSOFF__IC_AY__00011596__F13C894D06BF",
+        "ipeds__COTSOFF__DRVIC__00011596__5BC6CB49C4E5"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__COTSON",
+      "sources": [
+        "ipeds__COTSON__IC_AY__00011581__64ED7DD8270A",
+        "ipeds__COTSON__DRVIC__00011581__5E54C4601E32"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__DFRCUSCG",
+      "sources": [
+        "ipeds__DFRCUSCG__CUSTOMCG__00016000__ADEF7C31903E",
+        "ipeds__DFRCUSCG__HD__00016000__95607880F445"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__F1SYSNAM__v00016071",
+      "sources": [
+        "ipeds__F1SYSNAM__FLAGS__00016071__B025E5C7E58F",
+        "ipeds__F1SYSNAM__HD__00016071__CDF351E00584"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__FGRNT_A",
+      "sources": [
+        "ipeds__FGRNT_A__SFA__00070216__B9AAF5AA4772",
+        "ipeds__FGRNT_A__SFA_P__00070216__A44C9F2D3A23"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__FGRNT_N",
+      "sources": [
+        "ipeds__FGRNT_N__SFA__00070206__9FA37745D2DB",
+        "ipeds__FGRNT_N__SFA_P__00070206__8A619698EC6E"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__FGRNT_P",
+      "sources": [
+        "ipeds__FGRNT_P__SFA__00070211__72C4B437412C",
+        "ipeds__FGRNT_P__SFA_P__00070211__6854879C86ED"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__FLOAN_A",
+      "sources": [
+        "ipeds__FLOAN_A__SFA__00070366__65B6C34182B6",
+        "ipeds__FLOAN_A__SFA_P__00070366__7359E5980342"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__FLOAN_N",
+      "sources": [
+        "ipeds__FLOAN_N__SFA__00070356__795D1F3B5AC7",
+        "ipeds__FLOAN_N__SFA_P__00070356__8885517A3C9A"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__FLOAN_P",
+      "sources": [
+        "ipeds__FLOAN_P__SFA__00070361__2CE265A8DA69",
+        "ipeds__FLOAN_P__SFA_P__00070361__A9AEB207431F"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__FTE",
+      "sources": [
+        "ipeds__FTE__DFR__00020061__FB7D3229593E",
+        "ipeds__FTE__DRVEF__00020061__075195670360"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA4RTT",
+      "sources": [
+        "ipeds__GBA4RTT__DFR__00081027__808434351D9A",
+        "ipeds__GBA4RTT__GR200__00081027__74536CF2EB11",
+        "ipeds__GBA4RTT__DRVGR__00081027__460439B06CD3"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA5RTT",
+      "sources": [
+        "ipeds__GBA5RTT__DFR__00081029__38363671F2F3",
+        "ipeds__GBA5RTT__GR200__00081029__5D1EED0CC8CA",
+        "ipeds__GBA5RTT__DRVGR__00081029__E9F8B6155100"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RT2M",
+      "sources": [
+        "ipeds__GBA6RT2M__GR200__00081066__02AE7B819668",
+        "ipeds__GBA6RT2M__DRVGR__00081066__D1846A017FB0"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTAN",
+      "sources": [
+        "ipeds__GBA6RTAN__DFR__00081045__B260E9F6BCEB",
+        "ipeds__GBA6RTAN__GR200__00081045__98EFBAC84086",
+        "ipeds__GBA6RTAN__DRVGR__00081045__6EDD6720DBE8"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTAP",
+      "sources": [
+        "ipeds__GBA6RTAP__DFR__00081043__8E7AF6AA320F",
+        "ipeds__GBA6RTAP__GR200__00081043__F70E253EE085",
+        "ipeds__GBA6RTAP__DRVGR__00081043__E5B227F63603"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTBK",
+      "sources": [
+        "ipeds__GBA6RTBK__DFR__00081039__F2207EFBD892",
+        "ipeds__GBA6RTBK__GR200__00081039__05DA18E18865",
+        "ipeds__GBA6RTBK__DRVGR__00081039__DFE0FD18EA4A"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTHS",
+      "sources": [
+        "ipeds__GBA6RTHS__DFR__00081041__5A5CDC9382FD",
+        "ipeds__GBA6RTHS__GR200__00081041__63B11049711F",
+        "ipeds__GBA6RTHS__DRVGR__00081041__34C3E9C00980"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTM",
+      "sources": [
+        "ipeds__GBA6RTM__DFR__00081033__0F5E12F1FF18",
+        "ipeds__GBA6RTM__GR200__00081033__CA2ECAB16AB0",
+        "ipeds__GBA6RTM__DRVGR__00081033__E0D2510F934A"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTNR",
+      "sources": [
+        "ipeds__GBA6RTNR__DFR__00081049__31D20B4AA2C7",
+        "ipeds__GBA6RTNR__GR200__00081049__494C56830CE0",
+        "ipeds__GBA6RTNR__DRVGR__00081049__B440531E7959"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTT",
+      "sources": [
+        "ipeds__GBA6RTT__DFR__00081031__AF91AC8EA0A0",
+        "ipeds__GBA6RTT__GR200__00081031__4572F9BB289C",
+        "ipeds__GBA6RTT__DRVGR__00081031__B5B0F3467396"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTUN",
+      "sources": [
+        "ipeds__GBA6RTUN__DFR__00081047__60B45D86A32B",
+        "ipeds__GBA6RTUN__GR200__00081047__5CB33DC1CB86",
+        "ipeds__GBA6RTUN__DRVGR__00081047__2D356B146B1E"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTW__v00081035",
+      "sources": [
+        "ipeds__GBA6RTW__DFR__00081035__34FE8A8B062F",
+        "ipeds__GBA6RTW__GR200__00081035__034903F31DA2"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBA6RTWH",
+      "sources": [
+        "ipeds__GBA6RTWH__DFR__00081037__7DC724C0FF7B",
+        "ipeds__GBA6RTWH__GR200__00081037__15B57B6EDC58",
+        "ipeds__GBA6RTWH__DRVGR__00081037__CB53B2D98E80"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GBATRRT__v00081051",
+      "sources": [
+        "ipeds__GBATRRT__DFR__00081051__825EC20A1C44",
+        "ipeds__GBATRRT__GR200__00081051__EA06783C1893"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GRRTAP__v00081012",
+      "sources": [
+        "ipeds__GRRTAP__DFR__00081012__B5BA37ABD4F2",
+        "ipeds__GRRTAP__GR200__00081012__4C6CC7F47362"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__GRRTNR",
+      "sources": [
+        "ipeds__GRRTNR__DFR__00081019__53EC591E6C98",
+        "ipeds__GRRTNR__GR200__00081019__67041EF78190",
+        "ipeds__GRRTNR__DRVGR__00081019__D84960F34F69"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__IGRNT_A",
+      "sources": [
+        "ipeds__IGRNT_A__SFA__00070246__5A871F7CF741",
+        "ipeds__IGRNT_A__SFA_P__00070246__1F4182AE6E2D"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__IGRNT_N",
+      "sources": [
+        "ipeds__IGRNT_N__SFA__00070236__FA126C66B925",
+        "ipeds__IGRNT_N__SFA_P__00070236__4B0668A4E245"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__IGRNT_P",
+      "sources": [
+        "ipeds__IGRNT_P__SFA__00070241__824DFFD4EFA6",
+        "ipeds__IGRNT_P__SFA_P__00070241__C988B60A751A"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__LOAN_A",
+      "sources": [
+        "ipeds__LOAN_A__SFA__00070261__4DCA295212E1",
+        "ipeds__LOAN_A__SFA_P__00070261__785B5A2F13FF"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__LOAN_N",
+      "sources": [
+        "ipeds__LOAN_N__SFA__00070251__15D7090377D6",
+        "ipeds__LOAN_N__SFA_P__00070251__693A87D05E92"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__LOAN_P",
+      "sources": [
+        "ipeds__LOAN_P__SFA__00070256__DCDE290C257A",
+        "ipeds__LOAN_P__SFA_P__00070256__88845B92CADA"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__OFGRT_A",
+      "sources": [
+        "ipeds__OFGRT_A__SFA__00070351__73E06E066A3C",
+        "ipeds__OFGRT_A__SFA_P__00070351__3DD90321F045"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__OFGRT_N",
+      "sources": [
+        "ipeds__OFGRT_N__SFA__00070341__0830ECF5357C",
+        "ipeds__OFGRT_N__SFA_P__00070341__31E149257E89"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__OFGRT_P",
+      "sources": [
+        "ipeds__OFGRT_P__SFA__00070346__F36B91ABD6C4",
+        "ipeds__OFGRT_P__SFA_P__00070346__F206221D684E"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__OLOAN_A",
+      "sources": [
+        "ipeds__OLOAN_A__SFA__00070381__C677145E568C",
+        "ipeds__OLOAN_A__SFA_P__00070381__59C3439C3DDF"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__OLOAN_N",
+      "sources": [
+        "ipeds__OLOAN_N__SFA__00070371__44F8CA8AA3BE",
+        "ipeds__OLOAN_N__SFA_P__00070371__998B77A1614F"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__OLOAN_P",
+      "sources": [
+        "ipeds__OLOAN_P__SFA__00070376__6E84DBF6CED4",
+        "ipeds__OLOAN_P__SFA_P__00070376__5F155D73990C"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PCTENRAN",
+      "sources": [
+        "ipeds__PCTENRAN__DFR__00023335__96ED5B752E85",
+        "ipeds__PCTENRAN__DRVEF__00023335__B73FFBE3C3E5"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PCTENRAP",
+      "sources": [
+        "ipeds__PCTENRAP__DFR__00023330__746E2BC65331",
+        "ipeds__PCTENRAP__DRVEF__00023330__848D8488E2B2"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PCTENRBK",
+      "sources": [
+        "ipeds__PCTENRBK__DFR__00023320__2781A92DD3D6",
+        "ipeds__PCTENRBK__DRVEF__00023320__02CB21CB26B8"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PCTENRHS",
+      "sources": [
+        "ipeds__PCTENRHS__DFR__00023325__FB4B3EDF7695",
+        "ipeds__PCTENRHS__DRVEF__00023325__21F9E09C774C"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PCTENRNR",
+      "sources": [
+        "ipeds__PCTENRNR__DFR__00023345__F27AB77CEF11",
+        "ipeds__PCTENRNR__DRVEF__00023345__258334ECD2D2"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PCTENRWH",
+      "sources": [
+        "ipeds__PCTENRWH__DFR__00023315__B48FAF23B343",
+        "ipeds__PCTENRWH__DRVEF__00023315__EEE3E0B33C66"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PGRNT_A",
+      "sources": [
+        "ipeds__PGRNT_A__SFA__00070336__C97041515F04",
+        "ipeds__PGRNT_A__SFA_P__00070336__58371BC76411"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PGRNT_N",
+      "sources": [
+        "ipeds__PGRNT_N__SFA__00070326__9D0898F0460A",
+        "ipeds__PGRNT_N__SFA_P__00070326__C7F9332BE1B9"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__PGRNT_P",
+      "sources": [
+        "ipeds__PGRNT_P__SFA__00070331__829FD255BC60",
+        "ipeds__PGRNT_P__SFA_P__00070331__68C7460741C4"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SALASSC__v00040405",
+      "sources": [
+        "ipeds__SALASSC__DFR__00040405__B15677623313",
+        "ipeds__SALASSC__DRVHR__00040405__19A127757836"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SALASST__v00040407",
+      "sources": [
+        "ipeds__SALASST__DFR__00040407__0C25EDB18959",
+        "ipeds__SALASST__DRVHR__00040407__15F642694D6C"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SALINST__v00040409",
+      "sources": [
+        "ipeds__SALINST__DFR__00040409__7C89206B39FC",
+        "ipeds__SALINST__DRVHR__00040409__5708BE3CB156"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SALLECT__v00040411",
+      "sources": [
+        "ipeds__SALLECT__DFR__00040411__D6926F3177F1",
+        "ipeds__SALLECT__DRVHR__00040411__6C22F5DA5F35"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SALNRNK__v00040413",
+      "sources": [
+        "ipeds__SALNRNK__DFR__00040413__7C17F767DF8A",
+        "ipeds__SALNRNK__DRVHR__00040413__26B451FD4EE3"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SALPROF__v00040403",
+      "sources": [
+        "ipeds__SALPROF__DFR__00040403__F6DB376FDF1E",
+        "ipeds__SALPROF__DRVHR__00040403__485218EFB63B"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SALTOTL__v00040401",
+      "sources": [
+        "ipeds__SALTOTL__DFR__00040401__C72ADCFD3459",
+        "ipeds__SALTOTL__DRVHR__00040401__9D8333877A88"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SATMT25",
+      "sources": [
+        "ipeds__SATMT25__IC__00010641__50A5141ABF96",
+        "ipeds__SATMT25__ADM__00010641__EB0C3DE618DD"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SATMT75",
+      "sources": [
+        "ipeds__SATMT75__IC__00010646__26A1E06CA86D",
+        "ipeds__SATMT75__ADM__00010646__10A86162374D"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SATVR25",
+      "sources": [
+        "ipeds__SATVR25__IC__00010631__B51CDE396E62",
+        "ipeds__SATVR25__ADM__00010631__A6357D0FA70A"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SATVR75",
+      "sources": [
+        "ipeds__SATVR75__IC__00010636__A82D65BA6EC3",
+        "ipeds__SATVR75__ADM__00010636__1FF40D2F183C"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA11N",
+      "sources": [
+        "ipeds__SCFA11N__SFA__00070136__232629A56F5F",
+        "ipeds__SCFA11N__SFA_P__00070136__2960C63686A5"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA11P",
+      "sources": [
+        "ipeds__SCFA11P__SFA__00070141__ECCD83386780",
+        "ipeds__SCFA11P__SFA_P__00070141__CF6DF18DFB46"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA12N",
+      "sources": [
+        "ipeds__SCFA12N__SFA__00070146__C29F05F0CFE8",
+        "ipeds__SCFA12N__SFA_P__00070146__8EF4CB9F748E"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA12P",
+      "sources": [
+        "ipeds__SCFA12P__SFA__00070151__98B2B974F083",
+        "ipeds__SCFA12P__SFA_P__00070151__9A403C73DEDA"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA13N",
+      "sources": [
+        "ipeds__SCFA13N__SFA__00070156__6BCAEE1D7C56",
+        "ipeds__SCFA13N__SFA_P__00070156__0C57E2431B66"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA13P",
+      "sources": [
+        "ipeds__SCFA13P__SFA__00070161__B9EB8C57C6C6",
+        "ipeds__SCFA13P__SFA_P__00070161__92BEBEF1BA40"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA14N",
+      "sources": [
+        "ipeds__SCFA14N__SFA__00070166__091D1005AAFB",
+        "ipeds__SCFA14N__SFA_P__00070166__32F29BBBF1A0"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA14P",
+      "sources": [
+        "ipeds__SCFA14P__SFA__00070171__98EC14461F98",
+        "ipeds__SCFA14P__SFA_P__00070171__D8E827924ED9"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA1N",
+      "sources": [
+        "ipeds__SCFA1N__SFA__00070126__AD337BB0803C",
+        "ipeds__SCFA1N__SFA_P__00070126__333E45B5BCDA"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA1P",
+      "sources": [
+        "ipeds__SCFA1P__SFA__00070131__518EACC53DA2",
+        "ipeds__SCFA1P__SFA_P__00070131__A90DF6170E34"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFA2",
+      "sources": [
+        "ipeds__SCFA2__SFA__00070176__0611C5CE1E1F",
+        "ipeds__SCFA2__SFA_P__00070176__A64DAD4D82AB"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFY1N",
+      "sources": [
+        "ipeds__SCFY1N__SFA__00070181__8A9FE038A99F",
+        "ipeds__SCFY1N__SFA_P__00070181__87199A4B1142"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFY1P",
+      "sources": [
+        "ipeds__SCFY1P__SFA__00070186__B392A1AE9A3E",
+        "ipeds__SCFY1P__SFA_P__00070186__21363DA29931"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SCFY2",
+      "sources": [
+        "ipeds__SCFY2__SFA__00070191__7964F2F943B0",
+        "ipeds__SCFY2__SFA_P__00070191__3ECFEDF8E81F"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SGRNT_A",
+      "sources": [
+        "ipeds__SGRNT_A__SFA__00070231__97E0D5810A5A",
+        "ipeds__SGRNT_A__SFA_P__00070231__1E5CD17699BB"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SGRNT_N",
+      "sources": [
+        "ipeds__SGRNT_N__SFA__00070221__0E1566FB50D9",
+        "ipeds__SGRNT_N__SFA_P__00070221__4CBF9751C590"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__SGRNT_P",
+      "sources": [
+        "ipeds__SGRNT_P__SFA__00070226__9A35B052839B",
+        "ipeds__SGRNT_P__SFA_P__00070226__E127A08E7B82"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__TUFEYR1",
+      "sources": [
+        "ipeds__TUFEYR1__DFR__00100605__766026F97A05",
+        "ipeds__TUFEYR1__DRVIC__00100605__01423D9BB352"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__TUFEYR3",
+      "sources": [
+        "ipeds__TUFEYR3__DFR__00100609__F51414FBDFA0",
+        "ipeds__TUFEYR3__DRVIC__00100609__8C91464BC1AC"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__UNDUP",
+      "sources": [
+        "ipeds__UNDUP__DFR__00023360__B285776C1A20",
+        "ipeds__UNDUP__DRVEF__00023360__ED2D6A649A9F"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    },
+    {
+      "namespace": "ipeds",
+      "target": "ipeds__UNDUPUG",
+      "sources": [
+        "ipeds__UNDUPUG__DFR__00023362__4A245EF8EA2F",
+        "ipeds__UNDUPUG__DRVEF__00023362__D48A5E9E4CFF"
+      ],
+      "method": "coalesce",
+      "reason": "Source-table transition with matching adjacent-year full definitions and compatible codes; annual measurement changes retained in metadata"
+    }
+  ],
+  "fsa_omit_status_columns": [
+    "loan_direct__subsidized_loans_originated_n__status",
+    "loan_direct__subsidized_loans_originated_amt__status",
+    "loan_direct__subsidized_disbursements_n__status",
+    "loan_direct__subsidized_disbursements__status",
+    "loan_direct__unsubsidized_loans_originated_n__status",
+    "loan_direct__unsubsidized_loans_originated_amt__status",
+    "loan_direct__unsubsidized_disbursements_n__status",
+    "loan_direct__unsubsidized_disbursements__status",
+    "loan_ffel__subsidized_recipients__status",
+    "loan_ffel__subsidized_loans_originated_n__status",
+    "loan_ffel__subsidized_loans_originated_amt__status",
+    "loan_ffel__subsidized_disbursements_n__status",
+    "loan_ffel__subsidized_disbursements__status",
+    "loan_ffel__unsubsidized_recipients__status",
+    "loan_ffel__unsubsidized_loans_originated_n__status",
+    "loan_ffel__unsubsidized_loans_originated_amt__status",
+    "loan_ffel__unsubsidized_disbursements_n__status",
+    "loan_ffel__unsubsidized_disbursements__status"
+  ],
+  "fsa_measure_count": 106,
+  "ipeds_split_audit_summary": {
+    "candidate_base_groups": 143,
+    "candidate_source_columns": 310,
+    "pair_comparisons": 191,
+    "approved_components": 94,
+    "columns_removed_by_consolidation": 106,
+    "group_dispositions": {
+      "fully_consolidated": 83,
+      "retained_separately": 49,
+      "partially_consolidated": 11
+    },
+    "all_candidate_groups_have_disposition": true
+  }
+}

@@ -1,0 +1,17 @@
+# Independent source conservation and UNITID coverage evidence
+
+The [release validation snapshot](release_validation/README.md) publishes the completed build manifest, verified statistics, pinned environment and validation logs; generated panels and raw inputs remain local.
+
+`verify_unitid_outputs.py` reads the completed `ResearchBuild/2026-09-22-v2` master, UNITID view, full family ledgers, current source quarantine, identity registry, selected-report/schema catalogs, and dictionaries. It does not import the UNITID-construction module. It writes evidence here without changing build inputs or outputs. Run it only after the final UNITID manifest is complete; the saved hashes identify the exact artifacts checked.
+
+- `independent_unitid_verification.json` records exact source-cell preservation, output uniqueness, recovery provenance, schema-aware missing-cell statuses, blocked-family behavior, scope notes, and detailed pass/fail results.
+- `source_family_year_disposition_dollars.csv` has one family/year/disposition/origin/**dollar variable** per row. The known sum does not impute unknown or suppressed cells as zero. Recipient counts are not used in this dollar-coverage table.
+- `source_family_year_disposition_coverage.csv` gives the same dollar coverage in wide form with one source-record count for each family/year/disposition/origin. Missing dollar fields remain missing. Do not sum different variables that describe overlapping loan categories, origination and disbursement concepts, or program components.
+- `source_family_year_identity_reason_dollars.csv` further separates one-to-many official matches, directory/crosswalk conflicts, missing site matches, administrative identities, contradictory geography, duplicate-family records, and unresolved raw identities. The pipeline's generic `excluded_annual_identity_unresolved` disposition includes resolved administrative identities that are ineligible for an institution-level view; use this detailed reason when explaining exclusions.
+- `source_family_measure_totals.csv` compares master, included, and excluded known sums for each source variable separately. Recipient variables are sums of source-reported counts, not deduplicated student totals. UNITID-only recovered quarantine records are present in the included sums but absent from the OPEID master; account for their separate source origin before comparing totals.
+- `verified_full_opeid_recoveries.csv` enumerates the full-OPEID recoveries present in the master.
+- `verified_unitid_only_source_values.csv` enumerates the independently identified campus rows whose full OPEIDs remain unresolved, with their original source measures.
+
+The dispositions distinguish known-OPEID records excluded by unresolved annual identity, competing family records blocked at a UNITID-year, and raw quarantined records whose identities remain unresolved. Verified UNITID-only quarantine rows appear once under their own origin. The other quarantined rows are included in the coverage tables as `quarantined_identity_unresolved`, ensuring that their dollars are visible alongside the larger amounts associated with ambiguous mappings.
+
+Source records are the counting unit in these coverage tables. A family report may represent more than one campus, and preserving a source amount once does not establish that the agency's original reports have no parent/child overlap. The field definitions, family scope notes, official relationship evidence, and study-specific choice of sample remain necessary for institutional research.

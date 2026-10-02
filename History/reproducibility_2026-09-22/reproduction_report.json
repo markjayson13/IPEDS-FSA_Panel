@@ -1,0 +1,106 @@
+{
+  "started_utc": "2026-09-23T04:34:44.202697+00:00",
+  "command": [
+    "/usr/local/bin/python3",
+    "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/distribution-2026-09-22-v2/replication/source/Scripts/00_run_all.py",
+    "--root",
+    "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/distribution-2026-09-22-v2/rebuild-verification",
+    "--skip-download",
+    "--ipeds-dir",
+    "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/distribution-2026-09-22-v2/replication/inputs/ipeds_hd",
+    "--ipeds-crosswalk-dir",
+    "/Users/markjaysonfarol13/Projects/FSA/FSAVolumeReports_Panel-main/ResearchBuild/distribution-2026-09-22-v2/replication/inputs/ipeds_crosswalks",
+    "--run-qaqc"
+  ],
+  "bundle_manifest_sha256": "80fcbcfa7bf7ec6cd27ad2fa9454ac921f2cec970a7e1b1fc23de56a567938af",
+  "original_release_manifest_sha256": "547d26b6729897d0a4d67b330c1b20a2e4f45df3b14d358d3a74014d69602345",
+  "verified_bundle_files": 371,
+  "selected_fsa_inputs": 86,
+  "environment": {
+    "expected": {
+      "python": "3.13.0",
+      "pandas": "2.2.3",
+      "pyarrow": "21.0.0",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.1",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.2"
+    },
+    "actual": {
+      "python": "3.13.0",
+      "pandas": "2.2.3",
+      "pyarrow": "21.0.0",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.1",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.2"
+    },
+    "differences": {},
+    "matches_original_environment": true
+  },
+  "runner_sha256": "1ce299b2384e91ac74d8df9578c312d558a9caf4d1662b10b2a206695a152a94",
+  "offline_inputs": true,
+  "completed": true,
+  "pipeline_returncode": 0,
+  "reference_comparison": {
+    "passed": true,
+    "comparison": "all cells, exact dtypes and values; only HD/CW path directories normalized",
+    "artifacts": [
+      {
+        "path": "Panels/final/fsa_volume_reports_panel_1999_2025.parquet",
+        "rows": 157160,
+        "columns": 665,
+        "keys": [
+          "opeid8",
+          "award_year"
+        ],
+        "all_cells_equal": true,
+        "normalized_path_columns": [],
+        "reference_sha256": "975a82f20ee7bfff47dccf5a622d499b0ee20f432fa41f366a09154ec711670e",
+        "rebuilt_sha256": "975a82f20ee7bfff47dccf5a622d499b0ee20f432fa41f366a09154ec711670e",
+        "byte_identical": true
+      },
+      {
+        "path": "Panels/ipeds/fsa_ipeds_bridge.parquet",
+        "rows": 157160,
+        "columns": 157,
+        "keys": [
+          "opeid8",
+          "award_year"
+        ],
+        "all_cells_equal": true,
+        "normalized_path_columns": [
+          "ipeds_source_path",
+          "cw_source_path"
+        ],
+        "reference_sha256": "9e5657438017106d55c248d17d2268e74adaffbb1d68c1b33ed0b0f34d8cbfc6",
+        "rebuilt_sha256": "b9b8591d0cd114ff1337e746917f8299f85e5c1761429d0a593e4d5692776000",
+        "byte_identical": false
+      },
+      {
+        "path": "Panels/ipeds/unitid_research/fsa_unitid_award_year_panel.parquet",
+        "rows": 141038,
+        "columns": 1312,
+        "keys": [
+          "unitid",
+          "award_year"
+        ],
+        "all_cells_equal": true,
+        "normalized_path_columns": [
+          "grant__ipeds_source_path",
+          "grant__cw_source_path",
+          "campus__ipeds_source_path",
+          "campus__cw_source_path",
+          "loan_direct__ipeds_source_path",
+          "loan_direct__cw_source_path",
+          "loan_ffel__ipeds_source_path",
+          "loan_ffel__cw_source_path"
+        ],
+        "reference_sha256": "93d675fde748d6c480c7eb9050dccec49a88892154a60ed21e016539ba9983ba",
+        "rebuilt_sha256": "d25a4249081c4810317a51fb4ea3804889ea510531e43ed1d4c8a50a030d8169",
+        "byte_identical": false
+      }
+    ]
+  },
+  "finished_utc": "2026-09-23T04:42:35.846138+00:00"
+}
